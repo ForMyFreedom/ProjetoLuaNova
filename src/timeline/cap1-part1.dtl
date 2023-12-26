@@ -1,0 +1,43 @@
+[background arg="res://assets/backgrounds/newart-office.png" fade="1.0"]
+[wait time="1.0"]
+unknow: …
+[music path="res://assets/musics/allegreto.mp3" fade="0.0" volume="-20.0"]
+unknow: [b]BOM DIA CHEFE![/b]
+join alan (shadow) 2
+Um garoto entra explodindo a porta
+update alan (happy)
+unknow: Lindo dia né⁉
+update alan 0 [ move_time="1"]
+join ada (shadow) 4
+Uma mulher organizando papeis sobre a mesa, se vira para encará-lo
+update ada (regular)
+unknow: Estaria bem melhor sem essa gritaria
+update alan (annoyed)
+unknow: Hum, pra que isso Senhorita Ada?
+unknow: Achei que eramos amigos
+O garoto fecha a porta atrás de sí
+ada (regular-teeth): É sua primeira semana aqui, Alan…
+alan (happy): Pra mim já parecem meses!
+ada (annoyed): Tá dizendo que o trabalho é chato?
+update ada (regular)
+alan (lil-fear): Não! Hum… Vamos mudar de assunto
+update alan (regular)
+Alan retira um embrulho do bolso, e arremessa para Ada
+alan (happy): Aqui, espero que goste!
+ada (regular-teeth): O que é isso?
+[music fade="0.0" volume="0.0"]
+update ada (despair)
+alan (sus): [color=red]Uma bomba[/color]
+ada (despair-teeth): QUE⁉
+Ada arremessa o embrulho para longe
+[music path="res://assets/musics/allegreto.mp3" fade="0.0" volume="-20.0"]
+update ada (angry)
+Revelando ser só um embrulho vazio
+alan (goofy): Hahaha! Você tinha que ver sua cara, Senhorita Ada
+ada: Você é doente! O pior estágiario que já pisou nesse escritório
+alan (flushed): Ah, obrigado, obrigado
+update alan 1 [ move_time="1"]
+update ada 3 [ move_time="1"]
+Alan se aproxima e se senta ao seu lado
+ada (very-angry): Isso não foi um elogio!
+jump cap1-part2/

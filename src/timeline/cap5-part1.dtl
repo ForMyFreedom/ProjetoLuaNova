@@ -1,0 +1,61 @@
+[background arg="res://assets/backgrounds/carriage.png" fade="2.0"]
+ada: …
+[music path="res://assets/musics/happy.mp3" fade="2.0" volume="-6.0"]
+ada: Então... Você teve um encontro com um espião?
+join alan (commum) 0
+join ada (regular-teeth) 4
+Alan e Ada sentavam em lados opostos na charrete
+alan: Sim... Ele se chamava Tim. [portrait=annoyed]E era um péssimo espião
+ada (regular): .. Ainda é difícil pra mim acreditar que tenham conseguido roubar algo tão importante do Governo
+alan (angry-2): Pra você é difícil⁉ Imagina pra mim, que vi o quão idiota ele era
+ada (lil-disgust): ... Eu sinto que você tem algo pessoal contra ele
+alan (angry): Eu⁉ Sim, eu tenho!
+ada (disgust): ... [portrait=bored]De todo modo
+Ada olha para o exterior da janela
+Avistando muitos carros passando, e pessoas caminhando
+ada (commum): Como é que funciona essa sua máquina que computa?
+alan (happy): O Computador? É muito simples
+alan: Você passa funções anônimas como se fosse um dado
+alan (close-eyes-smile): Como λx.M | Para x uma variável, e M uma expressão de x
+ada (surprise): Mas, como algo assim seria capaz de computar?
+alan (flushed): Simples! Substituição e recursão
+alan: Não há uma memória de estados
+alan (determined-smile): Então é muito importante agrupar bem as entradas e saídas das funções
+ada (disgust): … Agora eu entendo por que você é laureado
+alan (flushed): Não exagera! Nem é tão difícil
+ada (angry): ... A minha vontade…
+alan (confused): Hum?
+ada (very-angry): É pegar essa sua falsa humildade, e enfiar no seu[aa=0.5]
+alan (concern): Ada! Eu não sou falso humilde!
+ada (angry): É claro que é, seu cara de pau!
+alan (commum): ...
+alan (commum): …
+- Você tá certa
+	set {is_humble} = "false"
+	alan (frustrated): Você tá certa… Acho que, eu sou um pouco falso mesmo
+	ada (sad-3): ... Ei… Eu não queria te deixar pra baixo
+- Você tá errada
+	set {is_humble} = "true"
+	alan (lil-angry): Você tá errada. Eu honestamente acredito que não sou tão bom assim
+	ada (sad-3): ... Des– desculpa. Eu não deveria te julgar assim
+ada (sad-2): Foi mal
+alan (happy): Tá tudo bem, é importante falar o que acredita
+alan (commum): Mas… Pra quando agente chegar em Espada
+ada (commum): O que?
+alan (ultra-happy): [wave amp=50 freq=4] Você me promete um negócinho? [/wave]
+ada (surprise): Hum?
+alan: [wave amp=50 freq=8] Promete que comerá um prato meu? [/wave]
+ada (surprise): Você cozinha?
+alan (determined-smile): Sim!
+ada (lil-disgust): … Por que eu tenho uma péssima intuição sobre isso?
+alan (flushed): Prometa!
+ada (disgust): …
+ada (lil-happy): Tá, tudo bem, eu prometo
+ada: Espero sua culinária quando chegarmos
+alan (happy): Obrigado! É importante pra mim
+[wait time="2.0"]
+[music fade="2.0" volume="0.0"]
+[signal arg="stop_time"]
+Porem…
+Toda felicidade deles é subitamente roubada, nesse momento
+jump cap5-part2/

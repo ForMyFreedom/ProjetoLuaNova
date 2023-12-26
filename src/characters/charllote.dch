@@ -1,0 +1,308 @@
+{
+"@path": "res://addons/dialogic/Resources/character.gd",
+"@subpath": NodePath(""),
+"color": Color(0.909804, 0.682353, 0.839216, 1),
+"custom_info": {
+"sound_mood_default": "",
+"sound_moods": {
+"Mood 1": {
+"mode": 0,
+"name": "Mood 1",
+"pitch_base": 4.0,
+"pitch_variance": 50.0,
+"skip_characters": 0.0,
+"sound_path": "res://addons/dialogic/Example Assets/sound-effects/typing2.wav",
+"volume_base": 0.0,
+"volume_variance": 0.0
+}
+},
+"style": ""
+},
+"default_portrait": "default",
+"description": "",
+"display_name": "Charllote",
+"mirror": false,
+"nicknames": ["Regente de Lua"],
+"offset": Vector2(0, 3),
+"portraits": {
+"absolute-hate": {
+"export_overrides": {
+"image": "\"res://assets/characters/charllote/absolute-hate.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1.0,
+"scene": ""
+},
+"angry": {
+"image": "res://assets/characters/charllote/angry.png",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1.0,
+"scene": ""
+},
+"angry-codif": {
+"export_overrides": {
+"image": "\"res://assets/characters/charllote/angry-codif.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"comic-angry": {
+"image": "res://assets/characters/charllote/comic-angry.png",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"confused": {
+"image": "res://assets/characters/charllote/confused.png",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"default": {
+"image": "res://assets/characters/charllote/default.png",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"default-codif": {
+"export_overrides": {
+"image": "\"res://assets/characters/charllote/default-codif.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"determined": {
+"image": "res://assets/characters/charllote/determined.png",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"flush": {
+"image": "res://assets/characters/charllote/flush.png",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"prankster": {
+"export_overrides": {
+"image": "\"res://assets/characters/charllote/prankster.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"sad": {
+"image": "res://assets/characters/charllote/sad.png",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"shadow": {
+"image": "res://assets/characters/charllote/shadow.png",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"smile": {
+"export_overrides": {
+"image": "\"res://assets/characters/charllote/smile.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"surprised": {
+"image": "res://assets/characters/charllote/surprised.png",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"terror": {
+"image": "res://assets/characters/charllote/terror.png",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"true-angry": {
+"export_overrides": {
+"image": "\"res://assets/characters/charllote/true-angry.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"true-bored": {
+"export_overrides": {
+"image": "\"res://assets/characters/charllote/true-confused.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"true-default": {
+"image": "res://assets/characters/charllote/true-default.png",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"true-determined": {
+"export_overrides": {
+"image": "\"res://assets/characters/charllote/true-determined.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"true-focused": {
+"export_overrides": {
+"image": "\"res://assets/characters/charllote/true-focused.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"true-focused-codif": {
+"export_overrides": {
+"image": "\"res://assets/characters/charllote/true-focused-codif.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"true-front-smile": {
+"export_overrides": {
+"image": "\"res://assets/characters/charllote/true-front-smile.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"true-hate": {
+"export_overrides": {
+"image": "\"res://assets/characters/charllote/true-hate.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"true-hate-2": {
+"export_overrides": {
+"image": "\"res://assets/characters/charllote/true-hate-2.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"true-insane": {
+"image": "res://assets/characters/charllote/true-insane.png",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"true-joking": {
+"export_overrides": {
+"image": "\"res://assets/characters/charllote/true-joking.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"true-smile": {
+"image": "res://assets/characters/charllote/true-smile.png",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"true-surprised": {
+"export_overrides": {
+"image": "\"res://assets/characters/charllote/true-surprised.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"true-terror": {
+"image": "res://assets/characters/charllote/true-terror.png",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"true-very-surprised": {
+"export_overrides": {
+"image": "\"res://assets/characters/charllote/true-very-surprised.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"very-angry": {
+"export_overrides": {
+"image": "\"res://assets/characters/charllote/very-angry.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"very-angry-2": {
+"export_overrides": {
+"image": "\"res://assets/characters/charllote/very-angry-2.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+}
+},
+"scale": 0.65
+}

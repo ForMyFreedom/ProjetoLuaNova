@@ -1,0 +1,972 @@
+{
+"@path": "res://addons/dialogic/Resources/character.gd",
+"@subpath": NodePath(""),
+"color": Color(0.117647, 0.494118, 0.352941, 1),
+"custom_info": {
+"sound_mood_default": "",
+"sound_moods": {},
+"style": ""
+},
+"default_portrait": "happy",
+"description": "",
+"display_name": "Alan",
+"mirror": false,
+"nicknames": ["Historicista Aprendiz"],
+"offset": Vector2(0, 0),
+"portraits": {
+"accept-death": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/accept-death.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"angry": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/angry.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1.0,
+"scene": ""
+},
+"angry-2": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/angry-2.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1.0,
+"scene": ""
+},
+"annoyed": {
+"image": "res://assets/characters/alan/annoyed.png",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1.0,
+"scene": ""
+},
+"asttunished": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/asttunished.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1.0,
+"scene": ""
+},
+"big-ultra-happy": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/ultra-happy.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1.2,
+"scene": ""
+},
+"chocked": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/chocked.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1.0,
+"scene": ""
+},
+"close-eyes-smile": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/close-eyes-smile.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1.0,
+"scene": ""
+},
+"commum": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/commum.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1.0,
+"scene": ""
+},
+"concentrate-1": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/concentrate.png\""
+},
+"ignore_char_scale": false,
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1.0,
+"scene": ""
+},
+"concentrate-2": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/confused-2.png\""
+},
+"ignore_char_scale": false,
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1.0,
+"scene": ""
+},
+"concentrate-3": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/confused-3.png\""
+},
+"ignore_char_scale": false,
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1.0,
+"scene": ""
+},
+"concern": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/concern.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"concern-2": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/concern-2.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"confused": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/confused.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1.0,
+"scene": ""
+},
+"confused-codif": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/confused-codif.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"cry": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/cry.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"death-angry": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/death-alan-3.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"death-fear": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/death-alan-4.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"death-glow-eyes": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/death-glow-eyes.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"death-open-mounth": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/death-alan-2.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"death-rage": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/death-rage.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"death-sad": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/death-alan-6.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"death-sad-2": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/death-alan-5.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"death-surprise": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/death-alan-7.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"depressed-1": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/depressed-1.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"depressed-2": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/depressed-2.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"depressed-3": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/depressed-3.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"depressed-angry-1": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/depressed-angry-1.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"depressed-angry-2": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/depressed-angry-2.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"depressed-confused": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/depressed-confused.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"depressed-frustrated": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/depressed-frustrated.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"descodif-2-cry": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/descodif-2-cry.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"descodif-2-cry-2": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/descodif-2-cry-2.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"descodif-2-cry-3": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/descodif-2-cry-3.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"descodif-2-flushed": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/descodif-2-flushed.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"descodif-closed-eyes-smile": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/descodif-closed-eyes-smile.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"descodif-confused": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/descodif-confused.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"descodif-flushed": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/descodif-flushed.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"descodif-frustrated": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/descodif-frustrated.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"descodif-goofy": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/descodif-goofy.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"descodif-lil-surprised": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/descodif-lil-surprised.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"descodif-sad": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/descodif-sad.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"descodif-sad-smile": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/descodif-sad-smile.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"despair": {
+"image": "res://assets/characters/alan/despair.png",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1.0,
+"scene": ""
+},
+"despair-codif": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/despair-codif.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"determined-smile": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/smile.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1.0,
+"scene": ""
+},
+"disbelief": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/disbelief.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"epic-sacrifice": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/epic-sacrifice.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"epic-sacrifice-big": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/epic-sacrifice-big.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1.0,
+"scene": ""
+},
+"extreme-surprise": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/extreme-surprise.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"fear-angry": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/fear-angry.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"fear-closed-eyes": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/fear-closed-eyes.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"fear-smile": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/fear-smile.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"flushed": {
+"image": "res://assets/characters/alan/flushed.png",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"frustrated": {
+"image": "res://assets/characters/alan/frustrated.png",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"goofy": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/goofy.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"happy": {
+"image": "res://assets/characters/alan/happy.png",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1.0,
+"scene": ""
+},
+"hollow": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/hollow.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"hurt": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/hurt.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"insane": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/insane.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"lil-angry": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/lil-angry.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"lil-fear": {
+"image": "res://assets/characters/alan/lil-fear.png",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"lil-flush": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/lil-flush.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"lil-rage": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/lil-rage.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"lil-surprise": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/lil-surprise.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"more-despair": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/more-despair.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"pre-death": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/pre-death.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"rage-despair": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/rage-despair.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"rage-despair-2": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/rage-despair-2.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"regular": {
+"image": "res://assets/characters/alan/regular.png",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"sacrifice-closed-eyes": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/sacrifice-closed-eyes.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"sacrifice-evil": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/sacrifice-evil.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"sacrifice-evil-2": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/sacrifice-evil-2.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"sad": {
+"image": "res://assets/characters/alan/sad.png",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"sad-death": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/sad-death.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"sad-smile": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/sad-smile.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"serious": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/serious.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"shadow": {
+"image": "res://assets/characters/alan/shadow.png",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"smile-closed-eyes": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/smile-closed-eyes.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"smile-half-closed-eyes": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/smile-half-closed-eyes.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"stressed": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/stressed.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"stressed-2": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/stressed-2.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"stressed-3": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/stressed-3.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"stressed-4": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/stressed-4.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"stressed-5": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/stressed-5.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"surprise": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/surprise.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"surprise-2": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/surprise-2.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"sus": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/sus.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"tense": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/tense.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"tired": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/tired.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"ultra-happy": {
+"image": "res://assets/characters/alan/ultra-happy.png",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1.0,
+"scene": ""
+},
+"unbeliever": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/unbeliever.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"unconfortable": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/unconfortable.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1.0,
+"scene": ""
+},
+"very-surprised": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/very-surprised.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"vilain-smile": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/vilain-smile.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"vilain-smile-2": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/vilain-smile-2.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"wtf-fear": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/wtf-fear.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+}
+},
+"scale": 0.7
+}

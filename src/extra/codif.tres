@@ -1,0 +1,31 @@
+[gd_resource type="Resource" script_class="DialogicGlossary" load_steps=2 format=3 uid="uid://c8dd6lt01x616"]
+
+[ext_resource type="Script" path="res://addons/dialogic/Modules/Glossary/glossary_resource.gd" id="1_iaaua"]
+
+[resource]
+script = ExtResource("1_iaaua")
+entries = {
+"Codif": {
+"case_sensitive": true,
+"text": "Codificação da Realidade (Magia)",
+"title": "Codif"
+},
+"Condicional": {
+"text": "Desvio do fluxo de processamento, se algo é verdadeiro ou falso",
+"title": "Condicional"
+},
+"Recursão": {
+"text": "Uma função que invoca a si mesma",
+"title": "Recursão"
+},
+"Struct": {
+"text": "Variável especial que contém diversas outras variáveis em sua composição",
+"title": "Struct"
+},
+"XNOR": {
+"text": "Porta Lógica 'Ou Exclusivo'
+Verdadeiro só se A=B",
+"title": "A⊙B"
+}
+}
+enabled = true

@@ -1,0 +1,32 @@
+[background arg="res://assets/backgrounds/newart-office.png" fade="0.0"]
+[music fade="2.0" volume="0.0"]
+join alan (lil-fear) 1
+join ada (regular-teeth) 3
+ada (regular-teeth): Bem, antes de começarmos
+[music path="res://assets/musics/polite.mp3" fade="0.0" volume="0.0"]
+update alan (regular)
+ada (regular): Você vem praticando seu Racket?
+- Não
+	update alan (lil-fear)
+	alan: Não…
+	ada (angry): ... Infelizmente, não tenho como culpá-lo. Já que ficou tanto tempo parado
+	update alan (regular)
+	ada (regular-teeth): Cof cof… O mais importante para saber é que dados e operações podem ser compostos recursivamente. Que a saída de uma operação pode ser, normalmente será o operando de outra
+	update alan (confused)
+	ada (regular): Racket também opera no Modelo de Substituição, diferente das linguagens antigas. O que significa que deve pensar em camadas, como as bonecas matrioska
+	update alan (surprise)
+	ada (regular-teeth): Por fim, nunca se esqueça que as operações sempre possuem parêntesis, e se dão da forma pre-fixa\: '(OPERADOR operando operando ...)'
+	alan (flushed): Entendi… Obrigado pela revisão Senhorita Ada
+- Sim
+	update alan (happy)
+	alan: Sim!
+	ada: Que bom, isso já me poupa trabalho
+ada (regular): Não é fácil entender essa velharia de impérios esquecidos… Mas seus códigos serão muito úteis para a guerra
+alan (regular): De todo modo, é tudo Codif não é?
+ada (regular): Sim. Mas a lógica dos povos que aqui habitavam é estranha.
+ada (regular-teeth): Suas variáveis são mutáveis como o vento
+alan (confused): Nossa, que bizarro
+ada (regular): Nem me diga
+ada (regular-teeth): Enfim, chega de conversa. É hora de trabalhar
+alan (determined-smile): Sim!
+jump cap1-part3-game/

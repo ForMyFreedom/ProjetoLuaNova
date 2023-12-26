@@ -1,0 +1,13 @@
+[background fade="0.0"]
+@@@
+@é dev ao invez de tradução
+[music path="res://assets/musics/rain-pt2.mp3" fade="0.0" volume="0.0"]
+@@@ABSOLUTE CLIMAX
+[wait time="1.5"]
+[signal arg="upper_fade"]
+[music fade="1.5" volume="0.0"]
+[wait time="2.0"]
+leave --All--
+[background fade="2.0"]
+[signal arg="reverse_fade"]
+jump cap4-part3/

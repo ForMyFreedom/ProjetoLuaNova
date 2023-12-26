@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bhmvkk0cyont8"
+path="res://.godot/imported/Inquire Pizzato.mp3-5f855e938253e33ad2b221f207d4153f.mp3str"
+
+[deps]
+
+source_file="res://assets/musics/Inquire Pizzato.mp3"
+dest_files=["res://.godot/imported/Inquire Pizzato.mp3-5f855e938253e33ad2b221f207d4153f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

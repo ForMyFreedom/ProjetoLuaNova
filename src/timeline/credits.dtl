@@ -1,0 +1,35 @@
+[background arg="res://assets/backgrounds/black_shape.png" fade="0.0"]
+Escrita, Assets, e Programação por Rafael Ruiz Schlichting
+Desafios e Revisão por Gabriel Oliveira Gomes
+\[b]MÚSICAS[/b]
+\[speed=0.1]@saying-goodbye	INTRO, CAP5\
+@allegreto		CAP1\
+@sad		CAP1, CAP3\
+@goofy		CAP1, CAP2\
+@polite		CAP1
+\[speed=0.1]@happy		CAP1, CAP5\
+@charllote-theme	CAP2\
+@vulnera		CAP2\
+@inquire-pizzato	CAP2\
+@epic-cool		CAP2
+\[speed=0.1]@cute-friendship	CAP2\
+@new-moon-project	CAP2\
+@suspense		CAP3\
+@mystery-tense	CAP3\
+@internal-pain	CAP3\
+@depression	CAP4, CAP5
+\[speed=0.1]Rain(レイン) by James Chou Anime Piano [CAP4]\
+@cry/hopeless	CAP4, CAP5\
+@never-give-up	CAP4\
+@charlotte-revelation	CAP5\
+@final-destiny	CAP5\
+@refusal		CAP5
+\[speed=0.1][b]ARTES[/b]\
+Sprites por BabySaladd\: https\://picrew.me/en/image_maker/718575\
+@@@
+[wait time="1.0"]
+\[speed=1]Esperamos do fundo do coração, que tenham se divertido, e aprendido um pouco sobre Racket
+Até a próxima!
+[sound path="res://assets/sfx/flamengo.mp3" volume="-10.0"]
+[wait time="1.0"]
+[signal arg="close"]

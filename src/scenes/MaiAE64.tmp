@@ -1,0 +1,37 @@
+[gd_scene load_steps=7 format=3 uid="uid://bjujua0kc6lu"]
+
+[ext_resource type="Script" path="res://src/scenes/Main.gd" id="1_rpuj2"]
+[ext_resource type="Texture2D" uid="uid://hkcw3mf662o" path="res://assets/backgrounds/black_shape.png" id="2_u0vd1"]
+[ext_resource type="Texture2D" uid="uid://b662bu6qf6f5e" path="res://assets/backgrounds/desk.png" id="3_1rm0j"]
+[ext_resource type="Texture2D" uid="uid://dqn3r3mrvdv6l" path="res://assets/images/to-write.png" id="4_tv04e"]
+[ext_resource type="Texture2D" uid="uid://bmv2sarnjl17e" path="res://assets/images/old-parchment.png" id="5_nrkr3"]
+[ext_resource type="Texture2D" uid="uid://bdbx3yb4e14k5" path="res://assets/images/quill.png" id="6_li6c5"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_rpuj2")
+
+[node name="BlackShape" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(582, 330)
+scale = Vector2(1.51176, 1.09875)
+texture = ExtResource("2_u0vd1")
+
+[node name="Desk" type="Sprite2D" parent="."]
+position = Vector2(577, 280)
+scale = Vector2(1.12305, 1.08565)
+texture = ExtResource("3_1rm0j")
+
+[node name="To-write" type="Sprite2D" parent="."]
+position = Vector2(573, 487)
+scale = Vector2(0.653868, 0.653868)
+texture = ExtResource("4_tv04e")
+
+[node name="Old-parchment" type="Sprite2D" parent="."]
+position = Vector2(434, 183)
+scale = Vector2(0.250389, 0.250389)
+texture = ExtResource("5_nrkr3")
+
+[node name="Quill" type="Sprite2D" parent="."]
+position = Vector2(808, 208)
+scale = Vector2(0.703333, 0.703333)
+texture = ExtResource("6_li6c5")

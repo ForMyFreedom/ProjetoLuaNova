@@ -1,0 +1,59 @@
+{
+"@path": "res://addons/dialogic/Resources/character.gd",
+"@subpath": NodePath(""),
+"color": Color(1, 1, 1, 1),
+"custom_info": {
+"sound_mood_default": "",
+"sound_moods": {},
+"style": ""
+},
+"default_portrait": "calculator",
+"description": "",
+"display_name": "Itens",
+"mirror": false,
+"nicknames": [""],
+"offset": Vector2(0, 0),
+"portraits": {
+"calculator": {
+"export_overrides": {
+"image": "\"res://assets/extra/calculator.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, -200),
+"scale": 0.4,
+"scene": ""
+},
+"camera": {
+"export_overrides": {
+"image": "\"res://assets/extra/camera.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, -200),
+"scale": 0.3,
+"scene": ""
+},
+"donuts": {
+"export_overrides": {
+"image": "\"res://assets/extra/donuts.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, -200),
+"scale": 0.4,
+"scene": ""
+},
+"machine": {
+"export_overrides": {
+"image": "\"res://assets/extra/lambda-machine.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, -123),
+"scale": 0.25,
+"scene": ""
+}
+},
+"scale": 1.0
+}

@@ -1,0 +1,92 @@
+[background arg="res://assets/backgrounds/newart-office.png" fade="2.0"]
+...
+[music path="res://assets/musics/hopeless.mp3" fade="0.0" volume="-13.0"]
+Com em um dia qualquer, Alan adentra o Departamento em gritos
+join alan (depressed-1) 2
+alan: Senhorita Ada!
+update alan 0 [ move_time="1"]
+join ada (surprise) 4
+Mas sentindo algo estranho, Ada se vira confusa
+ada (lil-tense): ... O que foi, Alan? Você parece horrível
+alan (depressed-confused): [font_size=15]Se a senhora tivesse um espelho
+ada (angry-annoyed): O– o que disse⁉
+alan (depressed-2): Desculpa. Mas isso é sério
+update alan 1 [ move_time="1"]
+update ada 3 [ move_time="1"]
+Alan se aproxima e estende duas folhas de papel para ela
+update ada (regular)
+Uma ancestral de linguagem estranha. E outra moderna em Racket
+ada (regular-teeth): … O que tem esses códigos?
+alan (depressed-1): Você, você consegue me dar uma boa razão pra isso, não é?
+update ada (surprise)
+Ada, confusa…
+update ada (big-surprise)
+Termina de ler o papel
+ada: ... Aonde você encontrou isso?
+alan (depressed-angry-1): VOCÊ CONSEGUE ME DAR UMA BOA RAZÃO PRA ISSO, NÉ⁉
+ada (sad-2): …
+Ada olha para ambas as folhas
+update ada (sad)
+As amassa e joga fora
+alan (extreme-surprise): …⁉
+alan (depressed-angry-1): Por que fez isso⁉
+ada (sad-2): Se a Regente por um acaso entrasse, em nossa sala agora
+ada (sad): Seriamos executados
+alan (depressed-3): …
+ada (sad-3): Vamos, para outro lugar. Pode ser?
+ada: Sem perigosas interrupções de preferência
+alan (depressed-1): ... Tá
+[background arg="res://assets/backgrounds/celling.png" fade="2.0"]
+Eles caminham para os fundos
+alan (depressed-angry-2): Por que você nunca me falou sobre isso? Sobre as mentiras do governo de Lua⁉
+ada (sad): …
+ada (sad-2): Eu disse que me sentia mal por te envolver nisso, não disse?
+alan (depressed-angry-1): Tem que haver uma boa razão!
+alan: Eles estão fazendo isso para nos proteger, não é?
+ada (sad-3): ...
+if {alan_would_attack} == "true":
+	ada (sad-2): Lembro que me disse que atacaria Espada, caso tivessemos nos sapatos trocados
+	alan (depressed-confused): ... [portrait=depressed-frustrated]Sim, eu me lembro disso
+else:
+	ada (sad-2): Lembro que me disse que não atacaria Espada, caso tivessemos nos sapatos trocados
+	alan (depressed-confused): ... [portrait=depressed-angry-2]Sim, eu me lembro disso
+ada (sad-2): Pois então... Eu sinto algo estranho
+ada (sad): Isso não parece uma mera situação de invadidos e invasores
+alan (depressed-confused): ... O que você quer dizer, Senhorita Ada?
+ada (concern-2): Meros paupites... Eu estou aqui a muito tempo. E é isso que minha intuição diz
+alan (depressed-1): ... Mas, deve ser algo da Regente Charlotte, não é?
+alan (depressed-2): O Governo de Lua era bom antes de-[aa=0.5]
+ada (sad): Lamento lhe informar, Alan
+alan (depressed-3): ?
+ada (sad-2): Mas eu já trabalhava na época do pai de Charllote
+ada (sad-3): E é simplesmente a mesma coisa... As mesmas, mentiras
+alan (depressed-1): ...
+ada (concern-2): Ei, Alan, tenta não levar isso tão a sério. Sem tanto idealismo
+alan (depressed-angry-1): ... Não levar tão a sério?
+[music fade="2.0" volume="0.0"]
+alan (depressed-3): Não consegue ver
+alan (cry): Que minha vida foi uma grande mentira, Ada⁉
+ada (stressed-surprise): ...
+[music path="res://assets/musics/depression.mp3" fade="0.0" volume="0.0"]
+ada (sad-3): Alan...
+update alan (depressed-1)
+O garoto limpa o rosto
+alan (depressed-3): Eu não sei quais são seus motivos
+alan (depressed-2): Mas eu me tornei um Historicista, pelo bem do meu país!
+alan (depressed-1): E agora... Nada, nada mais importa
+update alan (pre-death)
+Os ares ficam revoltados
+update alan (sad-death) [animation="Tada"]
+update ada (big-surprise)
+E Alan começa a colapsar
+ada: … Alan! Que idiotice você tá pensando⁉
+alan: Não fui eu... Acho que foi meu inconsciente
+alan: De todo modo, pouco importa
+ada (pre-cry): Não vou deixar você se descodificar!
+ada: Para com essa tolic-[aa=0.1]
+leave ada
+[background arg="res://assets/backgrounds/black_shape.png" fade="0.5"]
+... Mas então, Alan não ouvia mais a voz de Ada
+update alan 2 [ move_time="2"]
+Não via. Não sentia. Mais nada
+jump cap4-part2/

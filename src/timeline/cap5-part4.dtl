@@ -1,0 +1,174 @@
+[background arg="res://assets/backgrounds/lake and moon.png" fade="1.0"]
+[music path="res://assets/musics/depression.mp3" fade="0.0" volume="0.0"]
+join NovaAda (two-lifes) 2
+Após avançar muitos kilometros em uma velocidade incrível, Ada para perto de um lago
+update NovaAda (pre-two-lifes)
+E toda sua grande energia
+update NovaAda (close-eyes)
+Se desfaz
+NovaAda: …
+NovaAda (concern): [speed=3]O, o que aconteceu?
+\[speed=1]Ela olha ao redor, ainda segurando Alan em seus braços
+NovaAda (commum): [speed=3]Onde, diabos eu esto-[aa=0.5]
+[background arg="res://assets/backgrounds/black_shape.png" fade="2.0"]
+update NovaAda (sleep)
+[music fade="2.0" volume="0.0"]
+\[speed=1]Mas então, ela desmaia de exaustão
+[wait time="2.0"]
+[background arg="res://assets/backgrounds/white_shape.png" fade="2.0"]
+[music path="res://assets/musics/saying-goodbye.mp3" fade="3.0" volume="0.0"]
+update NovaAda (surprised)
+Acordando, em um local vazio
+NovaAda: [speed=2]Antes um lago… [portrait=default]E agora, um nada?
+NovaAda (angry): [speed=1.5]Eu só posso estar sonhand-[aa=0.5]
+update NovaAda (surprised) 1 [ move_time="2"]
+\[speed=1]Porem… Interrompendo seus pensamentos
+Ela sente uma presença
+NovaAda (commum): Hum… Ola?
+[music fade="2.0" volume="0.0"]
+unknow: Oi!
+join alan (happy) 3 [ z_index="2"]
+[music path="res://assets/musics/cry.mp3" fade="1.0" volume="0.0"]
+alan: Tá tudo bem, Ada?
+NovaAda (surprised): Sim… Eu acho
+NovaAda (commum): Esse é um daqueles sonhos lúcidos?
+alan (sad-smile): Você no fundo sabe… Que não é, né?
+NovaAda (surprised): …
+update NovaAda (commum)
+Ada consulta sua intuição
+update NovaAda (big-surprise)
+E se assusta ao ouvir a resposta
+NovaAda: Que merda tá acontecendo Alan?
+alan (sus): Acho… Que eu exagerei um pouquinho
+alan (close-eyes-smile): Mas tá tudo bem
+NovaAda (scary-confused): Isso, é Codif?
+alan (happy): Sim
+alan: Você consegiu fugir de Charllote com ele
+NovaAda (determinated): Isso é incrível!
+NovaAda: Quer dizer que já estamos bem?
+alan (frustrated): …
+alan (sad-smile): Desculpa, Ada
+alan: Acho que vou ter que quebrar minha promessa
+NovaAda (surprised): Que? Qual?
+alan (sad): A de eu cozinhar um prato para você
+NovaAda: … Do que você está falan-[aa=0.5]
+update NovaAda (despair)
+update alan (descodif-sad) [animation="Tada"]
+Ada observa parte de Alan rachar
+Se descodificar
+NovaAda (unbelief): ... Você fez de novo
+NovaAda (rage-despair): POR QUE⁉ ALAN⁉
+alan (descodif-sad-smile): …
+alan: Essa, é minha punição
+NovaAda (sad): …Punição?
+alan (descodif-closed-eyes-smile): [speed=1.5]Eu acreditava que o Governo de Lua era bom. Que ele, possuia salvação
+alan: [speed=1.5]Mas agora eu vejo, o quão tolo eu era
+NovaAda: [speed=1]…
+NovaAda (frustrate-rage): Isso não responde minha pergunta
+alan (descodif-frustrated): …
+if {is_humble} == "true":
+	alan (descodif-sad-smile): Lembro de mais cedo ter dito, que eu não era um falso humilde
+	NovaAda: Que?
+	alan (descodif-goofy): Pode-se dizer, que meu despojamento foi minha ruína
+elif :
+	alan (descodif-sad-smile): Lembro de mais cedo ter dito, que eu era um falso humilde
+	NovaAda: Que?
+	alan (descodif-goofy): Pode-se dizer, que minha arrogância foi minha ruína
+alan: Tanto, que nem posso me recodificar. Já que Charllote destruiu meu computador
+NovaAda (unbelief-2): ... Isso, é estúpido
+alan: Será?
+update alan (descodif-lil-surprised)
+NovaAda (cry-rage-despair): É ESTÚPIDO!
+update ada (cry)
+update alan (descodif-frustrated)
+alan-and-ada: ...
+NovaAda: … E. Eu…
+NovaAda (cry-2): Não terei nada pra me lembrar de você!
+alan (descodif-confused): Como assim?
+NovaAda: A foto que tiramos no departamento
+NovaAda (cry-3): Eu menti antes… Eu queria muito ter trazido ela!
+alan (descodif-sad): …
+alan (descodif-sad-smile): Não se preocupe, Ada
+alan: Minha [i]vida[/i], foi pra você
+NovaAda (cry-2): O, que?
+alan: Mesmo que minha mente agora fique para trás
+alan (descodif-flushed): Eu, [i]sempre[/i] estarei com você!
+NovaAda (cry): ... Alan
+update alan (descodif-2-flushed)
+Mais rachaduras aparecem
+NovaAda (cry-4): Não! Alan!
+alan (descodif-2-cry): …
+update alan 2 [ move_time="1"]
+Alan se aproxima, e a abraça
+alan (descodif-2-cry-2): Desculpa de novo pela promessa
+alan: Tenho certeza, que você comerá pratos muito melhores em Espada
+NovaAda (cry-3): …
+alan: ...
+alan (descodif-2-cry-3): Adeus. A-[aa=0.3]
+leave alan
+\[speed=1.5]… A mente de Alan é descodificada antes de concluir seu último adeus
+\[speed=1.5]Com seu abraço, sendo desfeito
+NovaAda (cry-4): [speed=1]...
+\[speed=1.5]E, desfeito o choque
+update NovaAda (cry-3)
+\[speed=1.5]Ada, grita em lágrimas, por longos minutos
+[wait time="2.0"]
+[signal arg="upper_fade"]
+[music fade="1.5" volume="0.0"]
+[wait time="1.0"]
+[background arg="res://assets/backgrounds/black_shape.png" fade="0.0"]
+leave --All--
+[background arg="res://assets/backgrounds/lake-and-moon-even.png" fade="3.0"]
+[wait time="1.0"]
+[signal arg="reverse_fade"]
+[music path="res://assets/musics/depression.mp3" fade="2.0" volume="0.0"]
+join tim (shadow) 3
+join NovaAda (close-eyes-after-cry) 2 [ z_index="3"]
+...
+update NovaAda (dark-surprised)
+\[speed=1.5]Ada, abre os olhos
+\[speed=1]Sendo carregada por alguem, no mesmo pântano de antes
+NovaAda: …
+tim (default): Oh? Acordou, princesa?
+NovaAda (dark-default): Coloque-me no chão
+tim (default-2): Vish, como desejar
+update NovaAda 1 [ move_time="3"]
+Tim a solta com cuidado
+Mas Ada tem dificuldade para ficar em pé
+NovaAda (dark-default-teeth): Mil e um demônios
+tim (default): Errado!
+tim: Sou Tim. Espião de Espada
+NovaAda (dark-surprised): …
+NovaAda: Você é aquele que se encontrou com Alan
+tim (default-2): Conhece o Historicista?
+tim: Que bom, onde ele está?
+NovaAda: [i][color=dark_gray]... [portrait=dark-sad]Se ele pergunta isso, significa que o corpo de Alan, também desapareceu[/color][/i]
+update NovaAda (dark-pre-cry)
+Ada se segura para não chorar na frente dele
+\[speed=1.5]Mas se resume, em silêncio
+update NovaAda (dark-sad-2)
+\[speed=1.5]A colocar uma mão, sobre o próprio peito
+tim (angry-cm): [speed=1]... Entendo
+tim: Bem… Caminhemos em frente por ele. E todos os outros inocentes que morreram nesses tempos
+[update_position position="3" vector="Vector2(50, 0)" time="1.0"]
+Tim se vira de costas e começa a andar
+NovaAda (dark-sad): [speed=1.5]Espera!
+tim (confused): [speed=1]Hum?
+NovaAda (dark-pre-cry): [speed=1.5]Mas… Aonde estamos indo?
+tim: [speed=1]…
+tim (default): 'Aonde'? Você me pergunta
+tim: Ora
+[music fade="2.0" volume="0.0"]
+O Espião se vira com um sorriso no rosto
+tim: Nós iremos
+[sound path="res://assets/sfx/drum.mp3" volume="-10.0"]
+update NovaAda (dark-hope)
+tim (default-2): Acabar com essa guerra
+[wait time="1.5"]
+[signal arg="upper_fade"]
+[wait time="2.0"]
+leave --All--
+[background fade="2.0"]
+[signal arg="reverse_fade"]
+
+jump credits/

@@ -1,0 +1,329 @@
+{
+"@path": "res://addons/dialogic/Resources/character.gd",
+"@subpath": NodePath(""),
+"color": Color(1, 1, 1, 1),
+"custom_info": {
+"sound_mood_default": "",
+"sound_moods": {},
+"style": ""
+},
+"default_portrait": "default",
+"description": "",
+"display_name": "Ada",
+"mirror": false,
+"nicknames": [""],
+"offset": Vector2(0, 0),
+"portraits": {
+"angry": {
+"export_overrides": {
+"image": "\"res://assets/characters/nova-ada/angry.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"big-surprise": {
+"export_overrides": {
+"image": "\"res://assets/characters/nova-ada/big-surprise.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"close-eyes": {
+"export_overrides": {
+"image": "\"res://assets/characters/ada/close-eyes.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"close-eyes-after-cry": {
+"export_overrides": {
+"image": "\"res://assets/characters/nova-ada/close-eyes-after-cry.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"commum": {
+"export_overrides": {
+"image": "\"res://assets/characters/nova-ada/commum.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"concern": {
+"export_overrides": {
+"image": "\"res://assets/characters/nova-ada/concern.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"cry": {
+"export_overrides": {
+"image": "\"res://assets/characters/nova-ada/cry.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"cry-2": {
+"export_overrides": {
+"image": "\"res://assets/characters/nova-ada/cry-2.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"cry-3": {
+"export_overrides": {
+"image": "\"res://assets/characters/nova-ada/cry-3.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"cry-4": {
+"export_overrides": {
+"image": "\"res://assets/characters/nova-ada/cry-4.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"cry-rage-despair": {
+"export_overrides": {
+"image": "\"res://assets/characters/nova-ada/cry-rage-despair.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"dark-default": {
+"export_overrides": {
+"image": "\"res://assets/characters/nova-ada/dark-default.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"dark-default-teeth": {
+"export_overrides": {
+"image": "\"res://assets/characters/nova-ada/dark-default-teeth.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"dark-hope": {
+"export_overrides": {
+"image": "\"res://assets/characters/nova-ada/dark-hope.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"dark-pre-cry": {
+"export_overrides": {
+"image": "\"res://assets/characters/nova-ada/dark-pre-cry.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"dark-sad": {
+"export_overrides": {
+"image": "\"res://assets/characters/nova-ada/dark-sad.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"dark-sad-2": {
+"export_overrides": {
+"image": "\"res://assets/characters/nova-ada/dark-sad-2.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"dark-surprised": {
+"export_overrides": {
+"image": "\"res://assets/characters/nova-ada/dark-surprised.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"default": {
+"export_overrides": {
+"image": "\"res://assets/characters/nova-ada/default.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"despair": {
+"export_overrides": {
+"image": "\"res://assets/characters/nova-ada/despair.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"determinated": {
+"export_overrides": {
+"image": "\"res://assets/characters/nova-ada/determinated.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"frustrate-rage": {
+"export_overrides": {
+"image": "\"res://assets/characters/nova-ada/frustrate-rage.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"pre-two-lifes": {
+"export_overrides": {
+"image": "\"res://assets/characters/ada/pre-two-liffes.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"rage-despair": {
+"export_overrides": {
+"image": "\"res://assets/characters/nova-ada/rage-despair.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"sad": {
+"export_overrides": {
+"image": "\"res://assets/characters/nova-ada/sad.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"scary-confused": {
+"export_overrides": {
+"image": "\"res://assets/characters/nova-ada/scary-confused.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"sleep": {
+"export_overrides": {
+"image": "\"res://assets/characters/ada/sleep.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"surprised": {
+"export_overrides": {
+"image": "\"res://assets/characters/nova-ada/surprised.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"two-lifes": {
+"export_overrides": {
+"image": "\"res://assets/characters/ada/two-lifes.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"unbelief": {
+"export_overrides": {
+"image": "\"res://assets/characters/nova-ada/unbelief.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"unbelief-2": {
+"export_overrides": {
+"image": "\"res://assets/characters/nova-ada/unbelief-2.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+}
+},
+"scale": 0.7
+}

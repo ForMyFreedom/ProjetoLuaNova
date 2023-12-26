@@ -1,0 +1,56 @@
+@é dev ao invez de tradução
+join itens (machine) 1
+@
+charllote (true-default): Meu Codif de Mentes demora uma semana pra fazer efeito, e requer pelo menos quatro contatos
+charllote (true-angry): Faltava só dois, para sua dominação completa
+charllote: O seu caso foi muito frustrante
+charllote (true-default): Quase tão frustrante quando o dia em que matei meu papai
+alan (despair): O que⁉
+charllote (true-angry): Você deixou de acreditar em mim, Alan
+charllote: Tudo culpa, daquele maldito espião
+@
+charllote (true-bored): Você sería tão… Perfeito. Perfeito para o Projeto Lua Nova
+alan (stressed-2): …
+charllote (true-default): Está curioso, não é? Sobre a proposta que recusaste?
+alan (stressed): … Não posso negar isso
+@
+charllote (true-front-smile): O Projeto Lua Nova, é nada além…
+[sound path="res://assets/sfx/flush.mp3" volume="0.0"]
+charllote (true-insane): [color=red]Do domínio mental, de toda corte imperial![/color]
+alan (more-despair): …‼ O que⁉
+charllote: Lua... Não
+charllote (true-determined): Eu me tornarei a Imperatriz! Sobre uma Lua Nova!
+@
+alan (stressed-2): Mas então, por que o império está neutro?
+charllote (true-default): Ora? Não é óbvio?
+charllote: Espada descobriu nosso projeto, e então a guerra iniciou
+charllote (true-front-smile): Fechou nossas fronteiras, como nossa única província vizinha
+charllote: E de forma análoga ao seu processo interrompido, Alan
+charllote (true-angry): O do imperador também parou no meio, por falta de contato pessoal meu
+alan (stressed-2): ...
+alan: [color=dark_gray][i]Crianças são impressionantes. Como pode me contar tudo isso tão casualmente?[/i][/color]
+@
+update charllote (true-bored)
+alan (stressed-5): [color=dark_gray][i]Ela parece entendiada, preciso ganhar mais tempo…[/i][/color]
+alan: [color=dark_gray][i]Qualquer coisa pra matraca infinita dela…[/i][/color]
+alan (stressed-3): [color=dark_gray][i]Já sei![/i][/color]
+alan (rage-despair): Mas se você tinha seu Codif de Mentes em Ada. Por que ela não era fiel a você⁉
+charllote (true-front-smile): … Meu poder não é absoluto, bobinho
+charllote: Existe um numero limitado de pessoas que posso ficar computando ao mesmo tempo
+charllote (true-default): E a última coisa que Ada era, é uma pessoa relevante
+@final@
+alan (stressed-5): [color=dark_gray][i]Acho… Que está pronto[/i][/color]
+leave itens
+alan: [color=dark_gray][i]O Código já está dentro de mim. Obrigado, Computador[/i][/color]
+charllote (true-bored): Mas, tem algo que me incomoda, Alan
+charllote (true-angry): Como você conseguiu voltar?
+alan (stressed-4): …
+charllote (true-insane): Isso é impossível! A sua decodificação já havia começado!
+alan (stressed-5): …
+alan (accept-death): Você quer mesmo saber?
+alan (vilain-smile): Eu usei Codif, oras
+charllote (true-hate): ... Você acha que eu sou idiota?
+charllote: Você estava descodificado, não teria forças para isso. Nem eu teria!
+alan (vilain-smile-2): Quem disse, que foi eu que me recodifiquei?
+charllote (true-hate-2): …⁉
+jump cap5-part3/

@@ -1,0 +1,145 @@
+[background arg="res://assets/backgrounds/room.png" fade="3.0"]
+[music path="res://assets/musics/sad.mp3" fade="0.0" volume="0.0"]
+...
+Dias após o encontro com Charllote
+join alan (concern) 2
+Alan repousava em sua casa.
+Havia no ambiente, muitos papeis com desenhos e cálculos próprios sobre máquinas
+Mas nesse momento, Alan estudava um de seus livros de [i]astronomia[/i]
+alan (regular): [color=dark_gray][i]'As descobertas newtonianas permitiram com que eclipses fossem previstos séculos antes de seu acontecimento'[/i][/color]
+alan (concern): [color=dark_gray][i]'E tão logo, o campo do cálculo se mostrou como um dominador da realidade, de onde Laplace teceu seu Demônio…'[/i][/color]
+alan (confused): ... Determinismo. É?
+…
+- Que bobagem!
+	set {determinist} = "false"
+	alan (angry): Isso é tolice! O livre arbítrio da humanidade é incontestável
+	alan (lil-angry): É como se minha escolha por continuar com a Senhorita Ada não tivesse nenhum valor
+- É a verdade
+	set {determinist} = "true"
+	alan (regular): Isso é a verdade. Apenas não temos conhecimento de todas as leis que regem o universo
+	alan (close-eyes-smile): E tão logo, acredito que minha escolha por continuar com a Senhorita Ada, não seja tão a 'minha' escolha
+alan (regular): …
+alan (lil-angry): De todo modo, nada de útil sobre Luas Novas
+alan (regular): Nada sobre, Projeto, [i]Lua Nova[/i]
+Ele fecha seu livro, e pega sua xicará de chá
+alan (confused): Por que eu sinto.. Que mesmo que eu não tenha aceito o convite da Regente
+alan: Eu sinto como se tivesse, aceito?
+[background arg="res://assets/backgrounds/room-with-eyes.png" fade="2.0"]
+update alan (regular)
+Ele levanta a xícara
+alan (concern): Provavelmente só estou pensando demais
+alan: Deve ser por que tenho visto muito a Regente nessa semana
+alan (frustrated): ... Mas é difícil esquecer a reação da Senhorita Ada
+alan: Ela claramente estava escondendo algo importante de mim
+Perdido em pensamentos, ele toma um gole
+alan (annoyed): Ah, que gosto horrível
+alan: É a última vez que eu compro xá de minhapi-[aa=0.5]
+[music fade="0.5" volume="0.0"]
+update alan (very-surprised)
+Porem... Alan congela subitamente
+[music path="res://assets/musics/suspense.mp3" fade="1.0" volume="0.0"]
+update alan (despair)
+Ao perceber que alguem o observa pela janela
+alan (rage-despair): Quem tá ai⁉
+Apenas silêncio
+alan: É sério que você tá [i]tentando[/i] ser discreto⁉
+unknow: [speed=3][b]Ai, ai[/b]
+[background arg="res://assets/backgrounds/room.png" fade="1.0"]
+\[speed=1]Frustrado, a sombra adentra a janela
+update alan 0 [ move_time="1"]
+join tim 4
+Como um homem alto, e de vestes exóticas
+update tim (lovely) [ mirrored="false"]
+unknow: Boa noite, princesa
+alan (despair): O que seria você? Um assasino⁉
+update tim (default-2) [ mirrored="false"]
+unknow: Quase. Um espião
+alan (tense): E que tipo de espião se apresenta como um espião?
+update tim (default)
+unknow: Nunca disse que era um bom espião
+alan (wtf-fear): …?
+update tim (default-2)
+unknow: Tá mais pra um bico
+alan (despair): Espere um momento... Um espião? Isso quer dizer que[aa=1]
+update tim (default)
+unknow: Sim, sou da Província de Espada
+alan (rage-despair): …!
+tim (default-2): Meu nome é Tim
+tim (terror): E fui enviado para sequestrá-lo
+alan (tense): Isso não faz de você um espião! Você é um sequestrador!
+tim (default): Nunca disse que vim obedecer a essa ordem
+alan (rage-despair): Você poderia ter frases mais consistentes⁉
+tim (default-2): De todo modo. Como eu disse, não vim sequestrá-lo
+[music fade="2.0" volume="0.0"]
+tim (default): Mudei de ideia ao observá-lo melhor. Seria um disperdício como um refem
+[sound path="res://assets/sfx/flush.mp3" volume="0.0"]
+tim (terror): [color=red]Já que podes ser um grande traidor[/color]
+alan (very-surprised): ... Perdão? [portrait=unbeliever]Eu ouvi isso certo?
+[music path="res://assets/musics/mystery-tense.mp3" fade="2.0" volume="0.0"]
+tim (default): Um traidor de Lua, muito melhor que um refem
+alan (insane): .. Você é um insano
+update alan (despair-codif) [animation="Tada"]
+alan: Eu deveria ter usado meu Codif mais cedo
+update tim (fear)
+Os ares ficam tensos
+tim (fear): Segura a brisa ai o esquentatinho
+tim: E se eu te dissese, que posso provar que Lua é a culpada dessa guerra
+alan (confused-codif): ...
+update alan (stressed) [animation="Tada"]
+alan: Por que eu estou dando ouvidos a um insano?
+Os ares retornam a normalidade
+tim (impatient): Lua é a causadora dessa guerra. E isso não é sobre vocês se tornarem uma potência em códigos no futuro
+alan (surprise): ... Ha
+alan (disbelief): [speed=6]Hahaha!
+alan: [speed=1]Essa foi a melhor piada da semana
+alan: Seu verme de Espada. Inimigos da Paz
+tim (angry-cm): Você faria o mesmo, se estivesse em nossos sapatos
+alan (tense): …
+if {alan_would_attack} == "true":
+	alan (wtf-fear): … Talvez você esteje certo
+	tim (default-2): ... Isso me surpreendeu, mas não acredito que tenhas a compreensão do todo
+else:
+	alan (rage-despair): Não! Vocês são sujos! Eu nunca me rebaixaria
+	tim: Você é ignorante
+tim (default): Não acredita em palavras que pode ouvir
+Tim põe a mão em seu bolso
+update alan (stressed)
+E Alan se prepara para mandar a janela para os ares
+tim (default-2): Mas talvez de ouvidos as palavras velhas de uma lingua morta
+update alan (surprise)
+E então, o homem arremessa a Alan um pedaço de papel
+alan (stressed-2): ... O que é isso?
+tim (default): Você sabe o que é, é seu trabalho saber
+alan (stressed): …
+tim (default-2): Eu roubei de um Departamento de Guerra, durante a minha infiltração
+alan (angry-2): Como assim⁉ Você invadiu prédios públicos⁉
+E então, Tim se vira para a janela
+tim (closed-mounth): ... A Lua está Minguante
+alan (stressed-2): Hum?
+[background arg="res://assets/backgrounds/moon-in-dark.png" fade="2.0"]
+[wait time="4.0"]
+update alan (surprise-2)
+Ambos encaram a Lua em silêncio.
+Alan com respeito, orgulho.
+E Tim com temor, assombro
+tim (angry-cm): A Lua mingua... [portrait=angry-cm2]Mais Espada não permitirá que fique Nova
+alan (confused): …?
+alan: Que diabos você está falan-[aa=0.2]
+leave tim
+update alan (surprise)
+Mas então. Subitamente. O Espião salta pela janela e sai do campo de visão de Alan
+update alan 2 [ move_time="2"]
+alan: …
+update alan (stressed)
+alan (stressed-2): A Lua está minguante…?
+Alan olha para o trecho de Código Legado em suas mãos
+alan (stressed): Acho que não vou conseguir dormir até conseguir decodificar isso, né?
+[music fade="3.0" volume="0.0"]
+[wait time="2.0"]
+[signal arg="upper_fade"]
+[music fade="1.5" volume="0.0"]
+[wait time="2.0"]
+leave --All--
+[background fade="2.0"]
+[signal arg="reverse_fade"]
+jump cap3-part1-game/

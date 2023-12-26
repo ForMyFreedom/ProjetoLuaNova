@@ -1,0 +1,479 @@
+{
+"@path": "res://addons/dialogic/Resources/character.gd",
+"@subpath": NodePath(""),
+"color": Color(0.976471, 0.858824, 0.741176, 1),
+"custom_info": {
+"sound_mood_default": "",
+"sound_moods": {},
+"style": ""
+},
+"default_portrait": "regular",
+"description": "",
+"display_name": "Ada",
+"mirror": false,
+"nicknames": ["Historicista Efetivada"],
+"offset": Vector2(0, 0),
+"portraits": {
+"angry": {
+"export_overrides": {
+"image": "\"res://assets/characters/ada/angry.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1.0,
+"scene": ""
+},
+"angry-annoyed": {
+"export_overrides": {
+"image": "\"res://assets/characters/ada/angry-annoyed.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1.0,
+"scene": ""
+},
+"annoyed": {
+"image": "res://assets/characters/ada/annoyed.png",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1.0,
+"scene": ""
+},
+"ashamed": {
+"export_overrides": {
+"image": "\"res://assets/characters/ada/ashamed.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"big-surprise": {
+"export_overrides": {
+"image": "\"res://assets/characters/ada/big-surprise.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"bored": {
+"image": "res://assets/characters/ada/bored.png",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"close-eyes": {
+"export_overrides": {
+"image": "\"res://assets/characters/ada/close-eyes.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"commum": {
+"export_overrides": {
+"image": "\"res://assets/characters/ada/commum.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"concern": {
+"export_overrides": {
+"image": "\"res://assets/characters/ada/concern.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"concern-2": {
+"export_overrides": {
+"image": "\"res://assets/characters/ada/concern-2.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"confused-flush": {
+"export_overrides": {
+"image": "\"res://assets/characters/ada/confused-flush.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"cry": {
+"export_overrides": {
+"image": "\"res://assets/characters/ada/cry.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"despair": {
+"image": "res://assets/characters/ada/despair.png",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1.0,
+"scene": ""
+},
+"despair-teeth": {
+"export_overrides": {
+"image": "\"res://assets/characters/ada/despair-teeth.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"determinated": {
+"export_overrides": {
+"image": "\"res://assets/characters/ada/determinated.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"determinated-smile": {
+"export_overrides": {
+"image": "\"res://assets/characters/ada/determinated-smile.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"devil": {
+"export_overrides": {
+"image": "\"res://assets/characters/ada/devil.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"disgust": {
+"export_overrides": {
+"image": "\"res://assets/characters/ada/disgust.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"flushed": {
+"image": "res://assets/characters/ada/flushed.png",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"focus-angry": {
+"export_overrides": {
+"image": "\"res://assets/characters/ada/focus-angry.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"forced-smile": {
+"export_overrides": {
+"image": "\"res://assets/characters/ada/forced-smile.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"happy": {
+"image": "res://assets/characters/ada/happy.png",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"happy-cry": {
+"export_overrides": {
+"image": "\"res://assets/characters/ada/happy cry.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"harmed": {
+"export_overrides": {
+"image": "\"res://assets/characters/ada/harmed.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"irritant": {
+"export_overrides": {
+"image": "\"res://assets/characters/ada/irritant.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"lenny": {
+"export_overrides": {
+"image": "\"res://assets/characters/ada/lenny.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"lil-disgust": {
+"export_overrides": {
+"image": "\"res://assets/characters/ada/lil-disgust.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"lil-flushed": {
+"export_overrides": {
+"image": "\"res://assets/characters/ada/lil-flushed.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"lil-happy": {
+"export_overrides": {
+"image": "\"res://assets/characters/ada/lil-happy.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"lil-tense": {
+"export_overrides": {
+"image": "\"res://assets/characters/ada/lil-tense.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"pre-cry": {
+"export_overrides": {
+"image": "\"res://assets/characters/ada/cry-pre.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"pre-two-lifes": {
+"export_overrides": {
+"image": "\"res://assets/characters/ada/pre-two-liffes.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"red-devil": {
+"export_overrides": {
+"image": "\"res://assets/characters/ada/red-devil.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"regular": {
+"image": "res://assets/characters/ada/regular.png",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"regular-teeth": {
+"image": "res://assets/characters/ada/regular-teeth.png",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"sad": {
+"image": "res://assets/characters/ada/sad.png",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"sad-2": {
+"image": "res://assets/characters/ada/sad-2.png",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"sad-3": {
+"export_overrides": {
+"image": "\"res://assets/characters/ada/sad-3.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"sad-smile": {
+"export_overrides": {
+"image": "\"res://assets/characters/ada/sad-smile.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"scary-confused": {
+"export_overrides": {
+"image": "\"res://assets/characters/ada/scary-confused.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"shadow": {
+"export_overrides": {
+"image": "\"res://assets/characters/ada/shadow.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"shadow-eyes": {
+"export_overrides": {
+"image": "\"res://assets/characters/ada/shadow-eyes.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"silluet": {
+"export_overrides": {
+"image": "\"res://assets/characters/ada/silluet.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"sleep": {
+"export_overrides": {
+"image": "\"res://assets/characters/ada/sleep.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"stressed-surprise": {
+"export_overrides": {
+"image": "\"res://assets/characters/ada/stressed-surprise.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"surprise": {
+"export_overrides": {
+"image": "\"res://assets/characters/ada/surprise.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"two-lifes": {
+"export_overrides": {
+"image": "\"res://assets/characters/ada/two-lifes.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"ultra-happy": {
+"image": "res://assets/characters/ada/ultra-happy.png",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"very-angry": {
+"export_overrides": {
+"image": "\"res://assets/characters/ada/very-angry.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+}
+},
+"scale": 0.7
+}

@@ -1,0 +1,6 @@
+[music fade="0.0" volume="0.0"]
+[background arg="res://assets/caps/cap5.png" fade="2.0"]
+[wait time="2.0"]
+[background arg="black_shape.png" fade="2.0"]
+[wait time="3.0"]
+jump cap5-part1/

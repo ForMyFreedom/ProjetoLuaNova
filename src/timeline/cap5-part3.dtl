@@ -1,0 +1,118 @@
+[background arg="res://assets/backgrounds/street.png" fade="0.0"]
+join alan (vilain-smile-2) 1
+join charllote (true-hate) 3
+[music fade="2.0" volume="0.0"]
+charllote: Cansei de suas gracinhas
+update alan (hurt) 0 [ move_time="0.5"]
+[sound path="res://assets/sfx/hit.mp3" volume="0.0"]
+Charllote chuta Alan, o arremessando para longe de Ada
+E no movimento, o pequenino Computador cai da mão de Alan. Rodando sobre os pés de Charllote
+[music path="res://assets/musics/refusal.mp3" fade="3.0" volume="0.0"]
+charllote (true-surprised): O que é isso?
+Charllote segura o aparelho com a mão direita
+alan (rage-despair-2): [speed=3]Como, como se eu fosse te dizer
+update charllote (true-default)
+\[speed=1]A Regente aponta a mão esquerda para o corpo inconciente de Ada
+alan (more-despair): NÃO!
+charllote (true-front-smile): Diga
+alan: É– ... [portrait=rage-despair]É o que vocês tolos acharam ser impossível!
+alan: Uma máquina que computa
+[sound path="res://assets/sfx/flush.mp3" volume="0.0"]
+alan: A minha [i]Máquina Lambda[/i]
+charllote (true-surprised): ...
+[sound path="res://assets/sfx/curious-statement.mp3" volume="0.0"]
+charllote: Máquina, Lambda?
+charllote (true-bored): Que besteira
+Charllote aperta…
+[sound path="res://assets/sfx/eletric-explosion.mp3" volume="0.0"]
+E destroi o artefato em um só movimento
+alan (rage-despair-2): ⁉
+charllote (true-front-smile): Como se precisamos de algo de Codif tão fraco
+charllote (true-determined): Nunca que uma máquina chegará aos pés do meu poder
+charllote: O que precisamos é de bons códigos, não brinquedinhos
+alan (very-surprised): …
+charllote (true-front-smile): Está na hora de morrer, Alan
+update charllote 2 [ move_time="4"]
+Ela se aproxima dele a passos lentos
+alan: …
+alan (smile-closed-eyes): [speed=2]Como, como se eu fosse, morrer pra você
+alan (smile-half-closed-eyes): [speed=2]Códigos, são nossas vidas!
+charllote (true-bored): [speed=1]... Perdeu a sanidade de vez?
+charllote (true-smile): De todo modo. Essas são últimas palavras bem fof-[aa=0.5]
+[sound path="res://assets/sfx/curious-statement.mp3" volume="0.0"]
+alan (determined-smile): Nossas vidas!
+charllote (true-bored): …?
+alan (concern-2): …
+alan (concentrate-1): …
+[music fade="4.0" volume="0.0"]
+leave charllote
+update alan 2 [ move_time="1.5"]
+[wait time="1.5"]
+…
+update alan (concentrate-2)
+…
+update alan (concentrate-3)
+…
+[music path="res://assets/musics/sacrifice.mp3" fade="0.0" volume="-10.0"]
+update alan (epic-sacrifice-big) [animation="Tada"]
+alan: Nossas vidas são como códigos!
+[signal arg="white_pulse"]
+[wait time="0.3"]
+update alan (epic-sacrifice) 0
+join charllote (true-default) 4
+charllote (true-surprised): ... [portrait=true-front-smile]Mas que Codif idiota é esse?
+alan (sacrifice-evil): Você bem sabe, Charlotte
+alan: Essa é uma Função de Alta Ordem
+alan (sacrifice-evil-2): Uma Função que recebe outra como parâmetro
+alan: E se nossas vidas são como códigos, como funções
+alan (sacrifice-closed-eyes): Isso quer dizer que minha vida
+[sound path="res://assets/sfx/strong-statement.mp3" volume="0.0"]
+alan (epic-sacrifice): [i]Pode ser enviada para a vida de Ada![/i]
+charllote (true-hate): ⁉
+leave alan
+Alan cai no chão, completamente imóvel
+update charllote (true-focused-codif)
+Charllote afasta alguns passos, confusa
+E então
+join NovaAda (close-eyes) 1
+[wait time="1.5"]
+Ada, se levanta
+[sound path="res://assets/sfx/magic-1.mp3" volume="0.0"]
+NovaAda (pre-two-lifes): …
+[sound path="res://assets/sfx/magic-2.mp3" volume="0.0"]
+update NovaAda (two-lifes) [animation="Tada"]
+NovaAda: !
+charllote (true-insane): [color=dark_gray][i]Isso é problemático[/i][/color]
+charllote: [color=dark_gray][i]A desgraçada até mesmo destruiu meu Codif de mentes[/i][/color]
+charllote (true-hate-2): [color=dark_gray][i]Se eu tivesse matado ela antes, isso não teria acontecido[/i][/color]
+charllote (true-focused): [color=dark_gray][i]... Um ser de duas vidas… Mas uma mente?[/i][/color]
+charllote: [color=dark_gray][i]O dobro de vigor... E talvez até o dobro de pod-[/i][/color][aa=0.6]
+[sound path="res://assets/sfx/finger-clap.mp3" volume="2.0"]
+[wait time="0.3"]
+[signal arg="green_single_blink"]
+[background arg="res://assets/backgrounds/very powerfull calculus.png" fade="0.0"]
+[sound path="res://assets/sfx/cool-crash.mp3" volume="0.0"]
+update charllote (true-hate)
+[wait time="1.5"]
+… Charlotte desvia de uma explosão que estilhaça janelas. Uma quase tão forte quanto a sua primeira
+Com Ada permanecendo de pé, e dedos estralados
+charllote (true-insane): [color=dark_gray][i]Inferno! Ela também é forte![/i][/color]
+charllote (true-focused): [color=dark_gray][i]Não. Não posso me empolgar. Isso é muito ruim[/i][/color]
+charllote: [color=dark_gray][i]Minha imagem vai ser muito manchada se registrarem machucados[/i][/color]
+update charllote (true-focused-codif) [animation="Tada"]
+charllote: [color=dark_gray][i]Tenho que acabar isso o mais rápido poss-[/i][/color][aa=0.5]
+leave NovaAda
+update charllote (true-very-surprised)
+[background arg="res://assets/backgrounds/street.png" fade="1.0"]
+Porem... Ada desaparece diante de seus olhos
+Levando o corpo de Alan consigo
+charllote: …
+charllote (true-hate-2): Mil. Mil e um demônios!
+[wait time="1.5"]
+[signal arg="upper_fade"]
+[music fade="1.5" volume="0.0"]
+[wait time="2.0"]
+leave --All--
+[background fade="2.0"]
+[signal arg="reverse_fade"]
+jump cap5-part4/

@@ -1,0 +1,29 @@
+[background arg="res://assets/backgrounds/room-dark.png" fade="0.0"]
+join alan (very-surprised) 2
+alan: ...
+[music path="res://assets/musics/internal-pain.mp3" fade="0.0" volume="0.0"]
+alan (stressed-2): Impossível, isso deve ser falso
+Deitado em sua cama, Alan passa a mão pelo rosto
+alan: Um Struct com os componentes, de uma consciência animalesca
+alan (stressed): Um Codif... De controle mental em animais
+alan: A lingua é claramente das Novas Ruínas. E se alguem de Espada pois as mãos nisso, certamente foi mesmo em algum Departamento
+alan (rage-despair): Mas isso é ilógico! Nós não fazemos testes em animais
+alan: Deve ter sido só um código aleatório de um departamento de pesquisa como o nosso! Não quer dizer que isso estava sendo usado na prática
+alan (stressed-2): ...
+alan (stressed): Mas... Se fosse um código aleatório, ele não traria até mim, para tentar me convencer
+alan: Isso, só pode significar que…
+alan: [color=dark_gray][i]Era usado na prática[/i][/color]
+alan (tense): Isso é estúpido!
+alan (stressed-3): ...
+update alan (stressed)
+Alan se revira na cama
+alan: [speed=4]Isso é estúpido…
+\[speed=1]E demora, algumas horas para conseguir dormir...
+[wait time="1.5"]
+[signal arg="upper_fade"]
+[music fade="1.5" volume="0.0"]
+[wait time="2.0"]
+leave --All--
+[background fade="2.0"]
+[signal arg="reverse_fade"]
+jump cap4-entry/
