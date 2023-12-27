@@ -11,10 +11,10 @@ alan-and-ada: ...
 [music path="res://assets/musics/Vulnera.mp3" fade="0.0" volume="0.0"]
 ada (scary-confused): Mas, por que esse imprestável?
 alan (annoyed): Ei.
-charllote (confused): Como assim por que?
+charllote (confused): Como assim por quê?
 charllote (determined): Você por acaso não sabia. Que em nossa amada província de Lua.
 charllote (smile): [speed=2.5]Alan foi o primeiro [i]laureado[/i] nos últimos três anos?
-ada (despair-teeth): [i]O– que⁉[/i]
+ada (despair-teeth): [i]O– quê⁉[/i]
 alan (flushed): Acho. Acho que eu esqueci de comentar isso, hehe
 alan: De toda forma, não é tão importante assim
 charllote (default): Ah, mas é muito importante sim
@@ -40,13 +40,13 @@ alan (unconfortable): Já disse que não sou um {dilema_title}!
 update charllote (confused)
 ada: Estamos de frente para um Condicional booleano. Mutualmente exclusivo, como água e óleo
 update alan (surprise)
-ada (regular): A escolha obviamente é de Alan, ninguem tem o direito de interferir nisso
+ada (regular): A escolha obviamente é de Alan, ninguém tem o direito de interferir nisso
 alan (concern): …
 ada (determinated-smile): Mas... Por que não entramos no espírito do Departamento em que estamos...
 update alan (surprise)
 ada (irritant): E façamos um [i]Duelo de Tradução[/i], só por descontração?
 charllote (surprised): ... [portrait=angry]Isso é ridículo. [portrait=very-angry]Infantil para dizer o mínimo
-charllote: Estáis tentando me desmoralizar
+charllote: Estais tentando me desmoralizar
 charllote (angry): Não sou uma Historicista, sou a Regente, a Governante dessa Província
 charllote: Você nunca me convenceria a jogar os seus joguinho-[aa=0.4]
 [music fade="1.0" volume="0.0"]

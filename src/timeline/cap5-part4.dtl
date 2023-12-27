@@ -1,7 +1,7 @@
 [background arg="res://assets/backgrounds/lake and moon.png" fade="1.0"]
 [music path="res://assets/musics/depression.mp3" fade="0.0" volume="0.0"]
 join NovaAda (two-lifes) 2
-Após avançar muitos kilometros em uma velocidade incrível, Ada para perto de um lago
+Após avançar muitos quilômetros em uma velocidade incrível, Ada para perto de um lago
 update NovaAda (pre-two-lifes)
 E toda sua grande energia
 update NovaAda (close-eyes)
@@ -22,9 +22,9 @@ Acordando, em um local vazio
 NovaAda: [speed=2]Antes um lago… [portrait=default]E agora, um nada?
 NovaAda (angry): [speed=1.5]Eu só posso estar sonhand-[aa=0.5]
 update NovaAda (surprised) 1 [ move_time="2"]
-\[speed=1]Porem… Interrompendo seus pensamentos
+\[speed=1]Porém… Interrompendo seus pensamentos
 Ela sente uma presença
-NovaAda (commum): Hum… Ola?
+NovaAda (commum): Hum… Olá?
 [music fade="2.0" volume="0.0"]
 unknow: Oi!
 join alan (happy) 3 [ z_index="2"]
@@ -127,7 +127,7 @@ join NovaAda (close-eyes-after-cry) 2 [ z_index="3"]
 ...
 update NovaAda (dark-surprised)
 \[speed=1.5]Ada, abre os olhos
-\[speed=1]Sendo carregada por alguem, no mesmo pântano de antes
+\[speed=1]Sendo carregada por alguém, no mesmo pântano de antes
 NovaAda: …
 tim (default): Oh? Acordou, princesa?
 NovaAda (dark-default): Coloque-me no chão

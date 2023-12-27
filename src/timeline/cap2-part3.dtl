@@ -57,7 +57,7 @@ ada: …
 ada (sad-2): Vamos só começar o trabalho, Alan
 update alan (concern)
 leave ada
-Ada apenas se senta a mesa, e começa a mecher em papeis
+Ada apenas se senta à mesa, e começa a mecher em papeis
 update alan 2 [ move_time="1"]
 alan (fear-closed-eyes): Mas… E o café da manha?
 ada: Eu.. Perdi a fome

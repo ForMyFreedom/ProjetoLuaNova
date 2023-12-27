@@ -1,15 +1,15 @@
-[background arg="res://assets/backgrounds/newart-office.png" fade="1.0"]
+update alan 0 [ move_time="1"]
 [wait time="1.0"]
 unknow: …
 [music path="res://assets/musics/allegreto.mp3" fade="0.0" volume="-20.0"]
 unknow: [b]BOM DIA CHEFE![/b]
 join alan (shadow) 2
 Um garoto entra explodindo a porta
-update alan (happy)
-unknow: Lindo dia né⁉
-update alan 0 [ move_time="1"]
-join ada (shadow) 4
 Uma mulher organizando papeis sobre a mesa, se vira para encará-lo
+update alan (happy)
+join ada (shadow) 4
+unknow: Lindo dia né⁉
+[background arg="res://assets/backgrounds/newart-office.png" fade="1.0"]
 update ada (regular)
 unknow: Estaria bem melhor sem essa gritaria
 update alan (annoyed)

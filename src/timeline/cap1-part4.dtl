@@ -24,7 +24,7 @@ ada (lil-happy): É. Talvez você esteja certo
 alan (lil-angry): Eu [speed=6][i]estou[/i][speed=1] certo
 ada (disgust): [speed=1]Essa arrogância ainda será sua ruína
 alan (happy): De todo modo, gostei muito de hoje. Mesmo.
-alan (tired): Mas da uma trabalheira fazer testes na mão
+alan (tired): Mas dá uma trabalheira fazer testes na mão
 alan: Ia ser tão bom se máquinas pudessem computar para gente
 ada (surprise): ... [portrait=bored]Que ideia infantil
 alan (annoyed): Ei, não é infantil![aa=0.5]
@@ -55,7 +55,7 @@ Alan abre o embrulho de forma grosseira...
 [update_position position="2" time="0.0"]
 join itens (camera) 2
 update alan (confused)
-Revelando uma camera
+Revelando uma câmera
 leave itens
 alan (confused): … Eu gostei do presente. Mas não entendi o por que dele
 ada (bored): Todos os Códigos que recebemos devem ser devolvidos de volta para o Governo
@@ -67,7 +67,7 @@ ada (regular-teeth): Mas com seu susto e o anúncio, eu esqueci
 alan (fear-smile): Hum, foi mal
 alan (goofy): Mas deixando a tristeza de lado, vamos gravar o momento!
 update ada (surprise)
-Alan se vira de costas, e levanta a camera pra si mesmo
+Alan se vira de costas, e levanta a câmera pra si mesmo
 ada (surprise): … Que forma estranha de tirar uma foto
 alan (smile): É para nós dois estarmos nela
 alan (determined-smile): Diga, XNOR
@@ -78,14 +78,14 @@ Aguardando alguns segundos para revelar
 alan (goofy): Ficou boa! Acho que tenho talento
 ada (regular): Seria bom usar esse seu talento pra algo de út-[aa=0.75]
 update alan (happy)
-Alan estede a foto para Ada
+Alan estende a foto para Ada
 update ada (surprise)
 ... [speed=1.5]E ela, surpresa. Apenas pega em suas mãos
-alan (flushed): Muito obrigado de novo por hoje por hoje, Senhorita Ada!
+alan (flushed): Muito obrigado de novo por hoje, Senhorita Ada!
 alan: Preciso ir urgente!
 leave alan
 Alan sai do escritório correndo
-Deixando ala sozinha, com a foto dos dois em mãos
+Deixando Ada sozinha, com a foto dos dois em mãos
 ada (bored): ...
 ada (lil-happy): Idiota
 [wait time="1.5"]

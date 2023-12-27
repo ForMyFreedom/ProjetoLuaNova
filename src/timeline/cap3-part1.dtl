@@ -4,7 +4,7 @@
 Dias após o encontro com Charllote
 join alan (concern) 2
 Alan repousava em sua casa.
-Havia no ambiente, muitos papeis com desenhos e cálculos próprios sobre máquinas
+Havia no ambiente, muitos papéis com desenhos e cálculos próprios sobre máquinas
 Mas nesse momento, Alan estudava um de seus livros de [i]astronomia[/i]
 alan (regular): [color=dark_gray][i]'As descobertas newtonianas permitiram com que eclipses fossem previstos séculos antes de seu acontecimento'[/i][/color]
 alan (concern): [color=dark_gray][i]'E tão logo, o campo do cálculo se mostrou como um dominador da realidade, de onde Laplace teceu seu Demônio…'[/i][/color]
@@ -28,12 +28,12 @@ alan: Eu sinto como se tivesse, aceito?
 update alan (regular)
 Ele levanta a xícara
 alan (concern): Provavelmente só estou pensando demais
-alan: Deve ser por que tenho visto muito a Regente nessa semana
+alan: Deve ser porque tenho visto muito a Regente nessa semana
 alan (frustrated): ... Mas é difícil esquecer a reação da Senhorita Ada
 alan: Ela claramente estava escondendo algo importante de mim
 Perdido em pensamentos, ele toma um gole
 alan (annoyed): Ah, que gosto horrível
-alan: É a última vez que eu compro xá de minhapi-[aa=0.5]
+alan: É a última vez que eu compro chá de minhapi-[aa=0.5]
 [music fade="0.5" volume="0.0"]
 update alan (very-surprised)
 Porem... Alan congela subitamente
@@ -71,18 +71,18 @@ tim (default): Nunca disse que vim obedecer a essa ordem
 alan (rage-despair): Você poderia ter frases mais consistentes⁉
 tim (default-2): De todo modo. Como eu disse, não vim sequestrá-lo
 [music fade="2.0" volume="0.0"]
-tim (default): Mudei de ideia ao observá-lo melhor. Seria um disperdício como um refem
+tim (default): Mudei de ideia ao observá-lo melhor. Seria um desperdício como refém
 [sound path="res://assets/sfx/flush.mp3" volume="0.0"]
 tim (terror): [color=red]Já que podes ser um grande traidor[/color]
 alan (very-surprised): ... Perdão? [portrait=unbeliever]Eu ouvi isso certo?
 [music path="res://assets/musics/mystery-tense.mp3" fade="2.0" volume="0.0"]
-tim (default): Um traidor de Lua, muito melhor que um refem
+tim (default): Um traidor de Lua, muito melhor que um refém
 alan (insane): .. Você é um insano
 update alan (despair-codif) [animation="Tada"]
 alan: Eu deveria ter usado meu Codif mais cedo
 update tim (fear)
 Os ares ficam tensos
-tim (fear): Segura a brisa ai o esquentatinho
+tim (fear): Segura a brisa aí o esquentatinho
 tim: E se eu te dissese, que posso provar que Lua é a culpada dessa guerra
 alan (confused-codif): ...
 update alan (stressed) [animation="Tada"]
@@ -105,7 +105,7 @@ tim (default): Não acredita em palavras que pode ouvir
 Tim põe a mão em seu bolso
 update alan (stressed)
 E Alan se prepara para mandar a janela para os ares
-tim (default-2): Mas talvez de ouvidos as palavras velhas de uma lingua morta
+tim (default-2): Mas talvez dê ouvidos às palavras velhas de uma lingua morta
 update alan (surprise)
 E então, o homem arremessa a Alan um pedaço de papel
 alan (stressed-2): ... O que é isso?
@@ -122,7 +122,7 @@ update alan (surprise-2)
 Ambos encaram a Lua em silêncio.
 Alan com respeito, orgulho.
 E Tim com temor, assombro
-tim (angry-cm): A Lua mingua... [portrait=angry-cm2]Mais Espada não permitirá que fique Nova
+tim (angry-cm): A Lua mingua... [portrait=angry-cm2]Mas Espada não permitirá que fique Nova
 alan (confused): …?
 alan: Que diabos você está falan-[aa=0.2]
 leave tim

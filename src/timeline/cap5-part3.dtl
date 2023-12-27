@@ -25,9 +25,9 @@ charllote: Máquina, Lambda?
 charllote (true-bored): Que besteira
 Charllote aperta…
 [sound path="res://assets/sfx/eletric-explosion.mp3" volume="0.0"]
-E destroi o artefato em um só movimento
+E destrói o artefato em um só movimento
 alan (rage-despair-2): ⁉
-charllote (true-front-smile): Como se precisamos de algo de Codif tão fraco
+charllote (true-front-smile): Como se precisássemos de algo de Codif tão fraco
 charllote (true-determined): Nunca que uma máquina chegará aos pés do meu poder
 charllote: O que precisamos é de bons códigos, não brinquedinhos
 alan (very-surprised): …
@@ -72,7 +72,7 @@ charllote (true-hate): ⁉
 leave alan
 Alan cai no chão, completamente imóvel
 update charllote (true-focused-codif)
-Charllote afasta alguns passos, confusa
+Charllote se afasta alguns passos, confusa
 E então
 join NovaAda (close-eyes) 1
 [wait time="1.5"]
@@ -94,13 +94,13 @@ charllote: [color=dark_gray][i]O dobro de vigor... E talvez até o dobro de pod-
 [sound path="res://assets/sfx/cool-crash.mp3" volume="0.0"]
 update charllote (true-hate)
 [wait time="1.5"]
-… Charlotte desvia de uma explosão que estilhaça janelas. Uma quase tão forte quanto a sua primeira
+… Charlotte desvia de uma explosão que estilhaça as janelas. Uma quase tão forte quanto a sua primeira
 Com Ada permanecendo de pé, e dedos estralados
 charllote (true-insane): [color=dark_gray][i]Inferno! Ela também é forte![/i][/color]
 charllote (true-focused): [color=dark_gray][i]Não. Não posso me empolgar. Isso é muito ruim[/i][/color]
 charllote: [color=dark_gray][i]Minha imagem vai ser muito manchada se registrarem machucados[/i][/color]
 update charllote (true-focused-codif) [animation="Tada"]
-charllote: [color=dark_gray][i]Tenho que acabar isso o mais rápido poss-[/i][/color][aa=0.5]
+charllote: [color=dark_gray][i]Tenho que acabar com isso o mais rápido poss-[/i][/color][aa=0.5]
 leave NovaAda
 update charllote (true-very-surprised)
 [background arg="res://assets/backgrounds/street.png" fade="1.0"]

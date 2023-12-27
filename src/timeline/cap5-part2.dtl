@@ -21,8 +21,8 @@ Alan se agaixa sem muitos ferimentos
 Ao passo que Ada, estava inconciente
 alan (more-despair): ADA!
 Alan checa seu pulso
-alan (stressed-4): [color=dark_gray][i]… Esta viva. Mas há muito sangue[/i][/color]
-alan: [color=dark_gray][i]Precisa cuidados dentro de meia hora[aa=1][/i][/color]
+alan (stressed-4): [color=dark_gray][i]… Está viva. Mas há muito sangue[/i][/color]
+alan: [color=dark_gray][i]Precisa de cuidados dentro de meia hora[aa=1][/i][/color]
 update alan (despair)
 charllote: Muito bom dia!
 Alan trava de terror, enquanto muitas portas e janelas se fecham
@@ -41,7 +41,7 @@ alan (rage-despair-2): Como⁉ Não tem mais nenhum Codif seu em mim!
 charllote: Claro que não, você parece que destruiu ele
 charllote (smile): Mas... Quem disse que estou falando do seu?
 alan (more-despair): ‼
-Alan olha para Ada caida
+Alan olha para Ada caída
 alan (rage-despair-2): [speed=3]Maldita
 charllote (default): [speed=1]E segundo... Você bem sabe
 update charllote (shadow)
@@ -56,7 +56,7 @@ charllote (true-joking): '{{reason_to_kill}}'
 charllote (true-insane): HAHAHAHA! Chega até mesmo a doer a barriga!
 alan (stressed-2): …
 if {tryied_other_way} == "true":
-	charllote (true-smile): Também lembro quando ficou titubiante naquele dia
+	charllote (true-smile): Também lembro quando ficou titubeante naquele dia
 	charllote (true-joking): 'Não tem outro jeito? Não tem outro jeito?'
 	charllote (true-angry): Eu simplesmente odeio, pessoas frouxas como você
 alan (stressed): Quando você vai parar de gracinha e falar o que você quer. Criança?

@@ -31,7 +31,7 @@ As amassa e joga fora
 alan (extreme-surprise): …⁉
 alan (depressed-angry-1): Por que fez isso⁉
 ada (sad-2): Se a Regente por um acaso entrasse, em nossa sala agora
-ada (sad): Seriamos executados
+ada (sad): Seríamos executados
 alan (depressed-3): …
 ada (sad-3): Vamos, para outro lugar. Pode ser?
 ada: Sem perigosas interrupções de preferência
@@ -45,15 +45,15 @@ alan (depressed-angry-1): Tem que haver uma boa razão!
 alan: Eles estão fazendo isso para nos proteger, não é?
 ada (sad-3): ...
 if {alan_would_attack} == "true":
-	ada (sad-2): Lembro que me disse que atacaria Espada, caso tivessemos nos sapatos trocados
+	ada (sad-2): Lembro que me disse que atacaria Espada, caso tivéssemos nos sapatos trocados
 	alan (depressed-confused): ... [portrait=depressed-frustrated]Sim, eu me lembro disso
 else:
-	ada (sad-2): Lembro que me disse que não atacaria Espada, caso tivessemos nos sapatos trocados
+	ada (sad-2): Lembro que me disse que não atacaria Espada, caso tivéssemos nos sapatos trocados
 	alan (depressed-confused): ... [portrait=depressed-angry-2]Sim, eu me lembro disso
 ada (sad-2): Pois então... Eu sinto algo estranho
 ada (sad): Isso não parece uma mera situação de invadidos e invasores
 alan (depressed-confused): ... O que você quer dizer, Senhorita Ada?
-ada (concern-2): Meros paupites... Eu estou aqui a muito tempo. E é isso que minha intuição diz
+ada (concern-2): Meros paupites... Eu estou aqui há muito tempo. E é isso que minha intuição diz
 alan (depressed-1): ... Mas, deve ser algo da Regente Charlotte, não é?
 alan (depressed-2): O Governo de Lua era bom antes de-[aa=0.5]
 ada (sad): Lamento lhe informar, Alan
@@ -83,7 +83,7 @@ ada: … Alan! Que idiotice você tá pensando⁉
 alan: Não fui eu... Acho que foi meu inconsciente
 alan: De todo modo, pouco importa
 ada (pre-cry): Não vou deixar você se descodificar!
-ada: Para com essa tolic-[aa=0.1]
+ada: Pare com essa tolic-[aa=0.1]
 leave ada
 [background arg="res://assets/backgrounds/black_shape.png" fade="0.5"]
 ... Mas então, Alan não ouvia mais a voz de Ada

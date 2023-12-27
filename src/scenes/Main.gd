@@ -20,7 +20,7 @@ func _init():
 	Dialogic.signal_event.connect(_on_dialogic_signal)
 
 func _ready():
-	Dialogic.start('cap5-part2') # ('start')
+	Dialogic.start('cap1-part3-game') # ('start')
 	endButton.connect('pressed', _on_end_button_pressed)
 	get_viewport().set_input_as_handled()
 
