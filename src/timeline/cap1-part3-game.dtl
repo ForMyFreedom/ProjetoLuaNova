@@ -1,1 +1,12 @@
+join alan (commum) 2
+[background arg="res://assets/backgrounds/newart-office.png" fade="0.0"]
+alan (ultra-happy): Então vamos começar minha primeira tradução de código desde que cheguei aqui, estou realmente animado!
+update alan (happy) 1
+Alan olha para o primeiro código antigo...
+alan: Parece ser um problema de notação... então estou começando com algo fácil
+1 + 1
+- 1 1 +
+- + 1 1
+- (+ 1 1)
+- (1 1 +)
 jump cap1-part4/

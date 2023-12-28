@@ -1,4 +1,3 @@
-[music fade="0.0" volume="0.0"]
 [background arg="res://assets/backgrounds/newart-office.png" fade="0.0"]
 [music path="res://assets/sfx/radio.mp3" fade="0.0" volume="-10.0"]
 join ada (surprise) 3
@@ -12,6 +11,7 @@ update ada (sad-2)
 unknow: [color=gray]Pedimos a todos que mantenham um bom controle sobre seus estoques de alimentos[/color]
 unknow: [color=gray]Fim da Transmissão Oficial.[/color]\
 [color=gray]Que a Lua olhe por nós[/color]
+[music fade="0.0" volume="0.0"]
 alan-and-ada: ...
 [music path="res://assets/musics/sad.mp3" fade="0.0" volume="0.0"]
 alan (angry-2): Malditos bárbaros de Espada!\
