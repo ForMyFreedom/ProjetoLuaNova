@@ -14,7 +14,11 @@ entries = {
 "text": "Desvio do fluxo de processamento, se algo é verdadeiro ou falso",
 "title": "Condicional"
 },
-"Rascunho": {
+"Modelo de Substituição": {
+"text": "Processo de avaliação em que expressões são trocadas por outras (normalmente mais simples)",
+"title": "Modelo de Substituição"
+},
+"Rascunho 1": {
 "text": "(define (quadrado x)
     (* x x))
 

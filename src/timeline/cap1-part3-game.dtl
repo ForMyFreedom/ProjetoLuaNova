@@ -1,76 +1,72 @@
-join alan (commum) 2
 [background arg="res://assets/backgrounds/newart-office.png" fade="0.0"]
-alan (ultra-happy): Então vamos começar minha primeira tradução de código desde que cheguei aqui, estou realmente animado!
-update alan (happy) 1
-Alan olha para o primeiro código antigo...
-alan: Parece ser um problema de notação... então estou começando com algo fácil
-label First Question
+join alan 2 [ z_index="5"]
+alan (ultra-happy): Estou realmente animado!
 update alan (happy)
+Alan olha para o primeiro código antigo a ser traduzido...
+alan: Um problema de notação... Parece fácil
+label First Question
 1 + 1
 - 1 1 +
-	join ada (focus-angry) 3
-	ada: Já está cometendo tais erros logo no início?
-	alan (unbeliever): Apenas um pequeno erro...
-	ada (commum): Na linguagem racket, uma combinaçao é escrita na forma de (Operador Operandos), nesse caso o Operador seria o "+" e os Operandos "1 1"
-	ada (focus-angry): Tente novamente!
-	leave ada
-	jump First Question
+	jump Error First Question
 - + 1 1
-	join ada (focus-angry) 3
-	ada: Já está cometendo tais erros logo no início?
-	alan (unbeliever): Apenas um pequeno erro...
-	ada (commum): Na linguagem racket, uma combinaçao é escrita na forma de (Operador Operandos), nesse caso o Operador seria o "+" e os Operandos "1 1"
-	ada (focus-angry): Tente novamente!
-	leave ada
-	jump First Question
+	jump Error First Question
 - (+ 1 1)
 	update alan (smile-half-closed-eyes)
-	alan: Isso até que foi bem fácil, vamos ver se o próximo código será mais díficil de traduzir
+	alan: Ok, resolvido!
+	Alan avança para a próxima linha
+	jump Start Second Question
 - (1 1 +)
-	join ada (focus-angry) 3
-	ada: Já está cometendo tais erros logo no início?
-	alan (unbeliever): Apenas um pequeno erro...
-	ada (commum): Na linguagem racket, uma combinaçao é escrita na forma de (Operador Operandos), nesse caso o Operador seria o "+" e os Operandos "1 1"
-	ada (focus-angry): Tente novamente!
-	leave ada
-	jump First Question
-alan (confused): Oh? é mais um problema de notação, mas esse parece ser mais difícil
-label Second Question
+	jump Error First Question
+label Error First Question
+join ada (focus-angry) 4
+ada: Já está cometendo tais erros logo no início?
+alan (unbeliever): Apenas, um pequeno erro...
+ada (commum): Não se esqueça. Na linguagem racket, uma operação é escrita na forma de (Operador Operandos)
+ada: Nesse caso, o Operador seria o "+" e os Operandos "1 1"
+ada (focus-angry): Tente novamente!
+leave ada
+jump First Question
+label Start Second Question
+alan (confused): Oh? É mais um problema de notação… Mas esse parece ser mais difícil
 update alan (happy)
+label Second Question
 5 - ((4 * 3) / 2)
 - (- 5 (/ (* 4 3) 2))
 	update alan (smile-half-closed-eyes)
 	alan: Só parecia difícil mesmo, vamos ver o próximo código!
 - (- 5 (/ (* 4 3) 2)
-	join ada (focus-angry) 3
-	ada: Que erro você cometeu dessa vez?
+	join ada (focus-angry) 4
+	ada: Sinto que erraste algo…
 	alan (unbeliever): hehe...
-	ada (commum): A combinaçao no geral está certa, mas é sempre importante ver o número de parênteses está certo
+	ada (commum): A combinaçao no geral está certa, mas a quantidade de parêntesis esta incorreta
 	ada (commum): Tente novamente
 	leave ada
 	jump Second Question
 - (5 - (/ (* 4 3)) 2)
-	join ada (focus-angry) 3
-	ada: Que erro você cometeu dessa vez?
+	join ada (focus-angry) 4
+	ada: Sinto que erraste algo…
 	alan (unbeliever): hehe...
-	ada (commum): Você conseguiu errar algo tão básico quanto a formatação do racket? lembre-se da forma (Operador Operandos), o operador está sempre mais à esquerda
+	ada (angry): Como você conseguiu errar algo tão básico da sintaxe?
+	ada: Lembre-se da forma (Operador Operandos), o operador está sempre mais à esquerda
 	ada (focus-angry): Tente novamente!
 	leave ada
 	jump Second Question
 - (- S (/ (+ 4 3) 2))
-	join ada (focus-angry) 3
-	ada: Que erro você cometeu dessa vez?
+	join ada (focus-angry) 4
+	ada: Sinto que erraste algo…
 	alan (unbeliever): hehe...
-	ada (commum): Parabéns... Você conseguiu confundir um S com um 5, isso é um feito por si só
+	ada (disgust): Parabéns... Você conseguiu confundir um S com um 5, isso é um feito por si só
 	ada (focus-angry): Tente novamente!
 	leave ada
 	jump Second Question
-alan (confused): Hm? Parece que a Senhorita Ada fez uma tradução inicial nesse documento... Isso parece ser algo parecido com o modelo de substituição, só preciso fazer o resto das substituições até chegar no resultado
+alan (confused): Hm? Parece que a Senhorita Ada fez uma tradução inicial nesse documento...
+alan: É ligado ao Modelo de Substituição… Só preciso fazer o resto até chegar no resultado
 alan (smile-half-closed-eyes): Vou escrever as funções compostas num papel separado pra facilitar as substituições
+update alan (commum)
 label Third Question 1
-update alan (happy)
-Rascunho\
-(+ 13 (divide-cubo-quadrado 10 10))
+Rascunho 1\
+(+ 13 (divide-cubo-a-pelo-quadrado-de-b 10 10))\
+... E agora… Como subtituir?
 - (+ 13 (/ (cubo 10) (quadrado 10)))
 	alan (smile-half-closed-eyes): Tudo bem até agora, vamos continuar assim
 - (+ 13 (/ (quadrado 10) (cubo 10)))
@@ -79,9 +75,9 @@ Rascunho\
 - ((/ (cubo 10) (quadrado 10)) + 13)
 	alan (extreme-surprise): Espera!? Como aquele "+ 13" foi parar ali? Deixa eu refazer antes que a senhorita Ada veja isso!
 	jump Third Question 1
-label Third Question 2
 update alan (happy)
-Rascunho\
+label Third Question 2
+Rascunho 1\
 (+ 13 (/ (cubo 10) (quadrado 10)))
 - (+ 13 (/ (* 10 10) (quadrado 10)))
 	alan (lil-surprise): Espera... Acho errei a quantia de "10" na substituição do (cubo 10)
@@ -91,55 +87,63 @@ Rascunho\
 	jump Third Question 2
 - (+ 13 (/ (* 10 10 10) (quadrado 10)))
 	alan (smile-half-closed-eyes): Tudo bem até agora, vamos continuar assim
-label Third Question 3
 update alan (happy)
-Rascunho\
+label Third Question 3
+Rascunho 1\
 (+ 13 (/ (* 10 10 10) (quadrado 10)))
-- (+ 13 (/ 1000 (quadrado 100)))
-	alan (lil-surprise): (* 10 10 10) de fato vira 1000, mas de onde saiu aquele 0 extra no (quadrado 10)?
+- (+ 13 (/ 100 (quadrado 10)))
+	alan (lil-surprise): … Acho que minha matemática tá enferrujada, tem algo errado aqui
 	jump Third Question 3
 - (+ 13 (/ 1000 (quadrado 10)))
 	alan (smile-half-closed-eyes): Tudo bem até agora, vamos continuar assim
-- (+ 31 (/ 1000 (quadrado 10)))
-	alan (lil-surprise): (* 10 10 10) de fato vira 1000, mas como aquele 13 virou um 31?
+- (+ 13 (/ 10 (quadrado 10)))
+	alan (lil-surprise): … Acho que minha matemática tá enferrujada, tem algo errado aqui
 	jump Third Question 3
-label Third Question 4
 update alan (happy)
-Rascunho\
+label Third Question 4
+Rascunho 1\
 (+ 13 (/ 1000 (quadrado 10)))
 - (+ 13 (/ 1000 (* 10 10))
-	alan (lil-surprise): ??? É outro maldito parênteses faltando, seria tudo mais fácil se existisse uma máquina para me ajudar nesse tipo de coisa...
+	alan (accept-death): Tem um maldito parênteses faltando⁉... Seria tudo mais fácil se existisse uma máquina para me ajudar nesse tipo de coisa...
 	jump Third Question 4
-- (+ 13 (/ 1000 (* 1O 1O)))
-	alan (lil-surprise): Esses zeros parecem meio gordinhos...
+- (+ 13 (/ 1000 (* 10 10 10)))
+	alan (lil-surprise): Droga… Eu fiz cubo ao invez de quadrado
 	jump Third Question 4
 - (+ 13 (/ 1000 (* 10 10)))
-	alan (smile-half-closed-eyes): Finalmente todas as funções compostas sumiram! sobraram apenas as primitivas
-label Third Question 5
+	alan (smile-half-closed-eyes): Finalmente! Todas as funções compostas sumiram!
+	alan: Sobraram apenas as primitivas
 update alan (happy)
-Rascunho\
+label Third Question 5
 (+ 13 (/ 1000 (* 10 10)))
 - (+ 13 (/ 1000 100))
-	alan (smile-half-closed-eyes): Acho que estou chegando no final, o dia é longo, não posso gastar muito tempo só nisso
+	alan (smile-half-closed-eyes): Acho que estou chegando no final
+	alan: O dia é longo, não posso gastar muito tempo só nisso
 - (+ 13 (| 1000 100))
 	alan (lil-surprise): Espera... Essa barra me parece errada
 	jump Third Question 5
 - (+ 13 (1000 / 100))
 	alan (lil-surprise): Acho que estou um pouco tonto, coloquei o Operador no meio dos Operandos
 	jump Third Question 5
-label Third Question 6
 update alan (happy)
-Rascunho\
+label Third Question 6
 (+ 13 (/ 1000 100))
 - (+ 13 10)
 	alan (smile-half-closed-eyes): O final está mais próximo que nunca!
 - (+ 13 0.1)
-	alan (lil-surprise): Confundi a sequência que os Operandos são processados pelo Operador
+	alan (lil-surprise): Acho que confundi a sequência que os Operandos são processados pelo Operador
 	jump Third Question 6
 update alan (happy)
-Rascunho\
 (+ 13 10)
 - 23
-	alan (smile-half-closed-eyes): Eu me recuso a errar algo fácil desse nível
-alan (happy): Esses três primeiros documentos foram um ótimo aquecimento, vou continuar aproveitando meu primeiro dia de tradução, espero ver códigos mais interessantes daqui pra frente
+	alan (lil-rage): Eu me recuso a errar algo desse nível
+alan (happy): Esses três primeiros documentos foram um ótimo aquecimento!
+alan: Espero ver códigos mais interessantes
+[wait time="1.5"]
+[signal arg="upper_fade"]
+[music fade="1.5" volume="0.0"]
+[wait time="2.0"]
+leave --All--
+[background fade="2.0"]
+[background arg="res://assets/backgrounds/newart-office-evening.png" fade="0.0"]
+[signal arg="reverse_fade"]
 jump cap1-part4/

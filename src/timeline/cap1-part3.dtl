@@ -11,7 +11,8 @@ ada (regular): Você vem praticando seu Racket?
 	alan: Não…
 	ada (angry): ... Infelizmente, não tenho como culpá-lo. Já que ficou tanto tempo parado
 	update alan (regular)
-	ada (regular-teeth): Cof cof… O mais importante para saber é que dados e operações podem ser compostos recursivamente. Que a saída de uma operação pode ser, normalmente será o operando de outra
+	ada (regular-teeth): Cof cof… O mais importante para saber é que dados e operações podem ser compostos recursivamente.
+	ada (regular-teeth): Que a saída de uma operação pode ser, normalmente será o operando de outra
 	update alan (confused)
 	ada (regular): Racket também opera no Modelo de Substituição, diferente das linguagens antigas. O que significa que deve pensar em camadas, como as bonecas matrioska
 	update alan (surprise)
@@ -29,4 +30,5 @@ alan (confused): Nossa, que bizarro
 ada (regular): Nem me diga
 ada (regular-teeth): Enfim, chega de conversa. É hora de trabalhar
 alan (determined-smile): Sim!
+leave ada
 jump cap1-part3-game/
