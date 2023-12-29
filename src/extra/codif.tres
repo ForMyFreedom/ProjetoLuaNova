@@ -14,6 +14,17 @@ entries = {
 "text": "Desvio do fluxo de processamento, se algo é verdadeiro ou falso",
 "title": "Condicional"
 },
+"Rascunho": {
+"text": "(define (quadrado x)
+    (* x x))
+
+(define (cubo x)
+    (* x x x))
+
+(define (divide-cubo-quadrado a b)
+    (/ (cubo a) (quadrado b)))",
+"title": "Rascunho"
+},
 "Recursão": {
 "text": "Uma função que invoca a si mesma",
 "title": "Recursão"
