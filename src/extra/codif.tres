@@ -14,6 +14,35 @@ entries = {
 "text": "Desvio do fluxo de processamento, se algo é verdadeiro ou falso",
 "title": "Condicional"
 },
+"Documento 1": {
+"text": "if (x > y)
+    printf(\"01100101\");
+else
+    printf(\"01100001\");",
+"title": "Documento 1"
+},
+"Documento 2": {
+"text": "if (a && b == true)
+    printf(\"01110011\");
+    elseif (!(a || b) == false)
+        printf(\"01110100\");
+    else
+        printf(\"01100101\");",
+"title": "Documento 2"
+},
+"Documento 3": {
+"text": "if ((a >= b && b >= c) == true)
+  printf(\"01110010\");
+  elseif (a == b + c)
+    printf(\"00100000\");
+    elseif ((c >= b && b >= a) == true)
+      printf(\"01100101\");
+      elseif (c == b + a)
+        printf(\"01100111\");
+        else
+          printf(\"01100111\");",
+"title": "Documento 3"
+},
 "Modelo de Substituição": {
 "text": "Processo de avaliação em que expressões são trocadas por outras (normalmente mais simples)",
 "title": "Modelo de Substituição"

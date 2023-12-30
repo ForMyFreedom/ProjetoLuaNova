@@ -1,1 +1,52 @@
+[background arg="res://assets/backgrounds/newart-office.png" fade="0.0"]
+join ada (determinated) 0
+join charllote (determined) 4
+charllote (default): E então? Como será o duelo? 
+ada (determinated-smile): Tenho aqui três documentos sobre Condicionais para traduzirmos, quando cada uma terminar a tradução, corrigiremos a tradução uma da outra, perde aquela que traduzir menos documentos corretamente!
+charllote (angry): Se você fizer o seu melhor, talvez consiga empatar
+ada: Tirou as palavras da minha boca, Aqui está o primeiro documento, vamos começar!
+update charllote (determined)
+label First Question
+update ada (determinated-smile)
+Documento 1
+- (if (> x y) 01100001 01100101)
+	ada (determinated): Um condicional pode ser escrito com if quando há apenas dois resultados, o primeiro sendo pra caso o if seja True e o segundo para caso seja False, mas os resultados foram trocados em relação ao documento original, então essa tradução estaria errada
+	jump First Question
+- (cond   [(> x y) 01100101]   [else 01100001])
+	ada: Assim está bom, está de acordo com a forma geral do cond e não há nada fora do lugar
+- (cond (> x y) 01100101 01100001)
+	ada (determinated): A forma geral do cond é (cond [predicado1 consequente1] … [else consequenteN]), nesse caso os colchetes estão faltando, o mesmo para o "else", estaria certo se fosse um "if" no lugar do "cond"
+	jump First Question
+Após cada uma terminar sua tradução, ambas trocam seus papéis entre si...
+ada (lil-disgust): Como esperado da codificadora mais talentosa de Lua, seria uma piada se não conseguisse fazer uma tradução tão fácil
+charllote (angry): Você também não é nada mal para um rato de escritório
+ada (focus-angry): Próximo documento!
+update charllote (determined)
+label Second Question
+update ada (determinated-smile)
+Documento 2
+- (cond   [(and a b) 01110011]   [(not(or c d) 01110100)]   [else 01100101])
+	ada (determinated): Ao lidar com operadores lógicos, é sempre importante prestar atenção nos parênteses, se fosse escrito, por exemplo\: [(not(or a b) 01110100)], a falta de parêntes pro operador not faria ter a comparação entre um booleano em um número, isso além da falta de um consequente pra esse condicional
+	jump Second Question
+- (if   [(and a b) 01110011]   [(not(or c d)) 01110100]   [else 01100101])
+	ada (determinated): Infelizmente o if só pode ser utilizado quando tem dois resultados possíveis, mas se eu colocar um cond no lugar do if, ficaria perfeito
+	jump Second Question
+- (cond   [(and a b) 01110011]   [(not(or c d)) 01110100]   [else 01100101])
+	ada: Perfeito, o cond suporta infinitos resultados possíveis enquanto seguir a forma normal (cond [predicado1 consequente1] [predicado2 consequente2] … [else consequenteN]), tudo estará bem!
+Após cada uma terminar sua tradução, ambas trocam seus papéis entre si...
+ada (devil): Nosso grande talento demorou um pouco pra terminar, está começando a ficar difícil pra você?
+charllote (angry): Não posso começar o próximo documento sem você ter acabado esse, então por que eu teria pressa?
+ada (lil-disgust): Não precisa esperar no próximo documento, só não me faça esperar
+update charllote (determined)
+label Third Question
+update ada (determinated-smile)
+Documento 3
+- (cond   [(and (>= a b) (>= b c)) 01110010]   [(= a (+ b c)) 00100000]   [(and (>= c b) (>= b a)) 01100101]   [(= c (+ b a)) 01100111]   [else 01100111])
+	ada (determinated): É uma tradução correta, mas acho que isso não será o suficiente para ganhar esse duelo...
+	jump Third Question
+- (cond   [(and (>= a b) (>= b c)) 01110010]   [(and (>= c b) (>= b a)) 01100101]   [(= a (+ b c)) 00100000]   [(= c (+ b a)) 01100111]   [else 01100111])
+	ada (determinated): Quando se está lidando com uma grande sequência de condicionais, tem que tomar cuidado extra para que nenhum dos predicados entrem em conflitos, se eu trocasse a ordem das cláusulas aqui, esse problema ocorre
+	jump Third Question
+- (cond   [(>= a b c) 01110010]   [(= a (+ b c)) 00100000]   [(>= c b a) 01100101]   [(= c (+ b a)) 01100111]   [else 01100111])
+	ada (devil): O operador matemático >= pode suportar diversos argumentos no racket, (>= a b c) é a mesma coisa que (and (>= a b) (>= b c)), fazendo essa simplificação, não só traduzi o documento como fui um passo além!
 jump cap2-part3/
