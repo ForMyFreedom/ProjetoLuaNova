@@ -59,9 +59,9 @@ label Second Question
 	ada (focus-angry): Tente novamente!
 	leave ada
 	jump Second Question
-alan (confused): Hm? Parece que a Senhorita Ada fez uma tradução inicial nesse documento...
+alan (confused): Hm, um Rascunho?
+alan: Parece que a Senhorita Ada fez uma tradução inicial nesse documento...
 alan: É ligado ao Modelo de Substituição… Só preciso fazer o resto até chegar no resultado
-alan (smile-half-closed-eyes): Vou escrever as funções compostas num papel separado pra facilitar as substituições
 update alan (commum)
 label Third Question 1
 Rascunho 1\

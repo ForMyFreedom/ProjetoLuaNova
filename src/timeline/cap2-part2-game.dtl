@@ -1,13 +1,16 @@
 [background arg="res://assets/backgrounds/newart-office.png" fade="0.0"]
 join ada (determinated) 0
-join charllote (determined) 4
-charllote (default): E então? Como será o duelo? 
-ada (determinated-smile): Tenho aqui três documentos sobre Condicionais para traduzirmos, quando cada uma terminar a tradução, corrigiremos a tradução uma da outra, perde aquela que traduzir menos documentos corretamente!
-charllote (angry): Se você fizer o seu melhor, talvez consiga empatar
-ada: Tirou as palavras da minha boca, Aqui está o primeiro documento, vamos começar!
+join charllote (angry) 4
+charllote: E então? Como será o duelo?
+ada (determinated-smile): Tenho aqui três documentos de Condicional para traduzirmos
+ada: Quando cada uma terminar a tradução, corrigiremos a tradução uma da outra
+ada (devil): E perde aquela, que traduzir menos documentos corretamente!
+charllote (default): Se você fizer o seu melhor, talvez consiga empatar
+ada (determinated-smile): Tirou as palavras da minha boca
+ada (red-devil): Aqui está o dprimeiro documento, vamos começar!
 update charllote (determined)
-label First Question
 update ada (determinated-smile)
+label First Question
 Documento 1
 - (if (> x y) 01100001 01100101)
 	ada (determinated): Um condicional pode ser escrito com if quando há apenas dois resultados, o primeiro sendo pra caso o if seja True e o segundo para caso seja False, mas os resultados foram trocados em relação ao documento original, então essa tradução estaria errada

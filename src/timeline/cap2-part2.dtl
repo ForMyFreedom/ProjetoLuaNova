@@ -77,5 +77,7 @@ charllote (very-angry): Jogarei seus joguinhos
 [wait time="2.0"]
 [signal arg="upper_fade"]
 [wait time="2.0"]
+update ada 0
+leave alan
 [signal arg="reverse_fade"]
 jump cap2-part2-game/
