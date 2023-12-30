@@ -52,4 +52,9 @@ Documento 3
 	jump Third Question
 - (cond   [(>= a b c) 01110010]   [(= a (+ b c)) 00100000]   [(>= c b a) 01100101]   [(= c (+ b a)) 01100111]   [else 01100111])
 	ada (devil): O operador matemático >= pode suportar diversos argumentos no racket, (>= a b c) é a mesma coisa que (and (>= a b) (>= b c)), fazendo essa simplificação, não só traduzi o documento como fui um passo além!
+Após cada uma terminar sua tradução, ambas trocam seus papéis entre si...
+ada (determinated-smile): Percebi que realmente acabou rápido dessa, como esperado do melhor talento de Lua
+charllote (smile): Apenas o esperado de mim...
+charllote (true-very-surprised): Espera... Como isso é possível?
+ada (red-devil): Apesar do seu talento, sou eu que passo horas dos meus dias com traduções, parece que você realmente perdeu seu tempo vindo aqui
 jump cap2-part3/
