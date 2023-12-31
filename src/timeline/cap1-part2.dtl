@@ -20,15 +20,15 @@ ada (sad): ... Essa guerra era inevitável…
 alan (surprise): Como assim, Senhorita Ada?
 ada (sad-2): Você só está aqui há uma semana... Mas, já meses antes da guerra
 Ada se vira para a enorme pilha de papeis sobre sua mesa
-ada: A quantidade de Códigos Legados era imensa. Em talvez um ano, seremos capazes de subjulgar qualquer nação
+ada: A quantidade de nossos Códigos Legados era imensa. Em talvez um ano, seremos capazes de subjulgar qualquer nação
 alan (angry): Mas isso não lhes dá direito de nos atacar! Só porque encontramos muitos Códigos Legados em uma ruína
 ada (bored): Você não faria o mesmo?
 alan (confused): Como assim?
 ada (regular): Se uma força estrangeira, com o passar de um ano, se tornaria capaz de destruir-te em um piscar de olhos
-ada: E especialmente nesse caso, em que eles são nossos únicos vizinhos em território
-ada: Você não o atacaria hoje, para talvez impedir uma morte, incerta?
+ada (regular-teeth): E especialmente nesse caso, em que eles são nossos únicos vizinhos em território
+ada (regular): Você não o atacaria hoje, para talvez impedir uma morte, incerta?
 alan (regular): ...
-- Atacaria
+- Eu atacaria
 	set {alan_would_attack} = "true"
 	alan (frustrated): Eu… Atacaria
 	ada (surprise): Bom saber de sua honestidade

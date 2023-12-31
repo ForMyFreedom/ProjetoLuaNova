@@ -59,7 +59,7 @@ leave ada
 Ada apenas se senta à mesa, e começa a mecher em papeis
 update alan 2 [ move_time="1"]
 alan (fear-closed-eyes): Mas… E o café da manha?
-ada: Eu.. Perdi a fome
+ada: Eu... Perdi a fome
 alan (fear-angry): ... Senhorita Ada, o que está acontecend-[aa=0.5]
 [music path="res://assets/musics/tcejopr noom wen.mp3" fade="0.0" volume="0.0"]
 update alan (despair)

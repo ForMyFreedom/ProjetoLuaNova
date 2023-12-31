@@ -3,7 +3,7 @@ join alan 2 [ z_index="5"]
 alan (ultra-happy): Estou realmente animado!
 update alan (happy)
 Alan olha para o primeiro código antigo a ser traduzido...
-alan: Um problema de notação... Parece fácil
+alan: [color=dark_gray][i]Um problema de notação... Parece fácil[/i][/color]
 label First Question
 1 + 1
 - 1 1 +
@@ -27,13 +27,13 @@ ada (focus-angry): Tente novamente!
 leave ada
 jump First Question
 label Start Second Question
-alan (confused): Oh? É mais um problema de notação… Mas esse parece ser mais difícil
+alan (confused): [color=dark_gray][i]Oh? É mais um problema de notação… Mas esse parece ser mais difícil[/i][/color]
 update alan (happy)
 label Second Question
 5 - ((4 * 3) / 2)
 - (- 5 (/ (* 4 3) 2))
 	update alan (smile-half-closed-eyes)
-	alan: Só parecia difícil mesmo, vamos ver o próximo código!
+	alan: [color=dark_gray][i]Só parecia difícil mesmo, vamos ver o próximo código![/i][/color]
 - (- 5 (/ (* 4 3) 2)
 	join ada (focus-angry) 4
 	ada: Sinto que erraste algo…
@@ -59,85 +59,85 @@ label Second Question
 	ada (focus-angry): Tente novamente!
 	leave ada
 	jump Second Question
-alan (confused): Hm, um Rascunho?
-alan: Parece que a Senhorita Ada fez uma tradução inicial nesse documento...
-alan: É ligado ao Modelo de Substituição… Só preciso fazer o resto até chegar no resultado
+alan (confused): [color=dark_gray][i]Hm, um Rascunho?[/i][/color]
+alan: [color=dark_gray][i]Parece que a Senhorita Ada fez uma tradução inicial nesse documento[/i][/color]
+alan: [color=dark_gray][i]É ligado ao Modelo de Substituição… Só preciso fazer o resto até chegar no resultado[/i][/color]
 update alan (commum)
 label Third Question 1
-Rascunho 1\
+alan: Rascunho 1\
 (+ 13 (divide-cubo-a-pelo-quadrado-de-b 10 10))\
-... E agora… Como subtituir?
+[color=dark_gray][i]… E agora… Como substituir?[/i][/color]
 - (+ 13 (/ (cubo 10) (quadrado 10)))
-	alan (smile-half-closed-eyes): Tudo bem até agora, vamos continuar assim
+	alan (smile-half-closed-eyes): [color=dark_gray][i]Tudo bem até agora, vamos continuar assim[/i][/color]
 - (+ 13 (/ (quadrado 10) (cubo 10)))
-	alan (lil-surprise): Espera... Acho que inverti o (quadrado 10) e o (cubo 10) na substituição, deixa eu refazer
+	alan (lil-surprise): [color=dark_gray][i]Espera... Acho que inverti o (quadrado 10) e o (cubo 10) na substituição, deixa eu refazer[/i][/color]
 	jump Third Question 1
 - ((/ (cubo 10) (quadrado 10)) + 13)
-	alan (extreme-surprise): Espera!? Como aquele "+ 13" foi parar ali? Deixa eu refazer antes que a senhorita Ada veja isso!
+	alan (extreme-surprise): [color=dark_gray][i]Espera⁉ Como aquele "+ 13" foi parar ali? Deixa eu refazer antes que a senhorita Ada veja isso![/i][/color]
 	jump Third Question 1
 update alan (happy)
 label Third Question 2
 Rascunho 1\
 (+ 13 (/ (cubo 10) (quadrado 10)))
 - (+ 13 (/ (* 10 10) (quadrado 10)))
-	alan (lil-surprise): Espera... Acho errei a quantia de "10" na substituição do (cubo 10)
+	alan (lil-surprise): [color=dark_gray][i]Espera... Acho errei a quantia de "10" na substituição do (cubo 10)[/i][/color]
 	jump Third Question 2
 - (+ 13 (/ (cubo 10) (* 10 10 10)))
-	alan (lil-surprise): Espera... Acho errei a quantia de "10" na substituição do (quadrado 10)
+	alan (lil-surprise): [color=dark_gray][i]Espera... Acho errei a quantia de "10" na substituição do (quadrado 10)[/i][/color]
 	jump Third Question 2
 - (+ 13 (/ (* 10 10 10) (quadrado 10)))
-	alan (smile-half-closed-eyes): Tudo bem até agora, vamos continuar assim
+	alan (smile-half-closed-eyes): [color=dark_gray][i]Tudo bem até agora, vamos continuar assim[/i][/color]
 update alan (happy)
 label Third Question 3
 Rascunho 1\
 (+ 13 (/ (* 10 10 10) (quadrado 10)))
 - (+ 13 (/ 100 (quadrado 10)))
-	alan (lil-surprise): … Acho que minha matemática tá enferrujada, tem algo errado aqui
+	alan (lil-surprise): [color=dark_gray][i]… Acho que minha matemática tá enferrujada, tem algo errado aqui[/i][/color]
 	jump Third Question 3
 - (+ 13 (/ 1000 (quadrado 10)))
-	alan (smile-half-closed-eyes): Tudo bem até agora, vamos continuar assim
+	alan (smile-half-closed-eyes): [color=dark_gray][i]Tudo bem até agora, vamos continuar assim[/i][/color]
 - (+ 13 (/ 10 (quadrado 10)))
-	alan (lil-surprise): … Acho que minha matemática tá enferrujada, tem algo errado aqui
+	alan (lil-surprise): [color=dark_gray][i]… Acho que minha matemática tá enferrujada, tem algo errado aqui[/i][/color]
 	jump Third Question 3
 update alan (happy)
 label Third Question 4
 Rascunho 1\
 (+ 13 (/ 1000 (quadrado 10)))
 - (+ 13 (/ 1000 (* 10 10))
-	alan (accept-death): Tem um maldito parênteses faltando⁉... Seria tudo mais fácil se existisse uma máquina para me ajudar nesse tipo de coisa...
+	alan (accept-death): [color=dark_gray][i]Tem um maldito parênteses faltando⁉... Seria tudo mais fácil se existisse uma máquina para me ajudar nesse tipo de coisa[/i][/color]
 	jump Third Question 4
 - (+ 13 (/ 1000 (* 10 10 10)))
-	alan (lil-surprise): Droga… Eu fiz cubo ao invez de quadrado
+	alan (lil-surprise): [color=dark_gray][i]Droga… Eu fiz cubo ao invez de quadrado[/i][/color]
 	jump Third Question 4
 - (+ 13 (/ 1000 (* 10 10)))
-	alan (smile-half-closed-eyes): Finalmente! Todas as funções compostas sumiram!
-	alan: Sobraram apenas as primitivas
+	alan (smile-half-closed-eyes): [color=dark_gray][i]Finalmente! Todas as funções compostas sumiram![/i][/color]
+	alan: [color=dark_gray][i]Sobraram apenas as primitivas[/i][/color]
 update alan (happy)
 label Third Question 5
 (+ 13 (/ 1000 (* 10 10)))
 - (+ 13 (/ 1000 100))
-	alan (smile-half-closed-eyes): Acho que estou chegando no final
-	alan: O dia é longo, não posso gastar muito tempo só nisso
+	alan (smile-half-closed-eyes): [color=dark_gray][i]Acho que estou chegando no final[/i][/color]
+	alan: [color=dark_gray][i]O dia é curto, não posso gastar muito tempo só nisso[/i][/color]
 - (+ 13 (| 1000 100))
-	alan (lil-surprise): Espera... Essa barra me parece errada
+	alan (lil-surprise): [color=dark_gray][i]Essa barra me parece errada[/i][/color]
 	jump Third Question 5
 - (+ 13 (1000 / 100))
-	alan (lil-surprise): Acho que estou um pouco tonto, coloquei o Operador no meio dos Operandos
+	alan (lil-surprise): [color=dark_gray][i]Acho que estou um pouco tonto, coloquei o Operador no meio dos Operandos[/i][/color]
 	jump Third Question 5
 update alan (happy)
 label Third Question 6
 (+ 13 (/ 1000 100))
 - (+ 13 10)
-	alan (smile-half-closed-eyes): O final está mais próximo que nunca!
+	alan (smile-half-closed-eyes): [color=dark_gray][i]O final está mais próximo que nunca![/i][/color]
 - (+ 13 0.1)
-	alan (lil-surprise): Acho que confundi a sequência que os Operandos são processados pelo Operador
+	alan (lil-surprise): [color=dark_gray][i]Acho que confundi a sequência que os Operandos são processados pelo Operador[/i][/color]
 	jump Third Question 6
 update alan (happy)
 (+ 13 10)
 - 23
-	alan (lil-rage): Eu me recuso a errar algo desse nível
-alan (happy): Esses três primeiros documentos foram um ótimo aquecimento!
-alan: Espero ver códigos mais interessantes
+	alan (lil-rage): [color=dark_gray][i]Eu me recuso a errar algo desse nível[/i][/color]
+alan (happy): [color=dark_gray][i]Esses três primeiros documentos foram um ótimo aquecimento![/i][/color]
+alan: [color=dark_gray][i]Espero ver códigos mais interessantes[/i][/color]
 [wait time="1.5"]
 [signal arg="upper_fade"]
 [music fade="1.5" volume="0.0"]

@@ -20,8 +20,8 @@ alan: De toda forma, não é tão importante assim
 charllote (default): Ah, mas é muito importante sim
 update ada (big-surprise)
 update alan (commum)
-charllote (confused): Ainda acho estranho sua linha de pesquisa, a ideia de 'máquinas que computam'
-charllote (default): Mas a despeito diso, seu talento seria útil para Codif na prática.
+charllote (confused): Ainda acho estranho sua linha de pesquisa… A ideia de 'máquinas que computam'
+charllote (default): Mas a despeito disso, seu talento seria útil para Codif na prática.
 charllote: Sair da pesquisa. [portrait=angry] E começar a criar as armas
 update ada (sad-3)
 update alan (fear-smile)
@@ -42,7 +42,7 @@ ada: Estamos de frente para um Condicional booleano. Mutualmente exclusivo, como
 update alan (surprise)
 ada (regular): A escolha obviamente é de Alan, ninguém tem o direito de interferir nisso
 alan (concern): …
-ada (determinated-smile): Mas... Por que não entramos no espírito do Departamento em que estamos...
+ada (determinated-smile): Mas... Por que não entramos no espírito do Departamento em que estamos…
 update alan (surprise)
 ada (irritant): E façamos um [i]Duelo de Tradução[/i], só por descontração?
 charllote (surprised): ... [portrait=angry]Isso é ridículo. [portrait=very-angry]Infantil para dizer o mínimo
@@ -60,6 +60,7 @@ charllote (very-angry-2): …
 alan (stressed-3): [color=dark_gray][i]Isso vai acabar em morte… Charlotte é a Codificadora mais talentosa de Lua[/i][/color]
 update charllote (angry-codif) [animation="Tada"]
 O ar fica mais tenso, conforme Charlotte murmura para sí mesma
+Mas Ada, apenas sorria
 ada: [color=dark_gray][i]Seja rico ou necessitado. Governante ou comandando[/i][/color]
 ada: [color=dark_gray][i]Todas as crianças de 16 anos buscam por auto-afirmação[/i][/color]
 ada: [color=dark_gray][i]E ela não é do tipo covarde que usa autoridade quando é afrontada[/i][/color]

@@ -14,9 +14,9 @@ ada (regular): Você vem praticando seu Racket?
 	ada (regular-teeth): Cof cof… O mais importante para saber é que dados e operações podem ser compostos recursivamente.
 	ada (regular-teeth): Que a saída de uma operação pode ser, normalmente será o operando de outra
 	update alan (confused)
-	ada (regular): Racket também opera no Modelo de Substituição, diferente das linguagens antigas. O que significa que deve pensar em camadas, como as bonecas matrioska
+	ada (regular): Isso é o Modelo de Substituição, não presente nas linguagens antigas... O que significa que deve pensar em camadas, como as bonecas matrioska
 	update alan (surprise)
-	ada (regular-teeth): Por fim, nunca se esqueça que as operações sempre possuem parêntesis, e se dão da forma pre-fixa\: '(OPERADOR operando operando ...)'
+	ada (regular-teeth): Por fim, nunca se esqueça que as operações sempre possuem parêntesis, e se dão da forma pre-fixa\: '(OPERADOR operando operando …)'
 	alan (flushed): Entendi… Obrigado pela revisão Senhorita Ada
 - Sim
 	update alan (happy)

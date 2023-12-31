@@ -24,7 +24,7 @@ else
 "Documento 2": {
 "text": "if (a and b == true)
     printf(\"01110011\");
-elseif (!(a or b) == false)
+elseif (!(c or d) == true)
     printf(\"01110100\");
 else
     printf(\"01100101\");",
@@ -67,6 +67,10 @@ else
 Verdadeiro só se A=B",
 "title": "A⊙B"
 },
+"and": {
+"text": "Somente verdadeiro quando A e B for verdadeiro",
+"title": "A and B"
+},
 "cond": {
 "text": "(cond [caso1 resposta1]  [caso 2 resposta2] [else respostaN])",
 "title": "Condicional Geral"
@@ -74,6 +78,14 @@ Verdadeiro só se A=B",
 "if": {
 "text": "(if (caso_binario) res_verdade res_falso)",
 "title": "Condicional Binário"
+},
+"not": {
+"text": "Inverte o valor lógico de A",
+"title": "not A"
+},
+"or": {
+"text": "Somente verdadeiro quando A ou B for verdadeiro",
+"title": "A or B"
 }
 }
 enabled = true

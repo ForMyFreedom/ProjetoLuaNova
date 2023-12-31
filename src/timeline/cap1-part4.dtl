@@ -39,11 +39,11 @@ ada (lil-flushed): Espera
 update alan (confused)
 Ada agarra a manga dele
 alan (lil-flush): O– o que foi?
-ada: Diferente de você.. [portrait=annoyed] Que presenteia com ameaça de morte
+ada: Diferente de você… [portrait=annoyed] Que presenteia com ameaça de morte
 alan (lil-fear): …
 ada (regular): Eu tenho algo para você
 Ada entrega um embrulho pra Alan
-alan (sus): .. [speed=3]Isso é uma bom-[aa=0.1]
+alan (sus): ... [speed=3]Isso é uma bom-[aa=0.1]
 ada (angry): [speed=1]Não! Não é uma bomba, Alan
 alan (sad): …
 update ada 3 [ move_time="1"]

@@ -77,7 +77,7 @@ tim (terror): [color=red]Já que podes ser um grande traidor[/color]
 alan (very-surprised): ... Perdão? [portrait=unbeliever]Eu ouvi isso certo?
 [music path="res://assets/musics/mystery-tense.mp3" fade="2.0" volume="0.0"]
 tim (default): Um traidor de Lua, muito melhor que um refém
-alan (insane): .. Você é um insano
+alan (insane): … Você é um insano
 update alan (despair-codif) [animation="Tada"]
 alan: Eu deveria ter usado meu Codif mais cedo
 update tim (fear)
