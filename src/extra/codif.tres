@@ -11,7 +11,7 @@ entries = {
 "title": "Codif"
 },
 "Condicional": {
-"text": "Desvio do fluxo de processamento, se algo é verdadeiro ou falso",
+"text": "Desvio do fluxo de processamento se algo é verdadeiro ou falso",
 "title": "Condicional"
 },
 "Documento 1": {
@@ -22,25 +22,21 @@ else
 "title": "Documento 1"
 },
 "Documento 2": {
-"text": "if (a && b == true)
+"text": "if (a and b == true)
     printf(\"01110011\");
-    elseif (!(a || b) == false)
-        printf(\"01110100\");
-    else
-        printf(\"01100101\");",
+elseif (!(a or b) == false)
+    printf(\"01110100\");
+else
+    printf(\"01100101\");",
 "title": "Documento 2"
 },
 "Documento 3": {
-"text": "if ((a >= b && b >= c) == true)
-  printf(\"01110010\");
-  elseif (a == b + c)
-    printf(\"00100000\");
-    elseif ((c >= b && b >= a) == true)
-      printf(\"01100101\");
-      elseif (c == b + a)
-        printf(\"01100111\");
-        else
-          printf(\"01100111\");",
+"text": "if ((a >= b and b >= c) == true)
+   printf(\"00\");
+elseif ((c >= b and b >= a) == true)
+   printf(\"01\");
+else
+   printf(\"10\");",
 "title": "Documento 3"
 },
 "Modelo de Substituição": {
@@ -70,6 +66,14 @@ else
 "text": "Porta Lógica 'Ou Exclusivo'
 Verdadeiro só se A=B",
 "title": "A⊙B"
+},
+"cond": {
+"text": "(cond [caso1 resposta1]  [caso 2 resposta2] [else respostaN])",
+"title": "Condicional Geral"
+},
+"if": {
+"text": "(if (caso_binario) res_verdade res_falso)",
+"title": "Condicional Binário"
 }
 }
 enabled = true

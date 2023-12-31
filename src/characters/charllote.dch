@@ -42,6 +42,16 @@
 "scale": 1.0,
 "scene": ""
 },
+"angry-cm": {
+"export_overrides": {
+"image": "\"res://assets/characters/charllote/angry-cm.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
 "angry-codif": {
 "export_overrides": {
 "image": "\"res://assets/characters/charllote/angry-codif.png\""

@@ -1,60 +1,94 @@
 [background arg="res://assets/backgrounds/newart-office.png" fade="0.0"]
-join ada (determinated) 0
+join ada (devil) 0
 join charllote (angry) 4
 charllote: E então? Como será o duelo?
-ada (determinated-smile): Tenho aqui três documentos de Condicional para traduzirmos
+ada (determinated-smile): Tenho aqui três documentos sobre Condicionais para traduzirmos
+[sound path="res://assets/sfx/curious-statement.mp3" volume="0.0"]
+charllote (surprised): Condicional?
+ada: Sim, seja com cond ou if
 ada: Quando cada uma terminar a tradução, corrigiremos a tradução uma da outra
-ada (devil): E perde aquela, que traduzir menos documentos corretamente!
+ada (devil): E perde aquela, que primeiro falhar na tradução!
 charllote (default): Se você fizer o seu melhor, talvez consiga empatar
 ada (determinated-smile): Tirou as palavras da minha boca
-ada (red-devil): Aqui está o dprimeiro documento, vamos começar!
+ada (red-devil): Aqui está o primeiro documento, vamos começar!
 update charllote (determined)
-update ada (determinated-smile)
+update ada (commum)
+Após entregar um papel para Charllote, Ada começa a ler o seu
+ada: … Como poderia traduzi-lo?
 label First Question
-Documento 1
+ada: Documento 1
 - (if (> x y) 01100001 01100101)
-	ada (determinated): Um condicional pode ser escrito com if quando há apenas dois resultados, o primeiro sendo pra caso o if seja True e o segundo para caso seja False, mas os resultados foram trocados em relação ao documento original, então essa tradução estaria errada
+	ada (determinated): A forma está correta, mas troquei a ordem de verdadeiro e falso
 	jump First Question
 - (cond   [(> x y) 01100101]   [else 01100001])
-	ada: Assim está bom, está de acordo com a forma geral do cond e não há nada fora do lugar
-- (cond (> x y) 01100101 01100001)
-	ada (determinated): A forma geral do cond é (cond [predicado1 consequente1] … [else consequenteN]), nesse caso os colchetes estão faltando, o mesmo para o "else", estaria certo se fosse um "if" no lugar do "cond"
+	ada (lil-disgust): De fato funciona… Mas é deselegante
+	ada: Por ser um caso binário, o if é mais adequado
 	jump First Question
-Após cada uma terminar sua tradução, ambas trocam seus papéis entre si...
-ada (lil-disgust): Como esperado da codificadora mais talentosa de Lua, seria uma piada se não conseguisse fazer uma tradução tão fácil
+- (if (> x y) 01100101 01100001)
+	ada (determinated-smile): Assim está bom, o if é o mais adequado mesmo
+- (cond (> x y) 01100101 01100001)
+	ada (determinated): Não… Essa não é a forma do cond, é a do if
+	ada: Está faltando o 'else' e os colchetes
+	jump First Question
+Após cada uma terminar sua tradução, ambas trocam seus papéis…
+ada (lil-disgust): ... Como esperado da codificadora mais talentosa de Lua
+ada: Seria uma piada se não conseguisse fazer uma tradução tão fácil
 charllote (angry): Você também não é nada mal para um rato de escritório
 ada (focus-angry): Próximo documento!
 update charllote (determined)
-label Second Question
 update ada (determinated-smile)
+label Second Question
 Documento 2
-- (cond   [(and a b) 01110011]   [(not(or c d) 01110100)]   [else 01100101])
-	ada (determinated): Ao lidar com operadores lógicos, é sempre importante prestar atenção nos parênteses, se fosse escrito, por exemplo\: [(not(or a b) 01110100)], a falta de parêntes pro operador not faria ter a comparação entre um booleano em um número, isso além da falta de um consequente pra esse condicional
-	jump Second Question
-- (if   [(and a b) 01110011]   [(not(or c d)) 01110100]   [else 01100101])
-	ada (determinated): Infelizmente o if só pode ser utilizado quando tem dois resultados possíveis, mas se eu colocar um cond no lugar do if, ficaria perfeito
+- (cond   [(or a b) 01110011]   [(not(and c d)) 01110100]   [else 01100101])
+	ada (determinated): Droga… Acho que troquei a ordem dos operadores
 	jump Second Question
 - (cond   [(and a b) 01110011]   [(not(or c d)) 01110100]   [else 01100101])
-	ada: Perfeito, o cond suporta infinitos resultados possíveis enquanto seguir a forma normal (cond [predicado1 consequente1] [predicado2 consequente2] … [else consequenteN]), tudo estará bem!
-Após cada uma terminar sua tradução, ambas trocam seus papéis entre si...
+	ada (determinated-smile): Perfeito. Como o cond suporta infinitos resultados possíveis, tudo estará bem!
+- (if  [(and a b) 01110011]   [(not(or c d)) 01110100]   [else 01100101])
+	ada (determinated): Não, o if só pode ser utilizado quando tem dois resultados possíveis
+	ada: Mas se eu colocar um cond no lugar do if, ficaria perfeito
+	jump Second Question
+Após cada uma terminar sua tradução, ambas trocam seus papéis…
 ada (devil): Nosso grande talento demorou um pouco pra terminar, está começando a ficar difícil pra você?
-charllote (angry): Não posso começar o próximo documento sem você ter acabado esse, então por que eu teria pressa?
-ada (lil-disgust): Não precisa esperar no próximo documento, só não me faça esperar
+charllote (angry): Não posso começar o próximo documento sem antes você ter acabado esse. Então por que eu teria pressa?
+ada (disgust): Não precisa esperar o próximo documento, só não me faça esperar
 update charllote (determined)
-label Third Question
 update ada (determinated-smile)
+label Third Question
 Documento 3
-- (cond   [(and (>= a b) (>= b c)) 01110010]   [(= a (+ b c)) 00100000]   [(and (>= c b) (>= b a)) 01100101]   [(= c (+ b a)) 01100111]   [else 01100111])
-	ada (determinated): É uma tradução correta, mas acho que isso não será o suficiente para ganhar esse duelo...
+- (cond   [(and (>= a b) (>= b c)) 00]   [(and (>= c b) (>= b a)) 01]  [else 10])
+	ada (determinated): É uma tradução correta, mas parece pouco otimizada
 	jump Third Question
-- (cond   [(and (>= a b) (>= b c)) 01110010]   [(and (>= c b) (>= b a)) 01100101]   [(= a (+ b c)) 00100000]   [(= c (+ b a)) 01100111]   [else 01100111])
-	ada (determinated): Quando se está lidando com uma grande sequência de condicionais, tem que tomar cuidado extra para que nenhum dos predicados entrem em conflitos, se eu trocasse a ordem das cláusulas aqui, esse problema ocorre
+- (cond   [(and (>= c b) (>= b a)) 01]   [(and (>= a b) (>= b c)) 00]   [else 10])
+	ada (angry): Não posso ficar trocando a ordem das cláusulas assim!
+	ada: Isso gerará erros na execução
 	jump Third Question
-- (cond   [(>= a b c) 01110010]   [(= a (+ b c)) 00100000]   [(>= c b a) 01100101]   [(= c (+ b a)) 01100111]   [else 01100111])
-	ada (devil): O operador matemático >= pode suportar diversos argumentos no racket, (>= a b c) é a mesma coisa que (and (>= a b) (>= b c)), fazendo essa simplificação, não só traduzi o documento como fui um passo além!
-Após cada uma terminar sua tradução, ambas trocam seus papéis entre si...
-ada (determinated-smile): Percebi que realmente acabou rápido dessa, como esperado do melhor talento de Lua
-charllote (smile): Apenas o esperado de mim...
-charllote (true-very-surprised): Espera... Como isso é possível?
-ada (red-devil): Apesar do seu talento, sou eu que passo horas dos meus dias com traduções, parece que você realmente perdeu seu tempo vindo aqui
+- (cond   [(and (>= a b == true) (>= b c)) 00]   [(and (>= c b == true) (>= b a)) 01]  [else 10])
+	ada (determinated): Não, não preciso declarar '== true'
+	ada: O condicional apenas será escolhido se já for verdadeiro
+	jump Third Question
+- (cond   [(>= a b c) 00] [(>= c b a) 01] [else 10])
+	[sound path="res://assets/sfx/flush.mp3" volume="0.0"]
+	ada (devil): É isso!
+ada: Diferente das linguagens antigas, nossa lingua Racket permite simplificarmos comparações
+ada (determinated-smile): (>= a b c) é a mesma coisa que (and (>= a b) (>= b c))
+ada (devil): E com isso... Não só traduzi
+[sound path="res://assets/sfx/strong-statement.mp3" volume="0.0"]
+ada (red-devil): Eu fui um passo além!
+Após cada uma terminar sua tradução, ambas trocam seus papéis…
+ada (determinated-smile): Percebi que acabou rápido dessa vez, como esperado do melhor talento de Lua
+charllote (smile): Apenas o esperado de mim[aa=1]
+charllote (absolute-hate): ... Espera...
+A mão de Charllote aperta a folha traduzida por Ada
+ada (devil): Apesar do seu talento, sou [i]eu[/i], quem passa horas com traduções
+charllote (angry): Isso é apenas detalhe. Meu código é tão válido quanto o seu
+ada: De fato, pode ser apenas um detalhe
+ada (red-devil): Mas não acha que é vergonhoso, desconhcer os detalhes de sua lingua mágica?
+charllote (angry-cm): …
+[wait time="2.0"]
+[music fade="2.0" volume="0.0"]
+[signal arg="upper_fade"]
+[wait time="2.0"]
+leave --All--
+[signal arg="reverse_fade"]
 jump cap2-part3/
