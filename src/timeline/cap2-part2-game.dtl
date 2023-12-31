@@ -84,7 +84,7 @@ Documento 3
 - (cond   [(>= a b c) 00] [(>= c b a) 01] [else 10])
 	[sound path="res://assets/sfx/flush.mp3" volume="0.0"]
 	ada (devil): [color=dark_gray][i]É isso![/i][/color]
-ada: [color=dark_gray][i]Diferente das linguagens antigas, nossa lingua Racket permite simplificarmos comparações[/i][/color]
+ada: [color=dark_gray][i]Diferente das linguagens antigas, nossa língua Racket permite simplificarmos comparações[/i][/color]
 ada (determinated-smile): [color=dark_gray][i](>= a b c) é a mesma coisa que (and (>= a b) (>= b c))[/i][/color]
 ada (devil): [color=dark_gray][i]E com isso... Não apenas traduzi[/i][/color]
 [sound path="res://assets/sfx/strong-statement.mp3" volume="0.0"]
