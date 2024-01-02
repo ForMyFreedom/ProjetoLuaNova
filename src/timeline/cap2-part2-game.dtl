@@ -20,16 +20,19 @@ label First Question
 ada: Documento 1
 - (if (> x y) 01100001 01100101)
 	ada (determinated): [color=dark_gray][i]A forma está correta, mas troquei a ordem de verdadeiro e falso[/i][/color]
+	set {error_amount} += 1
 	jump First Question
 - (cond   [(> x y) 01100101]   [else 01100001])
 	ada (lil-disgust): [color=dark_gray][i]De fato funciona… Mas é deselegante[/i][/color]
 	ada: [color=dark_gray][i]Por ser um caso binário, o if é mais adequado[/i][/color]
+	set {error_amount} += 1
 	jump First Question
 - (if (> x y) 01100101 01100001)
 	ada (determinated-smile): [color=dark_gray][i]Assim está bom, o if é o mais adequado mesmo[/i][/color]
 - (cond (> x y) 01100101 01100001)
 	ada (determinated): [color=dark_gray][i]Não… Essa não é a forma do cond, é a do if[/i][/color]
 	ada: [color=dark_gray][i]Está faltando o 'else' e os colchetes[/i][/color]
+	set {error_amount} += 1
 	jump First Question
 Após cada uma terminar sua tradução, ambas trocam seus papéis…
 ada (lil-disgust): … Como esperado da codificadora mais talentosa de Lua
@@ -43,16 +46,19 @@ label Second Question
 Documento 2
 - (cond   [(or a b) 01110011]   [(not(and c d)) 01110100]   [else 01100101])
 	ada (determinated): [color=dark_gray][i]Droga… Acho que troquei a ordem dos operadores[/i][/color]
+	set {error_amount} += 1
 	jump Second Question
 - (cond   [(and a b) 01110011]   [(not(or c d)) 01110100]   [else 01100101])
 	ada (determinated-smile): [color=dark_gray][i]Perfeito. Como o cond suporta infinitos resultados possíveis, tudo estará bem![/i][/color]
 - (cond [and a b 01110011] [not(or c d) 01110100] [else 01100101])
 	ada (lil-disgust): [color=dark_gray][i]Não posso me esquecer dos parêntesis[/i][/color]
 	ada: [color=dark_gray][i]Eles são vitais para diferenciar condição de resultado[/i][/color]
+	set {error_amount} += 1
 	jump Second Question
 - (if  [(and a b) 01110011]   [(not(or c d)) 01110100]   [else 01100101])
 	ada (determinated): [color=dark_gray][i]Não, o if só pode ser utilizado quando tem dois resultados possíveis[/i][/color]
 	ada: [color=dark_gray][i]Mas se eu colocar um cond no lugar do if, ficaria perfeito[/i][/color]
+	set {error_amount} += 1
 	jump Second Question
 Após cada uma terminar sua tradução, ambas trocam seus papéis…
 ada (devil): Nosso grande talento demorou um pouco pra terminar, está começando a ficar difícil pra você?
@@ -72,14 +78,17 @@ label Third Question
 Documento 3
 - (cond   [(and (>= a b) (>= b c)) 00]   [(and (>= c b) (>= b a)) 01]  [else 10])
 	ada (lil-disgust): [color=dark_gray][i]…É uma tradução correta… Mas parece pouco otimizada[/i][/color]
+	set {error_amount} += 1
 	jump Third Question
 - (cond   [(and (>= c b) (>= b a)) 01]   [(and (>= a b) (>= b c)) 00]   [else 10])
 	ada (angry): [color=dark_gray][i]Não posso ficar trocando a ordem das cláusulas assim![/i][/color]
 	ada: [color=dark_gray][i]Isso gerará erros na execução[/i][/color]
+	set {error_amount} += 1
 	jump Third Question
 - (cond   [(and (>= a b == true) (>= b c)) 00]   [(and (>= c b == true) (>= b a)) 01]  [else 10])
 	ada (determinated): [color=dark_gray][i]Não, não preciso declarar '== true'[/i][/color]
 	ada: [color=dark_gray][i]O condicional apenas será escolhido se já for verdadeiro[/i][/color]
+	set {error_amount} += 1
 	jump Third Question
 - (cond   [(>= a b c) 00] [(>= c b a) 01] [else 10])
 	[sound path="res://assets/sfx/flush.mp3" volume="0.0"]

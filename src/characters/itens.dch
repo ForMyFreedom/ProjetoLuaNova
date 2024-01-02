@@ -34,6 +34,16 @@
 "scale": 0.3,
 "scene": ""
 },
+"congrats": {
+"export_overrides": {
+"image": "\"res://assets/extra/congrats.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1.0,
+"scene": ""
+},
 "donuts": {
 "export_overrides": {
 "image": "\"res://assets/extra/donuts.png\""

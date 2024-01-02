@@ -20,6 +20,7 @@ label First Question
 alan (concern-2): [color=dark_gray][i]De que maneira poderia modelar um Corpo e suas Capacidades?[/i][/color]
 - (define corpo list) / (define capacidades list)
 	alan (concern): [color=dark_gray][i]Não… Não faz sentido definir uma lista de corpos[/i][/color]
+	set {error_amount} += 1
 	jump First Question
 - (define capacidades list) / (struct corpo (capacidades))
 	[sound path="res://assets/sfx/strong-statement.mp3" volume="0.0"]
@@ -28,10 +29,12 @@ alan (concern-2): [color=dark_gray][i]De que maneira poderia modelar um Corpo e 
 - (define corpo list) / (struct capacidade (corpo))
 	alan (concern): [color=dark_gray][i]Não… Não faz sentido definir uma lista de corpos[/i][/color]
 	alan (stressed-5): [color=dark_gray][i]E até mesmo, não faz sentido 'capacidade' possuir um corpo![/i][/color]
+	set {error_amount} += 1
 	jump First Question
 - (struct corpo (capacidades)) / (struct capacidade (corpo))
 	alan (stressed): [color=dark_gray][i]Não! É até paradoxal![/i][/color]
 	alan: [color=dark_gray][i]Como poderia definir algo como o struct recursivo de outro algo?[/i][/color]
+	set {error_amount} += 1
 	jump First Question
 alan: [color=dark_gray][i]Ótimo, consegui um primeiro passo![/i][/color]
 
@@ -69,14 +72,17 @@ Dificuldade e Capacidade são ambos números, não posso me esquecer disso[/i][/
 - Valor Aleatório entre 0-e-Dificuldade, comparando com a Dificuldade
 	alan (stressed-5): [color=dark_gray][i]Não… É irrealista[/i][/color]
 	alan: [color=dark_gray][i]Em nenhum momento leva a Capacidade em consideração[/i][/color]
+	set {error_amount} += 1
 	jump Second Question
 - Valor Aleatório entre Capacidade-e-Dificuldade, comparando com ambas
 	alan (wtf-fear): [color=dark_gray][i]Acho… Que viajei um pouco[/i][/color]
 	alan: [color=dark_gray][i]Talvez tambem esteje com falta de sangue[/i][/color]
+	set {error_amount} += 1
 	jump Second Question
 - Valor Aleatório entre 0-e-Dificuldade, comparando com a Capacidade
 	alan (stressed-3): [color=dark_gray][i]Não… É contraditório[/i][/color]
 	alan: [color=dark_gray][i]É como dizer que as dificuldades não são objetivas[/i][/color]
+	set {error_amount} += 1
 	jump Second Question
 - Valor Aleatório entre 0-e-Capacidade, comparando com a Dificuldade
 	[sound path="res://assets/sfx/strong-statement.mp3" volume="0.0"]
@@ -114,10 +120,12 @@ alan: [color=dark_gray][i][speed=0.1][font_size=12](define capacidades list)\
 - (random (list-ref capacidades index))
 	alan (stressed): [color=dark_gray][i][speed=1]Não… A função Vida não recebe Capacidades, ela recebe Corpo![/i][/color]
 	alan: [color=dark_gray][i]Eu preciso pegar Capacidades de dentro de Corpo[/i][/color]
+	set {error_amount} += 1
 	jump Third Question
 - (random ((corpo-capacidades corpo) index))
 	alan (stressed-3): [color=dark_gray][i][speed=1]Não… A sintaxe do racket não permite adquirir o valor diretamente[/i][/color]
 	alan: [color=dark_gray][i]Eu preciso usar a função list-ref[/i][/color]
+	set {error_amount} += 1
 	jump Third Question
 - (random (list-ref (corpo-capacidades corpo) index))
 	[sound path="res://assets/sfx/strong-statement.mp3" volume="0.0"]
@@ -125,6 +133,7 @@ alan: [color=dark_gray][i][speed=0.1][font_size=12](define capacidades list)\
 - (random ((capacidades) index))
 	alan (rage-despair): [color=dark_gray][i][speed=1]Não![/i][/color]
 	alan: [color=dark_gray][i]Estou esquecendo de usar list-ref e acesso de struct![/i][/color]
+	set {error_amount} += 1
 	jump Third Question
 alan (surprise-2): [color=dark_gray][i]A 'Vida' está modelada!\
 [font_size=12][speed=0.1](define (vida corpo)\
@@ -178,14 +187,17 @@ alan: [color=dark_gray][i][speed=0.1][font_size=12](define (salvacao corpo_fonte
 - Somando a Capacidade Extraida na Capacidade Destino
 	alan (stressed-3): [color=dark_gray][i][speed=1]… Mas, eu não tenho acesso as Capacidades da Vida Destino[/i][/color]
 	alan: [color=dark_gray][i]Pois, vida_destino é uma função, não um struct[/i][/color]
+	set {error_amount} += 1
 	jump Fourth Question
 - Somando a Capacidade extraida na Dificuldade
 	alan (stressed): [color=dark_gray][i][speed=1]… Isso, não faz sentido[/i][/color]
 	alan: [color=dark_gray][i]É o mesmo dizer que ser mais forte deixa sua vida mais difícil…[/i][/color]
+	set {error_amount} += 1
 	jump Fourth Question
 - Diminuindo a Capacidade Destino pela Capacidade Extraida
 	alan (stressed-5): [color=dark_gray][i][speed=1]… Mas, eu não tenho acesso as Capacidades da 'Vida Destino'[/i][/color]
 	alan: [color=dark_gray][i]Pois, vida_destino é uma função, não um struct[/i][/color]
+	set {error_amount} += 1
 	jump Fourth Question
 alan (vilain-smile): [color=dark_gray][i]Eu mantenho a Vida Destino, mas gero uma dificuldade modificada![/i][/color]
 alan: [font_size=16][color=dark_gray][i]Nova_Dificuldade\: (- dificuldade (list-ref caps_extraido index))[/i][/color]

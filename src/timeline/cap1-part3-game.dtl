@@ -25,6 +25,7 @@ ada (commum): Não se esqueça. Na linguagem racket, uma operação é escrita n
 ada: Nesse caso, o Operador seria o "+" e os Operandos "1 1"
 ada (focus-angry): Tente novamente!
 leave ada
+set {error_amount} += 1
 jump First Question
 label Start Second Question
 alan (confused): [color=dark_gray][i]Oh? É mais um problema de notação… Mas esse parece ser mais difícil[/i][/color]
@@ -41,6 +42,7 @@ label Second Question
 	ada (commum): A combinaçao no geral está certa, mas a quantidade de parêntesis esta incorreta
 	ada (commum): Tente novamente
 	leave ada
+	set {error_amount} += 1
 	jump Second Question
 - (5 - (/ (* 4 3)) 2)
 	join ada (focus-angry) 4
@@ -50,6 +52,7 @@ label Second Question
 	ada: Lembre-se da forma (Operador Operandos), o operador está sempre mais à esquerda
 	ada (focus-angry): Tente novamente!
 	leave ada
+	set {error_amount} += 1
 	jump Second Question
 - (- S (/ (+ 4 3) 2))
 	join ada (focus-angry) 4
@@ -58,6 +61,7 @@ label Second Question
 	ada (disgust): Parabéns... Você conseguiu confundir um S com um 5, isso é um feito por si só
 	ada (focus-angry): Tente novamente!
 	leave ada
+	set {error_amount} += 1
 	jump Second Question
 alan (confused): [color=dark_gray][i]Hm, um Rascunho?[/i][/color]
 alan: [color=dark_gray][i]Parece que a Senhorita Ada fez uma tradução inicial nesse documento[/i][/color]
@@ -71,9 +75,11 @@ alan: Rascunho 1\
 	alan (smile-half-closed-eyes): [color=dark_gray][i]Tudo bem até agora, vamos continuar assim[/i][/color]
 - (+ 13 (/ (quadrado 10) (cubo 10)))
 	alan (lil-surprise): [color=dark_gray][i]Espera... Acho que inverti o (quadrado 10) e o (cubo 10) na substituição, deixa eu refazer[/i][/color]
+	set {error_amount} += 1
 	jump Third Question 1
 - ((/ (cubo 10) (quadrado 10)) + 13)
 	alan (extreme-surprise): [color=dark_gray][i]Espera⁉ Como aquele "+ 13" foi parar ali? Deixa eu refazer antes que a senhorita Ada veja isso![/i][/color]
+	set {error_amount} += 1
 	jump Third Question 1
 update alan (happy)
 label Third Question 2
@@ -81,9 +87,11 @@ Rascunho 1\
 (+ 13 (/ (cubo 10) (quadrado 10)))
 - (+ 13 (/ (* 10 10) (quadrado 10)))
 	alan (lil-surprise): [color=dark_gray][i]Espera... Acho errei a quantia de "10" na substituição do (cubo 10)[/i][/color]
+	set {error_amount} += 1
 	jump Third Question 2
 - (+ 13 (/ (cubo 10) (* 10 10 10)))
 	alan (lil-surprise): [color=dark_gray][i]Espera... Acho errei a quantia de "10" na substituição do (quadrado 10)[/i][/color]
+	set {error_amount} += 1
 	jump Third Question 2
 - (+ 13 (/ (* 10 10 10) (quadrado 10)))
 	alan (smile-half-closed-eyes): [color=dark_gray][i]Tudo bem até agora, vamos continuar assim[/i][/color]
@@ -93,11 +101,13 @@ Rascunho 1\
 (+ 13 (/ (* 10 10 10) (quadrado 10)))
 - (+ 13 (/ 100 (quadrado 10)))
 	alan (lil-surprise): [color=dark_gray][i]… Acho que minha matemática tá enferrujada, tem algo errado aqui[/i][/color]
+	set {error_amount} += 1
 	jump Third Question 3
 - (+ 13 (/ 1000 (quadrado 10)))
 	alan (smile-half-closed-eyes): [color=dark_gray][i]Tudo bem até agora, vamos continuar assim[/i][/color]
 - (+ 13 (/ 10 (quadrado 10)))
 	alan (lil-surprise): [color=dark_gray][i]… Acho que minha matemática tá enferrujada, tem algo errado aqui[/i][/color]
+	set {error_amount} += 1
 	jump Third Question 3
 update alan (happy)
 label Third Question 4
@@ -105,9 +115,11 @@ Rascunho 1\
 (+ 13 (/ 1000 (quadrado 10)))
 - (+ 13 (/ 1000 (* 10 10))
 	alan (accept-death): [color=dark_gray][i]Tem um maldito parênteses faltando⁉... Seria tudo mais fácil se existisse uma máquina para me ajudar nesse tipo de coisa[/i][/color]
+	set {error_amount} += 1
 	jump Third Question 4
 - (+ 13 (/ 1000 (* 10 10 10)))
 	alan (lil-surprise): [color=dark_gray][i]Droga… Eu fiz cubo ao invez de quadrado[/i][/color]
+	set {error_amount} += 1
 	jump Third Question 4
 - (+ 13 (/ 1000 (* 10 10)))
 	alan (smile-half-closed-eyes): [color=dark_gray][i]Finalmente! Todas as funções compostas sumiram![/i][/color]
@@ -120,9 +132,11 @@ label Third Question 5
 	alan: [color=dark_gray][i]O dia é curto, não posso gastar muito tempo só nisso[/i][/color]
 - (+ 13 (| 1000 100))
 	alan (lil-surprise): [color=dark_gray][i]Essa barra me parece errada[/i][/color]
+	set {error_amount} += 1
 	jump Third Question 5
 - (+ 13 (1000 / 100))
 	alan (lil-surprise): [color=dark_gray][i]Acho que estou um pouco tonto, coloquei o Operador no meio dos Operandos[/i][/color]
+	set {error_amount} += 1
 	jump Third Question 5
 update alan (happy)
 label Third Question 6
@@ -131,6 +145,7 @@ label Third Question 6
 	alan (smile-half-closed-eyes): [color=dark_gray][i]O final está mais próximo que nunca![/i][/color]
 - (+ 13 0.1)
 	alan (lil-surprise): [color=dark_gray][i]Acho que confundi a sequência que os Operandos são processados pelo Operador[/i][/color]
+	set {error_amount} += 1
 	jump Third Question 6
 update alan (happy)
 (+ 13 10)
