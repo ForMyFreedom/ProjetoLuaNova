@@ -51,6 +51,34 @@ else
 "text": "Processo de avaliação em que expressões são trocadas por outras (normalmente mais simples)",
 "title": "Modelo de Substituição"
 },
+"Parte 1 do Documento": {
+"text": "struct nova_func
+   char target_type[23];
+   int target_neuron;
+   int nova_type;
+   int nova_neuron;
+struct nova func = \"Land\", 19, 4, 5;",
+"title": "Parte 1 do Documento"
+},
+"Parte 2 do Documento": {
+"text": "struct nova f = \"Land\", 19, 4, 5;",
+"title": "Parte 2 do Documento"
+},
+"Parte 3 do Documento": {
+"text": "int experiment[24];
+for (x = 0 ; x < 23; x++)
+   experiment[x] = (x/10) * (f.target_neuron + f.nova_neuron);",
+"title": "Parte 3 do Documento"
+},
+"Parte 4 do Documento": {
+"text": "if (f.nova_type < experiment[4])
+   for (x = 0; x < 23; x++)
+      experiment[23-x] = experiment[22-x];
+   experiment[0] = 13.8169 * f.nova_neuron;
+else
+   printf(\"Incompatible Beast\");",
+"title": "Parte 4 do Documento"
+},
 "Rascunho 1": {
 "text": "(define (quadrado x)
     (* x x))

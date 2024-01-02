@@ -1,1 +1,56 @@
+[background arg="res://assets/backgrounds/room.png" fade="0.0"]
+join alan (concern) 0
+alan: Vamos ver que tipo de código está sendo guardado no Departamento de Guerra
+Alan começa a ler o documento roubado
+alan (confused): Parece ser um código baseado em struct... Qual será sua finalidade?
+alan (serious): Vamos começar a traduzir a primeira parte e descobrir!
+label First Part
+Parte 1 do Documento
+- (struct nova (target_type[23] target_neuron nova_type nova_neuron))
+	alan (surprise): Esse tipo de alocação de espaço nem existe em racket, por que eu coloquei isso no final do campo?
+	jump First Part
+- (struct nova [target_type target_neuron nova_type nova_neuron])
+	alan (surprise): Confundi a forma da escrita da struct, são parênteses ali, não colchetes
+	jump First Part
+- (struct nova (target_type target_neuron nova_type nova_neuron))
+	alan (happy): As estruturas em Racket são muito mais simples, já que não preciso me preocupar com o tipo de seus componentes quando defino a struct
+	alan (hollow): Mas... Os componentes dessa struct são estranhos, seu nome também... Nova? Porjeto Lua Nova?
+	alan (serious): Preciso continuar, talvez realmente tenha algo muito ruim sendo pesquisado por Lua
+alan: Vamos continuar traduzindo!
+label Second Part
+Parte 2 do Documento
+- (define nova-f ('Land' 19 4 5))
+	alan (surprise): A instanciação está errada, esse "nova" não deveria estar assim, muito menos onde está
+	jump Second Part
+- (define f (nova 'Land' 19 4 5))
+	alan (happy): Depois de criar o struct, é bem fácil criar uma instância dele preenchido.
+	alan (serious): Não tenho certeza do significado desses números, mas "Terrestre"? No que exatamente esse codif é usado...
+	alan: Talvez eu descubra no resto do documento
+- (define f (nova Land 19 4 5))
+	alan (surprise): Aquela string nem está sendo reconhecida como string, deixa eu refazer
+	jump Second Part
+label Third Part
+Parte 3 do Documento
+- (define experiment (23 (* (/ x 10) (+ target_neuron nova_neuron)))
+	alan (surprise): Esqueci algumas coisas, é um pouco mais complexo criar uma lista baseado numa função
+	jump Third Part
+- (define experiment (build-list 23 (lambda (x) (* (/ x 10) (+ target_neuron nova_neuron)))))
+	alan (surprise): Esqueci de referenciar a struct, não posso usar seus componentes sem fazer isso
+	jump Third Part
+- (define experiment (build-list 23 (lambda (x) (* (/ x 10) (+ (nova-target_neuron f) (nova-nova_neuron f)))))
+	alan (happy): O build-list é realmente uma função conveniente na hora de criar uma lista de números baseado num x variando de 0 a n
+	alan (serious): Essa lista parece estar sendo criada para testar algum padrão ou condição
+	alan: Resta apenas mais uma parte nesse documento, espero não ser o que estou pensando...
+label Fourth Part
+Parte 4 do Documento
+- (if (< (nova-nova_type f) (experiment 4)) (cons (* 13.8169 (nova-nova_neuron f)) experiment) 'Incompatible Beast)
+	alan (surprise): Esqueci que não é possível fazer referência a um elemento de uma lista de forma tão simples
+	jump Fourth Part
+- (if (< (nova-nova_type f) (list-ref experiment 4)) (append (* 13.8169 (nova-nova_neuron f)) experiment) 'Incompatible Beast)
+	alan (surprise): Erro meu, append só pode ser usado quando são passadas duas listas como argumentos
+	jump Fourth Part
+- (if (< (nova-nova_type f) (list-ref experiment 4)) (cons (* 13.8169 (nova-nova_neuron f)) experiment) 'Incompatible Beast)
+	alan (happy): O cons é uma ótima função por juntar um novo elemento ao início da lista enquanto move seus outros elementos em uma posição
+	alan (serious): Agora posso finalmente descobrir do que se trata esse documento
+	Alan junta as partes que traduziu e começar a revisar o documento
 jump cap3-part2/

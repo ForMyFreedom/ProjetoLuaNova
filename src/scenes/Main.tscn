@@ -302,7 +302,7 @@ _data = {
 "white_pulse": SubResource("Animation_ieuyr")
 }
 
-[node name="Main" type="Control" node_paths=PackedStringArray("deskLayer", "desk", "questionLabel", "endButton", "responseTextEdit", "animationPlayer", "effectAnimationPlayer")]
+[node name="Main" type="Control" node_paths=PackedStringArray("effectAnimationPlayer")]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -310,12 +310,6 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_rpuj2")
-deskLayer = NodePath("")
-desk = NodePath("")
-questionLabel = NodePath("")
-endButton = NodePath("")
-responseTextEdit = NodePath("")
-animationPlayer = NodePath("")
 effectAnimationPlayer = NodePath("EffectLayer/Control/AnimationPlayer")
 
 [node name="EffectLayer" type="CanvasLayer" parent="."]
