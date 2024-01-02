@@ -117,7 +117,7 @@ E então, Tim se vira para a janela
 tim (closed-mounth): ... A Lua está Minguante
 alan (stressed-2): Hum?
 [background arg="res://assets/backgrounds/moon-in-dark.png" fade="2.0"]
-[wait time="4.0"]
+[wait time="2.5"]
 update alan (surprise-2)
 Ambos encaram a Lua em silêncio.
 Alan com respeito, orgulho.

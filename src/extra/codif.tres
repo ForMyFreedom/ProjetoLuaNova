@@ -43,6 +43,11 @@ else
 "text": "Funções que geram funções e/ou recebem funções",
 "title": "Função de Alta Ordem"
 },
+"List": {
+"alternatives": [],
+"text": "Uma coleção de dados",
+"title": "(list dado1 dado2 ...)"
+},
 "Modelagem": {
 "text": "Representar um problema computacionalmente",
 "title": "Modelagem"
@@ -52,32 +57,24 @@ else
 "title": "Modelo de Substituição"
 },
 "Parte 1 do Documento": {
-"text": "struct nova_func
-   char target_type[23];
-   int target_neuron;
-   int nova_type;
-   int nova_neuron;
-struct nova func = \"Land\", 19, 4, 5;",
+"text": "struct nova
+   char kind[23];
+   int target;
+   int origin;
+   int neuron;",
 "title": "Parte 1 do Documento"
 },
 "Parte 2 do Documento": {
-"text": "struct nova f = \"Land\", 19, 4, 5;",
+"text": "struct nova f = \\{\"Land\", 19, 4, 5};",
 "title": "Parte 2 do Documento"
 },
 "Parte 3 do Documento": {
-"text": "int experiment[24];
-for (x = 0 ; x < 23; x++)
-   experiment[x] = (x/10) * (f.target_neuron + f.nova_neuron);",
+"text": "int experiment[3] = \\{
+	f.origin+f.target,
+	f.neuron,
+	f.origin
+}",
 "title": "Parte 3 do Documento"
-},
-"Parte 4 do Documento": {
-"text": "if (f.nova_type < experiment[4])
-   for (x = 0; x < 23; x++)
-      experiment[23-x] = experiment[22-x];
-   experiment[0] = 13.8169 * f.nova_neuron;
-else
-   printf(\"Incompatible Beast\");",
-"title": "Parte 4 do Documento"
 },
 "Rascunho 1": {
 "text": "(define (quadrado x)
@@ -95,8 +92,9 @@ else
 "title": "Recursão"
 },
 "Struct": {
-"text": "Variável especial que contém diversas outras variáveis em sua composição",
-"title": "Struct"
+"alternatives": ["struct", "structs", "Structs"],
+"text": "Dado especial que contém diversos campos em sua composição",
+"title": "(struct _nome (...campos))"
 },
 "Template-Salvação": {
 "text": "(define (salvacao corpo_fonte vida_destino)
@@ -133,6 +131,11 @@ Verdadeiro só se A=B",
 "text": "(cond [caso1 resposta1]  [caso 2 resposta2] [else respostaN])",
 "title": "Condicional Geral"
 },
+"cons": {
+"alternatives": ["Cons"],
+"text": "Com um _dado, e uma lista/vazio, é gerado um par (_dado, ...lista ou vazio)",
+"title": "(cons _dado [lista/vazio])"
+},
 "if": {
 "text": "(if (caso_binario) res_verdade res_falso)",
 "title": "Condicional Binário"
@@ -156,6 +159,11 @@ Verdadeiro só se A=B",
 "random": {
 "text": "(random n) sorteia um valor de 0 a n",
 "title": "Aleatório"
+},
+"string": {
+"alternatives": ["String"],
+"text": "Dado do tipo texto",
+"title": "Texto"
 }
 }
 enabled = true

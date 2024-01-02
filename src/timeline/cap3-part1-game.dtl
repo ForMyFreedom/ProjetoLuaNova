@@ -1,56 +1,173 @@
 [background arg="res://assets/backgrounds/room.png" fade="0.0"]
-join alan (concern) 0
-alan: Vamos ver que tipo de código está sendo guardado no Departamento de Guerra
+join alan (concern) 2
+[music path="res://assets/musics/investigation.mp3" fade="0.0" volume="-3.0"]
+alan: Que tipo de código está sendo guardado no Departamento de Guerra…?
 Alan começa a ler o documento roubado
 alan (confused): Parece ser um código baseado em struct... Qual será sua finalidade?
-alan (serious): Vamos começar a traduzir a primeira parte e descobrir!
+alan (serious): Só começando a traduzir para descobrir
 label First Part
-Parte 1 do Documento
-- (struct nova (target_type[23] target_neuron nova_type nova_neuron))
-	alan (surprise): Esse tipo de alocação de espaço nem existe em racket, por que eu coloquei isso no final do campo?
+Parte 1 do Documento\
+[Definição de Struct]
+- (struct nova (kind[23] target origin neuron))
+	alan (surprise): Não, Racket não faz alocação de espaço como as linguagens antigas
+	set {error_amount} += 1
 	jump First Part
-- (struct nova [target_type target_neuron nova_type nova_neuron])
+- (struct nova (kind target origin neuron))
+	alan (happy): Tudo certo, ficou até mais enchuto
+- (struct nova [kind target origin neuron])
 	alan (surprise): Confundi a forma da escrita da struct, são parênteses ali, não colchetes
+	set {error_amount} += 1
 	jump First Part
-- (struct nova (target_type target_neuron nova_type nova_neuron))
-	alan (happy): As estruturas em Racket são muito mais simples, já que não preciso me preocupar com o tipo de seus componentes quando defino a struct
-	alan (hollow): Mas... Os componentes dessa struct são estranhos, seu nome também... Nova? Porjeto Lua Nova?
-	alan (serious): Preciso continuar, talvez realmente tenha algo muito ruim sendo pesquisado por Lua
-alan: Vamos continuar traduzindo!
+alan: Os structs em Racket são muito mais simples, já que não preciso me preocupar com o tipo de seus componentes
+alan (hollow): Mas… Esses componentes são estranhos
+alan: Seu nome também... Nova?
+alan (commum): De todo modo
+Alan desce seu olhar pela pequena folha
+alan (lil-surprise): ... Uma instânciação
+alan: A criação de um dado do tipo estabelecido
 label Second Part
-Parte 2 do Documento
+update alan (serious)
+Parte 2 do Documento\
+[Instânciando]
 - (define nova-f ('Land' 19 4 5))
-	alan (surprise): A instanciação está errada, esse "nova" não deveria estar assim, muito menos onde está
+	alan (surprise): A instanciação está errada…
+	alan: Tenho que lembrar que 'nova' é o nome da struct. Então, ela tem que ser escrita como parte da definição
+	set {error_amount} += 1
 	jump Second Part
 - (define f (nova 'Land' 19 4 5))
-	alan (happy): Depois de criar o struct, é bem fácil criar uma instância dele preenchido.
-	alan (serious): Não tenho certeza do significado desses números, mas "Terrestre"? No que exatamente esse codif é usado...
-	alan: Talvez eu descubra no resto do documento
-- (define f (nova Land 19 4 5))
-	alan (surprise): Aquela string nem está sendo reconhecida como string, deixa eu refazer
+	alan (happy): Tudo certo
+	alan (serious): Não tenho certeza do significado desses números... Mas 'Land'?
+	alan: Acho que isso pode ser traduzido como [i]Terrestre[/i]
+	alan: Céus, do que exatamente esse Codif se trata? Preciso avançar
+- (define f (nova Land, 19, 4, 5))
+	alan (surprise): Acho que esqueci das aspas na string
+	alan: E além disso, não é preciso vírgulas ao definir um dado
+	set {error_amount} += 1
 	jump Second Part
-label Third Part
+- (define f (nova 'Land', 19, 4, 5))
+	alan (lil-surprise): Não… Não é preciso vírgulas ao definir um dado
+	set {error_amount} += 1
+	jump Second Part
+- (define Land (nova f 19 4 5))
+	alan (surprise): Não… 'Land' é uma string que faz parte na instânciação
+	alan: Enquanto 'f', é o nome da variável
+	set {error_amount} += 1
+	jump Second Part
+Alan desce seu olhar pela pequena folha
+alan (concern): ... Essa parte é um pouco mais complexa…\
 Parte 3 do Documento
-- (define experiment (23 (* (/ x 10) (+ target_neuron nova_neuron)))
-	alan (surprise): Esqueci algumas coisas, é um pouco mais complexo criar uma lista baseado numa função
+alan (concern): Parece querer construir uma lista de três elementos com os dados de 'f'
+alan: Como é finito, posso usar List... Só preciso me procupar com os acessos de struct
+alan: Para acessar os componentes, preciso concatenar seu nome e o parâmetro que desejo acessar com um '-'
+alan: Algo como, [i]nova-param[/i]
+label Third Part
+update alan (concern-2)
+Parte 3 do Documento\
+(define experiment [b]#algo#[/b])\
+[Criando Lista]
+- (list  ( (nova-origin f) + (nova-target f) )  (nova-neuron f) (nova-origin f) )
+	alan (close-eyes-smile): Hum… Droga
+	alan: Acho que de tanto ler códigos antigos, eu me acostumo a colocar as operações entre os dados
+	alan: Esquecendo da notação pré-fixa
+	set {error_amount} += 1
 	jump Third Part
-- (define experiment (build-list 23 (lambda (x) (* (/ x 10) (+ target_neuron nova_neuron)))))
-	alan (surprise): Esqueci de referenciar a struct, não posso usar seus componentes sem fazer isso
+- (list  (+ (nova-origin f) (nova-target f) ) (nova-origin f) (nova-neuron f) )
+	alan (surprise): Eita, eu troquei a ordem dos elementos
+	alan: Tenho que me atentar a isso. A ordem é importante para listas
+	set {error_amount} += 1
 	jump Third Part
-- (define experiment (build-list 23 (lambda (x) (* (/ x 10) (+ (nova-target_neuron f) (nova-nova_neuron f)))))
-	alan (happy): O build-list é realmente uma função conveniente na hora de criar uma lista de números baseado num x variando de 0 a n
-	alan (serious): Essa lista parece estar sendo criada para testar algum padrão ou condição
-	alan: Resta apenas mais uma parte nesse documento, espero não ser o que estou pensando...
-label Fourth Part
-Parte 4 do Documento
-- (if (< (nova-nova_type f) (experiment 4)) (cons (* 13.8169 (nova-nova_neuron f)) experiment) 'Incompatible Beast)
-	alan (surprise): Esqueci que não é possível fazer referência a um elemento de uma lista de forma tão simples
-	jump Fourth Part
-- (if (< (nova-nova_type f) (list-ref experiment 4)) (append (* 13.8169 (nova-nova_neuron f)) experiment) 'Incompatible Beast)
-	alan (surprise): Erro meu, append só pode ser usado quando são passadas duas listas como argumentos
-	jump Fourth Part
-- (if (< (nova-nova_type f) (list-ref experiment 4)) (cons (* 13.8169 (nova-nova_neuron f)) experiment) 'Incompatible Beast)
-	alan (happy): O cons é uma ótima função por juntar um novo elemento ao início da lista enquanto move seus outros elementos em uma posição
-	alan (serious): Agora posso finalmente descobrir do que se trata esse documento
-	Alan junta as partes que traduziu e começar a revisar o documento
+- (list  (+ (nova-origin f) (nova-target f) )  nova-neuron f nova-origin f )
+	alan (surprise): Esqueci alguns parêntesis!
+	alan: As coisas ficam uma bagunça sem eles
+	set {error_amount} += 1
+	jump Third Part
+- (list  (+ (nova-origin f) (nova-target f) )  (nova-neuron f) (nova-origin f) )
+	alan (happy): Ótimo, traduzido
+	alan (confused): Mas não sei pra que isso serve. Algum teste talvez?
+Alan desce seu olhar pela pequena folha
+alan (concern-2): Uma função grandinha...\
+[font_size=16][speed=0.1]if (f.origin < experiment[1])\:\
+\   for (x = 0; x < 4; x++)\
+\      experiment[4-x] = experiment[3-x];\
+\   experiment[0] = 13.8169 * f.neuron;\
+\else\:\
+\   printf("Incompatible Beast");
+alan (confused): [speed=1]Preciso ir em partes… Ela primeiro verifica algo escuso
+alan: [speed=0.1]if (f.neuron > experiment[0])\
+[speed=1]... Um condifional que usa o elemento na posição zero da lista de antes
+alan: Para isso, posso usar list-ref sem problemas
+label Fourth-1 Part
+[speed=0.1]\if (f.neuron > experiment[0])
+- (if (> (nova-neuron f) (experiment 0))...
+	alan (stressed): [speed=1]É preciso usar list-ref para acessar o elemento de uma lista
+	set {error_amount} += 1
+	jump Fourth-1 Part
+- (if (> (list-ref experiment 0) (nova-neuron f))...
+	alan (tired): [speed=1]Inverti a ordem dos dados!
+	alan: Isso é problemático, pode gerar o resultado oposto
+	set {error_amount} += 1
+	jump Fourth-1 Part
+- (if (> (nova-neuron f) (list-ref experiment 0))...
+	alan (happy): [speed=1]É isso ai, essa é a condicional
+- (if (> (neuron f) (list-ref experiment 0))...
+	alan (lil-surprise): [speed=1]Opa, me confundi no acesso de struct
+	alan: É preciso usar o nome no acesso, no caso, 'nova-'
+	set {error_amount} += 1
+	jump Fourth-1 Part
+alan (concern): Após ela, ele faz uma operação...\
+[font_size=16][speed=0.1]if (f.origin < experiment[1])\:\
+\   [b]for (x = 0; x < 4; x++)[/b]\
+\      [b]experiment[4-x] = experiment[3-x];[/b]\
+\   [b]experiment[0] = 13.8169 * f.neuron;[/b]\
+\else\:\
+\   printf("Incompatible Beast");
+alan (concern-2): [speed=1]Mandando todos os elementos da lista para direita
+alan (lil-surprise): E... Adiciona um novo elemento no começo da lista?
+alan (confused): Ora, isso é ineficiente.
+alan (close-eyes-smile): Nossa linguagem lida muito melhor com isso usando cons
+label Fourth-2 Part
+[font_size=16][speed=0.1]if (f.origin < experiment[1])\:\
+\   [b]for (x = 0; x < 4; x++)[/b]\
+\      [b]experiment[4-x] = experiment[3-x];[/b]\
+\   [b]experiment[0] = 13.8169 * f.neuron;[/b]\
+\else\:\
+\   printf("Incompatible Beast");
+- (cons (* 13.8169 (nova-neuron f)) experiment)
+	alan (happy): [speed=1]Isso fica muito mais simples que no legado!
+- (cons experiment (* 13.8169 (nova-neuron f)))
+	alan (lil-surprise): [speed=1]Inverti a ordem do cons
+	alan: É importante que a inserção fique na esquerda da lista
+	set {error_amount} += 1
+	jump Fourth-2 Part
+- (cons (* 13.8169 (neuron f)) experiment)
+	alan (tired): [speed=1]Droga, esqueci que o acesso precisa usar 'nova-', o nome do struct
+	set {error_amount} += 1
+	jump Fourth-2 Part
+- (cons (for 0 4 ++ (* 13.8169 f.neuron)))
+	alan (wtf-fear): [speed=1]... Isso não faz nenhum sentido.
+	alan: 'For' não é usado de forma iterativa em Racket
+	set {error_amount} += 1
+	jump Fourth-2 Part
+Alan olha para os seus rascunhos
+[font_size=16][speed=0.1](struct nova (kind target origin neuron))\
+(define f (nova 'Land' 19 4 5))\
+(list  (+ (nova-origin f) (nova-target f) )  (nova-neuron f) (nova-origin f) )\
+(if (> (nova-neuron f) (list-ref experiment 0))\
+\    (cons (* 13.8169 (nova-neuron f)) experiment)\
+)
+alan (serious): [speed=1]...
+alan: Traduzi e traduzi... Mas, talvez eu esteje com medo de olhar de fato o que esse código significa
+Alan junta as partes que traduziu, e começar a revisar o documento
+alan (concern): '[i]'Terrestre'[/i] como parte de um struct'... 'Neurônios testados entre si'...
+[music fade="1.0" volume="0.0"]
+alan (despair): [i]'Besta, incompatível⁉'[/i]
+A folha cai da mão de Alan
+[music fade="3.0" volume="0.0"]
+[wait time="2.0"]
+[signal arg="upper_fade"]
+[music fade="1.5" volume="0.0"]
+[wait time="2.0"]
+leave --All--
+[background fade="2.0"]
+[signal arg="reverse_fade"]
 jump cap3-part2/
