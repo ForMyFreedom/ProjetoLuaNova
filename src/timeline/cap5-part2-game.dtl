@@ -1,26 +1,140 @@
-@é dev ao invez de tradução
 join itens (machine) 1
-@
-charllote (true-default): Meu Codif de Mentes demora uma semana pra fazer efeito, e requer pelo menos quatro contatos
+alan: [color=dark_gray][i]É tudo ou nada, eu só preciso que ela não perceba[/i][/color]
+alan (stressed): Charllote… Eu exijo que explique
+alan: Por que você não controlava minha mente, mesmo dizendo ter poder para isso?
+charllote (true-default): Não é bem assim
+charllote: Meu Codif de Mentes demora uma semana pra fazer efeito, e requer pelo menos quatro contatos
 charllote (true-angry): Faltava só dois, para sua dominação completa
 charllote: O seu caso foi muito frustrante
 charllote (true-default): Quase tão frustrante quando o dia em que matei meu papai
 alan (despair): O que⁉
 charllote (true-angry): Você deixou de acreditar em mim, Alan
 charllote: Tudo culpa, daquele maldito espião
-@
+
+alan (rage-despair-2): [color=dark_gray][i]Certo… Devo me concentrar[/i][/color]
+alan (stressed-2): [color=dark_gray][i]Preciso criar uma Função de Alta Ordem, um Codif para manipulação de Vida[/i][/color]
+alan (very-surprised): [color=dark_gray][i]Preciso de uma Modelagem inicial... Só se eu conseguir representar de forma fiel os conceitos da realidade, a codificação irá funcionar[/i][/color]
+alan (fear-angry): [color=dark_gray][i]Antes de se preocupar com Vida, preciso codificar Corpos e Capacidades[/i][/color]
+alan: [color=dark_gray][i]Corpos possuem Capacidades… Preciso de estruturas mais elaboradas como list, como struct[/i][/color]
+label First Question
+alan (concern-2): [color=dark_gray][i]De que maneira poderia modelar um Corpo e suas Capacidades?[/i][/color]
+- (define corpo list) / (define capacidades list)
+	alan (concern): [color=dark_gray][i]Não… Não faz sentido definir uma lista de corpos[/i][/color]
+	jump First Question
+- (define capacidades list) / (struct corpo (capacidades))
+	[sound path="res://assets/sfx/strong-statement.mp3" volume="0.0"]
+	alan (very-surprised): [color=dark_gray][i]É isso![/i][/color]
+	alan: [color=dark_gray][i]Eu posso definir capacidades como uma lista de números. E corpo, como um struct que possui capacidades![/i][/color]
+- (define corpo list) / (struct capacidade (corpo))
+	alan (concern): [color=dark_gray][i]Não… Não faz sentido definir uma lista de corpos[/i][/color]
+	alan (stressed-5): [color=dark_gray][i]E até mesmo, não faz sentido 'capacidade' possuir um corpo![/i][/color]
+	jump First Question
+- (struct corpo (capacidades)) / (struct capacidade (corpo))
+	alan (stressed): [color=dark_gray][i]Não! É até paradoxal![/i][/color]
+	alan: [color=dark_gray][i]Como poderia definir algo como o struct recursivo de outro algo?[/i][/color]
+	jump First Question
+alan: [color=dark_gray][i]Ótimo, consegui um primeiro passo![/i][/color]
+
 charllote (true-bored): Você sería tão… Perfeito. Perfeito para o Projeto Lua Nova
 alan (stressed-2): …
 charllote (true-default): Está curioso, não é? Sobre a proposta que recusaste?
 alan (stressed): … Não posso negar isso
-@
-charllote (true-front-smile): O Projeto Lua Nova, é nada além…
+
+alan (stressed-2): [color=dark_gray][i]Mas preciso continuar a modelagem![/i][/color]
+alan: [color=dark_gray][i]Até agora, tenho\:\
+[speed=0.1](define capacidades list)\
+(struct corpo (capacidades))[/i][/color]
+alan (stressed-3): [color=dark_gray][i][speed=1]Mas, preciso modelar o que é Vida[/i][/color]
+alan: [color=dark_gray][i]Uma Vida precisa de um Corpo… Então, podemos ter o seguinte template de função, retornando uma função com lambda\: Vida Template [/i][/color]
+alan (surprise): [color=dark_gray][i][speed=1]Porem... Vida também é as dificuldades que encontramos[/i][/color]
+alan (surprise-2): [color=dark_gray][i]Os desafios que superamos... [portrait=stressed-3]E as vezes, fracassamos[/i][/color]
+alan (concern-2): [color=dark_gray][i]Podemos pensar em Vida como uma Função que… Com um Corpo…[/i][/color]
+alan (concern): [color=dark_gray][i]Gera uma Interface de Interação com as Dificuldades do Mundo[/i][/color]
+alan (lil-surprise): [color=dark_gray][i]Mas existem coisas mais fáceis e mais difícies... Deve haver um Grau de Dificuldade![/i][/color]
+alan (surprise): [color=dark_gray][i]E além do mais, não posso esquecer que há muitas capacidades[/i][/color]
+alan (lil-surprise): [color=dark_gray][i]O Index da Capacidade deve ser passado para a função[/i][/color]
+alan (commum): [color=dark_gray][i]Então, temos algo como\: Template-Vida-2[/i][/color]
+alan (stressed-2): [color=dark_gray][i]Além disso, a Vida… Também é incerta[/i][/color]
+alan (stressed): [color=dark_gray][i]Frente a uma dificuldade, mesmo habilidosos, podemos falhar... Mesmo sendo horríveis, podemos conseguir[/i][/color]
+alan (stressed-2): [color=dark_gray][i]Então, devo pensar na função random[/i][/color]
+if {determinist} == "true":
+	alan (stressed): [color=dark_gray][i]O que é impreciso, já que determinismo é real[/i][/color]
+else:
+	alan (stressed-3): [color=dark_gray][i]O que é bem preciso, já que determinismo é falso[/i][/color]
+alan (stressed-2): [color=dark_gray][i]De todo modo…[/i][/color]
+alan (surprise-2): [color=dark_gray][i]Viver, é sobre os booleanos… Sobre nossos fracassos e sucessos[/i][/color]
+label Second Question
+alan (surprise): [color=dark_gray][i]Como modelar o aleatório⁉\
+Dificuldade e Capacidade são ambos números, não posso me esquecer disso[/i][/color]
+- Valor Aleatório entre 0-e-Dificuldade, comparando com a Dificuldade
+	alan (stressed-5): [color=dark_gray][i]Não… É irrealista[/i][/color]
+	alan: [color=dark_gray][i]Em nenhum momento leva a Capacidade em consideração[/i][/color]
+	jump Second Question
+- Valor Aleatório entre Capacidade-e-Dificuldade, comparando com ambas
+	alan (wtf-fear): [color=dark_gray][i]Acho… Que viajei um pouco[/i][/color]
+	alan: [color=dark_gray][i]Talvez tambem esteje com falta de sangue[/i][/color]
+	jump Second Question
+- Valor Aleatório entre 0-e-Dificuldade, comparando com a Capacidade
+	alan (stressed-3): [color=dark_gray][i]Não… É contraditório[/i][/color]
+	alan: [color=dark_gray][i]É como dizer que as dificuldades não são objetivas[/i][/color]
+	jump Second Question
+- Valor Aleatório entre 0-e-Capacidade, comparando com a Dificuldade
+	[sound path="res://assets/sfx/strong-statement.mp3" volume="0.0"]
+	alan (very-surprised): [color=dark_gray][i]É isso! É realista, e consistente.[/i][/color]
+
+charllote (true-surprised): Você parece distante... [portrait=true-smile]Não está interessado no que é o Projeto Lua Nova?
+alan (stressed-4): Hum… Não, eu estou
+alan: Apenas estava tentando adivinhar por mim mesmo
+charllote (true-determined): Compreendo… Também não gosto quando as respostas são cuspidas
+charllote (true-front-smile): De todo modo…
+alan (stressed-2): …
+charllote: [speed=2]O Projeto Lua Nova, é nada além…
 [sound path="res://assets/sfx/death-statement.mp3" volume="0.0"]
-charllote (true-insane): [color=red]Do domínio mental, de toda corte imperial![/color]
-alan (more-despair): …‼ O que⁉
+charllote (true-insane): [speed=2][color=red]Do domínio mental, de toda corte imperial![/color]
+alan (despair): [speed=1]…‼ O que⁉
 charllote: Lua... Não
 charllote (true-determined): Eu me tornarei a Imperatriz! Sobre uma Lua Nova!
-@
+
+alan (stressed-4): [color=dark_gray][i]... Ok. Isso foi insano[/i][/color]
+alan (stressed-5): [color=dark_gray][i]Mas foco! Preciso terminar a modelagem da Vida, se não mal poderei codificar a salvação![/i][/color]
+alan (stressed-3): [color=dark_gray][i]Descobri que deve ser um sorteio ligado a Capacidade versus a Dificuldade[/i][/color]
+alan: [color=dark_gray][i]Podemos ter um template como\:\
+[speed=0.1](> (random #) dificuldade)
+alan: [color=dark_gray][i][speed=1]Dando sucesso caso o sorteio seja maior que a dificuldade[/i][/color]
+alan (stressed-2): [color=dark_gray][i]Preciso terminar de codificar o sorteio[/i][/color]
+alan: [color=dark_gray][i]Usando Corpo, e o Index para as Capacidades![/i][/color]
+label Third Question
+alan: [color=dark_gray][i][speed=0.1][font_size=12](define capacidades list)\
+(struct corpo (capacidades))\
+(define (vida corpo)\
+\	(lambda (dificuldade index)\
+\		(> [b](random #)[/b] dificuldade)\
+\	)\
+)
+- (random (list-ref capacidades index))
+	alan (stressed): [color=dark_gray][i][speed=1]Não… A função Vida não recebe Capacidades, ela recebe Corpo![/i][/color]
+	alan: [color=dark_gray][i]Eu preciso pegar Capacidades de dentro de Corpo[/i][/color]
+	jump Third Question
+- (random ((corpo-capacidades corpo) index))
+	alan (stressed-3): [color=dark_gray][i][speed=1]Não… A sintaxe do racket não permite adquirir o valor diretamente[/i][/color]
+	alan: [color=dark_gray][i]Eu preciso usar a função list-ref[/i][/color]
+	jump Third Question
+- (random (list-ref (corpo-capacidades corpo) index))
+	[sound path="res://assets/sfx/strong-statement.mp3" volume="0.0"]
+	alan (very-surprised): [color=dark_gray][i][speed=1]É isso ai![/i][/color]
+- (random ((capacidades) index))
+	alan (rage-despair): [color=dark_gray][i][speed=1]Não![/i][/color]
+	alan: [color=dark_gray][i]Estou esquecendo de usar list-ref e acesso de struct![/i][/color]
+	jump Third Question
+alan (surprise-2): [color=dark_gray][i]A 'Vida' está modelada!\
+[font_size=12][speed=0.1](define (vida corpo)\
+\	(lambda (dificuldade index)\
+\		(> (random (list-ref (corpo-capacidades corpo) index)) dificuldade)\
+\	)\
+)
+alan (accept-death): [color=dark_gray][i][speed=1]Tudo certo, falta fazer a solução[/i][/color]
+
+alan (stressed): [color=dark_gray][i][speed=1]… Porem, preciso dar um pouco de atenção pra ela[/i][/color]
 alan (stressed-2): Mas então, por que o império está neutro?
 charllote (true-default): Ora? Não é óbvio?
 charllote: Espada descobriu nosso projeto, e então a guerra iniciou
@@ -29,19 +143,81 @@ charllote: E de forma análoga ao seu processo interrompido, Alan
 charllote (true-angry): O do imperador também parou no meio, por falta de contato pessoal meu
 alan (stressed-2): ...
 alan: [color=dark_gray][i]Crianças são impressionantes. Como pode me contar tudo isso tão casualmente?[/i][/color]
-@
+
+alan (stressed-5): [color=dark_gray][i]De todo modo. Preciso codificar nossa salvação![/i][/color]
+alan (concern): [color=dark_gray][i]Uma função, que lida com Corpos, Capacidades, e Vidas[/i][/color]
+alan (surprise): [color=dark_gray][i]Nossa salvação... É a geração de uma nova Vida.[/i][/color]
+alan (surprise-2): [color=dark_gray][i]De um Corpo fonte, para uma outra Vida[/i][/color]
+alan: [color=dark_gray][i]O template pode ser o seguinte\:\
+[speed=0.1][font_size=12](define (salvacao corpo_fonte vida_destino)\
+\     (define caps_extraido\
+\          (corpo-capacidades corpo_fonte)\
+\     )\
+\     \###\
+)
+alan (concern): [color=dark_gray][i][speed=1]Fazendo uma Definição Local das Capacidades Extraidas, para ajudar na claridade do código[/i][/color]
+alan (concern-2): [color=dark_gray][i]Quanto ao retorno, ele deve ser o mesmo da Vida… Já que no fim será uma Nova Vida[/i][/color]
+alan: [color=dark_gray][i][speed=0.1][font_size=12](define (salvacao corpo_fonte vida_destino)\
+\     (define caps_extraido (corpo-capacidades corpo_fonte))\
+\     [b](lambda (dificuldade index)[/b]\
+\          [b]###[/b]\
+\     [b])[/b]\
+)
+alan (stressed-2): [speed=1][color=dark_gray][i]... Agora, falta só o processamento[/i][/color]
+alan (very-surprised): [color=dark_gray][i]Como… Como eu poderia enviar Capacidades Extraidas, para uma Vida Destino?[/i][/color]
+label Fourth Question
+alan: [color=dark_gray][i][speed=0.1][font_size=12](define (salvacao corpo_fonte vida_destino)\
+\     (define caps_extraido (corpo-capacidades corpo_fonte))\
+\     (lambda (dificuldade index)\
+\          [b]###[/b]\
+\     )\
+)
+- Diminuindo a Dificuldade pela Capacidade Extraida
+	[sound path="res://assets/sfx/strong-statement.mp3" volume="0.0"]
+	alan (accept-death): [color=dark_gray][i][speed=1]... É ISSO![/i][/color]
+- Somando a Capacidade Extraida na Capacidade Destino
+	alan (stressed-3): [color=dark_gray][i][speed=1]… Mas, eu não tenho acesso as Capacidades da Vida Destino[/i][/color]
+	alan: [color=dark_gray][i]Pois, vida_destino é uma função, não um struct[/i][/color]
+	jump Fourth Question
+- Somando a Capacidade extraida na Dificuldade
+	alan (stressed): [color=dark_gray][i][speed=1]… Isso, não faz sentido[/i][/color]
+	alan: [color=dark_gray][i]É o mesmo dizer que ser mais forte deixa sua vida mais difícil…[/i][/color]
+	jump Fourth Question
+- Diminuindo a Capacidade Destino pela Capacidade Extraida
+	alan (stressed-5): [color=dark_gray][i][speed=1]… Mas, eu não tenho acesso as Capacidades da 'Vida Destino'[/i][/color]
+	alan: [color=dark_gray][i]Pois, vida_destino é uma função, não um struct[/i][/color]
+	jump Fourth Question
+alan (vilain-smile): [color=dark_gray][i]Eu mantenho a Vida Destino, mas gero uma dificuldade modificada![/i][/color]
+alan: [font_size=16][color=dark_gray][i]Nova_Dificuldade\: (- dificuldade (list-ref caps_extraido index))[/i][/color]
+alan: [font_size=16][color=dark_gray][i]Nova_Vida\: (vida_destino Nova_Dificuldade index)[/i][/color]
+alan (accept-death): [color=dark_gray][i]Agora, eu só preciso juntar tudo![/i][/color]
+
 update charllote (true-bored)
-alan (stressed-5): [color=dark_gray][i]Ela parece entendiada, preciso ganhar mais tempo…[/i][/color]
+alan (stressed-5): [color=dark_gray][i]Mas… Ela parece entendiada, preciso ganhar mais tempo…[/i][/color]
 alan: [color=dark_gray][i]Qualquer coisa pra matraca infinita dela…[/i][/color]
 alan (stressed-3): [color=dark_gray][i]Já sei![/i][/color]
 alan (rage-despair): Mas se você tinha seu Codif de Mentes em Ada. Por que ela não era fiel a você⁉
 charllote (true-front-smile): … Meu poder não é absoluto, bobinho
+update alan (stressed)
 charllote: Existe um numero limitado de pessoas que posso ficar computando ao mesmo tempo
 charllote (true-default): E a última coisa que Ada era, é uma pessoa relevante
-@final@
-alan (stressed-5): [color=dark_gray][i]Acho… Que está pronto[/i][/color]
+alan (stressed-2): [color=dark_gray][i]... Acho, que terminei?[/i][/color]
+\[speed=0.1][font_size=12](define capacidades list)\
+(struct corpo (capacidades))\
+(define (vida corpo)\
+\	(lambda (dificuldade index)\
+\		(> (random (list-ref (corpo-capacidades corpo) index)) dificuldade)\
+\	)\
+)\
+(define (salvacao corpo_fonte vida_destino)\
+\	(define caps_extraido (corpo-capacidades corpo_fonte))\
+\	(lambda (dificuldade index)\
+\		(vida_destino (- dificuldade (list-ref caps_extraido index)) index)\
+\	)\
+)
+alan (stressed-5): [speed=1][color=dark_gray][i]É isso, está pronto[/i][/color]
 leave itens
-alan: [color=dark_gray][i]O Código já está dentro de mim. Obrigado, Computador[/i][/color]
+alan (accept-death): [color=dark_gray][i]O Código já está dentro de mim. Obrigado, Computador[/i][/color]
 charllote (true-bored): Mas, tem algo que me incomoda, Alan
 charllote (true-angry): Como você conseguiu voltar?
 alan (stressed-4): …

@@ -5,8 +5,9 @@ join charllote (true-hate) 3
 charllote: Cansei de suas gracinhas
 update alan (hurt) 0 [ move_time="0.5"]
 [sound path="res://assets/sfx/hit.mp3" volume="0.0"]
-Charllote chuta Alan, o arremessando para longe de Ada
-E no movimento, o pequenino Computador cai da mão de Alan. Rodando sobre os pés de Charllote
+Charllote o chuta, mandando o garoto para longe de Ada
+E no movimento, o pequenino Computador cai da mão de Alan.
+Rodando e rodando, sobre os pés de Charllote
 [music path="res://assets/musics/refusal.mp3" fade="3.0" volume="0.0"]
 charllote (true-surprised): O que é isso?
 Charllote segura o aparelho com a mão direita
@@ -27,7 +28,7 @@ Charllote aperta…
 [sound path="res://assets/sfx/eletric-explosion.mp3" volume="0.0"]
 E destrói o artefato em um só movimento
 alan (rage-despair-2): ⁉
-charllote (true-front-smile): Como se precisássemos de algo de Codif tão fraco
+charllote (true-front-smile): Como se precisássemos de algo com um Codif tão fraco
 charllote (true-determined): Nunca que uma máquina chegará aos pés do meu poder
 charllote: O que precisamos é de bons códigos, não brinquedinhos
 alan (very-surprised): …
@@ -94,11 +95,11 @@ charllote: [color=dark_gray][i]O dobro de vigor... E talvez até o dobro de pod-
 [sound path="res://assets/sfx/cool-crash.mp3" volume="0.0"]
 update charllote (true-hate)
 [wait time="1.5"]
-… Charlotte desvia de uma explosão que estilhaça as janelas. Uma quase tão forte quanto a sua primeira
+… Charlotte desvia de uma explosão que estilhaça janelas. Uma quase tão forte quanto a sua primeira
 Com Ada permanecendo de pé, e dedos estralados
 charllote (true-insane): [color=dark_gray][i]Inferno! Ela também é forte![/i][/color]
 charllote (true-focused): [color=dark_gray][i]Não. Não posso me empolgar. Isso é muito ruim[/i][/color]
-charllote: [color=dark_gray][i]Minha imagem vai ser muito manchada se registrarem machucados[/i][/color]
+charllote: [color=dark_gray][i]Minha imagem vai ser manchada se registrarem machucados[/i][/color]
 update charllote (true-focused-codif) [animation="Tada"]
 charllote: [color=dark_gray][i]Tenho que acabar com isso o mais rápido poss-[/i][/color][aa=0.5]
 leave NovaAda

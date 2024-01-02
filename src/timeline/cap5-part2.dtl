@@ -69,7 +69,7 @@ alan (stressed-2): …
 if {determinist} == "true":
 	alan (stressed): Sim
 	charllote (true-insane): Eu também! Acho que temos muito em comum
-	alan (stressed-2): [color=dark_grey][i]Coisa que não me anima[/i][/color]
+	alan (stressed-2): [color=dark_gray][i]Coisa que não me anima[/i][/color]
 else:
 	alan (stressed): Não
 	charllote (true-angry): Tolo... O Destino é um fato tão inconstestável quanto a morte
