@@ -64,6 +64,17 @@ layout/styles={
 layout/default_style="Default"
 variables={
 "alan_would_attack": "true",
+"companion": {
+"cap1": {},
+"cap2": {
+"q1": "Documento 1",
+"q2": "Documento 2",
+"q3": "Documento 3"
+},
+"cap3": {},
+"cap4": {},
+"cap5": {}
+},
 "determinist": "true",
 "dilema_title": "Assasino de Mãe",
 "error_amount": "0",
