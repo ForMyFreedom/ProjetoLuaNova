@@ -67,7 +67,7 @@ else:
 alan (stressed-2): [color=dark_gray][i]De todo modo…[/i][/color]
 alan (surprise-2): [color=dark_gray][i]Viver, é sobre os booleanos… Sobre nossos fracassos e sucessos[/i][/color]
 label Second Question
-alan (surprise): [color=dark_gray][i]Como modelar o aleatório⁉\
+alan (surprise): [color=dark_gray][i]Como modelar um bom sorteio aleatório⁉\
 Dificuldade e Capacidade são ambos números, não posso me esquecer disso[/i][/color]
 - Valor Aleatório entre 0-e-Dificuldade, comparando com a Dificuldade
 	alan (stressed-5): [color=dark_gray][i]Não… É irrealista[/i][/color]
@@ -105,7 +105,7 @@ alan (stressed-4): [color=dark_gray][i]... Ok. Isso foi insano[/i][/color]
 alan (stressed-5): [color=dark_gray][i]Mas foco! Preciso terminar a modelagem da Vida, se não mal poderei codificar a salvação![/i][/color]
 alan (stressed-3): [color=dark_gray][i]Descobri que deve ser um sorteio ligado a Capacidade versus a Dificuldade[/i][/color]
 alan: [color=dark_gray][i]Podemos ter um template como\:\
-[speed=0.1](> (random #) dificuldade)
+[speed=0.1](> (random #algo#) dificuldade)
 alan: [color=dark_gray][i][speed=1]Dando sucesso caso o sorteio seja maior que a dificuldade[/i][/color]
 alan (stressed-2): [color=dark_gray][i]Preciso terminar de codificar o sorteio[/i][/color]
 alan: [color=dark_gray][i]Usando Corpo, e o Index para as Capacidades![/i][/color]
@@ -114,7 +114,7 @@ alan: [color=dark_gray][i][speed=0.1][font_size=12](define capacidades list)\
 (struct corpo (capacidades))\
 (define (vida corpo)\
 \	(lambda (dificuldade index)\
-\		(> [b](random #)[/b] dificuldade)\
+\		(> [b](random #algo#)[/b] dificuldade)\
 \	)\
 )
 - (random (list-ref capacidades index))
@@ -136,7 +136,9 @@ alan: [color=dark_gray][i][speed=0.1][font_size=12](define capacidades list)\
 	set {error_amount} += 1
 	jump Third Question
 alan (surprise-2): [color=dark_gray][i]A 'Vida' está modelada!\
-[font_size=12][speed=0.1](define (vida corpo)\
+[font_size=12][speed=0.1]Vida recebe um corpo, e cria uma função\
+Uma função, que sorteia um valor aleatório entre 0 e alguma capacidade, e compara com a dificuldade enfrentada\
+(define (vida corpo)\
 \	(lambda (dificuldade index)\
 \		(> (random (list-ref (corpo-capacidades corpo) index)) dificuldade)\
 \	)\
@@ -155,7 +157,7 @@ alan: [color=dark_gray][i]Crianças são impressionantes. Como pode me contar tu
 
 alan (stressed-5): [color=dark_gray][i]De todo modo. Preciso codificar nossa salvação![/i][/color]
 alan (concern): [color=dark_gray][i]Uma função, que lida com Corpos, Capacidades, e Vidas[/i][/color]
-alan (surprise): [color=dark_gray][i]Nossa salvação... É a geração de uma nova Vida.[/i][/color]
+alan (surprise): [color=dark_gray][i]Nossa salvação... É a geração de uma nova Vida, uma mais forte.[/i][/color]
 alan (surprise-2): [color=dark_gray][i]De um Corpo fonte, para uma outra Vida[/i][/color]
 alan: [color=dark_gray][i]O template pode ser o seguinte\:\
 [speed=0.1][font_size=12](define (salvacao corpo_fonte vida_destino)\
@@ -173,7 +175,8 @@ alan: [color=dark_gray][i][speed=0.1][font_size=12](define (salvacao corpo_fonte
 \     [b])[/b]\
 )
 alan (stressed-2): [speed=1][color=dark_gray][i]... Agora, falta só o processamento[/i][/color]
-alan (very-surprised): [color=dark_gray][i]Como… Como eu poderia enviar Capacidades Extraidas, para uma Vida Destino?[/i][/color]
+alan (very-surprised): [color=dark_gray][i]Como… Como eu poderia enviar Capacidades Extraidas[/i][/color]
+alan: [color=dark_gray][i]Enviar força de um corpo, para uma outra Vida que não a do corpo?[/i][/color]
 label Fourth Question
 alan: [color=dark_gray][i][speed=0.1][font_size=12](define (salvacao corpo_fonte vida_destino)\
 \     (define caps_extraido (corpo-capacidades corpo_fonte))\
