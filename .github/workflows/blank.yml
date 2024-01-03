@@ -29,6 +29,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
+      - name: Install Vulkan SDK
+        uses: humbletim/install-vulkan-sdk@v1.1.1
+
       - name: Move HTML5 templates into position
         run: |
           mkdir -v -p ~/.local/share/godot/templates
