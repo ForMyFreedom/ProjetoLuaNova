@@ -93,6 +93,8 @@ glossary/glossary_files=["res://src/extra/codif.tres"]
 
 [display]
 
+window/size/viewport_width=800
+window/size/viewport_height=450
 window/stretch/mode="canvas_items"
 
 [dotnet]
