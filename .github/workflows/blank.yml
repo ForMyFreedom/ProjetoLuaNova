@@ -42,7 +42,15 @@ jobs:
 
       - name: Build
         run: godot -v --export-release --headless "Web" ../build/web/index.html project/project.godot
-
+        
+      - name: Compress txt with gzip
+        uses: coco-hkk/compress-action@v2.1
+        id: step1
+        with:
+          file-suffix: 'pck'
+          target-directory-path: ./build/web
+          compress-tool: 'gzip'
+          
       - name: Add coi-service-worker
         run: |
           git clone https://github.com/gzuidhof/coi-serviceworker.git
