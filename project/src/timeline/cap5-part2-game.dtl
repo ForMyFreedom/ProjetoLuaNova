@@ -17,27 +17,34 @@ alan (very-surprised): [color=dark_gray][i]Preciso de uma Modelagem inicial... S
 alan (fear-angry): [color=dark_gray][i]Antes de se preocupar com Vida, preciso codificar Corpos e Capacidades[/i][/color]
 alan: [color=dark_gray][i]Corpos possuem Capacidades… Preciso de estruturas mais elaboradas como list, como struct[/i][/color]
 label First Question
-alan (concern-2): [color=dark_gray][i]De que maneira poderia modelar um Corpo e suas Capacidades?[/i][/color]
-- (define corpo list) / (define capacidades list)
-	alan (concern): [color=dark_gray][i]Não… Não faz sentido definir uma lista de corpos[/i][/color]
+alan (concern-2): [speed=0.1]{companion.cap5.q1}
+- 1. (define corpo list) / (define capacidades list)
+	alan (concern): [speed=1][color=dark_gray][i]Não… Não faz sentido definir uma lista de corpos[/i][/color]
 	set {error_amount} += 1
-	jump First Question
-- (define capacidades list) / (struct corpo (capacidades))
+- Próxima Ideia
+alan: [speed=0.1]{companion.cap5.q1}
+- 2. (define capacidades list) / (struct corpo (capacidades))
 	[sound path="res://assets/sfx/strong-statement.mp3" volume="0.0"]
-	alan (very-surprised): [color=dark_gray][i]É isso![/i][/color]
+	alan (very-surprised): [speed=1][color=dark_gray][i]É isso![/i][/color]
 	alan: [color=dark_gray][i]Eu posso definir capacidades como uma lista de números. E corpo, como um struct que possui capacidades![/i][/color]
-- (define corpo list) / (struct capacidade (corpo))
-	alan (concern): [color=dark_gray][i]Não… Não faz sentido definir uma lista de corpos[/i][/color]
+	jump Pass First Question
+- Próxima Ideia
+alan: [speed=0.1]{companion.cap5.q1}
+- 3. (define corpo list) / (struct capacidade (corpo))
+	alan (concern): [speed=1][color=dark_gray][i]Não… Não faz sentido definir uma lista de corpos[/i][/color]
 	alan (stressed-5): [color=dark_gray][i]E até mesmo, não faz sentido 'capacidade' possuir um corpo![/i][/color]
 	set {error_amount} += 1
-	jump First Question
-- (struct corpo (capacidades)) / (struct capacidade (corpo))
-	alan (stressed): [color=dark_gray][i]Não! É até paradoxal![/i][/color]
+- Próxima Ideia
+alan: [speed=0.1]{companion.cap5.q1}
+- 4. (struct corpo (capacidades)) / (struct capacidade (corpo))
+	alan (stressed): [speed=1][color=dark_gray][i]Não! É até paradoxal![/i][/color]
 	alan: [color=dark_gray][i]Como poderia definir algo como o struct recursivo de outro algo?[/i][/color]
 	set {error_amount} += 1
-	jump First Question
-alan: [color=dark_gray][i]Ótimo, consegui um primeiro passo![/i][/color]
+- Próxima Ideia
+jump First Question
+label Pass First Question
 
+alan: [color=dark_gray][i]Ótimo, consegui um primeiro passo![/i][/color]
 charllote (true-bored): Você seria tão… Perfeito. Perfeito para o Projeto Lua Nova
 alan (stressed-2): …
 charllote (true-default): Está curioso, não é? Sobre a proposta que recusaste?
@@ -45,8 +52,7 @@ alan (stressed): … Não posso negar isso
 
 alan (stressed-2): [color=dark_gray][i]Mas preciso continuar a modelagem![/i][/color]
 alan: [color=dark_gray][i]Até agora, tenho\:\
-[speed=0.1](define capacidades list)\
-(struct corpo (capacidades))[/i][/color]
+[speed=0.1](define capacidades list)[br](struct corpo (capacidades))[/i][/color]
 alan (stressed-3): [color=dark_gray][i][speed=1]Mas, preciso modelar o que é Vida[/i][/color]
 alan: [color=dark_gray][i]Uma Vida precisa de um Corpo… Então, podemos ter o seguinte template de função, retornando uma função com lambda\: Vida Template [/i][/color]
 alan (surprise): [color=dark_gray][i][speed=1]Porem... Vida também é as dificuldades que encontramos[/i][/color]
@@ -67,26 +73,32 @@ else:
 alan (stressed-2): [color=dark_gray][i]De todo modo…[/i][/color]
 alan (surprise-2): [color=dark_gray][i]Viver, é sobre os booleanos… Sobre nossos fracassos e sucessos[/i][/color]
 label Second Question
-alan (surprise): [color=dark_gray][i]Como modelar um bom sorteio aleatório⁉\
-Dificuldade e Capacidade são ambos números, não posso me esquecer disso[/i][/color]
-- Valor Aleatório entre 0-e-Dificuldade, comparando com a Dificuldade
-	alan (stressed-5): [color=dark_gray][i]Não… É irrealista[/i][/color]
+alan (surprise): [speed=0.1] {companion.cap5.q2}
+- 1. Valor Aleatório entre 0-e-Dificuldade, comparando com a Dificuldade
+	alan (stressed-5): [speed=1][color=dark_gray][i]Não… É irrealista[/i][/color]
 	alan: [color=dark_gray][i]Em nenhum momento leva a Capacidade em consideração[/i][/color]
 	set {error_amount} += 1
-	jump Second Question
-- Valor Aleatório entre Capacidade-e-Dificuldade, comparando com ambas
-	alan (wtf-fear): [color=dark_gray][i]Acho… Que viajei um pouco[/i][/color]
+- Próxima Ideia
+alan: [speed=0.1] {companion.cap5.q2}
+- 2. Valor Aleatório entre Capacidade-e-Dificuldade, comparando com ambas
+	alan (wtf-fear): [speed=1][color=dark_gray][i]Acho… Que viajei um pouco[/i][/color]
 	alan: [color=dark_gray][i]Talvez tambem esteje com falta de sangue[/i][/color]
 	set {error_amount} += 1
-	jump Second Question
-- Valor Aleatório entre 0-e-Dificuldade, comparando com a Capacidade
-	alan (stressed-3): [color=dark_gray][i]Não… É contraditório[/i][/color]
+- Próxima Ideia
+alan: [speed=0.1] {companion.cap5.q2}
+- 3. Valor Aleatório entre 0-e-Dificuldade, comparando com a Capacidade
+	alan (stressed-3): [speed=1][color=dark_gray][i]Não… É contraditório[/i][/color]
 	alan: [color=dark_gray][i]É como dizer que as dificuldades não são objetivas[/i][/color]
 	set {error_amount} += 1
-	jump Second Question
-- Valor Aleatório entre 0-e-Capacidade, comparando com a Dificuldade
+- Próxima Ideia
+alan: [speed=0.1] {companion.cap5.q2}
+- 4. Valor Aleatório entre 0-e-Capacidade, comparando com a Dificuldade
 	[sound path="res://assets/sfx/strong-statement.mp3" volume="0.0"]
-	alan (very-surprised): [color=dark_gray][i]É isso! É realista, e consistente.[/i][/color]
+	alan (very-surprised): [speed=1][color=dark_gray][i]É isso! É realista, e consistente.[/i][/color]
+	jump Pass Second Question
+- Próxima Ideia
+jump Second Question
+label Pass Second Question
 
 charllote (true-surprised): Você parece distante... [portrait=true-smile]Não está interessado no que é o Projeto Lua Nova?
 alan (stressed-4): Hum… Não, eu estou
@@ -110,39 +122,37 @@ alan: [color=dark_gray][i][speed=1]Dando sucesso caso o sorteio seja maior que a
 alan (stressed-2): [color=dark_gray][i]Preciso terminar de codificar o sorteio[/i][/color]
 alan: [color=dark_gray][i]Usando Corpo, e o Index para as Capacidades![/i][/color]
 label Third Question
-alan: [color=dark_gray][i][speed=0.1][font_size=12](define capacidades list)\
-(struct corpo (capacidades))\
-(define (vida corpo)\
-\	(lambda (dificuldade index)\
-\		(> [b](random #algo#)[/b] dificuldade)\
-\	)\
-)
-- (random (list-ref capacidades index))
+alan: [speed=0.1]{companion.cap5.q3}
+- 1. (random (list-ref capacidades index))
 	alan (stressed): [color=dark_gray][i][speed=1]Não… A função Vida não recebe Capacidades, ela recebe Corpo![/i][/color]
 	alan: [color=dark_gray][i]Eu preciso pegar Capacidades de dentro de Corpo[/i][/color]
 	set {error_amount} += 1
-	jump Third Question
-- (random ((corpo-capacidades corpo) index))
+- Próxima Ideia
+alan: [speed=0.1]{companion.cap5.q3}
+- 2. (random ((corpo-capacidades corpo) index))
 	alan (stressed-3): [color=dark_gray][i][speed=1]Não… A sintaxe do racket não permite adquirir o valor diretamente[/i][/color]
 	alan: [color=dark_gray][i]Eu preciso usar a função list-ref[/i][/color]
 	set {error_amount} += 1
-	jump Third Question
-- (random (list-ref (corpo-capacidades corpo) index))
+- Próxima Ideia
+alan: [speed=0.1]{companion.cap5.q3}
+- 3. (random (list-ref (corpo-capacidades corpo) index))
 	[sound path="res://assets/sfx/strong-statement.mp3" volume="0.0"]
 	alan (very-surprised): [color=dark_gray][i][speed=1]É isso ai![/i][/color]
-- (random ((capacidades) index))
+	jump Pass Third Question
+- Próxima Ideia
+alan: [speed=0.1]{companion.cap5.q3}
+- 4. (random ((capacidades) index))
 	alan (rage-despair): [color=dark_gray][i][speed=1]Não![/i][/color]
 	alan: [color=dark_gray][i]Estou esquecendo de usar list-ref e acesso de struct![/i][/color]
 	set {error_amount} += 1
-	jump Third Question
+- Próxima Ideia
+jump Third Question
+label Pass Third Question
+
 alan (surprise-2): [color=dark_gray][i]A 'Vida' está modelada!\
 [font_size=12][speed=0.1]Vida recebe um corpo, e cria uma função\
 Uma função, que sorteia um valor aleatório entre 0 e alguma capacidade, e compara com a dificuldade enfrentada\
-(define (vida corpo)\
-\	(lambda (dificuldade index)\
-\		(> (random (list-ref (corpo-capacidades corpo) index)) dificuldade)\
-\	)\
-)
+(define (vida corpo)[br]	(lambda (dificuldade index)[br]		(> (random (list-ref (corpo-capacidades corpo) index)) dificuldade)[br]	)[br])
 alan (accept-death): [color=dark_gray][i][speed=1]Tudo certo, falta fazer a solução[/i][/color]
 
 alan (stressed): [color=dark_gray][i][speed=1]… Porem, preciso dar um pouco de atenção pra ela[/i][/color]
@@ -160,48 +170,40 @@ alan (concern): [color=dark_gray][i]Uma função, que lida com Corpos, Capacidad
 alan (surprise): [color=dark_gray][i]Nossa salvação... É a geração de uma nova Vida, uma mais forte.[/i][/color]
 alan (surprise-2): [color=dark_gray][i]De um Corpo fonte, para uma outra Vida[/i][/color]
 alan: [color=dark_gray][i]O template pode ser o seguinte\:\
-[speed=0.1][font_size=12](define (salvacao corpo_fonte vida_destino)\
-\     (define caps_extraido\
-\          (corpo-capacidades corpo_fonte)\
-\     )\
-\     \###\
-)
+[speed=0.1][font_size=12](define (salvacao corpo_fonte vida_destino)[br]     (define caps_extraido[br]          (corpo-capacidades corpo_fonte)[br]     )[br]     ###[br])
 alan (concern): [color=dark_gray][i][speed=1]Fazendo uma Definição Local das Capacidades Extraidas, para ajudar na claridade do código[/i][/color]
 alan (concern-2): [color=dark_gray][i]Quanto ao retorno, ele deve ser o mesmo da Vida… Já que no fim será uma Nova Vida[/i][/color]
-alan: [color=dark_gray][i][speed=0.1][font_size=12](define (salvacao corpo_fonte vida_destino)\
-\     (define caps_extraido (corpo-capacidades corpo_fonte))\
-\     [b](lambda (dificuldade index)[/b]\
-\          [b]###[/b]\
-\     [b])[/b]\
-)
+alan: [color=dark_gray][i][speed=0.1][font_size=12](define (salvacao corpo_fonte vida_destino)[br]     (define caps_extraido (corpo-capacidades corpo_fonte))[br]     [b](lambda (dificuldade index)[/b][br]          [b]###[/b][br]     [b])[/b][br])
 alan (stressed-2): [speed=1][color=dark_gray][i]... Agora, falta só o processamento[/i][/color]
 alan (very-surprised): [color=dark_gray][i]Como… Como eu poderia enviar Capacidades Extraidas[/i][/color]
 alan: [color=dark_gray][i]Enviar força de um corpo, para uma outra Vida que não a do corpo?[/i][/color]
 label Fourth Question
-alan: [color=dark_gray][i][speed=0.1][font_size=12](define (salvacao corpo_fonte vida_destino)\
-\     (define caps_extraido (corpo-capacidades corpo_fonte))\
-\     (lambda (dificuldade index)\
-\          [b]###[/b]\
-\     )\
-)
-- Diminuindo a Dificuldade pela Capacidade Extraida
+alan: [speed=0.1]{companion.cap5.q4}
+- 1. Diminuindo a Dificuldade pela Capacidade Extraida
 	[sound path="res://assets/sfx/strong-statement.mp3" volume="0.0"]
 	alan (accept-death): [color=dark_gray][i][speed=1]... É ISSO![/i][/color]
-- Somando a Capacidade Extraida na Capacidade Destino
+	jump Pass Fourth Question
+- Próxima Ideia
+alan: [speed=0.1]{companion.cap5.q4}
+- 2. Somando a Capacidade Extraida na Capacidade Destino
 	alan (stressed-3): [color=dark_gray][i][speed=1]… Mas, eu não tenho acesso as Capacidades da Vida Destino[/i][/color]
 	alan: [color=dark_gray][i]Pois, vida_destino é uma função, não um struct[/i][/color]
 	set {error_amount} += 1
-	jump Fourth Question
-- Somando a Capacidade extraida na Dificuldade
+- Próxima Ideia
+alan: [speed=0.1]{companion.cap5.q4}
+- 3. Somando a Capacidade extraida na Dificuldade
 	alan (stressed): [color=dark_gray][i][speed=1]… Isso, não faz sentido[/i][/color]
 	alan: [color=dark_gray][i]É o mesmo dizer que ser mais forte deixa sua vida mais difícil…[/i][/color]
 	set {error_amount} += 1
-	jump Fourth Question
-- Diminuindo a Capacidade Destino pela Capacidade Extraida
+- Próxima Ideia
+alan: [speed=0.1]{companion.cap5.q4}
+- 4. Diminuindo a Capacidade Destino pela Capacidade Extraida
 	alan (stressed-5): [color=dark_gray][i][speed=1]… Mas, eu não tenho acesso as Capacidades da 'Vida Destino'[/i][/color]
 	alan: [color=dark_gray][i]Pois, vida_destino é uma função, não um struct[/i][/color]
 	set {error_amount} += 1
-	jump Fourth Question
+- Próxima Ideia
+jump Fourth Question
+label Pass Fourth Question
 alan (vilain-smile): [color=dark_gray][i]Eu mantenho a Vida Destino, mas gero uma dificuldade modificada![/i][/color]
 alan: [font_size=16][color=dark_gray][i]Nova_Dificuldade\: (- dificuldade (list-ref caps_extraido index))[/i][/color]
 alan: [font_size=16][color=dark_gray][i]Nova_Vida\: (vida_destino Nova_Dificuldade index)[/i][/color]
@@ -217,19 +219,7 @@ update alan (stressed)
 charllote: Existe um numero limitado de pessoas que posso ficar computando ao mesmo tempo
 charllote (true-default): E a última coisa que Ada era, é uma pessoa relevante
 alan (stressed-2): [color=dark_gray][i]... Acho, que terminei?[/i][/color]
-\[speed=0.1][font_size=12](define capacidades list)\
-(struct corpo (capacidades))\
-(define (vida corpo)\
-\	(lambda (dificuldade index)\
-\		(> (random (list-ref (corpo-capacidades corpo) index)) dificuldade)\
-\	)\
-)\
-(define (salvacao corpo_fonte vida_destino)\
-\	(define caps_extraido (corpo-capacidades corpo_fonte))\
-\	(lambda (dificuldade index)\
-\		(vida_destino (- dificuldade (list-ref caps_extraido index)) index)\
-\	)\
-)
+\[speed=0.1][font_size=12](define capacidades list)[br](struct corpo (capacidades))[br](define (vida corpo)[br]	(lambda (dificuldade index)[br]		(> (random (list-ref (corpo-capacidades corpo) index)) dificuldade)[br]	)[br])[br](define (salvacao corpo_fonte vida_destino)[br]	(define caps_extraido (corpo-capacidades corpo_fonte))[br]	(lambda (dificuldade index)[br]		(vida_destino (- dificuldade (list-ref caps_extraido index)) index)[br]	)[br])
 alan (stressed-5): [speed=1][color=dark_gray][i]É isso, está pronto[/i][/color]
 leave itens
 alan (accept-death): [color=dark_gray][i]O Código já está dentro de mim. Obrigado, Computador[/i][/color]

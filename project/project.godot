@@ -79,7 +79,12 @@ variables={
 "p4_2": "[font_size=16]if (f.origin < experiment[1]):[br]   [b]for (x = 0; x < 4; x++)[/b][br]      [b]experiment[4-x] = experiment[3-x];[/b][br]   [b]experiment[0] = 13.8169 * f.neuron;[/b][br]else:[br]   printf(\"Incompatible Beast\");"
 },
 "cap4": {},
-"cap5": {}
+"cap5": {
+"q1": "[color=dark_gray][i]De que maneira poderia modelar um Corpo e suas Capacidades?[/i][/color]",
+"q2": "[color=dark_gray][i]Como modelar um bom sorteio aleatório⁉[br]Dificuldade e Capacidade são ambos números, não posso me esquecer disso[/i][/color]",
+"q3": "[color=dark_gray][i][font_size=12](define capacidades list)[br](struct corpo (capacidades))[br](define (vida corpo)[br]      (lambda (dificuldade index)[br]            (> [b](random #algo#)[/b] dificuldade)[br]      )[br])",
+"q4": "[color=dark_gray][i][font_size=12](define (salvacao corpo_fonte vida_destino)[br]     (define caps_extraido (corpo-capacidades corpo_fonte))[br]     (lambda (dificuldade index)[br]          [b]###[/b][br]     )[br])"
+}
 },
 "determinist": "true",
 "dilema_title": "Assasino de Mãe",
