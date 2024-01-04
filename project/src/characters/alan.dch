@@ -21,7 +21,7 @@
 "image": "",
 "mirror": false,
 "offset": Vector2(0, 0),
-"scale": 1,
+"scale": 1.0,
 "scene": ""
 },
 "angry": {
@@ -184,9 +184,39 @@
 "scale": 1,
 "scene": ""
 },
+"cry-lil-surprise": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/cry-lil-surprise.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
 "death-angry": {
 "export_overrides": {
 "image": "\"res://assets/characters/alan/death-alan-3.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"death-cry-determined": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/death-cry-determined.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"death-determined": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/death-determined.png\""
 },
 "image": "",
 "mirror": false,
@@ -471,6 +501,16 @@
 "scale": 1,
 "scene": ""
 },
+"determined-cry": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/determined-cry.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
 "determined-smile": {
 "export_overrides": {
 "image": "\"res://assets/characters/alan/smile.png\""
@@ -479,6 +519,16 @@
 "mirror": false,
 "offset": Vector2(0, 0),
 "scale": 1.0,
+"scene": ""
+},
+"determined-stress": {
+"export_overrides": {
+"image": "\"res://assets/characters/alan/determined-stress.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
 "scene": ""
 },
 "disbelief": {

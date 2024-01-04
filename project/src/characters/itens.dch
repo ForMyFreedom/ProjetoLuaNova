@@ -63,6 +63,46 @@
 "offset": Vector2(0, -123),
 "scale": 0.25,
 "scene": ""
+},
+"machine-0/4": {
+"export_overrides": {
+"image": "\"res://assets/extra/0-lambda-machine.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, -123),
+"scale": 0.25,
+"scene": ""
+},
+"machine-1/4": {
+"export_overrides": {
+"image": "\"res://assets/extra/1-lambda-machine.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, -123),
+"scale": 0.25,
+"scene": ""
+},
+"machine-2/4": {
+"export_overrides": {
+"image": "\"res://assets/extra/2-lambda-machine.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, -123),
+"scale": 0.25,
+"scene": ""
+},
+"machine-3/4": {
+"export_overrides": {
+"image": "\"res://assets/extra/3-lambda-machine.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, -123),
+"scale": 0.25,
+"scene": ""
 }
 },
 "scale": 1.0

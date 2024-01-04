@@ -136,11 +136,16 @@ Verdadeiro só se A=B",
 "text": "Com um _dado, e uma lista/vazio, é gerado um par (_dado, ...lista ou vazio)",
 "title": "(cons _dado [lista/vazio])"
 },
+"fatorial": {
+"text": "O produto de um inteiro com todos os inteiro abaixo dele",
+"title": "Fatorial"
+},
 "if": {
 "text": "(if (caso_binario) res_verdade res_falso)",
 "title": "Condicional Binário"
 },
 "lambda": {
+"alternatives": ["Lambda"],
 "text": "Uma declaração de uma função sem nome",
 "title": "Função Anônima"
 },
