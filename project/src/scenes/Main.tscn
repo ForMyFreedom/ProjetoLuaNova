@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://bjujua0kc6lu"]
+[gd_scene load_steps=13 format=3 uid="uid://bjujua0kc6lu"]
 
 [ext_resource type="Script" path="res://src/scenes/Main.gd" id="1_rpuj2"]
 
@@ -290,13 +290,71 @@ tracks/2/keys = {
 "values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
 }
 
+[sub_resource type="Animation" id="Animation_ay665"]
+resource_name = "reverse_tense_shadow"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ColorRect:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 0.431373), Color(0, 0, 0, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("ColorRect:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_mhka2"]
+resource_name = "tense_shadow"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ColorRect:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 0), Color(0, 0, 0, 0.431373)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("ColorRect:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_dnr15"]
 _data = {
 "RESET": SubResource("Animation_3rmu6"),
 "green_single_blink": SubResource("Animation_8we6p"),
 "purple_blink": SubResource("Animation_4wffj"),
 "reverse_fade": SubResource("Animation_8j6cp"),
+"reverse_tense_shadow": SubResource("Animation_ay665"),
 "stop_time": SubResource("Animation_1mvmx"),
+"tense_shadow": SubResource("Animation_mhka2"),
 "upper_fade": SubResource("Animation_bqstp"),
 "white_blink": SubResource("Animation_myhq4"),
 "white_pulse": SubResource("Animation_ieuyr")
