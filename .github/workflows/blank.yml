@@ -16,7 +16,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - main
+      - build
 
 jobs:
   deploy:
@@ -30,8 +30,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-           lfs: true
 
       - name: Move HTML5 templates into position
         run: |
