@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Racket: Projeto Lua Nova"
-run/main_scene="res://src/scenes/Main.tscn"
+run/main_scene="res://src/scenes/Main.scn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 boot_splash/image="res://assets/logo.png"
 config/icon="res://icon.svg"
@@ -111,6 +111,10 @@ window/stretch/mode="canvas_items"
 [dotnet]
 
 project/assembly_name="Racket- Projeto Lua Nova"
+
+[editor]
+
+export/convert_text_resources_to_binary=false
 
 [editor_plugins]
 
