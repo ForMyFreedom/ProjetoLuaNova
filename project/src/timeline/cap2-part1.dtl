@@ -8,20 +8,20 @@ Alan entra EXPLODINDO a porta
 alan (goofy): Bom dia chefe! Lindo dia né⁉
 update alan 0 [ move_time="1"]
 join ada (despair-teeth) 4
-Sobre o susto de seu subordinado, alguns papeis caem da mão de Ada
+Sobre o susto de seu subordinado, alguns papéis caem da mão de Ada
 ada (disgust): …
 ada: [i][font_size=17]mais cedo ou mais tarde eu me acostumo com isso… né?[/font_size][/i]
-alan (confused): Um? Você disse algo? [portrait=happy]Deixa que eu pego seus papeis
+alan (confused): Um? Você disse algo? [portrait=happy]Deixa que eu pego seus papéis
 update alan (happy) 1 [ move_time="1"]
 update ada (bored) 3 [ move_time="1"]
-Alan entra na sala, recolhe os papeis, e se senta ao seu lado
-alan (ultra-happy): Você não vai acreditar no que aconteceu hoje de manhã Senhorit-[aa=0.2]
+Alan entra na sala, recolhe as folhas, e se senta ao seu lado
+alan (ultra-happy): [speed=1.5]Você não vai acreditar no que aconteceu hoje de manhã Senhorit-[aa=0.2]
 [music fade="0.0" volume="0.0"]
 [sound path="res://assets/sfx/door_open.mp3" volume="0.0"]
 [wait time="1.0"]
 update alan (surprise)
 update ada (surprise)
-... A porta do escritório se abre subitamente
+[speed=1]... A porta do escritório se abre subitamente
 [signal arg="upper_fade"]
 [wait time="1.0"]
 leave --All--
@@ -29,7 +29,7 @@ leave --All--
 join charllote (shadow) 2
 [signal arg="reverse_fade"]
 [wait time="1.0"]
-Revelando uma figura baixinha
+Revelando uma figura pequena
 [music path="res://assets/musics/charlotte-theme.mp3" fade="2.0" volume="-5.0"]
 update charllote (default)
 unknow: Muito bom dia a todos
@@ -41,13 +41,14 @@ join alan (chocked) 0
 join ada (despair) 2
 join charllote 4
 [wait time="0.5"]
-A garota se coloca de pé ao lado deles. E no mesmo instante, ambos se levantam em um estampido
+A garota se coloca de pé ao lado deles
+E no mesmo instante, ambos se levantam assustados
 alan-and-ada: Re– Regente Charlotte⁉
-charllote: Eu mesma.. [portrait=confused] Eu acho
+charllote: Eu mesma... [portrait=confused] Eu acho
 charllote (determined): Bom te ver de novo, Ada. Este seria seu novo aprendiz?
 update alan (close-eyes-smile)
 ada (lil-tense): Bem, sim
-ada (concern): Mas Dama Regente.. Quanto ao seu comunicado de ontem
+ada (concern): Mas Dama Regente… Quanto ao seu comunicado de ontem
 charllote (default): Ah. A falta de alimento? Não precisam se preocupar
 update ada (surprise)
 alan (surprise): Sério?
@@ -55,7 +56,7 @@ charllote (determined): Vocês sabem, não fazemos testes de Codif em animais
 charllote: Não teremos falta, meu aviso foi mais para as pessoas não esbajarem em tempos de guerra
 update alan (regular)
 ada (concern-2): Isso, é um alívio
-charllote (flush): Eu não sabia que eras tão glutona, Ada
+charllote (flush): Eu não sabia que era tão glutona, Ada
 update alan (surprise)
 ada (confused-flush): Hum?
 charllote: Que sua primeira primeira pergunta ao me ver
@@ -64,7 +65,7 @@ charllote (prankster): Seria sobre falta de carne
 alan (flushed): É, Senhorita Ada. Fica difícil de te defender
 ada: Cala boca, Alan
 alan: Haha
-alan (commum): Mas. Por favor, poderia responder a uma dúvida pessoal, Dama Regente?
+alan (commum): Mas. Por favor. Poderia responder a uma dúvida pessoal, Dama Regente?
 update ada (lil-flushed)
 charllote (default): Sim. O que seria?
 alan (close-eyes-smile): Penso em sua situação… É difícil ser governante com 16 anos?
@@ -72,7 +73,7 @@ charllote (confused): Hum… É normal eu acho
 update ada (bored)
 charllote (default): A corte diz que minhas decisões são mais racionais que as de meu pai... Mas talvez seja só bajulação
 alan (commum): E por que dizem isso?
-charllote: Dizem, por que meu pai era da época em que Espada ainda era território de Lua.
+charllote: Dizem isso, por que meu pai era da época em que Espada ainda era território de Lua.
 charllote: Então, ele possuia muito ódio dos Espadianos, e do aceite que o Imperador deu para eles
 alan (angry-2): Até eu possuo! Malditos traidores da Lua
 update charllote (surprised)
@@ -84,7 +85,7 @@ charllote (comic-angry): Espero que não seja só mais uma bajulação
 alan (lil-fear): Não é! Simplesmente sou fiel a Lua!
 charllote (default): Sinto verdade em suas palavras. Pois então me diga
 update alan (regular)
-charllote (determined): Você é um médico com uma grávida a beira da morte. Entre salvar a vida do feto ou da mãe, qual você escolhe?
+charllote (determined): Você é um médico com uma grávida à beira da morte. Entre salvar a vida do feto ou da mãe, qual você escolhe?
 alan (fear-smile): Hum? Oi? De onde veio isso?
 ada (lenny): He
 charllote (default): Apenas um dilema maligno, para sanar minha curiosidade
@@ -96,11 +97,11 @@ label mother-question
 alan (fear-closed-eyes): …
 - Mato a mãe
 	set {kill_mother} = "true"
-	set {dilema_title} = "Assasino de Mães"
-	alan: Eu... Escolho a vida do bebe acima da mãe porque...
+	set {dilema_title} = "Assassino de Mães"
+	alan: Eu... Escolho a vida do bebê acima da mãe porque...
 - Mato o feto
 	set {kill_mother} = "false"
-	set {dilema_title} = "Assassino de Bebes"
+	set {dilema_title} = "Assassino de Bebês"
 	alan: Eu... Escolho a vida da mãe acima do feto porque...
 - Não tem outro jeito...
 	set {tryied_other_way} = "true"
@@ -119,16 +120,16 @@ update ada (disgust)
  update alan (annoyed)
 alan-and-ada: …
 charllote: Mas não posso esquecer que são nossa maior arma para conter essa invasão
-charllote (determined): Especialmente com a explosão de códigos legados que tivemos
+charllote (determined): Especialmente com a explosão de Códigos Legados que tivemos
 update ada (bored)
 alan (frustrated): Uma pena que tal benção tenha sido justamente o que iniciou essa guerra, por nossa única e maldita vizinha
 charllote (sad): Bem, era inevitável
-ada (surprise): Desculpe interrompe-la, Dama Regente
+ada (surprise): Desculpe interrompê-la, Dama Regente
 charllote (default): Sim?
 [music fade="2.0" volume="0.0"]
 ada: Mas...
 [sound path="res://assets/sfx/strong-statement.mp3" volume="0.0"]
-ada (bored): O que trás a governante dessa província, a um escritório historicisita de segunda categoria?
+ada (bored): O que trás a governante dessa província, a um escritório historicista de segunda categoria?
 update charllote (surprised)
 update alan (surprise)
 charllote (surprised): ...

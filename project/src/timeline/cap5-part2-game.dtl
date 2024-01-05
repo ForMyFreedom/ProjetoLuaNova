@@ -222,7 +222,7 @@ charllote (true-default): E a última coisa que Ada era, é uma pessoa relevante
 alan (stressed-2): [color=dark_gray][i]... Acho, que terminei?[/i][/color]
 \[speed=0.1][font_size=12](define capacidades list)[br](struct corpo (capacidades))[br](define (vida corpo)[br]	(lambda (dificuldade index)[br]		(> (random (list-ref (corpo-capacidades corpo) index)) dificuldade)[br]	)[br])[br](define (salvacao corpo_fonte vida_destino)[br]	(define caps_extraido (corpo-capacidades corpo_fonte))[br]	(lambda (dificuldade index)[br]		(vida_destino (- dificuldade (list-ref caps_extraido index)) index)[br]	)[br])
 alan (stressed-5): [speed=1][color=dark_gray][i]É isso, está pronto[/i][/color]
-alan (accept-death): [color=dark_gray][i]Só preciso de um bomm momento, para usar meu Computador[/i][/color]
+alan (accept-death): [color=dark_gray][i]Só preciso de um bom momento, para usar meu Computador[/i][/color]
 charllote (true-bored): Mas, tem algo que me incomoda, Alan
 charllote (true-angry): Como você conseguiu voltar?
 alan (stressed-4): …

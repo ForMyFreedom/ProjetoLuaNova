@@ -178,7 +178,7 @@ alan: [speed=1]... [speed=1.5]Será impossível, me recodificar de todo modo
 alan (death-sad): [speed=1.5]Implicaria em usar meu Codif, meus neurônios para influênciar meus neurônios
 alan (death-sad-2): [speed=1.5]Uma recursão irreal… Já que sou na última instância, [i]o caso base[/i]
 [sound path="res://assets/sfx/curious-statement.mp3" volume="0.0"]
-[music path="res://assets/musics/rain-pt2.mp3" fade="1.0" volume="0.0" loop="false"]
+[music path="res://assets/musics/rain-pt2.mp3" fade="1.0" volume="2.0" loop="false"]
 alan (death-surprise): [speed=1]... [i]Sou o Caso Base[/i]
 Alan olha para a máquina em sua mão
 alan (death-glow-eyes): Ou… [i]Seria[/i], o Caso Base

@@ -1,6 +1,6 @@
 [background arg="res://assets/backgrounds/newart-office.png" fade="2.0"]
 ...
-[music path="res://assets/musics/hopeless.mp3" fade="0.0" volume="-13.0"]
+[music path="res://assets/musics/hopeless.mp3" fade="0.0" volume="-10.0"]
 Com em um dia qualquer, Alan adentra o Departamento em gritos
 join alan (depressed-1) 2
 alan: Senhorita Ada!

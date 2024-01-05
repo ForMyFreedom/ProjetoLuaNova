@@ -86,7 +86,7 @@ alan (stressed-2): [color=dark_gray][i]... Esse… Esse é o nosso fim mesmo?[aa
 [sound path="res://assets/sfx/strong-statement.mp3" volume="-10.0"]
 alan (very-surprised): ...
 alan: [color=dark_gray][i]A minha Máquina[/i][/color]
-[music path="res://assets/musics/final-destiny.mp3" fade="3.0" volume="-15.0"]
+[music path="res://assets/musics/final-destiny.mp3" fade="3.0" volume="-10.0"]
 charllote (true-default): Hum? Lembrou que esqueceu a roupa no varal?
 alan (stressed-5): [color=dark_gray][i]Talvez possa computar algo que apenas um computador consiga[/i][/color]
 alan: [color=dark_gray][i]Charllote não está mais lendo minha mente, posso surpreende-la![/i][/color]

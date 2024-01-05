@@ -20,8 +20,8 @@ ada (surprise): Hum... Mas o que é isso?
 alan (commum): O que?
 Alan segue o olhar de Ada
 [music fade="2.0" volume="0.0"]
-Um olhar que o leva até sua própria mão, onde um estranho objeto repousava
-[music path="res://assets/musics/never-give-up.mp3" fade="3.0" volume="-15.0"]
+Um olhar que o leva até sua própria mão, onde um objeto peculiar repousava
+[music path="res://assets/musics/never-give-up.mp3" fade="3.0" volume="-10.0"]
 join itens (machine) 2 [ z_index="100"]
 [wait_input]
 Um mecânismo criado com Codif

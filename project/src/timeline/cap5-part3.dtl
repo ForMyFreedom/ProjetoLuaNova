@@ -8,7 +8,7 @@ update alan (hurt) 0 [ move_time="0.5"]
 Charllote o chuta, mandando o garoto para longe de Ada
 E no movimento, o pequenino Computador cai da mão de Alan.
 Rodando e rodando, sobre os pés de Charllote
-[music path="res://assets/musics/refusal.mp3" fade="3.0" volume="0.0"]
+[music path="res://assets/musics/refusal.mp3" fade="3.0" volume="2.0"]
 charllote (true-surprised): O que é isso?
 join itens (machine) 2
 Charllote segura o aparelho com a mão direita
@@ -26,7 +26,7 @@ charllote (true-surprised): ...
 charllote: Máquina, Lambda?
 charllote (true-bored): Que besteira
 Charllote aperta…
-[sound path="res://assets/sfx/eletric-explosion.mp3" volume="0.0"]
+[sound path="res://assets/sfx/eletric-explosion.mp3" volume="-5.0"]
 leave itens
 E destrói o artefato em um só movimento
 alan (rage-despair-2): ⁉
@@ -44,7 +44,7 @@ update charllote (true-surprised)
 E então. Uma nova máquina surge das mãos de Alan
 charllote: ... Poderia usar qualquer Codif, mas gastou tudo de sí para fazer um novo
 charllote (true-smile): O seu apego a esse lixo é louvável
-alan (determined-stress): [speed=1.5][color=dark_gray][i]É o único que preciso, para derrotar você[/i][/color]
+alan (determined-stress): [speed=1.5][color=dark_gray][i]É o único que preciso, para te derrotar[/i][/color]
 charllote (true-front-smile): [speed=1]Está na hora de morrer, Alan
 alan (stressed-2): …
 alan (smile-closed-eyes): [speed=2]Como, como se eu fosse, morrer pra você
@@ -66,7 +66,7 @@ update alan (concentrate-2)
 …
 update alan (concentrate-3)
 …
-[music path="res://assets/musics/sacrifice.mp3" fade="0.0" volume="-10.0"]
+[music path="res://assets/musics/sacrifice.mp3" fade="0.0" volume="0.0"]
 update alan (epic-sacrifice-big) [animation="Tada"]
 alan: Nossas vidas são como códigos!
 [signal arg="white_pulse"]
@@ -79,7 +79,7 @@ alan: Essa é uma Função de Alta Ordem
 alan (sacrifice-evil-2): Uma Função que recebe outra como parâmetro
 alan: E se nossas vidas são como códigos, como funções
 alan (sacrifice-closed-eyes): Isso quer dizer que minha vida
-[sound path="res://assets/sfx/strong-statement.mp3" volume="0.0"]
+[sound path="res://assets/sfx/strong-statement.mp3" volume="5.0"]
 alan (epic-sacrifice): [i]Pode ser enviada para a vida de Ada![/i]
 charllote (true-hate): ⁉
 leave alan
@@ -90,9 +90,9 @@ E então
 join NovaAda (close-eyes) 1
 [wait time="1.5"]
 Ada, se levanta
-[sound path="res://assets/sfx/magic-1.mp3" volume="0.0"]
+[sound path="res://assets/sfx/magic-1.mp3" volume="5.0"]
 NovaAda (pre-two-lifes): …
-[sound path="res://assets/sfx/magic-2.mp3" volume="0.0"]
+[sound path="res://assets/sfx/magic-2.mp3" volume="5.0"]
 update NovaAda (two-lifes) [animation="Tada"]
 NovaAda: !
 charllote (true-insane): [color=dark_gray][i]Isso é problemático[/i][/color]
@@ -100,11 +100,11 @@ charllote: [color=dark_gray][i]A desgraçada até mesmo destruiu meu Codif de me
 charllote (true-hate-2): [color=dark_gray][i]Se eu tivesse matado ela antes, isso não teria acontecido[/i][/color]
 charllote (true-focused): [color=dark_gray][i]... Um ser de duas vidas… Mas uma mente?[/i][/color]
 charllote: [color=dark_gray][i]O dobro de vigor... E talvez até o dobro de pod-[/i][/color][aa=0.6]
-[sound path="res://assets/sfx/finger-clap.mp3" volume="2.0"]
+[sound path="res://assets/sfx/finger-clap.mp3" volume="5.0"]
 [wait time="0.3"]
 [signal arg="green_single_blink"]
 [background arg="res://assets/backgrounds/very powerfull calculus.png" fade="0.0"]
-[sound path="res://assets/sfx/cool-crash.mp3" volume="0.0"]
+[sound path="res://assets/sfx/cool-crash.mp3" volume="5.0"]
 update charllote (true-hate)
 [wait time="1.5"]
 … Charlotte desvia de uma explosão que estilhaça janelas. Uma quase tão forte quanto a sua primeira

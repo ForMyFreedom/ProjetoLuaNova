@@ -3,14 +3,14 @@ join alan (surprise) 0
 join ada (bored) 2
 join charllote (determined) 4
 [sound path="res://assets/sfx/flush.mp3" volume="0.0"]
+[music path="res://assets/musics/Vulnera.mp3" fade="0.0" volume="0.0"]
 charllote (determined): [color=red]Eu vim convidar Alan para os [i]Esforços de Guerra[/i][/color]
 [background arg="res://assets/backgrounds/newart-office-tense.png" fade="1.0"]
 update ada (big-surprise)
 update alan (very-surprised)
 alan-and-ada: ...
-[music path="res://assets/musics/Vulnera.mp3" fade="0.0" volume="0.0"]
 ada (scary-confused): Mas, por que esse imprestável?
-alan (annoyed): Ei.
+alan (annoyed): Ei, precisava disso?
 charllote (confused): Como assim por quê?
 charllote (determined): Você por acaso não sabia. Que em nossa amada província de Lua.
 charllote (smile): [speed=2.5]Alan foi o primeiro [i]laureado[/i] nos últimos três anos?
@@ -22,13 +22,13 @@ update ada (big-surprise)
 update alan (commum)
 charllote (confused): Ainda acho estranho sua linha de pesquisa… A ideia de 'máquinas que computam'
 charllote (default): Mas a despeito disso, seu talento seria útil para Codif na prática.
-charllote: Sair da pesquisa. [portrait=angry] E começar a criar as armas
+charllote: Sair da pesquisa. [portrait=angry]E começar a criar as armas
 update ada (sad-3)
 update alan (fear-smile)
-charllote (determined): O que me diz, meu caro Alan?[aa=0.1]
+charllote (determined): [speed=1.3]O que me diz, meu caro Alan?[aa=0.1]
 [music fade="1.0" volume="0.0"]
 [background arg="res://assets/backgrounds/newart-office.png" fade="2.0"]
-ada (regular): Espere um momento
+ada (regular): [speed=1]Espere um momento
 update alan (surprise)
 charllote (default): Hum?
 [music path="res://assets/musics/Inquire Pizzato.mp3" fade="0.0" volume="-10.0"]
@@ -38,11 +38,12 @@ alan (surprise-2): Senhorita Ada?
 ada: Do mesmo modo que seu dilema para o {dilema_title} [aa=0.5]
 alan (unconfortable): Já disse que não sou um {dilema_title}!
 update charllote (confused)
-ada: Estamos de frente para um Condicional booleano. Mutualmente exclusivo, como água e óleo
+ada: Estamos de frente para um Condicional booleano. Mutuamente exclusivo, como água e óleo
 update alan (surprise)
 ada (regular): A escolha obviamente é de Alan, ninguém tem o direito de interferir nisso
 alan (concern): …
 ada (determinated-smile): Mas... Por que não entramos no espírito do Departamento em que estamos…
+[sound path="res://assets/sfx/flush.mp3" volume="-5.0"]
 update alan (surprise)
 ada (irritant): E façamos um [i]Duelo de Tradução[/i], só por descontração?
 charllote (surprised): ... [portrait=angry]Isso é ridículo. [portrait=very-angry]Infantil para dizer o mínimo
@@ -59,9 +60,9 @@ ada (red-devil): Sabes. Que não és tão esperta. Não é?
 charllote (very-angry-2): …
 alan (stressed-3): [color=dark_gray][i]Isso vai acabar em morte… Charlotte é a Codificadora mais talentosa de Lua[/i][/color]
 update charllote (angry-codif) [animation="Tada"]
-O ar fica mais tenso, conforme Charlotte murmura para sí mesma
+O ar fica mais tenso, conforme Charlotte murmura para si mesma
 Mas Ada, apenas sorria
-ada: [color=dark_gray][i]Seja rico ou necessitado. Governante ou comandando[/i][/color]
+ada: [color=dark_gray][i]Seja rico ou necessitado. Governante ou comandado[/i][/color]
 ada: [color=dark_gray][i]Todas as crianças de 16 anos buscam por auto-afirmação[/i][/color]
 ada: [color=dark_gray][i]E ela não é do tipo covarde que usa autoridade quando é afrontada[/i][/color]
 alan (unbeliever): Senhorita Ada, isso foi bem baixo

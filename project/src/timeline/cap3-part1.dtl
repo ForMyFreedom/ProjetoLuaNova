@@ -4,7 +4,7 @@
 Dias após o encontro com Charllote
 join alan (concern) 2
 Alan repousava em sua casa.
-Havia no ambiente, muitos papéis com desenhos e cálculos próprios sobre máquinas
+No ambiente, além da câmera entregue por Ada, havia muitos papéis com desenhos e cálculos sobre máquinas
 Mas nesse momento, Alan estudava um de seus livros de [i]astronomia[/i]
 alan (regular): [color=dark_gray][i]'As descobertas newtonianas permitiram com que eclipses fossem previstos séculos antes de seu acontecimento'[/i][/color]
 alan (concern): [color=dark_gray][i]'E tão logo, o campo do cálculo se mostrou como um dominador da realidade, de onde Laplace teceu seu Demônio…'[/i][/color]
@@ -21,8 +21,8 @@ alan (confused): ... Determinismo. É?
 alan (regular): …
 alan (lil-angry): De todo modo, nada de útil sobre Luas Novas
 alan (regular): Nada sobre, Projeto, [i]Lua Nova[/i]
-Ele fecha seu livro, e pega sua xicará de chá
-alan (confused): Por que eu sinto.. Que mesmo que eu não tenha aceito o convite da Regente
+Alan fecha seu livro, e pega sua xicará de chá
+alan (confused): Por que eu sinto… Que mesmo que eu não tenha aceito o convite da Regente
 alan: Eu sinto como se tivesse, aceito?
 [background arg="res://assets/backgrounds/room-with-eyes.png" fade="2.0"]
 update alan (regular)
@@ -36,22 +36,22 @@ alan (annoyed): Ah, que gosto horrível
 alan: É a última vez que eu compro chá de minhapi-[aa=0.5]
 [music fade="0.5" volume="0.0"]
 update alan (very-surprised)
-Porem... Alan congela subitamente
+Porém... Alan congela subitamente
 [music path="res://assets/musics/suspense.mp3" fade="1.0" volume="0.0"]
 update alan (despair)
-Ao perceber que alguem o observa pela janela
-alan (rage-despair): Quem tá ai⁉
+Ao perceber que alguém o observa pela janela
+alan (rage-despair): Quem tá aí⁉
 Apenas silêncio
 alan: É sério que você tá [i]tentando[/i] ser discreto⁉
 unknow: [speed=3][b]Ai, ai[/b]
 [background arg="res://assets/backgrounds/room.png" fade="1.0"]
-\[speed=1]Frustrado, a sombra adentra a janela
+\[speed=1]Frustrado, a sombra passa pela janela
 update alan 0 [ move_time="1"]
 join tim 4
 Como um homem alto, e de vestes exóticas
 update tim (lovely) [ mirrored="false"]
 unknow: Boa noite, princesa
-alan (despair): O que seria você? Um assasino⁉
+alan (despair): O que seria você? Um assassino⁉
 update tim (default-2) [ mirrored="false"]
 unknow: Quase. Um espião
 alan (tense): E que tipo de espião se apresenta como um espião?
@@ -73,39 +73,40 @@ tim (default-2): De todo modo. Como eu disse, não vim sequestrá-lo
 [music fade="2.0" volume="0.0"]
 tim (default): Mudei de ideia ao observá-lo melhor. Seria um desperdício como refém
 [sound path="res://assets/sfx/flush.mp3" volume="0.0"]
-tim (terror): [color=red]Já que podes ser um grande traidor[/color]
+tim (terror): [color=red]Já que poderia ser um grande traidor[/color]
 alan (very-surprised): ... Perdão? [portrait=unbeliever]Eu ouvi isso certo?
 [music path="res://assets/musics/mystery-tense.mp3" fade="2.0" volume="0.0"]
 tim (default): Um traidor de Lua, muito melhor que um refém
-alan (insane): … Você é um insano
+alan (insane): … Você é um lunático
 update alan (despair-codif) [animation="Tada"]
 alan: Eu deveria ter usado meu Codif mais cedo
 update tim (fear)
-Os ares ficam tensos
+Os ares ficam tensos. Com Alan preparando um código para codificar a concentração de oxigênio no ar
+Uma explosão de Codif
 tim (fear): Segura a brisa aí o esquentatinho
 tim: E se eu te dissese, que posso provar que Lua é a culpada dessa guerra
 alan (confused-codif): ...
 update alan (stressed) [animation="Tada"]
-alan: Por que eu estou dando ouvidos a um insano?
+alan: Por que eu estou dando ouvidos a um lunático?
 Os ares retornam a normalidade
 tim (impatient): Lua é a causadora dessa guerra. E isso não é sobre vocês se tornarem uma potência em códigos no futuro
 alan (surprise): ... Ha
-alan (disbelief): [speed=6]Hahaha!
+alan (disbelief): [speed=4]Hahaha!
 alan: [speed=1]Essa foi a melhor piada da semana
-alan: Seu verme de Espada. Inimigos da Paz
+alan: Seu verme de Espada. Inimigo da Paz
 tim (angry-cm): Você faria o mesmo, se estivesse em nossos sapatos
 alan (tense): …
 if {alan_would_attack} == "true":
 	alan (wtf-fear): … Talvez você esteje certo
-	tim (default-2): ... Isso me surpreendeu, mas não acredito que tenhas a compreensão do todo
+	tim (default-2): ... Isso me surpreendeu, mas não acredito que possuas a compreensão do todo
 else:
 	alan (rage-despair): Não! Vocês são sujos! Eu nunca me rebaixaria
 	tim: Você é ignorante
 tim (default): Não acredita em palavras que pode ouvir
 Tim põe a mão em seu bolso
 update alan (stressed)
-E Alan se prepara para mandar a janela para os ares
-tim (default-2): Mas talvez dê ouvidos às palavras velhas de uma lingua morta
+E Alan se prepara para mandar a janela pros ares
+tim (default-2): Mas talvez dê ouvidos às palavras velhas de uma língua morta
 update alan (surprise)
 E então, o homem arremessa a Alan um pedaço de papel
 alan (stressed-2): ... O que é isso?

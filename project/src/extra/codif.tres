@@ -53,7 +53,7 @@ else
 "title": "Modelagem"
 },
 "Modelo de Substituição": {
-"text": "Processo de avaliação em que expressões são trocadas por outras (normalmente mais simples)",
+"text": "Processo em que expressões são trocadas por outras (normalmente mais simples)",
 "title": "Modelo de Substituição"
 },
 "Parte 1 do Documento": {
@@ -78,13 +78,14 @@ else
 },
 "Rascunho 1": {
 "text": "(define (quadrado x)
-    (* x x))
-
+    (* x x)
+)
 (define (cubo x)
-    (* x x x))
-
+    (* x x x)
+)
 (define (divide-cubo-quadrado a b)
-    (/ (cubo a) (quadrado b)))",
+    (/ (cubo a) (quadrado b))
+)",
 "title": "Rascunho"
 },
 "Recursão": {
@@ -133,8 +134,8 @@ Verdadeiro só se A=B",
 },
 "cons": {
 "alternatives": ["Cons"],
-"text": "Com um _dado, e uma lista/vazio, é gerado um par (_dado, ...lista ou vazio)",
-"title": "(cons _dado [lista/vazio])"
+"text": "Com um _dado_ e uma lista/vazio, é gerado um par (_dado, ...lista ou vazio)",
+"title": "(cons _dado_ [lista/vazio])"
 },
 "fatorial": {
 "text": "O produto de um inteiro com todos os inteiro abaixo dele",

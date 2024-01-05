@@ -1,10 +1,10 @@
 [background arg="res://assets/backgrounds/room.png" fade="0.0"]
 join alan (concern) 2
 [music path="res://assets/musics/investigation.mp3" fade="0.0" volume="-3.0"]
-alan: Que tipo de código está sendo guardado no Departamento de Guerra…?
+alan: Que tipo de código está sendo guardado em um Departamento de Guerra…?
 Alan começa a ler o documento roubado
 alan (confused): Parece ser um código baseado em struct... Qual será sua finalidade?
-alan (serious): Só começando a traduzir para descobrir
+alan (serious): Só começando a traduzir pra descobrir
 label First Part
 [speed=0.1]{companion.cap3.p1}
 - 1. (struct nova (kind[23] target origin neuron))
@@ -28,7 +28,7 @@ alan (hollow): Mas… Esses componentes são estranhos
 alan: Seu nome também… 'Nova'?
 alan (commum): De todo modo
 Alan desce seu olhar pela pequena folha
-alan (lil-surprise): ... Uma instânciação
+alan (lil-surprise): ... Uma instanciação
 alan: A criação de um dado do tipo estabelecido
 label Second Part
 update alan (serious)
@@ -47,9 +47,8 @@ update alan (serious)
 	jump Pass Second Pasrt
 - Próxima Ideia
 [speed=0.1]{companion.cap3.p2}
-- 3. (define f (nova Land, 19, 4, 5))
+- 3. (define f (nova Land 19 4 5))
 	alan (surprise): [speed=1]Acho que esqueci das aspas na string
-	alan: E além disso, não é preciso vírgulas ao definir um dado
 	set {error_amount} += 1
 - Próxima Ideia
 [speed=0.1]{companion.cap3.p2}
@@ -122,7 +121,7 @@ label Fourth-1 Part
 - Próxima Ideia
 [speed=0.1]{companion.cap3.p4_1}
 - 3. (if (> (nova-neuron f) (list-ref experiment 0))
-	alan (happy): [speed=1]É isso ai, essa é a condicional
+	alan (happy): [speed=1]É isso aí, essa é a condicional
 	jump Pass Fourth-1 Part
 - Próxima Ideia
 [speed=0.1]{companion.cap3.p4_1}
@@ -142,7 +141,7 @@ alan (close-eyes-smile): Nossa linguagem lida muito melhor com isso usando cons
 label Fourth-2 Part
 [speed=0.1]{companion.cap3.p4_2}
 - 1. (cons (* 13.8169 (nova-neuron f)) experiment)
-	alan (happy): [speed=1]Isso fica muito mais simples que no legado!
+	alan (happy): [speed=1]Fica muito mais simples que no legado!
 	jump Pass Fourth-2 Part
 - Próxima Ideia
 [speed=0.1]{companion.cap3.p4_2}
