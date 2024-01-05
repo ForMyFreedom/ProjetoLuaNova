@@ -2,31 +2,30 @@
 Escrita, Assets, e Programação por Rafael Ruiz Schlichting
 Desafios e Revisão por Gabriel Oliveira Gomes
 \[b]MÚSICAS[/b]
-\[speed=0.1]@saying-goodbye	INTRO, CAP5\
-@allegreto		CAP1\
-@sad		CAP1, CAP3\
-@goofy		CAP1, CAP2\
-@polite		CAP1
-\[speed=0.1]@happy		CAP1, CAP5\
-@charllote-theme	CAP2\
-@vulnera		CAP2\
-@inquire-pizzato	CAP2\
-@epic-cool		CAP2
+\[speed=0.1]Going Different Ways by Eric Matyas	INTRO, CAP5\
+ひとやすみ by MusMus	CAP1\
+Filaments by Scott Buckley	CAP1, CAP3\
+Mister Sneakypants by Eric Matyas 	CAP1, CAP2\
+ソナタ ハ短調 第三楽章	CAP1
+\[speed=0.1]朧月 by MusMus	CAP1, CAP5\
+On the Trail with the Inspector by Eric Matyas	CAP2\
+Fortune plano Vulnera by J.V Mas Quile	CAP2\
+いんげんまめ法曹の執務室 by MusMus	CAP2\
+Stronger Monsters by UNDERTALE	CAP2
 \[speed=0.1]@cute-friendship	CAP2\
-@new-moon-project	CAP2\
-@suspense		CAP3\
-@mystery-tense	CAP3\
-@internal-pain	CAP3\
-@depression	CAP4, CAP5
+The Shadow's Bride by Peter Gundry	CAP2\
+Covert Affairs by Christoffer Moe Ditlevsen	CAP3\
+Investigation Tension Mysterious by Power Music Factory	CAP3\
+Goodbye My Dear by SteffenDaum	CAP3\
+Depression by Jack Winn	CAP4, CAP5
 \[speed=0.1]Rain(レイン) by James Chou Anime Piano [CAP4]\
-@cry/hopeless	CAP4, CAP5\
-@never-give-up	CAP4\
-@charlotte-revelation	CAP5\
-@final-destiny	CAP5\
-@refusal		CAP5
+Enchanted by Keys Of Moon	CAP4, CAP5\
+Don't Give Up by UNDERTALE	CAP4\
+Fortress of Doom by Eric Matyas	CAP5\
+イクスゲイナー by MusMus	CAP5\
+Battle Against A True Hero Cover by Hodgepodge	CAP5
 \[speed=0.1][b]ARTES[/b]\
-Sprites por BabySaladd\: https\://picrew.me/en/image_maker/718575\
-@@@
+Sprites por BabySaladd\: https\://picrew.me/en/image_maker/718575
 [wait time="1.0"]
 \[speed=1]Esperamos do fundo do coração, que tenham se divertido, e aprendido um pouco sobre Racket
 if {error_amount} == 0:
