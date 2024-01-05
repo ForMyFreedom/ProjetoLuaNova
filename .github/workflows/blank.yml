@@ -12,6 +12,12 @@ name: 'Publish to GitHub Pages'
 env:
   GODOT_VERSION: 4.2.1 # Remember to manually set image to this version below.
 
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - build
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
