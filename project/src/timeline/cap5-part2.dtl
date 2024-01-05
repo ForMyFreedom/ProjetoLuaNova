@@ -88,8 +88,8 @@ alan (very-surprised): ...
 alan: [color=dark_gray][i]A minha Máquina[/i][/color]
 [music path="res://assets/musics/final-destiny.mp3" fade="3.0" volume="-15.0"]
 charllote (true-default): Hum? Lembrou que esqueceu a roupa no varal?
-alan (stressed-5): [color=dark_gray][i]Ela poderia computar em segredo pra mim[/i][/color]
-alan: [color=dark_gray][i]E Charllote não está mais lendo minha mente[/i][/color]
+alan (stressed-5): [color=dark_gray][i]Talvez possa computar algo que apenas um computador consiga[/i][/color]
+alan: [color=dark_gray][i]Charllote não está mais lendo minha mente, posso surpreende-la![/i][/color]
 alan (stressed-2): [color=dark_gray][i]Mas, o que eu preparo? Que código pode nos dar uma chance de fuga?[/i][/color]
 alan (stressed-5): [color=dark_gray][i]...[/i][/color]
 alan (accept-death): [color=dark_gray][i]É a minha única escolha, né?[/i][/color]

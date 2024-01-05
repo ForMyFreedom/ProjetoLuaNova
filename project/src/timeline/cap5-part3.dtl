@@ -10,8 +10,9 @@ E no movimento, o pequenino Computador cai da mão de Alan.
 Rodando e rodando, sobre os pés de Charllote
 [music path="res://assets/musics/refusal.mp3" fade="3.0" volume="0.0"]
 charllote (true-surprised): O que é isso?
+join itens (machine) 2
 Charllote segura o aparelho com a mão direita
-alan (rage-despair-2): [speed=3]Como, como se eu fosse te dizer
+alan (rage-despair-2): [speed=2.5]Como, como se eu fosse te dizer
 update charllote (true-default)
 \[speed=1]A Regente aponta a mão esquerda para o corpo inconciente de Ada
 alan (more-despair): NÃO!
@@ -21,21 +22,31 @@ alan: Uma máquina que computa
 [sound path="res://assets/sfx/flush.mp3" volume="0.0"]
 alan: A minha [i]Máquina Lambda[/i]
 charllote (true-surprised): ...
-[sound path="res://assets/sfx/curious-statement.mp3" volume="0.0"]
+[sound path="res://assets/sfx/curious-statement.mp3" volume="-5.0"]
 charllote: Máquina, Lambda?
 charllote (true-bored): Que besteira
 Charllote aperta…
 [sound path="res://assets/sfx/eletric-explosion.mp3" volume="0.0"]
+leave itens
 E destrói o artefato em um só movimento
 alan (rage-despair-2): ⁉
 charllote (true-front-smile): Como se precisássemos de algo com um Codif tão fraco
 charllote (true-determined): Nunca que uma máquina chegará aos pés do meu poder
 charllote: O que precisamos é de bons códigos, não brinquedinhos
 alan (very-surprised): …
-charllote (true-front-smile): Está na hora de morrer, Alan
-update charllote 2 [ move_time="4"]
 Ela se aproxima dele a passos lentos
-alan: …
+update charllote 2 [ move_time="3"]
+alan (stressed): ...
+alan: [i]Sacrifico dez anos de vida[/i]
+[sound path="res://assets/sfx/some-power-2.mp3" volume="0.0"]
+join itens (machine) 1
+update charllote (true-surprised)
+E então. Uma nova máquina surge das mãos de Alan
+charllote: ... Poderia usar qualquer Codif, mas gastou tudo de sí para fazer um novo
+charllote (true-smile): O seu apego a esse lixo é louvável
+alan (determined-stress): [speed=1.5][color=dark_gray][i]É o único que preciso, para derrotar você[/i][/color]
+charllote (true-front-smile): [speed=1]Está na hora de morrer, Alan
+alan (stressed-2): …
 alan (smile-closed-eyes): [speed=2]Como, como se eu fosse, morrer pra você
 alan (smile-half-closed-eyes): [speed=2]Códigos, são nossas vidas!
 charllote (true-bored): [speed=1]... Perdeu a sanidade de vez?
@@ -47,6 +58,7 @@ alan (concern-2): …
 alan (concentrate-1): …
 [music fade="4.0" volume="0.0"]
 leave charllote
+leave itens
 update alan 2 [ move_time="1.5"]
 [wait time="1.5"]
 …
