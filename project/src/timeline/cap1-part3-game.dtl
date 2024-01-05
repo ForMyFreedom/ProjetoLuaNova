@@ -5,18 +5,26 @@ update alan (happy)
 Alan olha para o primeiro código antigo a ser traduzido...
 alan: [color=dark_gray][i]Um problema de notação... Parece fácil[/i][/color]
 label First Question
-1 + 1
-- 1 1 +
+{companion.cap1.q1}
+- a. 1 1 +
 	jump Error First Question
-- + 1 1
+- Próxima Ideia
+{companion.cap1.q1}
+- b. + 1 1
 	jump Error First Question
-- (+ 1 1)
+- Próxima Ideia
+{companion.cap1.q1}
+- c. (+ 1 1)
 	update alan (smile-half-closed-eyes)
 	alan: Ok, resolvido!
 	Alan avança para a próxima linha
 	jump Start Second Question
-- (1 1 +)
+- Próxima Ideia
+{companion.cap1.q1}
+- d. (1 1 +)
 	jump Error First Question
+- Próxima Ideia
+jump First Question
 label Error First Question
 join ada (focus-angry) 4
 ada: Já está cometendo tais erros logo no início?
@@ -27,42 +35,51 @@ ada (focus-angry): Tente novamente!
 leave ada
 set {error_amount} += 1
 jump First Question
+
 label Start Second Question
 alan (confused): [color=dark_gray][i]Oh? É mais um problema de notação… Mas esse parece ser mais difícil[/i][/color]
 update alan (happy)
 label Second Question
-5 - ((4 * 3) / 2)
-- (- 5 (/ (* 4 3) 2))
+[speed=0.1]{companion.cap1.q2}
+- a. (- 5 (/ (* 4 3) 2))
 	update alan (smile-half-closed-eyes)
-	alan: [color=dark_gray][i]Só parecia difícil mesmo, vamos ver o próximo código![/i][/color]
-- (- 5 (/ (* 4 3) 2)
+	alan: [speed=1][color=dark_gray][i]Só parecia difícil mesmo, vamos ver o próximo código![/i][/color]
+	jump Pass Second Question
+- Próxima Ideia
+[speed=0.1]{companion.cap1.q2}
+- b. (- 5 (/ (* 4 3) 2)
 	join ada (focus-angry) 4
-	ada: Sinto que erraste algo…
+	ada: [speed=1]Sinto que erraste algo…
 	alan (unbeliever): hehe...
 	ada (commum): A combinaçao no geral está certa, mas a quantidade de parêntesis esta incorreta
 	ada (commum): Tente novamente
 	leave ada
 	set {error_amount} += 1
-	jump Second Question
-- (5 - (/ (* 4 3)) 2)
+- Próxima Ideia
+[speed=0.1]{companion.cap1.q2}
+- c. (5 - (/ (* 4 3)) 2)
 	join ada (focus-angry) 4
-	ada: Sinto que erraste algo…
+	ada: [speed=1]Sinto que erraste algo…
 	alan (unbeliever): hehe...
 	ada (angry): Como você conseguiu errar algo tão básico da sintaxe?
 	ada: Lembre-se da forma (Operador Operandos), o operador está sempre mais à esquerda
 	ada (focus-angry): Tente novamente!
 	leave ada
 	set {error_amount} += 1
-	jump Second Question
-- (- S (/ (+ 4 3) 2))
+- Próxima Ideia
+[speed=0.1]{companion.cap1.q2}
+- d. (- 5 (* (/ 4 3) 2))
 	join ada (focus-angry) 4
-	ada: Sinto que erraste algo…
+	ada: [speed=1]Sinto que erraste algo…
 	alan (unbeliever): hehe...
-	ada (disgust): Parabéns... Você conseguiu confundir um S com um 5, isso é um feito por si só
+	ada (commum): Os operadores '*' e '/' estão invertidos
 	ada (focus-angry): Tente novamente!
 	leave ada
 	set {error_amount} += 1
-	jump Second Question
+- Próxima Ideia
+jump Second Question
+
+label Pass Second Question
 alan (confused): [color=dark_gray][i]Hm, um Rascunho?[/i][/color]
 alan: [color=dark_gray][i]Parece que a Senhorita Ada fez uma tradução inicial nesse documento[/i][/color]
 alan: [color=dark_gray][i]É ligado ao Modelo de Substituição… Só preciso fazer o resto até chegar no resultado[/i][/color]

@@ -65,7 +65,10 @@ layout/default_style="Default"
 variables={
 "alan_would_attack": "true",
 "companion": {
-"cap1": {},
+"cap1": {
+"q1": "1+1",
+"q2": "5 - ((4 * 3) / 2)"
+},
 "cap2": {
 "q1": "Documento 1",
 "q2": "Documento 2",
