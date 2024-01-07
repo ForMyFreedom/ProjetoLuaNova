@@ -17,12 +17,12 @@ Com a charrete… Sendo destruída
 [background arg="res://assets/backgrounds/street.png" fade="2.0"]
 join ada (harmed) 0
 join alan (despair) 2
-Alan se agaixa sem muitos ferimentos
-Ao passo que Ada, estava inconciente
+Alan se agacha sem muitos ferimentos
+Ao passo que Ada, estava inconsciente
 alan (more-despair): ADA!
 Alan checa seu pulso
 alan (stressed-4): [color=dark_gray][i]… Está viva. Mas há muito sangue[/i][/color]
-alan: [color=dark_gray][i]Precisa de cuidados dentro de meia hora[aa=1][/i][/color]
+alan: [color=dark_gray][i]Precisa de cuidados dentro de meia hora[/i][/color]
 update alan (despair)
 charllote: Muito bom dia!
 Alan trava de terror, enquanto muitas portas e janelas se fecham
@@ -36,12 +36,12 @@ alan (rage-despair): … Charllote‼
 charllote (default): Também estava com saudades
 alan: Por que você está aqui⁉ Não tem mais nada pra fazer⁉
 charllote (confused): … Que pergunta tola
-charllote (default): Primeiro… Somente eu sabia sua localização exata
+charllote (default): Primeiro… Somente [i]eu[/i] sabia sua localização exata
 alan (rage-despair-2): Como⁉ Não tem mais nenhum Codif seu em mim!
-charllote: Claro que não, você parece que destruiu ele
+charllote: Claro que não, você parece ter destruído ele
 charllote (smile): Mas... Quem disse que estou falando do seu?
 alan (more-despair): ‼
-Alan olha para Ada caída
+Alan olha pra sua amiga caída
 alan (rage-despair-2): [speed=3]Maldita
 charllote (default): [speed=1]E segundo... Você bem sabe
 update charllote (shadow)
@@ -49,9 +49,9 @@ Charllote levanta sua franja
 update alan (more-despair)
 charllote (true-smile): [i]Que eu sou a mais forte[/i]
 alan: …
-alan (despair): [color=dark_gray][i]Ela tá certa. Até mesmo fugir é imposível[/i][/color]
+alan (despair): [color=dark_gray][i]Ela tá certa. Até mesmo fugir é impossível[/i][/color]
 charllote (true-smile): Meu caro meu caro [i]{{dilema_title}}[/i]
-charllote: Eu ainda me lembro bem da sua justificativa patética
+charllote: Ainda me lembro bem de sua justificativa patética
 charllote (true-joking): '{{reason_to_kill}}'
 charllote (true-insane): HAHAHAHA! Chega até mesmo a doer a barriga!
 alan (stressed-2): …
@@ -59,7 +59,7 @@ if {tryied_other_way} == "true":
 	charllote (true-smile): Também lembro quando ficou titubeante naquele dia
 	charllote (true-joking): 'Não tem outro jeito? Não tem outro jeito?'
 	charllote (true-angry): Eu simplesmente odeio, pessoas frouxas como você
-alan (stressed): Quando você vai parar de gracinha e falar o que você quer. Criança?
+alan (stressed): Quando você vai parar de gracinha e falar o que quer. Criança?
 charllote (true-bored): ... Ousado como sempre
 charllote (true-default): Tão ousado, que já aceitou sua morte? E a morte de sua amiga?
 alan (despair): …
@@ -74,10 +74,10 @@ else:
 	alan (stressed): Não
 	charllote (true-angry): Tolo... O Destino é um fato tão inconstestável quanto a morte
 	alan (stressed-2): [color=dark_gray][i]Se a criança aqui diz…[/i][/color]
-charllote (true-determined): O Destino é a teia que conecta passado presente e futuro
+charllote (true-determined): O Destino é a teia que conecta passado, presente, e futuro
 charllote (true-insane): Aquele que me conduz, ao meu local de direito
 alan (stressed): [color=dark_gray][i]…[/i][/color]
-alan: [color=dark_gray][i]Ela apenas está brincando comigo[/i][/color]
+alan: [color=dark_gray][i]Ela apenas tá brincando comigo[/i][/color]
 alan (stressed-5): [color=dark_gray][i]Parece que ainda tem muito desse discursinho maligno[/i][/color]
 alan: [color=dark_gray][i]… Se, eu pudesse usar algo nesse tempo… Qualquer coisa no nível dela…[/i][/color]
 alan (stressed): [color=dark_gray][i]Mas ela sentiria eu preparando meu Codif[/i][/color]
@@ -86,7 +86,7 @@ alan (stressed-2): [color=dark_gray][i]... Esse… Esse é o nosso fim mesmo?[aa
 [sound path="res://assets/sfx/strong-statement.mp3" volume="-10.0"]
 alan (very-surprised): ...
 alan: [color=dark_gray][i]A minha Máquina[/i][/color]
-[music path="res://assets/musics/final-destiny.mp3" fade="3.0" volume="-15.0"]
+[music path="res://assets/musics/final-destiny.mp3" fade="3.0" volume="-10.0"]
 charllote (true-default): Hum? Lembrou que esqueceu a roupa no varal?
 alan (stressed-5): [color=dark_gray][i]Talvez possa computar algo que apenas um computador consiga[/i][/color]
 alan: [color=dark_gray][i]Charllote não está mais lendo minha mente, posso surpreende-la![/i][/color]

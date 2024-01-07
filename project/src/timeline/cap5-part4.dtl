@@ -43,7 +43,7 @@ alan (sus): Acho… Que eu exagerei um pouquinho
 alan (close-eyes-smile): Mas tá tudo bem
 NovaAda (scary-confused): Isso, é Codif?
 alan (happy): Sim
-alan: Você consegiu fugir de Charllote com ele
+alan: Você consegiu fugir de Charlotte com ele
 NovaAda (determinated): Isso é incrível!
 NovaAda: Quer dizer que já estamos bem?
 alan (frustrated): …
@@ -60,21 +60,20 @@ NovaAda (unbelief): ... Você fez de novo
 NovaAda (rage-despair): POR QUE⁉ ALAN⁉
 alan (descodif-sad-smile): …
 alan: Essa, é minha punição
-NovaAda (sad): …Punição?
+NovaAda (frustrate-rage): … Punição?
 alan (descodif-closed-eyes-smile): [speed=1.5]Eu acreditava que o Governo de Lua era bom. Que ele, possuia salvação
 alan: [speed=1.5]Mas agora eu vejo, o quão tolo eu era
 NovaAda: [speed=1]…
-NovaAda (frustrate-rage): Isso não responde minha pergunta
+NovaAda (frustrate-rage-2): Isso não responde minha pergunta
 alan (descodif-frustrated): …
 if {is_humble} == "true":
-	alan (descodif-sad-smile): Lembro de mais cedo ter dito, que eu não era um falso humilde
+	alan (descodif-sad-smile): Eu lembro de mais cedo ter dito, que eu não era um esnobe
 	NovaAda: Que?
 	alan (descodif-goofy): Pode-se dizer, que meu despojamento foi minha ruína
 elif :
-	alan (descodif-sad-smile): Lembro de mais cedo ter dito, que eu era um falso humilde
+	alan (descodif-sad-smile): Eu lembro de mais cedo ter dito, que eu era um esnobe
 	NovaAda: Que?
 	alan (descodif-goofy): Pode-se dizer, que minha arrogância foi minha ruína
-alan: Tanto, que nem posso me recodificar. Já que Charllote destruiu meu computador
 NovaAda (unbelief-2): ... Isso, é estúpido
 alan: Será?
 update alan (descodif-lil-surprised)
@@ -106,7 +105,7 @@ NovaAda (cry-3): …
 alan: ...
 alan (descodif-2-cry-3): Adeus. A-[aa=0.3]
 leave alan
-\[speed=1.5]… A mente de Alan é descodificada antes de concluir seu último adeus
+\[speed=1.5]… A mente de Alan é descodificada, antes de concluir seu último adeus
 \[speed=1.5]Com seu abraço, sendo desfeito
 NovaAda (cry-4): [speed=1]...
 \[speed=1.5]E, desfeito o choque
@@ -143,13 +142,18 @@ NovaAda: Você é aquele que se encontrou com Alan
 tim (default-2): Conhece o Historicista?
 tim: Que bom, onde ele está?
 NovaAda: [i][color=dark_gray]... [portrait=dark-sad]Se ele pergunta isso, significa que o corpo de Alan, também desapareceu[/color][/i]
+Instintivamente, ela busca por algo em seus bolsos
+join itens (machine) 2
 update NovaAda (dark-pre-cry)
+Encontrando, a [i]Máquina Lambda[/i] de Alan…
+tim (confused): Hum… Tá tudo bem?
 Ada se segura para não chorar na frente dele
+leave itens
 \[speed=1.5]Mas se resume, em silêncio
 update NovaAda (dark-sad-2)
 \[speed=1.5]A colocar uma mão, sobre o próprio peito
 tim (angry-cm): [speed=1]... Entendo
-tim: Bem… Caminhemos em frente por ele. E todos os outros inocentes que morreram nesses tempos
+tim: Bem… Caminhemos em frente por ele. E por todos os outros inocentes que morreram nesses tempos
 [update_position position="3" vector="Vector2(50, 0)" time="1.0"]
 Tim se vira de costas e começa a andar
 NovaAda (dark-sad): [speed=1.5]Espera!

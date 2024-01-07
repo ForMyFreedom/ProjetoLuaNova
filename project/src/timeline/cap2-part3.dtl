@@ -6,15 +6,15 @@ join charllote (very-angry) 4
 O Duelo de Tradução se encerra
 [music path="res://assets/musics/cute-friendship.mp3" fade="6.0" volume="-15.0"]
 charllote (angry): … Como bem disseste, Ada, isso foi apenas uma brincadeira fútil
-charllote: Deixando de lado os gracejos. Falemos de assuntos sérios agor-[aa=0.5]
+charllote: Deixando de lado os gracejos. Falemos de assuntos sérios agor-[aa=1]
 alan (close-eyes-smile): Me perdoe. Regente
 charllote (very-angry): …
 alan (happy): Eu acho, que prefiro ficar nesse Departamento por enquanto
 ada (irritant): …
-alan (fear-smile): Mas, vamo acalmar os ânimos, por favor
+alan (fear-smile): Mas, vamos acalmar os ânimos, por favor
 Alan retira uma embalagem de sua mochila
 alan: Por que não tomamos um café da manhã? Deixar de lado as diferenças
-ada (surprise): Isto... Isto é o que eu to pensando?
+ada (surprise): Isso... Isso é o que eu to pensando?
 alan (close-eyes-smile): Sim!
 E abrindo a embalagem
 join itens (donuts) 2
@@ -51,14 +51,14 @@ leave charllote
 Charlotte sai calmamente do escritório
 update ada 3 [ move_time="1"]
 update alan 1 [ move_time="1"]
-alan (confused): Senhorita Ada... Do que a Regente estava falando?
+alan (confused): Senhorita Ada... Do que a Regente tava falando?
 ada: …
 ada (sad-2): Vamos só começar o trabalho, Alan
 update alan (concern)
 leave ada
-Ada apenas se senta à mesa, e começa a mecher em papeis
+Ada apenas se senta à mesa, e começa a mecher em papéis
 update alan 2 [ move_time="1"]
-alan (fear-closed-eyes): Mas… E o café da manha?
+alan (fear-closed-eyes): Mas… E o café da manhã?
 ada: Eu... Perdi a fome
 alan (fear-angry): ... Senhorita Ada, o que está acontecend-[aa=0.5]
 [music path="res://assets/musics/tcejopr noom wen.mp3" fade="0.0" volume="0.0"]
@@ -78,7 +78,7 @@ alan (regular): Não... Eu acho…
 alan (happy): Ei! Deixa eu ver esse Código Legado que você tá mechendo
 leave --All--
 ...
-E então, um dia normal de trabalho se segue
+O dia de trabalho segue normalmente
 
 [wait time="1.5"]
 [signal arg="upper_fade"]

@@ -27,9 +27,9 @@ label First Question
 jump First Question
 label Error First Question
 join ada (focus-angry) 4
-ada: Já está cometendo tais erros logo no início?
+ada: Já está cometendo esse tipo de erro logo no início?
 alan (unbeliever): Apenas, um pequeno erro...
-ada (commum): Não se esqueça. Na linguagem racket, uma operação é escrita na forma de (Operador Operandos)
+ada (commum): Não se esqueça. Na linguagem Racket, uma operação é escrita na forma de (Operador Operandos)
 ada: Nesse caso, o Operador seria o "+" e os Operandos "1 1"
 ada (focus-angry): Tente novamente!
 leave ada
@@ -41,18 +41,18 @@ alan (confused): [color=dark_gray][i]Oh? É mais um problema de notação… Mas
 update alan (happy)
 label Second Question
 [speed=0.1]{companion.cap1.q2}
-- a. (- 5 (/ (* 4 3) 2))
+- a. (- 5 (/ (* 4 3) 2)
 	update alan (smile-half-closed-eyes)
 	alan: [speed=1][color=dark_gray][i]Só parecia difícil mesmo, vamos ver o próximo código![/i][/color]
 	jump Pass Second Question
 - Próxima Ideia
 [speed=0.1]{companion.cap1.q2}
-- b. (- 5 (/ (* 4 3) 2)
+- b. (- 5 (/ (* 4 3) 2))
 	join ada (focus-angry) 4
 	ada: [speed=1]Sinto que erraste algo…
-	alan (unbeliever): hehe...
+	alan (unbeliever): hehe…
 	ada (commum): A combinaçao no geral está certa, mas a quantidade de parêntesis esta incorreta
-	ada (commum): Tente novamente
+	ada (commum): Corrija isso
 	leave ada
 	set {error_amount} += 1
 - Próxima Ideia
@@ -60,10 +60,10 @@ label Second Question
 - c. (5 - (/ (* 4 3)) 2)
 	join ada (focus-angry) 4
 	ada: [speed=1]Sinto que erraste algo…
-	alan (unbeliever): hehe...
+	alan (unbeliever): hehe…
 	ada (angry): Como você conseguiu errar algo tão básico da sintaxe?
 	ada: Lembre-se da forma (Operador Operandos), o operador está sempre mais à esquerda
-	ada (focus-angry): Tente novamente!
+	ada (focus-angry): Arruma isso!
 	leave ada
 	set {error_amount} += 1
 - Próxima Ideia
@@ -71,9 +71,9 @@ label Second Question
 - d. (- 5 (* (/ 4 3) 2))
 	join ada (focus-angry) 4
 	ada: [speed=1]Sinto que erraste algo…
-	alan (unbeliever): hehe...
+	alan (unbeliever): hehe…
 	ada (commum): Os operadores '*' e '/' estão invertidos
-	ada (focus-angry): Tente novamente!
+	ada (focus-angry): Arruma isso!
 	leave ada
 	set {error_amount} += 1
 - Próxima Ideia
@@ -103,15 +103,15 @@ label Third Question 2
 Rascunho 1\
 (+ 13 (/ (cubo 10) (quadrado 10)))
 - (+ 13 (/ (* 10 10) (quadrado 10)))
-	alan (lil-surprise): [color=dark_gray][i]Espera... Acho errei a quantia de "10" na substituição do (cubo 10)[/i][/color]
+	alan (lil-surprise): [color=dark_gray][i]Espera… Acho errei a quantia de "10" na substituição do (cubo 10)[/i][/color]
 	set {error_amount} += 1
 	jump Third Question 2
 - (+ 13 (/ (cubo 10) (* 10 10 10)))
-	alan (lil-surprise): [color=dark_gray][i]Espera... Acho errei a quantia de "10" na substituição do (quadrado 10)[/i][/color]
+	alan (lil-surprise): [color=dark_gray][i]Espera… Acho errei a quantia de "10" na substituição do (quadrado 10)[/i][/color]
 	set {error_amount} += 1
 	jump Third Question 2
 - (+ 13 (/ (* 10 10 10) (quadrado 10)))
-	alan (smile-half-closed-eyes): [color=dark_gray][i]Tudo bem até agora, vamos continuar assim[/i][/color]
+	alan (smile-half-closed-eyes): [color=dark_gray][i]Ok, avançando[/i][/color]
 update alan (happy)
 label Third Question 3
 Rascunho 1\
@@ -121,9 +121,9 @@ Rascunho 1\
 	set {error_amount} += 1
 	jump Third Question 3
 - (+ 13 (/ 1000 (quadrado 10)))
-	alan (smile-half-closed-eyes): [color=dark_gray][i]Tudo bem até agora, vamos continuar assim[/i][/color]
-- (+ 13 (/ 10 (quadrado 10)))
-	alan (lil-surprise): [color=dark_gray][i]… Acho que minha matemática tá enferrujada, tem algo errado aqui[/i][/color]
+	alan (smile-half-closed-eyes): [color=dark_gray][i]Ok, quase lá[/i][/color]
+- (+ 13 (/ 30 (quadrado 10)))
+	alan (lil-surprise): [color=dark_gray][i]… Acho que confundi a operação. É um produto, não uma soma[/i][/color]
 	set {error_amount} += 1
 	jump Third Question 3
 update alan (happy)
@@ -131,11 +131,11 @@ label Third Question 4
 Rascunho 1\
 (+ 13 (/ 1000 (quadrado 10)))
 - (+ 13 (/ 1000 (* 10 10))
-	alan (accept-death): [color=dark_gray][i]Tem um maldito parênteses faltando⁉... Seria tudo mais fácil se existisse uma máquina para me ajudar nesse tipo de coisa[/i][/color]
+	alan (accept-death): [color=dark_gray][i]Tem um maldito parêntesis faltando⁉… Seria tudo mais fácil se existisse uma máquina para me ajudar nesse tipo de coisa[/i][/color]
 	set {error_amount} += 1
 	jump Third Question 4
 - (+ 13 (/ 1000 (* 10 10 10)))
-	alan (lil-surprise): [color=dark_gray][i]Droga… Eu fiz cubo ao invez de quadrado[/i][/color]
+	alan (lil-surprise): [color=dark_gray][i]Droga… Eu fiz ao cubo invés de ao quadrado[/i][/color]
 	set {error_amount} += 1
 	jump Third Question 4
 - (+ 13 (/ 1000 (* 10 10)))
@@ -152,14 +152,14 @@ label Third Question 5
 	set {error_amount} += 1
 	jump Third Question 5
 - (+ 13 (1000 / 100))
-	alan (lil-surprise): [color=dark_gray][i]Acho que estou um pouco tonto, coloquei o Operador no meio dos Operandos[/i][/color]
+	alan (surprise): [color=dark_gray][i]Acho que estou um pouco tonto, coloquei o Operador no meio dos Operandos[/i][/color]
 	set {error_amount} += 1
 	jump Third Question 5
 update alan (happy)
 label Third Question 6
 (+ 13 (/ 1000 100))
 - (+ 13 10)
-	alan (smile-half-closed-eyes): [color=dark_gray][i]O final está mais próximo que nunca![/i][/color]
+	alan (smile-half-closed-eyes): [color=dark_gray][i]O final está mais próximo do que nunca![/i][/color]
 - (+ 13 0.1)
 	alan (lil-surprise): [color=dark_gray][i]Acho que confundi a sequência que os Operandos são processados pelo Operador[/i][/color]
 	set {error_amount} += 1
@@ -168,7 +168,7 @@ update alan (happy)
 (+ 13 10)
 - 23
 	alan (lil-rage): [color=dark_gray][i]Eu me recuso a errar algo desse nível[/i][/color]
-alan (happy): [color=dark_gray][i]Esses três primeiros documentos foram um ótimo aquecimento![/i][/color]
+alan (happy): [color=dark_gray][i]Esses documentos foram um ótimo aquecimento![/i][/color]
 alan: [color=dark_gray][i]Espero ver códigos mais interessantes[/i][/color]
 [wait time="1.5"]
 [signal arg="upper_fade"]

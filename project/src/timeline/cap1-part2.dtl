@@ -1,11 +1,11 @@
 [background arg="res://assets/backgrounds/newart-office.png" fade="0.0"]
-[music path="res://assets/sfx/radio.mp3" fade="0.0" volume="-10.0"]
+[music path="res://assets/sfx/radio.mp3" fade="0.0" volume="-5.0"]
 join ada (surprise) 3
 join alan (surprise) 1
 ...
 Um rádio sobre a mesa começa a chiar
 unknow: [color=gray]Transmissão Oficial do Governo de Lua.[/color]\
-[color=gray]Alerta. A investida da Pronvíncia de Espada acabou por vitimar animais em muitas fazendas[/color]
+[color=gray]Alerta. A investida da Província de Espada acabou por vitimar animais em muitas fazendas[/color]
 update alan (angry)
 update ada (sad-2)
 unknow: [color=gray]Pedimos a todos que mantenham um bom controle sobre seus estoques de alimentos[/color]
@@ -18,15 +18,15 @@ alan (angry-2): Malditos bárbaros de Espada!\
 Esses invejosos merecem a morte
 ada (sad): ... Essa guerra era inevitável…
 alan (surprise): Como assim, Senhorita Ada?
-ada (sad-2): Você só está aqui há uma semana... Mas, já meses antes da guerra
-Ada se vira para a enorme pilha de papeis sobre sua mesa
-ada: A quantidade de nossos Códigos Legados era imensa. Em talvez um ano, seremos capazes de subjulgar qualquer nação
-alan (angry): Mas isso não lhes dá direito de nos atacar! Só porque encontramos muitos Códigos Legados em uma ruína
+ada (sad-2): Você só está aqui há uma semana... Mas, já meses antes da guerra, a quantidade de nossos Códigos Legados era imensa
+Ada se vira para a enorme pilha de papéis sobre sua mesa
+ada: Em talvez um ano, seremos capazes de subjulgar qualquer nação
+alan (angry): Só porque encontramos muitos Códigos Legados em uma ruína, isso não lhes dá direito de nos atacar!
 ada (bored): Você não faria o mesmo?
 alan (confused): Como assim?
-ada (regular): Se uma força estrangeira, com o passar de um ano, se tornaria capaz de destruir-te em um piscar de olhos
+ada (regular): Se uma força estrangeira, com o passar de um ano, se tornasse capaz de te dizimar em um piscar de olhos
 ada (regular-teeth): E especialmente nesse caso, em que eles são nossos únicos vizinhos em território
-ada (regular): Você não o atacaria hoje, para talvez impedir uma morte, incerta?
+ada (regular): Você não atacaria hoje, para talvez impedir uma morte, incerta?
 alan (regular): ...
 - Eu atacaria
 	set {alan_would_attack} = "true"
@@ -35,8 +35,8 @@ alan (regular): ...
 - Não atacaria
 	set {alan_would_attack} = "false"
 	alan (angry-2): Eu não atacaria! A paz não pode ser justificada com sangue!
-	ada (surprise): Um idealismo sublime, de fato
-update alan (regular)
+	ada (surprise): Ideais podem matar, sabia?
+	alan (concern): …
 ada (bored): De todo modo, temos muito trabalho a fazer
 ada: E hoje, você vai me ajudar com eles
 [music fade="0.0" volume="0.0"]
@@ -48,7 +48,7 @@ ada (disgust): É… Com tradução
 update alan (big-ultra-happy)
 alan: [wave amp=50 freq=8] Tradução de Código⁉ [/wave]
 ada (angry-annoyed): É! Tradução de Código!
-alan (determined-smile): Finalmente! Achei que ia ficar de suporte pra sempre
+alan (determined-smile): Finalmente! Achei que ia ser um empregado doméstico pra sempre
 ada (angry): Não se esqueça que você ainda é meu subordinado. Um deslize, e eu te mando embora
 alan (lil-fear): Cla– cla claro, Senhorita Ada
 jump cap1-part3/

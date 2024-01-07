@@ -234,6 +234,16 @@
 "scale": 1,
 "scene": ""
 },
+"frustrate-rage-2": {
+"export_overrides": {
+"image": "\"res://assets/characters/nova-ada/frustrate-rage-2.png\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
 "pre-two-lifes": {
 "export_overrides": {
 "image": "\"res://assets/characters/ada/pre-two-liffes.png\""

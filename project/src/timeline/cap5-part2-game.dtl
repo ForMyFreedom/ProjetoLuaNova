@@ -1,9 +1,9 @@
 alan: [color=dark_gray][i]É tudo ou nada. Ela não pode perceber que tenho um plano[/i][/color]
 alan (stressed): Charllote… Exijo que explique
-alan: Por que você não controlava minha mente, mesmo dizendo ter poder para isso?
+alan: Por que você não controlava minha mente? Seu Codif parece ser sobre isso
 charllote (true-default): Não é tão simples, Alan
-charllote: Meu Codif de Mentes demora uma semana pra fazer efeito, e requer pelo menos quatro contatos
-charllote (true-angry): Faltava só dois, para sua dominação completa
+charllote: Meu Codif de Mentes demora uma semana para fazer efeito, e requer pelo menos quatro contatos
+charllote (true-angry): Faltavam só dois, para sua dominação completa
 charllote: O seu caso foi muito frustrante
 charllote (true-default): Quase tão frustrante quando o dia em que matei meu papai
 alan (despair): O que⁉
@@ -54,15 +54,16 @@ alan: [color=dark_gray][i]Até agora, tenho\:\
 [speed=0.1](define capacidades list)[br](struct corpo (capacidades))[/i][/color]
 alan (stressed-3): [color=dark_gray][i][speed=1]Mas, preciso modelar o que é Vida[/i][/color]
 alan: [color=dark_gray][i]Uma Vida precisa de um Corpo… Então, podemos ter o seguinte template de função, retornando uma função com lambda\: Vida Template [/i][/color]
-alan (surprise): [color=dark_gray][i][speed=1]Porem… Vida também é as dificuldades que encontramos[/i][/color]
+alan (surprise): [color=dark_gray][i][speed=1]Porém… Vida também é as dificuldades que encontramos[/i][/color]
 alan (surprise-2): [color=dark_gray][i]Os desafios que superamos... [portrait=stressed-3]E as vezes, fracassamos[/i][/color]
 alan (concern-2): [color=dark_gray][i]Podemos pensar em Vida como uma Função que… Com um Corpo…[/i][/color]
+[sound path="res://assets/sfx/flush.mp3" volume="0.0"]
 alan (concern): [color=dark_gray][i]Gera uma Interface de Interação com as Dificuldades do Mundo[/i][/color]
 alan (lil-surprise): [color=dark_gray][i]Mas existem coisas mais fáceis e mais difícies… Deve haver um Grau de Dificuldade![/i][/color]
 alan (surprise): [color=dark_gray][i]E além do mais, não posso esquecer que há muitas capacidades. O Index da Capacidade deve ser passado para a função[/i][/color]
 alan (commum): [color=dark_gray][i]Então, temos algo como\: Template-Vida-2[/i][/color]
 alan (stressed-2): [color=dark_gray][i]Além disso, a Vida… Também é incerta[/i][/color]
-alan (stressed): [color=dark_gray][i]Frente a uma dificuldade, mesmo habilidosos, podemos falhar... Mesmo sendo horríveis, podemos conseguir[/i][/color]
+alan (stressed): [color=dark_gray][i]Frente a uma dificuldade, mesmo habilidosos, podemos falhar... Mesmo horríveis, podemos conseguir[/i][/color]
 alan (stressed-2): [color=dark_gray][i]Então, devo pensar na função random[/i][/color]
 if {determinist} == "true":
 	alan (stressed): [color=dark_gray][i]O que é impreciso, já que determinismo é real[/i][/color]
@@ -81,7 +82,7 @@ alan (surprise): [speed=0.1]{companion.cap5.q2}
 alan: [speed=0.1]{companion.cap5.q2}
 - 2. Valor Aleatório entre Capacidade-e-Dificuldade, comparando com ambas
 	alan (wtf-fear): [speed=1][color=dark_gray][i]Acho… Que viajei um pouco[/i][/color]
-	alan: [color=dark_gray][i]Talvez tambem esteje com falta de sangue[/i][/color]
+	alan: [color=dark_gray][i]Talvez também esteje com falta de sangue[/i][/color]
 	set {error_amount} += 1
 - Próxima Ideia
 alan: [speed=0.1]{companion.cap5.q2}
@@ -118,7 +119,7 @@ alan (stressed-5): [color=dark_gray][i]Mas foco! Preciso terminar a modelagem da
 alan (stressed-3): [color=dark_gray][i]Descobri que deve ser um sorteio ligado a Capacidade versus a Dificuldade[/i][/color]
 alan: [color=dark_gray][i]Podemos ter um template como\:\
 [speed=0.1](> (random #algo#) dificuldade)
-alan: [color=dark_gray][i][speed=1]Dando sucesso caso o sorteio seja maior que a dificuldade[/i][/color]
+alan: [color=dark_gray][i][speed=1]Dando sucesso caso o sorteio seja maior que a dificuldade. Isto é, caso o caos da vida esteja a nosso favor[/i][/color]
 alan (stressed-2): [color=dark_gray][i]Preciso terminar de codificar o sorteio[/i][/color]
 alan: [color=dark_gray][i]Usando Corpo, e o Index para as Capacidades![/i][/color]
 label Third Question
@@ -137,7 +138,7 @@ alan: [speed=0.1]{companion.cap5.q3}
 alan: [speed=0.1]{companion.cap5.q3}
 - 3. (random (list-ref (corpo-capacidades corpo) index))
 	[sound path="res://assets/sfx/strong-statement.mp3" volume="0.0"]
-	alan (very-surprised): [color=dark_gray][i][speed=1]É isso ai![/i][/color]
+	alan (very-surprised): [color=dark_gray][i][speed=1]É isso aí![/i][/color]
 	jump Pass Third Question
 - Próxima Ideia
 alan: [speed=0.1]{companion.cap5.q3}
@@ -150,12 +151,12 @@ jump Third Question
 label Pass Third Question
 
 alan (surprise-2): [color=dark_gray][i]A 'Vida' está modelada!\
-[font_size=12][speed=0.1]Ela recebe um corpo e cria uma função\
+[font_size=12][speed=0.1]Ela recebe um 'corpo' e cria uma função\
 Uma função que sorteia um valor aleatório entre 0 e alguma capacidade, comparando com a dificuldade enfrentada\
 (define (vida corpo)[br]	(lambda (dificuldade index)[br]		(> (random (list-ref (corpo-capacidades corpo) index)) dificuldade)[br]	)[br])
 alan (accept-death): [color=dark_gray][i][speed=1]Tudo certo, falta fazer a solução[/i][/color]
 
-alan (stressed): [color=dark_gray][i][speed=1]… Porem, preciso dar um pouco de atenção pra ela[/i][/color]
+alan (stressed): [color=dark_gray][i][speed=1]… Porém, preciso dar um pouco de atenção pra ela[/i][/color]
 alan (stressed-2): Mas então, por que o império está neutro?
 charllote (true-default): Ora? Não é óbvio?
 charllote: Espada descobriu nosso projeto, e então a guerra iniciou
@@ -171,34 +172,34 @@ alan (surprise): [color=dark_gray][i]Nossa salvação… É a geração de uma n
 alan (surprise-2): [color=dark_gray][i]As forças de um Corpo fonte, para uma outra Vida[/i][/color]
 alan: [color=dark_gray][i]O template pode ser o seguinte\:\
 [speed=0.1][font_size=12](define (salvacao corpo_fonte vida_destino)[br]     (define caps_extraido[br]          (corpo-capacidades corpo_fonte)[br]     )[br]     #algo#[br])
-alan (concern): [color=dark_gray][i][speed=1]Fazendo uma Definição Local das Capacidades Extraidas, para ajudar na claridade do código[/i][/color]
+alan (concern): [color=dark_gray][i][speed=1]Fazendo uma Definição Local das Capacidades Extraídas, para ajudar na clareza do código[/i][/color]
 alan (concern-2): [color=dark_gray][i]Quanto ao retorno, ele deve ser o mesmo da Vida… Já que no fim será uma Nova Vida[/i][/color]
 alan: [color=dark_gray][i][speed=0.1][font_size=12](define (salvacao corpo_fonte vida_destino)[br]     (define caps_extraido (corpo-capacidades corpo_fonte))[br]     [b](lambda (dificuldade index)[/b][br]          [b]#algo#[/b][br]     [b])[/b][br])
 alan (stressed-2): [speed=1][color=dark_gray][i]... Agora, falta só o processamento[/i][/color]
-alan (very-surprised): [color=dark_gray][i]Como… Como eu poderia enviar Capacidades Extraidas para a Vida?[/i][/color]
+alan (very-surprised): [color=dark_gray][i]Como… Como eu poderia enviar Capacidades Extraídas para uma outra Vida?[/i][/color]
 alan: [color=dark_gray][i]Não posso me esquecer que 'Corpo' é uma struct. Enquanto vida, é uma função[/i][/color]
-alan (stressed-2): [color=dark_gray][i]Não posso estrair as capacidades da vida destino. Pois não posso extrair dados de uma função[/i][/color]
+alan (stressed-2): [color=dark_gray][i]Não posso extrair as capacidades da vida. Pois não posso extrair dados de uma função[/i][/color]
 label Fourth Question
-alan: [speed=0.1]{companion.cap5.q4}
-- 1. Diminuindo a Dificuldade pela Capacidade Extraida
+alan: [speed=0.05]{companion.cap5.q4}
+- 1. Diminuindo a Dificuldade pela Capacidade Extraída
 	[sound path="res://assets/sfx/strong-statement.mp3" volume="0.0"]
 	alan (accept-death): [color=dark_gray][i][speed=1]... É ISSO![/i][/color]
 	jump Pass Fourth Question
 - Próxima Ideia
-alan: [speed=0.1]{companion.cap5.q4}
-- 2. Somando a Capacidade Extraida na Capacidade Destino
+alan: [speed=0.05]{companion.cap5.q4}
+- 2. Somando a Capacidade Extraída na Capacidade Destino
 	alan (stressed-3): [color=dark_gray][i][speed=1]… Mas, eu não tenho acesso as Capacidades da Vida Destino[/i][/color]
 	alan: [color=dark_gray][i]Pois, vida_destino é uma função, não um struct[/i][/color]
 	set {error_amount} += 1
 - Próxima Ideia
-alan: [speed=0.1]{companion.cap5.q4}
-- 3. Somando a Capacidade extraida na Dificuldade
+alan: [speed=0.05]{companion.cap5.q4}
+- 3. Somando a Capacidade Extraída na Dificuldade
 	alan (stressed): [color=dark_gray][i][speed=1]… Isso, não faz sentido[/i][/color]
 	alan: [color=dark_gray][i]É o mesmo dizer que ser mais forte deixa sua vida mais difícil…[/i][/color]
 	set {error_amount} += 1
 - Próxima Ideia
-alan: [speed=0.1]{companion.cap5.q4}
-- 4. Diminuindo a Capacidade Destino pela Capacidade Extraida
+alan: [speed=0.05]{companion.cap5.q4}
+- 4. Diminuindo a Capacidade Destino pela Capacidade Extraída
 	alan (stressed-5): [color=dark_gray][i][speed=1]… Mas, eu não tenho acesso as Capacidades da 'Vida Destino'[/i][/color]
 	alan: [color=dark_gray][i]Pois, vida_destino é uma função, não um struct[/i][/color]
 	set {error_amount} += 1
@@ -217,16 +218,16 @@ alan (stressed-3): [color=dark_gray][i]Já sei![/i][/color]
 alan (rage-despair): Mas se você tinha seu Codif de Mentes em Ada. Por que ela não era fiel a você⁉
 charllote (true-front-smile): … Meu poder não é absoluto, bobinho
 update alan (stressed)
-charllote: Existe um numero limitado de pessoas que posso ficar computando ao mesmo tempo
-charllote (true-default): E a última coisa que Ada era, é uma pessoa relevante
+charllote: Existe um número limitado de pessoas que posso ficar computando ao mesmo tempo
+charllote (true-default): E Ada, não é tão relevante assim
 alan (stressed-2): [color=dark_gray][i]... Acho, que terminei?[/i][/color]
 \[speed=0.1][font_size=12](define capacidades list)[br](struct corpo (capacidades))[br](define (vida corpo)[br]	(lambda (dificuldade index)[br]		(> (random (list-ref (corpo-capacidades corpo) index)) dificuldade)[br]	)[br])[br](define (salvacao corpo_fonte vida_destino)[br]	(define caps_extraido (corpo-capacidades corpo_fonte))[br]	(lambda (dificuldade index)[br]		(vida_destino (- dificuldade (list-ref caps_extraido index)) index)[br]	)[br])
 alan (stressed-5): [speed=1][color=dark_gray][i]É isso, está pronto[/i][/color]
-alan (accept-death): [color=dark_gray][i]Só preciso de um bomm momento, para usar meu Computador[/i][/color]
+alan (accept-death): [color=dark_gray][i]Só preciso de um bom momento, para usar meu Computador[/i][/color]
 charllote (true-bored): Mas, tem algo que me incomoda, Alan
 charllote (true-angry): Como você conseguiu voltar?
 alan (stressed-4): …
-charllote (true-insane): Isso é impossível! A sua decodificação já havia começado!
+charllote (true-insane): Isso é impossível! A sua descodificação já havia começado!
 alan (stressed-5): …
 alan (accept-death): Você quer mesmo saber?
 alan (vilain-smile): Eu usei Codif, oras
