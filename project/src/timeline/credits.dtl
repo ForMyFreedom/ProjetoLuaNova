@@ -1,4 +1,16 @@
 [background arg="res://assets/backgrounds/black_shape.png" fade="0.0"]
+if  {error_amount} == 0:
+	set {result} = "Perfeita ★★★★★"
+elif {error_amount} < 5:
+	set {result} = "Muito Alta ★★★★"
+elif {error_amount} < 10:
+	set {result} = "Alta ★★★"
+elif {error_amount} < 21:
+	set {result} = "Média ★★"
+elif {error_amount} < 31:
+	set {result} = "Baixa ★"
+else:
+	set {result} = "Muito Baixa"
 Escrita, Assets, e Programação por Rafael Ruiz Schlichting
 Desafios e Revisão por Gabriel Oliveira Gomes
 \[b]MÚSICAS[/b]
@@ -29,8 +41,8 @@ Sprites por BabySaladd\: https\://picrew.me/en/image_maker/718575
 [wait time="1.0"]
 \[speed=1]Esperamos do fundo do coração, que tenham se divertido, e aprendido um pouco sobre Racket
 if {error_amount} == 0:
-	\[speed=1]E... É sério que você não errou nenhuma vez?
-	Isso é impreessionante! Tiro meu chapéu pra você
+	\[speed=1]E... É sério que você não errou nenhuma vez? Uma performance [font_size=23][b]{result}[/b][/font_size]⁉
+	Isso é impressionante! Tiro meu chapéu pra você
 	[sound path="res://assets/sfx/congrats.mp3" volume="0.0"]
 	join itens (congrats) 2
 	[wait time="2.0"]
@@ -38,8 +50,9 @@ if {error_amount} == 0:
 else:
 	\[speed=1]Errar é humano, o importante é sempre evoluir
 	Você errou um total de {error_amount} vezes
-	Talvez, consiga uma melhor performance no futuro?
-De toda forma, até a próxima!
-[sound path="res://assets/sfx/flamengo.mp3" volume="-10.0"]
+	Sendo sua [i]performance[/i], classíficada como [font_size=23][b]{result}[/b][/font_size]
+Mas, independente de sua performance. Agraceço muito mesmo por ter jogado
+Até a próxima!
+[sound path="res://assets/sfx/flamengo.mp3" volume="-5.0"]
 [wait time="1.0"]
 [signal arg="close"]

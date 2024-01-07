@@ -138,7 +138,7 @@ Verdadeiro só se A=B",
 "title": "(cons _dado_ [lista/vazio])"
 },
 "fatorial": {
-"text": "O produto de um inteiro com todos os inteiro abaixo dele",
+"text": "O produto de um natural com todos os naturais abaixo dele",
 "title": "Fatorial"
 },
 "if": {

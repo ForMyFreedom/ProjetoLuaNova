@@ -14,7 +14,7 @@ join itens (machine) 2
 Charllote segura o aparelho com a mão direita
 alan (rage-despair-2): [speed=2.5]Como, como se eu fosse te dizer
 update charllote (true-default)
-\[speed=1]A Regente aponta a mão esquerda para o corpo inconciente de Ada
+\[speed=1]A Regente aponta a mão esquerda para o corpo inconsciente de Ada
 alan (more-despair): NÃO!
 charllote (true-front-smile): Diga
 alan: É– ... [portrait=rage-despair]É o que vocês tolos acharam ser impossível!
@@ -34,15 +34,15 @@ charllote (true-front-smile): Como se precisássemos de algo com um Codif tão f
 charllote (true-determined): Nunca que uma máquina chegará aos pés do meu poder
 charllote: O que precisamos é de bons códigos, não brinquedinhos
 alan (very-surprised): …
-Ela se aproxima dele a passos lentos
 update charllote 2 [ move_time="3"]
+Ela se aproxima dele a passos lentos
 alan (stressed): ...
 alan: [i]Sacrifico dez anos de vida[/i]
 [sound path="res://assets/sfx/some-power-2.mp3" volume="0.0"]
 join itens (machine) 1
 update charllote (true-surprised)
 E então. Uma nova máquina surge das mãos de Alan
-charllote: ... Poderia usar qualquer Codif, mas gastou tudo de sí para fazer um novo
+charllote: ... Poderia usar qualquer Codif, mas gastou tudo de si para fazer um novo
 charllote (true-smile): O seu apego a esse lixo é louvável
 alan (determined-stress): [speed=1.5][color=dark_gray][i]É o único que preciso, para te derrotar[/i][/color]
 charllote (true-front-smile): [speed=1]Está na hora de morrer, Alan
@@ -75,6 +75,7 @@ update alan (epic-sacrifice) 0
 join charllote (true-default) 4
 charllote (true-surprised): ... [portrait=true-front-smile]Mas que Codif idiota é esse?
 alan (sacrifice-evil): Você bem sabe, Charlotte
+update charllote (true-surprised)
 alan: Essa é uma Função de Alta Ordem
 alan (sacrifice-evil-2): Uma Função que recebe outra como parâmetro
 alan: E se nossas vidas são como códigos, como funções
@@ -100,7 +101,7 @@ charllote: [color=dark_gray][i]A desgraçada até mesmo destruiu meu Codif de me
 charllote (true-hate-2): [color=dark_gray][i]Se eu tivesse matado ela antes, isso não teria acontecido[/i][/color]
 charllote (true-focused): [color=dark_gray][i]... Um ser de duas vidas… Mas uma mente?[/i][/color]
 charllote: [color=dark_gray][i]O dobro de vigor... E talvez até o dobro de pod-[/i][/color][aa=0.6]
-[sound path="res://assets/sfx/finger-clap.mp3" volume="5.0"]
+[sound path="res://assets/sfx/finger-clap.mp3" volume="7.0"]
 [wait time="0.3"]
 [signal arg="green_single_blink"]
 [background arg="res://assets/backgrounds/very powerfull calculus.png" fade="0.0"]
@@ -117,7 +118,7 @@ charllote: [color=dark_gray][i]Tenho que acabar com isso o mais rápido poss-[/i
 leave NovaAda
 update charllote (true-very-surprised)
 [background arg="res://assets/backgrounds/street.png" fade="1.0"]
-Porem... Ada desaparece diante de seus olhos
+Porém... Ada desaparece diante de seus olhos
 Levando o corpo de Alan consigo
 charllote: …
 charllote (true-hate-2): Mil. Mil e um demônios!

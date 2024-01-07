@@ -1,23 +1,23 @@
 [background arg="res://assets/backgrounds/newart-office.png" fade="2.0"]
 ...
 [music path="res://assets/musics/hopeless.mp3" fade="0.0" volume="-10.0"]
-Com em um dia qualquer, Alan adentra o Departamento em gritos
+Como em um dia qualquer, Alan adentra o Departamento em gritos
 join alan (depressed-1) 2
 alan: Senhorita Ada!
 update alan 0 [ move_time="1"]
 join ada (surprise) 4
 Mas sentindo algo estranho, Ada se vira confusa
 ada (lil-tense): ... O que foi, Alan? Você parece horrível
-alan (depressed-confused): [font_size=15]Se a senhora tivesse um espelho
+alan (depressed-confused): [font_size=16]Se a senhora tivesse um espelho
 ada (angry-annoyed): O– o que disse⁉
 alan (depressed-2): Desculpa. Mas isso é sério
 update alan 1 [ move_time="1"]
 update ada 3 [ move_time="1"]
-Alan se aproxima e estende duas folhas de papel para ela
+Alan se aproxima e estende duas folhas de papel
 update ada (regular)
-Uma ancestral de linguagem estranha. E outra moderna em Racket
+Uma ancestral. E outra moderna
 ada (regular-teeth): … O que tem esses códigos?
-alan (depressed-1): Você, você consegue me dar uma boa razão pra isso, não é?
+alan (depressed-1): Você, consegue me dar uma boa razão pra isso, não é?
 update ada (surprise)
 Ada, confusa…
 update ada (big-surprise)
@@ -27,10 +27,10 @@ alan (depressed-angry-1): VOCÊ CONSEGUE ME DAR UMA BOA RAZÃO PRA ISSO, NÉ⁉
 ada (sad-2): …
 Ada olha para ambas as folhas
 update ada (sad)
-As amassa e joga fora
+E as amassa
 alan (extreme-surprise): …⁉
 alan (depressed-angry-1): Por que fez isso⁉
-ada (sad-2): Se a Regente por um acaso entrasse, em nossa sala agora
+ada (sad-2): Se por um acaso, a Regente entrasse em nossa sala agora
 ada (sad): Seríamos executados
 alan (depressed-3): …
 ada (sad-3): Vamos, para outro lugar. Pode ser?
@@ -42,7 +42,7 @@ alan (depressed-angry-2): Por que você nunca me falou sobre isso? Sobre as ment
 ada (sad): …
 ada (sad-2): Eu disse que me sentia mal por te envolver nisso, não disse?
 alan (depressed-angry-1): Tem que haver uma boa razão!
-alan: Eles estão fazendo isso para nos proteger, não é?
+alan: É pra nossa segurança, não é?
 ada (sad-3): ...
 if {alan_would_attack} == "true":
 	ada (sad-2): Lembro que me disse que atacaria Espada, caso tivéssemos nos sapatos trocados
@@ -51,17 +51,17 @@ else:
 	ada (sad-2): Lembro que me disse que não atacaria Espada, caso tivéssemos nos sapatos trocados
 	alan (depressed-confused): ... [portrait=depressed-angry-2]Sim, eu me lembro disso
 ada (sad-2): Pois então... Eu sinto algo estranho
-ada (sad): Isso não parece uma mera situação de invadidos e invasores
+ada (sad): Essa guerra não me parece ser sobre invadidos e invasores
 alan (depressed-confused): ... O que você quer dizer, Senhorita Ada?
-ada (concern-2): Meros paupites... Eu estou aqui há muito tempo. E é isso que minha intuição diz
+ada (concern-2): Meros palpites... Estou aqui há muito tempo. É só o que minha intuição diz
 alan (depressed-1): ... Mas, deve ser algo da Regente Charlotte, não é?
-alan (depressed-2): O Governo de Lua era bom antes de-[aa=0.5]
+alan (depressed-2): O Governo de Lua não era bom antes dela?
 ada (sad): Lamento lhe informar, Alan
-alan (depressed-3): ?
+alan (depressed-3): …?
 ada (sad-2): Mas eu já trabalhava na época do pai de Charllote
-ada (sad-3): E é simplesmente a mesma coisa... As mesmas, mentiras
+ada (sad-3): É simplesmente a mesma coisa... As mesmas, mentiras
 alan (depressed-1): ...
-ada (concern-2): Ei, Alan, tenta não levar isso tão a sério. Sem tanto idealismo
+ada (concern-2): Ei, Alan. Tenta não levar isso tão a sério. Sem tanto idealismo
 alan (depressed-angry-1): ... Não levar tão a sério?
 [music fade="2.0" volume="0.0"]
 alan (depressed-3): Não consegue ver
@@ -75,7 +75,7 @@ alan (depressed-3): Eu não sei quais são seus motivos
 alan (depressed-2): Mas eu me tornei um Historicista, pelo bem do meu país!
 alan (depressed-1): E agora... Nada, nada mais importa
 update alan (pre-death)
-Os ares ficam revoltados
+Os ares ficam agitados
 update alan (sad-death) [animation="Tada"]
 update ada (big-surprise)
 E Alan começa a colapsar

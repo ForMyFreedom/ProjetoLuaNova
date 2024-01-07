@@ -4,8 +4,11 @@
 Dias após o encontro com Charllote
 join alan (concern) 2
 Alan repousava em sua casa.
-No ambiente, além da câmera entregue por Ada, havia muitos papéis com desenhos e cálculos sobre máquinas
-Mas nesse momento, Alan estudava um de seus livros de [i]astronomia[/i]
+join itens (camera) 4
+No ambiente, além da câmera entregue por Ada
+leave itens
+Havia muitos papéis com desenhos e cálculos sobre máquinas
+Mas, nesse momento, Alan estudava um de seus livros de [i]astronomia[/i]
 alan (regular): [color=dark_gray][i]'As descobertas newtonianas permitiram com que eclipses fossem previstos séculos antes de seu acontecimento'[/i][/color]
 alan (concern): [color=dark_gray][i]'E tão logo, o campo do cálculo se mostrou como um dominador da realidade, de onde Laplace teceu seu Demônio…'[/i][/color]
 alan (confused): ... Determinismo. É?

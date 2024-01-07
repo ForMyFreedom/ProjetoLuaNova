@@ -12,19 +12,19 @@ ada (happy-cry): Que bom que você está bem, Alan
 alan (surprise-2): …!
 alan (lil-flush): ... [portrait=frustrated]Desculpa por te preocupar, Ada
 update ada (concern)
-Alan se levanta, e Ada enchuga suas lágrimas
+Alan se levanta, e Ada enxuga suas lágrimas
 alan (close-eyes-smile): Foi só um breve cochilo, eu não dormi muito hoje
-ada (annoyed): Uma pena que seu cochilo quase me matou do coração
+ada (annoyed): Uma pena que esse seu [i]'cochilo'[/i], quase me matou do coração
 alan (fear-closed-eyes): Eu já pedi desculpas!
-ada (surprise): Hum... Mas o que é isso?
-alan (commum): O que?
+ada (surprise): ... Mas o que é isso?
+alan (commum): Hum?
 Alan segue o olhar de Ada
 [music fade="2.0" volume="0.0"]
 Um olhar que o leva até sua própria mão, onde um objeto peculiar repousava
 [music path="res://assets/musics/never-give-up.mp3" fade="3.0" volume="-10.0"]
 join itens (machine) 2 [ z_index="100"]
 [wait_input]
-Um mecânismo criado com Codif
+Um mecanismo criado com Codif
 leave itens
 alan (happy): … É uma máquina capaz de Codificar. De computar.
 [sound path="res://assets/sfx/flush.mp3" volume="0.0"]
@@ -34,7 +34,7 @@ alan (annoyed): Como as outras inverdades do Governo de Lua?
 ada (lil-flushed): ... Você me pegou nessa, laureado
 ada (commum): Mas então, como ela se chama?
 alan (lil-surprise): …
-alan (surprise-2): Eu vou chamar... De [i]A Máquina de Alan[/i]
+alan (surprise-2): Eu vou chamar de... [i]A Máquina… de Alan[/i]
 ada (disgust): … Algo me diz que tem algo de errado nesse nome
 alan (flushed): Realmente. Bem, a gente pode pensar nisso depois
 update ada (commum)
@@ -48,16 +48,15 @@ ada (shadow-eyes): …
 update alan (stressed-2)
 ada (sad): …
 ada (sad-2): Eu... Honestamente não sei ao certo
-ada: Apenas sei ser algo escuso
-ada: Pois, todos que eu vi serem convidados…
+ada: Apenas sei ser algo escuso. Pois, todos que eu vi serem convidados…
 ada (concern-2): Nunca mais apareceram publicamente
 alan (stressed-3): …
 ada (concern): Mas, por que pergunta isso agora?
 alan (frustrated): ... Quando eu fiquei perdido em mim mesmo. Senti algo estranho
-alan: Eu vi um Codif de Charlotte no meu inconciente... Acredito que ela tenha tentado me matar
+alan: Eu vi um Codif de Charlotte no meu inconsciente... Acredito que ela tenha tentado me matar
 ada (big-surprise): …!
-alan (stressed-2): Esse Codif estranho estava em minha mente faz tempo
-alan: Mas… Se desativou um pouco após o começo da minha descodificação
+alan (stressed-2): Isso estava em minha mente faz tempo
+alan: Mas… Se desativou após o começo da minha descodificação
 ada: En– tendo
 alan (close-eyes-smile): Eu ainda... Ainda acredito que há salvação para o Governo de Lua
 update ada (concern)
@@ -66,11 +65,11 @@ ada (concern-2): Fugir para onde?
 alan (lil-rage): …
 alan: Só tem um lugar que pode nos receber. Nos proteger
 ada (sad-3): ... Alan. Nós temos família
-ada: Você bem sabe o que pode acontecer com eles, se pegarmos asilo na Provincia de Espada
+ada: Você bem sabe o que pode acontecer com eles, se pegarmos asilo na Província de Espada
 alan (stressed-2): …
-alan (angry-2): É só agente acabar rápido com essa guerra
+alan (angry-2): É só a gente acabar rápido com essa guerra
 update ada (surprise)
-alan: Com a minha máquina em larga escala. Codif ancestral algum poderá ser capaz de bater de frente
+alan: Com a minha máquina em larga escala. Codif ancestral algum poderá bater de frente
 ada (sad-2): ... Você está certo
 alan (concern): Tem algo que gostaria de levar? Não acho que temos muito tempo
 ada (sad): ...
