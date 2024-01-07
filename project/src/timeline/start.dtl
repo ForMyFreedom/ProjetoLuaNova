@@ -1,4 +1,5 @@
 [background arg="res://assets/backgrounds/gentle-moon.png" fade="2.0"]
+[style name="Default"]
 [wait time="2.0"]
 \[speed=4]\
 [i]"Nada pode tocar a lua"[/i]

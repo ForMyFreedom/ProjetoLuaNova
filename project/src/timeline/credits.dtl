@@ -1,28 +1,28 @@
 [background arg="res://assets/backgrounds/black_shape.png" fade="0.0"]
 if  {error_amount} == 0:
-	set {result} = "Perfeita ★★★★★"
+	set {result} = "Perfeita [font=assets/fonts/jp.ttf]☆☆☆☆☆[/font]"
 elif {error_amount} < 5:
-	set {result} = "Muito Alta ★★★★"
+	set {result} = "Muito Alta [font=assets/fonts/jp.ttf]☆☆☆☆[/font]"
 elif {error_amount} < 10:
-	set {result} = "Alta ★★★"
+	set {result} = "Alta [font=assets/fonts/jp.ttf]☆☆☆[/font]"
 elif {error_amount} < 21:
-	set {result} = "Média ★★"
+	set {result} = "Média [font=assets/fonts/jp.ttf]☆☆[/font]"
 elif {error_amount} < 31:
-	set {result} = "Baixa ★"
+	set {result} = "Baixa [font=assets/fonts/jp.ttf]☆[/font]"
 else:
 	set {result} = "Muito Baixa"
 Escrita, Assets, e Programação por Rafael Ruiz Schlichting
 Desafios e Revisão por Gabriel Oliveira Gomes
 \[b]MÚSICAS[/b]
 \[speed=0.1]Going Different Ways by Eric Matyas	INTRO, CAP5\
-ひとやすみ by MusMus	CAP1\
+[font=assets/fonts/jp.ttf]ひとやすみ[/font] by MusMus	CAP1\
 Filaments by Scott Buckley	CAP1, CAP3\
 Mister Sneakypants by Eric Matyas 	CAP1, CAP2\
-ソナタ ハ短調 第三楽章	CAP1
-\[speed=0.1]朧月 by MusMus	CAP1, CAP5\
+[font_size=14][font=assets/fonts/jp.ttf]ソナタ ハ短調 第三楽章 by ファニー・メンデルスゾーン [/font][/font_size]	CAP1
+\[speed=0.1][font=assets/fonts/jp.ttf]朧月[/font] by MusMus	CAP1, CAP5\
 On the Trail with the Inspector by Eric Matyas	CAP2\
 Fortune plano Vulnera by J.V Mas Quile	CAP2\
-いんげんまめ法曹の執務室 by MusMus	CAP2\
+[font=assets/fonts/jp.ttf]いんげんまめ法曹の執務室[/font] by MusMus	CAP2\
 Stronger Monsters by UNDERTALE	CAP2
 \[speed=0.1]Friendship by [font_size=16]No Copyright Music and Video Themes[/font_size]	CAP2\
 The Shadow's Bride by Peter Gundry	CAP2\
@@ -30,11 +30,11 @@ Covert Affairs by Christoffer Moe Ditlevsen	CAP3\
 [font_size=16]Investigation Tension Mysterious[/font_size] by Power Music Factory	CAP3\
 Goodbye My Dear by SteffenDaum	CAP3\
 Depression by Jack Winn	CAP4, CAP5
-\[speed=0.1]Rain(レイン) by James Chou Anime Piano	CAP4\
+\[speed=0.1]Rain by James Chou Anime Piano	CAP4\
 Enchanted by Keys Of Moon	CAP4, CAP5\
 Don't Give Up by UNDERTALE	CAP4\
 Fortress of Doom by Eric Matyas	CAP5\
-イクスゲイナー by MusMus	CAP5\
+[font=assets/fonts/jp.ttf]イクスゲイナー[/font] by MusMus	CAP5\
 Battle Against A True Hero Cover by Hodgepodge	CAP5
 \[speed=0.1][b]ARTES[/b]\
 Sprites por BabySaladd\: https\://picrew.me/en/image_maker/718575

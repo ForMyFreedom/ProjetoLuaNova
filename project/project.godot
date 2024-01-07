@@ -45,9 +45,13 @@ text/autopauses={
 layout/styles={
 "Default": {
 "export_overrides": {
+"bold_font": "\"res://assets/fonts/noto/NotoSans-SemiBold.ttf\"",
+"bold_italic_font": "\"res://assets/fonts/noto/NotoSans-SemiBoldItalic.ttf\"",
 "box_modulate": "Color(0.00784314, 0.00784314, 0.00784314, 1)",
+"italic_font": "\"res://assets/fonts/noto/NotoSans-Italic.ttf\"",
 "name_label_alignment": "1",
 "name_label_font_size": "20.0",
+"normal_font": "\"res://assets/fonts/noto/NotoSans-Regular.ttf\"",
 "text_size": "20.0"
 },
 "inherits": "",

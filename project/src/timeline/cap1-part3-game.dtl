@@ -94,7 +94,7 @@ alan: Rascunho 1\
 	set {error_amount} += 1
 	jump Third Question 1
 - ((/ (cubo 10) (quadrado 10)) + 13)
-	alan (extreme-surprise): [color=dark_gray][i]Espera⁉ Como aquele "+ 13" foi parar ali? Deixa eu refazer antes que a senhorita Ada veja isso![/i][/color]
+	alan (extreme-surprise): [color=dark_gray][i]Espera! Como aquele "+ 13" foi parar ali? Deixa eu refazer antes que a senhorita Ada veja isso![/i][/color]
 	set {error_amount} += 1
 	jump Third Question 1
 update alan (happy)
@@ -130,7 +130,7 @@ label Third Question 4
 Rascunho 1\
 (+ 13 (/ 1000 (quadrado 10)))
 - (+ 13 (/ 1000 (* 10 10))
-	alan (accept-death): [color=dark_gray][i]Tem um maldito parêntesis faltando⁉… Seria tudo mais fácil se existisse uma máquina para me ajudar nesse tipo de coisa[/i][/color]
+	alan (accept-death): [color=dark_gray][i]Tem um maldito parêntesis faltando!… Seria tudo mais fácil se existisse uma máquina para me ajudar nesse tipo de coisa[/i][/color]
 	set {error_amount} += 1
 	jump Third Question 4
 - (+ 13 (/ 1000 (* 10 10 10)))

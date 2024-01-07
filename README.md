@@ -66,5 +66,4 @@ Além disso, é importante saber que o jogo não possui sistema de save. Sendo f
 Sprites por [BabySaladd](https\://picrew.me/en/image_maker/718575)
 
 ## Aonde jogar?
- - [Github Pages](https://formyfreedom.github.io/ProjetoLuaNova/)
  - [Itch.io](https://semperfabula-studio.itch.io/projeto-lua-nova)
