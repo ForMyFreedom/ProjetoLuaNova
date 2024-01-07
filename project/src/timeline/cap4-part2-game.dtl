@@ -1,4 +1,4 @@
-[background arg="res://assets/backgrounds/strange calculus.png" fade="1.0"]
+[background arg="res://assets/backgrounds/strange calculus.png"]
 join alan (lil-angry) 2
 alan (lil-angry): Uma máquina seria capaz de computar se ela pudesse tratar funções de forma recursiva
 Alan ergue a mão

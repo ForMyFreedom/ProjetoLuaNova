@@ -40,7 +40,7 @@ alan: [i]Sacrifico dez anos de vida[/i]
 [sound path="res://assets/sfx/some-power-2.mp3" volume="0.0"]
 join itens (machine) 1
 update charllote (true-surprised)
-E então. Uma nova máquina surge das mãos de Alan
+E então. Uma nova máquina surge nas mãos de Alan
 charllote: ... Poderia usar qualquer Codif, mas gastou tudo de si para fazer um novo
 charllote (true-smile): O seu apego a esse lixo é louvável
 alan (determined-stress): [speed=1.5][color=dark_gray][i]É o único que preciso, para te derrotar[/i][/color]
