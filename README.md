@@ -26,6 +26,9 @@ Sobre uma explosão de muitos Códigos recém-descobertos em uma Ruína na Prov�
 Ou... Pelo menos é isso que todos acreditam
 
 ## Características de Jogo
+### Tempo Esperado: 25-35min
+### Tecnologias: Godot com Dialogic²
+### Observações:
 É importante saber que o aspecto da gameplay não é tão relevante quanto os elementos de história... Mas, ainda sim se fazem presente na forma de:
  - Escolhas lúdicas sobre o fluxo da ficção
   ![Alan com dúvida entre atacar ou não](https://i.imgur.com/1Je3qaa.png)
@@ -33,6 +36,34 @@ Ou... Pelo menos é isso que todos acreditam
   ![Alan tentando traduzir 1+1 para Racket](https://i.imgur.com/CdTwGJn.png)
 
 Além disso, é importante saber que o jogo não possui sistema de save. Sendo feito para jogar tudo de uma vez!
+
+
+## Créditos
+### Músicas
+- Going Different Ways by Eric Matyas	[INTRO, CAP5]
+- ひとやすみ by MusMus	[CAP1]
+- Filaments by Scott Buckley	[CAP1, CAP3]
+- Mister Sneakypants by Eric Matyas 	[CAP1, CAP2]
+- ソナタ ハ短調 第三楽章 by ファニー・メンデルスゾーン	[CAP1]
+- 朧月 by MusMus	[CAP1, CAP5]
+- On the Trail with the Inspector by Eric Matyas	[CAP2]
+- Fortune plano Vulnera by J.V Mas Quile	[CAP2]
+- いんげんまめ法曹の執務室 by MusMus	[CAP2]
+- Stronger Monsters by UNDERTALE	[CAP2]
+- Friendship by No Copyright Music and Video Themes [CAP2]
+- The Shadow's Bride by Peter Gundry	[CAP2]
+- Covert Affairs by Christoffer Moe Ditlevsen	[CAP3]
+- Investigation Tension Mysterious by Power Music Factory	[CAP3]
+- Goodbye My Dear by SteffenDaum	[CAP3]
+- Depression by Jack Winn	[CAP4, CAP5]
+- Rain(レイン) by James Chou Anime Piano [CAP4]
+- Enchanted by Keys Of Moon	[CAP4, CAP5]
+- Don't Give Up by UNDERTALE	[CAP4]
+- Fortress of Doom by Eric Matyas	[CAP5]
+- イクスゲイナー by MusMus	[CAP5]
+- Battle Against A True Hero Cover by Hodgepodge	[CAP5]
+### Arte
+Sprites por [BabySaladd](https\://picrew.me/en/image_maker/718575)
 
 ## Aonde jogar?
  - [Github Pages](https://formyfreedom.github.io/ProjetoLuaNova/)
