@@ -4,7 +4,7 @@
 Essa visual novel surgiu de um trabalho de faculdade sobre 'desenvolver um jogo simples para o aprendizado de [Racket](https://racket-lang.org/)'
 
 Mas... Acabamos por nos empolgar um pouco...
-![Alan dizendo 'Uma Bomba'](https://i.imgur.com/k8ItXPS.png)
+![Alan dizendo 'Uma Bomba'](https://i.imgur.com/6V5P2ym.png)
 
 ## Público Alvo
 Esse jogo é recomendado para aqueles que se encaixam em uma das categorias:
@@ -31,9 +31,9 @@ Ou... Pelo menos é isso que todos acreditam
 ### Observações:
 É importante saber que o aspecto da gameplay não é tão relevante quanto os elementos de história... Mas, ainda sim se fazem presente na forma de:
  - Escolhas lúdicas sobre o fluxo da ficção
-  ![Alan com dúvida entre atacar ou não](https://i.imgur.com/1Je3qaa.png)
+  ![Alan com dúvida entre atacar ou não](https://i.imgur.com/fXGAwDN.png)
  - E desafios de Tradução/Codificação na linguagem Racket
-  ![Alan tentando traduzir 1+1 para Racket](https://i.imgur.com/CdTwGJn.png)
+  ![Alan tentando traduzir 1+1 para Racket](https://i.imgur.com/poOJFQJ.png)
 
 Além disso, é importante saber que o jogo não possui sistema de save. Sendo feito para jogar tudo de uma vez!
 
