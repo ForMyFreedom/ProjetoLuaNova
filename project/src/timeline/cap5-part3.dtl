@@ -1,4 +1,3 @@
-[background arg="res://assets/backgrounds/street.png" fade="0.0"]
 join alan (vilain-smile-2) 1
 join charllote (true-hate) 3
 [music fade="2.0" volume="0.0"]

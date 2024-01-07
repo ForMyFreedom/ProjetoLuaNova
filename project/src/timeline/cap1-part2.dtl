@@ -1,4 +1,3 @@
-[background arg="res://assets/backgrounds/newart-office.png" fade="0.0"]
 [music path="res://assets/sfx/radio.mp3" fade="0.0" volume="-5.0"]
 join ada (surprise) 3
 join alan (surprise) 1

@@ -1,4 +1,3 @@
-[background arg="res://assets/backgrounds/newart-office.png" fade="0.0"]
 join alan 2 [ z_index="5"]
 alan (ultra-happy): Estou realmente animado!
 update alan (happy)

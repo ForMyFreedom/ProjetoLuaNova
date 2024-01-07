@@ -1,4 +1,3 @@
-[background arg="res://assets/backgrounds/room.png" fade="0.0"]
 join alan (concern) 2
 [music path="res://assets/musics/investigation.mp3" fade="0.0" volume="-3.0"]
 alan: Que tipo de código está sendo guardado em um Departamento de Guerra…?

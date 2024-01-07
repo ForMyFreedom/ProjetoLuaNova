@@ -1,4 +1,3 @@
-[background arg="res://assets/backgrounds/carriage.png" fade="0.0"]
 join alan (despair) 0
 join ada (despair) 4
 [music path="res://assets/musics/charlotte-revelation.mp3" fade="1.0" volume="0.0"]
