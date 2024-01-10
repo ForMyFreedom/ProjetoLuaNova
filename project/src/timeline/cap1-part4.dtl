@@ -1,50 +1,50 @@
 leave --All--
 [background arg="res://assets/backgrounds/newart-office-evening.png" fade="0.0"]
 [music path="res://assets/musics/happy.mp3" fade="0.0" volume="-3.0"]
-Mais algumas horas de trabalho se passam até o fim do expediente... Com mais e mais Códigos traduzidos de línguas antigas, para Racket
+Mais algumas horas de trabalho se passam até o fim do expediente... Com mais e mais Códigos traduzidos de línguas antigas, para Racket.
 join alan 1
 join ada 3
 ada (surprise): [i]até que você é bom nisso…[/i]
 alan (confused): Você disse alguma coisa Senhorita Ada?
-ada (flushed): Na– não, eu só gagejei
+ada (flushed): Na– não, eu só gagejei.
 alan (happy): De todo modo, obrigado por confiar em mim hoje!
 ada (sad): ...
 alan (regular): Senhorita Ada, aconteceu alguma coisa?
-ada (sad-2): Eu não sei... Mesmo sendo meu subordinado, eu me sinto mal em te envolver nisso
+ada (sad-2): Eu não sei... Mesmo sendo meu subordinado, eu me sinto mal em te envolver nisso.
 alan (confused): Nisso o que?
-ada: … Com os Códigos Legados. Acho que eles trazem mais mal do que bem para esse mundo
-alan: ... Que bobagem
+ada: … Com os Códigos Legados. Acho que eles trazem mais mal do que bem para esse mundo.
+alan: ... Que bobagem.
 ada (regular-teeth): Hum?
 alan (determined-smile): Somos Codificadores. Somos Historicistas!
 update ada (surprise)
-Alan bate no peito
+Alan bate no peito.
 alan: Independente de bem e mal. Códigos são nossas vidas!
 ada: ...
-ada (lil-happy): É. Talvez você esteja certo
-alan (lil-angry): Eu [speed=6][i]estou[/i][speed=1] certo
-ada (disgust): [speed=1]Essa arrogância ainda será sua ruína
+ada (lil-happy): É. Talvez você esteja certo.
+alan (lil-angry): Eu [speed=6][i]estou[/i][speed=1] certo.
+ada (disgust): [speed=1]Essa arrogância ainda será sua ruína.
 alan (happy): De todo modo, gostei muito de hoje. Mesmo.
-alan (tired): Mas dá uma trabalheira fazer testes na mão
-alan: Ia ser tão bom se máquinas pudessem computar pra gente
-ada (surprise): ... [portrait=bored]Que ideia infantil
+alan (tired): Mas dá uma trabalheira fazer testes na mão.
+alan: Ia ser tão bom se máquinas pudessem computar pra gente.
+ada (surprise): ... [portrait=bored]Que ideia infantil.
 alan (annoyed): Ei, não é infantil![aa=0.5]
 alan (lil-surprise): ... Nossa, olha o horário!
-alan (happy): Preciso ir agora Senhorita Ada. Estou quase perdendo o metrô
+alan (happy): Preciso ir agora Senhorita Ada. Estou quase perdendo o metrô.
 update ada (surprise)
 Alan se levanta
 [update_position position="2" vector="Vector2(80, 0)" time="0.0"]
-alan: Obrigado por tudo mais uma vez
+alan: Obrigado por tudo mais uma vez.
 update ada 2 [ z_index="-1" move_time="1"]
-ada (lil-flushed): Espera
+ada (lil-flushed): Espera.
 update alan (confused)
-Ada segura a manga dele
+Ada segura a manga dele.
 alan (lil-flush): O– o que foi?
-ada: Diferente de você… [portrait=annoyed] Que presenteia com ameaça de morte
+ada: Diferente de você… [portrait=annoyed] Que presenteia com ameaça de morte.
 alan (lil-fear): …
-ada (regular): Eu tenho algo pra você
+ada (regular): Eu tenho algo pra você.
 Ada estende um embrulho
 alan (sus): ... [speed=3]Isso é uma bom-[aa=0.1]
-ada (angry): [speed=1]Não! Não é uma bomba, Alan
+ada (angry): [speed=1]Não! Não é uma bomba, Alan.
 alan (sad): …
 update ada 3 [ move_time="1"]
 ada (disgust): ... Por que eu tenho a impressão que você gostaria que fosse uma bomba?
@@ -55,37 +55,37 @@ Alan abre o embrulho de forma grosseira...
 [update_position position="2" time="0.0"]
 join itens (camera) 2
 update alan (confused)
-Revelando uma câmera
+Revelando uma câmera.
 leave itens
-alan (confused): … Eu gostei do presente. Mas estou, confuso
-ada (bored): Todos os Códigos que recebemos devem ser devolvidos de volta para o Governo
-ada: E como temos muito, fica trabalhoso copiar na mão
+alan (confused): … Eu gostei do presente. Mas estou, confuso.
+ada (bored): Todos os Códigos que recebemos devem ser devolvidos de volta para o Governo.
+ada: E como temos muito, fica trabalhoso copiar na mão.
 alan (lil-surprise): Ah! Entendi!
-alan (happy): Muito. Muito obrigado mesmo pelo presente
+alan (happy): Muito. Muito obrigado mesmo pelo presente.
 ada (regular): Era pra eu te entregar hoje mais cedo.
-ada (regular-teeth): Mas com seu susto e o anúncio, eu esqueci
-alan (fear-smile): Hum, foi mal
+ada (regular-teeth): Mas com seu susto e o anúncio, eu esqueci.
+alan (fear-smile): Hum, foi mal.
 alan (goofy): Mas deixando a tristeza de lado, vamos gravar o momento!
 update ada (surprise)
-Alan se vira de costas, e levanta a câmera pra si mesmo
-ada (surprise): … Que forma estranha de tirar uma foto
-alan (smile): É para nós dois estarmos nela
+Alan se vira de costas, e levanta a câmera pra si mesmo.
+ada (surprise): … Que forma estranha de tirar uma foto.
+alan (smile): É para nós dois estarmos nela.
 alan (determined-smile): Diga, XNOR
 ada (surprise): ... [portrait=forced-smile]XNOR
 [sound path="res://assets/sfx/cam.mp3" volume="-3.0"]
-Alan tira a foto
-Aguardando alguns segundos para revelar
-alan (goofy): Ficou boa! Acho que tenho talento
+Alan tira a foto.
+Aguardando alguns segundos para revelar.
+alan (goofy): Ficou boa! Acho que tenho talento.
 ada (regular): Seria bom usar esse seu talento pra algo de út-[aa=0.75]
 update alan (happy)
-Alan estende a foto para Ada
+Alan estende a foto para Ada.
 update ada (surprise)
-... [speed=1.5]E ela, surpresa. Apenas pega em suas mãos
+... [speed=1.5]E ela, surpresa. Apenas pega em suas mãos.
 alan (flushed): [speed=1]Muito obrigado de novo por hoje, Senhorita Ada!
 alan: Preciso ir urgente!
 leave alan
-Alan sai do escritório correndo
-Deixando Ada sozinha, com a foto dos dois em mãos
+Alan sai do escritório correndo.
+Deixando Ada sozinha, com a foto dos dois em mãos.
 ada (bored): ...
 ada (lil-happy): Idiota
 [wait time="1.5"]

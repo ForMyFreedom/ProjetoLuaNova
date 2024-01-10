@@ -11,8 +11,8 @@ elif {error_amount} < 31:
 	set {result} = "Baixa [font=assets/fonts/jp.ttf]☆[/font]"
 else:
 	set {result} = "Muito Baixa"
-Escrita, Assets, e Programação por Rafael Ruiz Schlichting
-Desafios e Revisão por Gabriel Oliveira Gomes
+Escrita, Assets, e Programação por Rafael Ruiz Schlichting.
+Desafios e Revisão por Gabriel Oliveira Gomes.
 \[b]MÚSICAS[/b]
 \[speed=0.1]Going Different Ways by Eric Matyas	INTRO, CAP5\
 [font=assets/fonts/jp.ttf]ひとやすみ[/font] by MusMus	CAP1\
@@ -39,19 +39,19 @@ Battle Against A True Hero Cover by Hodgepodge	CAP5
 \[speed=0.1][b]ARTES[/b]\
 Sprites por BabySaladd\: https\://picrew.me/en/image_maker/718575
 [wait time="1.0"]
-\[speed=1]Esperamos do fundo do coração, que tenham se divertido, e aprendido um pouco sobre Racket
+\[speed=1]Esperamos do fundo do coração, que tenham se divertido, e aprendido um pouco sobre Racket.
 if {error_amount} == 0:
 	\[speed=1]E... É sério que você não errou nenhuma vez? Uma performance [font_size=23][b]{result}[/b][/font_size]⁉
-	Isso é impressionante! Tiro meu chapéu pra você
+	Isso é impressionante! Tiro meu chapéu pra você.
 	[sound path="res://assets/sfx/congrats.mp3" volume="0.0"]
 	join itens (congrats) 2
 	[wait time="2.0"]
 	leave itens
 else:
-	\[speed=1]Errar é humano, o importante é sempre evoluir
-	Você errou um total de {error_amount} vezes
+	\[speed=1]Errar é humano, o importante é sempre evoluir.
+	Você errou um total de {error_amount} vezes.
 	Sendo sua [i]performance[/i], classíficada como [font_size=23][b]{result}[/b][/font_size]
-Mas, independente de sua performance. Agraceço muito mesmo por ter jogado
+Mas, independente de sua performance. Agraceço muito mesmo por ter jogado.
 Até a próxima!
 [sound path="res://assets/sfx/flamengo.mp3" volume="-5.0"]
 [wait time="1.0"]

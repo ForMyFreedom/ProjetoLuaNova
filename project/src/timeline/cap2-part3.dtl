@@ -2,39 +2,39 @@ join alan (surprise-2) 0
 join ada (determinated-smile) 2
 join charllote (very-angry) 4
 ...
-O Duelo de Tradução se encerra
+O Duelo de Tradução se encerra.
 [music path="res://assets/musics/cute-friendship.mp3" fade="6.0" volume="-15.0"]
-charllote (angry): … Como bem disseste, Ada, isso foi apenas uma brincadeira fútil
+charllote (angry): … Como bem disseste, Ada, isso foi apenas uma brincadeira fútil.
 charllote: Deixando de lado os gracejos. Falemos de assuntos sérios agor-[aa=1]
-alan (close-eyes-smile): Me perdoe. Regente
+alan (close-eyes-smile): Me perdoe. Regente.
 charllote (very-angry): …
-alan (happy): Eu acho, que prefiro ficar nesse Departamento por enquanto
+alan (happy): Eu acho, que prefiro ficar nesse Departamento por enquanto.
 ada (irritant): …
-alan (fear-smile): Mas, vamos acalmar os ânimos, por favor
-Alan retira uma embalagem de sua mochila
-alan: Por que não tomamos um café da manhã? Deixar de lado as diferenças
+alan (fear-smile): Mas, vamos acalmar os ânimos, por favor.
+Alan retira uma embalagem de sua mochila.
+alan: Por que não tomamos um café da manhã? Deixar de lado as diferenças.
 ada (surprise): Isso... Isso é o que eu to pensando?
 alan (close-eyes-smile): Sim!
-E abrindo a embalagem
+E abrindo a embalagem.
 join itens (donuts) 2
 update ada (ultra-happy)
-Alan revela meia dúzia de donuts
+Alan revela meia dúzia de donuts.
 leave itens
 ada (ultra-happy): [wave amp=50 freq=4] É sério que você comprou pra mim? [/wave]
-alan (determined-smile): Você me deu um presente bem caro ontem. Fica difícil não retribuir
-ada: ... [portrait=happy] Obrigada, Alan
+alan (determined-smile): Você me deu um presente bem caro ontem. Fica difícil não retribuir.
+ada: ... [portrait=happy] Obrigada, Alan.
 update alan (flushed)
 update charllote (surprised)
 [wait time="2.0"]
 charllote (surprised): ...
 [music fade="0.0" volume="0.0"]
 [sound path="res://assets/sfx/danger.mp3" volume="-10.0"]
-charllote (terror): [color=red][font_size=15]Bem pouco importa[/font_size][/color][aa=0.3]
+charllote (terror): [color=red][font_size=15]Bem pouco importa.[/font_size][/color][aa=0.3]
 update alan (tense)
 update ada (scary-confused)
 charllote (sad): Digo…
 alan-and-ada: Hum?
-charllote (sad): Isso é triste
+charllote (sad): Isso é triste.
 [background arg="res://assets/backgrounds/black_shape.png" fade="2.0"]
 [wait time="1.5"]
 charllote: Eu achei que você seria muito adequado…
@@ -45,20 +45,20 @@ update ada (shadow-eyes)
 alan (surprise): ... Projeto Lua Nova?
 [background arg="res://assets/backgrounds/newart-office.png" fade="2.0"]
 ada: ...
-charllote (default): Bem, vejo-te outro dia, Historicista Alan
+charllote (default): Bem, vejo-te outro dia, Historicista Alan.
 leave charllote
-Charlotte sai calmamente do escritório
+Charlotte sai calmamente do escritório.
 update ada 3 [ move_time="1"]
 update alan 1 [ move_time="1"]
 alan (confused): Senhorita Ada... Do que a Regente tava falando?
 ada: …
-ada (sad-2): Vamos só começar o trabalho, Alan
+ada (sad-2): Vamos só começar o trabalho, Alan.
 update alan (concern)
 leave ada
-Ada apenas se senta à mesa, e começa a mecher em papéis
+Ada apenas se senta à mesa, e começa a mecher em papéis.
 update alan 2 [ move_time="1"]
 alan (fear-closed-eyes): Mas… E o café da manhã?
-ada: Eu... Perdi a fome
+ada: Eu... Perdi a fome.
 alan (fear-angry): ... Senhorita Ada, o que está acontecend-[aa=0.5]
 [music path="res://assets/musics/tcejopr noom wen.mp3" fade="0.0" volume="0.0"]
 update alan (despair)
@@ -74,10 +74,10 @@ alan: ... Hum?
 alan: Eu...
 ada: Aconteceu alguma coisa?
 alan (regular): Não... Eu acho…
-alan (happy): Ei! Deixa eu ver esse Código Legado que você tá mechendo
+alan (happy): Ei! Deixa eu ver esse Código Legado que você tá mechendo.
 leave --All--
 ...
-O dia de trabalho segue normalmente
+O dia de trabalho, segue normalmente.
 
 [wait time="1.5"]
 [signal arg="upper_fade"]

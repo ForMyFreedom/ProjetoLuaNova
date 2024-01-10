@@ -1,56 +1,56 @@
 join ada (devil) 0
 join charllote (angry) 4
 charllote: E então? Como será o duelo?
-ada (determinated-smile): Tenho aqui três documentos sobre Condicionais para traduzirmos
+ada (determinated-smile): Tenho aqui três documentos sobre Condicionais para traduzirmos.
 [sound path="res://assets/sfx/curious-statement.mp3" volume="-5.0"]
 charllote (surprised): Condicional?
-ada: Sim, seja com cond ou if
-ada: Quando cada uma terminar, corrigiremos a tradução uma da outra
+ada: Sim, seja com cond ou if.
+ada: Quando cada uma terminar, corrigiremos a tradução uma da outra.
 ada (devil): E perde aquela, que primeiro falhar na tradução!
-charllote (default): Se você fizer o seu melhor, talvez consiga empatar
-ada (determinated-smile): Tirou as palavras da minha boca
+charllote (default): Se você fizer o seu melhor, talvez consiga empatar.
+ada (determinated-smile): Tirou as palavras da minha boca.
 ada (devil): Aqui está o primeiro documento, vamos começar!
 update charllote (determined)
 update ada (commum)
-Após entregar um papel para Charllote, Ada começa a ler o seu
-ada: [color=dark_gray][i]… Parece um problema com valores numéricos, pela presença do símbolo de maior '>'[/i][/color]
+Após entregar um papel para Charllote, Ada começa a ler o seu.
+ada: [color=dark_gray][i]… Parece um problema com valores numéricos, pela presença do símbolo de maior '>'.[/i][/color]
 ada: [color=dark_gray][i]… Como poderia traduzi-lo?[/i][/color]
 label First Question
 [speed=0.1]{companion.cap2.q1}
 - 1. (if (> x y) 01100001 01100101)
-	ada (determinated): [speed=1][color=dark_gray][i]A forma está correta, mas troquei a ordem de verdadeiro e falso[/i][/color]
+	ada (determinated): [speed=1][color=dark_gray][i]A forma está correta, mas troquei a ordem de verdadeiro e falso.[/i][/color]
 	set {error_amount} += 1
 - Próxima Ideia
 [speed=0.1]{companion.cap2.q1}
 - 2. (cond   [(> x y) 01100101]   [else 01100001])
-	ada (lil-disgust): [speed=1][color=dark_gray][i]De fato funciona… Mas é deselegante[/i][/color]
-	ada: [color=dark_gray][i]Por ser um caso binário, o if é mais adequado[/i][/color]
+	ada (lil-disgust): [speed=1][color=dark_gray][i]De fato funciona… Mas é deselegante.[/i][/color]
+	ada: [color=dark_gray][i]Por ser um caso binário, o if é mais adequado.[/i][/color]
 - Próxima Ideia
 [speed=0.1]{companion.cap2.q1}
 - 3. (if (> x y) 01100101 01100001)
-	ada (determinated-smile): [speed=1][color=dark_gray][i]Assim está bom, o if é o mais adequado mesmo[/i][/color]
+	ada (determinated-smile): [speed=1][color=dark_gray][i]Assim está bom, o if é o mais adequado mesmo.[/i][/color]
 	jump Pass First Question
 - Próxima Ideia
 [speed=0.1]{companion.cap2.q1}
 - 4. (cond (> x y) 01100101 01100001)
-	ada (determinated): [speed=1][color=dark_gray][i]Não… Essa não é a forma do cond, é a do if[/i][/color]
-	ada: [color=dark_gray][i]Está faltando o 'else' e os colchetes[/i][/color]
+	ada (determinated): [speed=1][color=dark_gray][i]Não… Essa não é a forma do cond, é a do if.[/i][/color]
+	ada: [color=dark_gray][i]Está faltando o 'else' e os colchetes.[/i][/color]
 	set {error_amount} += 1
 - Próxima Ideia
 jump First Question
 label Pass First Question
 Após cada uma terminar sua tradução, ambas trocam seus papéis…
-ada (lil-disgust): … Como esperado da codificadora mais talentosa de Lua
-ada: Seria uma piada se não conseguisse fazer uma tradução tão fácil
-charllote (angry): Você também não é nada mal para uma reclusa de escritório
+ada (lil-disgust): … Como esperado da codificadora mais talentosa de Lua.
+ada: Seria uma piada se não conseguisse fazer uma tradução tão fácil.
+charllote (angry): Você também não é nada mal para uma reclusa de escritório.
 ada (focus-angry): Próximo documento!
 update charllote (determined)
 Ambas começam a tradução
-ada (commum): [color=dark_gray][i]... Pela presença de and, not, e or, parece um problema com valores lógicos[/i][/color]
+ada (commum): [color=dark_gray][i]... Pela presença de and, not, e or, parece um problema com valores lógicos.[/i][/color]
 label Second Question
 {companion.cap2.q2}
 - 1. (cond   [(or a b) 01110011]   [(not(and c d)) 01110100]   [else 01100101])
-	ada (determinated): [color=dark_gray][i]Droga… Acho que troquei a ordem dos operadores[/i][/color]
+	ada (determinated): [color=dark_gray][i]Droga… Acho que troquei a ordem dos operadores.[/i][/color]
 	set {error_amount} += 1
 - Próxima Ideia
 {companion.cap2.q2}
@@ -60,14 +60,14 @@ label Second Question
 - Próxima Ideia
 {companion.cap2.q2}
 - 3. (cond [and a b 01110011] [not(or c d) 01110100] [else 01100101])
-	ada (lil-disgust): [color=dark_gray][i]Não posso me esquecer dos parêntesis[/i][/color]
-	ada: [color=dark_gray][i]Eles são vitais para diferenciar condição de resultado[/i][/color]
+	ada (lil-disgust): [color=dark_gray][i]Não posso me esquecer dos parêntesis.[/i][/color]
+	ada: [color=dark_gray][i]Eles são vitais para diferenciar condição de resultado.[/i][/color]
 	set {error_amount} += 1
 - Próxima Ideia
 {companion.cap2.q2}
 - 4. (if  [(and a b) 01110011]   [(not(or c d)) 01110100]   [else 01100101])
-	ada (determinated): [color=dark_gray][i]Não, o if só pode ser utilizado quando tem dois resultados possíveis[/i][/color]
-	ada: [color=dark_gray][i]Mas se eu colocar um cond no lugar do if, ficaria perfeito[/i][/color]
+	ada (determinated): [color=dark_gray][i]Não, o if só pode ser utilizado quando tem dois resultados possíveis.[/i][/color]
+	ada: [color=dark_gray][i]Mas se eu colocar um cond no lugar do if, ficaria perfeito.[/i][/color]
 	set {error_amount} += 1
 - Próxima Ideia
 jump Second Question
@@ -75,7 +75,7 @@ label Pass Second Question
 Após cada uma terminar sua tradução, ambas trocam seus papéis…
 ada (devil): Nosso grande talento demorou um pouco pra terminar, está começando a ficar difícil pra você?
 charllote (angry): Não posso começar o próximo documento sem antes você ter acabado esse. Então por que eu teria pressa?
-ada (disgust): Uma desculpa inteligente. Próximo documento
+ada (disgust): Uma desculpa inteligente. Próximo documento.
 join alan (fear-smile) 2
 alan: … Ei, vocês também não acham que está muito tóxico essa competiç-[aa=0.5]
 update charllote (angry-cm)
@@ -83,24 +83,24 @@ update ada (angry-annoyed)
 ada-and-charlotte: Silêncio! Estou traduzindo!
 alan (fear-closed-eyes): ...
 leave alan
-Alan se afasta de fininho, com medo de mais broncas
+Alan se afasta de fininho, com medo de mais broncas.
 update charllote (determined)
 update ada (determinated-smile)
 label Third Question
 {companion.cap2.q3}
 - 1. (cond   [(and (>= a b) (>= b c)) 00]   [(and (>= c b) (>= b a)) 01]  [else 10])
-	ada (lil-disgust): [color=dark_gray][i]… É uma tradução correta… Mas parece pouco otimizada[/i][/color]
+	ada (lil-disgust): [color=dark_gray][i]… É uma tradução correta… Mas parece pouco otimizada.[/i][/color]
 - Próxima Ideia
 {companion.cap2.q3}
 - 2. (cond   [(and (>= c b) (>= b a)) 01]   [(and (>= a b) (>= b c)) 00]   [else 10])
 	ada (angry): [color=dark_gray][i]Não posso ficar trocando a ordem das cláusulas assim![/i][/color]
-	ada: [color=dark_gray][i]Isso gerará erros na execução[/i][/color]
+	ada: [color=dark_gray][i]Isso gerará erros na execução.[/i][/color]
 	set {error_amount} += 1
 - Próxima Ideia
 {companion.cap2.q3}
 - 3. (cond   [(and (>= a b == true) (>= b c)) 00]   [(and (>= c b == true) (>= b a)) 01]  [else 10])
-	ada (determinated): [color=dark_gray][i]Não, não preciso declarar '== true'[/i][/color]
-	ada: [color=dark_gray][i]O condicional apenas será escolhido se já for verdadeiro[/i][/color]
+	ada (determinated): [color=dark_gray][i]Não, não preciso declarar '== true'.[/i][/color]
+	ada: [color=dark_gray][i]O condicional apenas será escolhido se já for verdadeiro.[/i][/color]
 	set {error_amount} += 1
 - Próxima Ideia
 {companion.cap2.q3}
@@ -111,19 +111,19 @@ label Third Question
 - Próxima Ideia
 jump Third Question
 label Pass Third Question
-ada: [color=dark_gray][i]Diferente das linguagens antigas, nossa língua Racket permite simplificarmos comparações[/i][/color]
-ada (determinated-smile): [color=dark_gray][i](>= a b c) é a mesma coisa que (and (>= a b) (>= b c))[/i][/color]
-ada (devil): [color=dark_gray][i]E com isso... Não apenas traduzi[/i][/color]
+ada: [color=dark_gray][i]Diferente das linguagens antigas, nossa língua Racket permite simplificarmos comparações.[/i][/color]
+ada (determinated-smile): [color=dark_gray][i](>= a b c) é a mesma coisa que (and (>= a b) (>= b c)).[/i][/color]
+ada (devil): [color=dark_gray][i]E com isso... Não apenas traduzi.[/i][/color]
 [sound path="res://assets/sfx/strong-statement.mp3" volume="0.0"]
 ada (red-devil): [color=dark_gray][i]Como fui um passo além![/i][/color]
 Após cada uma terminar sua tradução, ambas trocam seus papéis…
-ada (determinated-smile): Percebi que acabou rápido dessa vez
-charllote (smile): Apenas o esperado de mim[aa=1]
+ada (determinated-smile): Percebi que acabou rápido dessa vez.
+charllote (smile): Apenas o esperado de mim.[aa=1]
 charllote (absolute-hate): ... Espera...
-A mão de Charllote aperta a folha traduzida por Ada
-ada (devil): Apesar do seu talento, sou [i]eu[/i], quem passa horas do dia com traduções
-charllote (angry): Isso é apenas detalhe. Meu código é tão válido quanto o seu
-ada: De fato, pode ser apenas um detalhe
+A mão de Charllote aperta a folha traduzida por Ada.
+ada (devil): Apesar do seu talento, sou [i]eu[/i], quem passa horas do dia com traduções.
+charllote (angry): Isso é apenas detalhe. Meu código é tão válido quanto o seu.
+ada: De fato, pode ser apenas um detalhe.
 ada (red-devil): Mas não acha que é vergonhoso, desconhecer os detalhes de sua língua?
 ada: Desconhecer os detalhes de suas armas?
 charllote (angry-cm): …

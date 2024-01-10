@@ -7,11 +7,11 @@ script = ExtResource("1_iaaua")
 entries = {
 "Codif": {
 "case_sensitive": true,
-"text": "Codificação da Realidade (Magia)",
+"text": "Codificação da Realidade (Magia).",
 "title": "Codif"
 },
 "Condicional": {
-"text": "Desvio do fluxo de processamento se algo é verdadeiro ou falso",
+"text": "Desvio do fluxo de processamento se algo é verdadeiro ou falso.",
 "title": "Condicional"
 },
 "Documento 1": {
@@ -40,20 +40,20 @@ else
 "title": "Documento 3"
 },
 "Função de Alta Ordem": {
-"text": "Funções que geram funções e/ou recebem funções",
+"text": "Funções que geram funções e/ou recebem funções.",
 "title": "Função de Alta Ordem"
 },
 "List": {
 "alternatives": [],
-"text": "Uma coleção de dados",
+"text": "Uma coleção de dados.",
 "title": "(list dado1 dado2 ...)"
 },
 "Modelagem": {
-"text": "Representar um problema computacionalmente",
+"text": "Representar um problema computacionalmente.",
 "title": "Modelagem"
 },
 "Modelo de Substituição": {
-"text": "Processo em que expressões são trocadas por outras (normalmente mais simples)",
+"text": "Processo em que expressões são trocadas por outras (normalmente mais simples).",
 "title": "Modelo de Substituição"
 },
 "Parte 1 do Documento": {
@@ -89,12 +89,12 @@ else
 "title": "Rascunho"
 },
 "Recursão": {
-"text": "Uma função que invoca a si mesma",
+"text": "Uma função que invoca a si mesma.",
 "title": "Recursão"
 },
 "Struct": {
 "alternatives": ["struct", "structs", "Structs"],
-"text": "Dado especial que contém diversos campos em sua composição",
+"text": "Dado especial que contém diversos campos em sua composição.",
 "title": "(struct _nome (...campos))"
 },
 "Template-Salvação": {
@@ -125,12 +125,12 @@ Verdadeiro só se A=B",
 "title": "XNOR"
 },
 "and": {
-"text": "Somente verdadeiro quando A e B for verdadeiro",
+"text": "Somente verdadeiro quando A e B for verdadeiro.",
 "title": "A and B"
 },
 "bool": {
 "alternatives": ["Bool", "booleano", "Booleano"],
-"text": "Valor que representa 'Falso' ou 'Verdadeiro'",
+"text": "Valor que representa 'Falso' ou 'Verdadeiro'.",
 "title": "Bool"
 },
 "cond": {
@@ -143,7 +143,7 @@ Verdadeiro só se A=B",
 "title": "(cons _dado_ [lista/vazio])"
 },
 "fatorial": {
-"text": "O produto de um natural com todos os naturais abaixo dele",
+"text": "O produto de um natural com todos os naturais abaixo dele.",
 "title": "Fatorial"
 },
 "if": {
@@ -152,7 +152,7 @@ Verdadeiro só se A=B",
 },
 "lambda": {
 "alternatives": ["Lambda"],
-"text": "Uma declaração de uma função sem nome",
+"text": "Uma declaração de uma função sem nome.",
 "title": "(lambda (arg1 arg2...) (código))"
 },
 "list-ref": {
@@ -160,20 +160,20 @@ Verdadeiro só se A=B",
 "title": "(list-ref _lista _index)"
 },
 "not": {
-"text": "Inverte o valor lógico de A",
+"text": "Inverte o valor lógico de A.",
 "title": "not A"
 },
 "or": {
-"text": "Somente verdadeiro quando A ou B for verdadeiro",
+"text": "Somente verdadeiro quando A ou B for verdadeiro.",
 "title": "A or B"
 },
 "random": {
-"text": "(random n) sorteia um valor de 0 a n",
+"text": "(random n) sorteia um valor de 0 a n.",
 "title": "Aleatório"
 },
 "string": {
 "alternatives": ["String"],
-"text": "Dado do tipo texto",
+"text": "Dado do tipo texto.",
 "title": "Texto"
 }
 }
