@@ -89,10 +89,10 @@ Charllote se afasta alguns passos, confusa.
 E então
 join NovaAda (close-eyes) 1
 [wait time="1.5"]
-[sound path="res://assets/sfx/magic-1.mp3" volume="5.0"]
 Ada, se levanta.
+[sound path="res://assets/sfx/magic-1.mp3" volume="7.0"]
 NovaAda (pre-two-lifes): …
-[sound path="res://assets/sfx/magic-2.mp3" volume="5.0"]
+[sound path="res://assets/sfx/magic-2.mp3" volume="7.0"]
 update NovaAda (two-lifes) [animation="Tada"]
 NovaAda: !
 charllote (true-insane): [color=dark_gray][i]Isso é problemático.[/i][/color]

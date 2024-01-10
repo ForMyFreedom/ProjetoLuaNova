@@ -61,8 +61,8 @@ label Second Question
 	ada: [speed=1]Sinto que erraste algo…
 	alan (unbeliever): hehe…
 	ada (angry): Como você conseguiu errar algo tão básico da sintaxe?
-	ada (focus-angry): Arruma isso!
 	ada: Lembre-se da forma (Operador Operandos), o operador está sempre mais à esquerda.
+	ada (focus-angry): Arrume isso!
 	leave ada
 	set {error_amount} += 1
 - Próxima Ideia
@@ -71,8 +71,8 @@ label Second Question
 	join ada (focus-angry) 4
 	ada: [speed=1]Sinto que erraste algo…
 	alan (unbeliever): hehe…
-	ada (focus-angry): Arruma isso!
 	ada (commum): Os operadores '*' e '/' estão invertidos.
+	ada (focus-angry): Arrume isso!
 	leave ada
 	set {error_amount} += 1
 - Próxima Ideia
