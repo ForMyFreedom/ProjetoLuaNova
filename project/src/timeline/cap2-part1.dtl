@@ -95,22 +95,22 @@ charllote: Sob a autoridade da Lua, a qual diz ser leal. Responda
 alan (fear-closed-eyes): ...
 label mother-question
 alan (fear-closed-eyes): …
-- Mato a mãe
+- Salvo o bebê
 	set {kill_mother} = "true"
 	set {dilema_title} = "Assassino de Mães"
 	alan: Eu... Escolho a vida do bebê acima da mãe porque...
-- Mato o feto
+- Salvo a mãe
 	set {kill_mother} = "false"
 	set {dilema_title} = "Assassino de Bebês"
 	alan: Eu... Escolho a vida da mãe acima do feto porque...
-- Não tem outro jeito...
+- Não tem outro jeito...?
 	set {tryied_other_way} = "true"
 	alan: Não tem outro jei-[aa=0.05]
 	charllote (very-angry): Não, não tem outro jeito, Alan. Não teria graça, se tivesse outro jeito, Alan
 	charllote: Você escolhe a morte de ambos se não fizer nada
 	jump mother-question
 [text_input var="reason_to_kill"]
-alan: Porque.. {reason_to_kill}
+alan: Porque... {reason_to_kill}
 ada (surprise): ... Então essa é sua justificativa? [portrait=lenny] {dilema_title}?
 alan (unconfortable): Eu não sou um {dilema_title}!
 charllote (flush): Eu gostei da sua escolha. Dilemas horríveis sempre alegram meu dia

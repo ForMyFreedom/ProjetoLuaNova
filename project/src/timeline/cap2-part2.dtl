@@ -2,9 +2,9 @@ join alan (surprise) 0
 join ada (bored) 2
 join charllote (determined) 4
 [sound path="res://assets/sfx/flush.mp3" volume="0.0"]
-[music path="res://assets/musics/Vulnera.mp3" fade="0.0" volume="0.0"]
 charllote (determined): [color=red]Eu vim convidar Alan para os [i]Esforços de Guerra[/i][/color]
 [background arg="res://assets/backgrounds/newart-office-tense.png" fade="1.0"]
+[music path="res://assets/musics/Vulnera.mp3" fade="0.0" volume="0.0"]
 update ada (big-surprise)
 update alan (very-surprised)
 alan-and-ada: ...
@@ -37,7 +37,7 @@ alan (surprise-2): Senhorita Ada?
 ada: Do mesmo modo que seu dilema para o {dilema_title} [aa=0.5]
 alan (unconfortable): Já disse que não sou um {dilema_title}!
 update charllote (confused)
-ada: Estamos de frente para um Condicional booleano. Mutuamente exclusivo, como água e óleo
+ada: Estamos de frente para um booleano. Mutuamente exclusivo, como água e óleo
 update alan (surprise)
 ada (regular): A escolha obviamente é de Alan, ninguém tem o direito de interferir nisso
 alan (concern): …

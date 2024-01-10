@@ -84,11 +84,11 @@ Alan subitamente engasga. Tossindo sangue
 alan (hollow): ...
 [music path="res://assets/musics/rain-pt1.mp3" fade="1.0" volume="0.0"]
 [signal arg="reverse_tense_shadow"]
-alan (stressed): [speed=2]... Continuando…
-Alan ignora suas dores
+alan (stressed): [speed=1]... [speed=2]Continuando…
+[speed=1.5]Alan ignora suas dores
 alan: [speed=1.5]Recursão é simples
 alan (accept-death): [speed=1.5]Com recursão de funções, deve ser possível computar literalmente qualquer problema!
-alan (stressed-5): [speed=1]...[speed=1.5]Entretanto, é necessário um caso base. Se não ela nunca terá fim
+alan (stressed-5): [speed=1.5]… Entretanto, é necessário um caso base. Se não ela nunca terá fim
 alan (stressed-2): [speed=1.5]Um fatorial é um ótimo exemplo para servir no protótipo
 alan: [speed=1.5]Com a recursão pronta, a máquina deverá estar pronta também!
 label Third Question

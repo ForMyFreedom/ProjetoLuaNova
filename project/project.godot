@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="Racket: Projeto Lua Nova"
+config/name="Projeto Lua Nova"
 run/main_scene="res://src/scenes/Main.scn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 boot_splash/image="res://assets/logo.png"
@@ -67,26 +67,26 @@ variables={
 "q2": "5 - ((4 * 3) / 2)"
 },
 "cap2": {
-"q1": "Documento 1",
+"q1": "cond / if[br]Documento 1",
 "q2": "Documento 2",
 "q3": "Documento 3"
 },
 "cap3": {
-"p1": "Parte 1 do Documento[br][Definição de Struct]",
+"p1": "Parte 1 do Documento[br][ Definição de Struct ]",
 "p2": "Parte 2 do Documento[br][Instanciando]",
 "p3": "Parte 3 do Documento[br](define experiment [b]#algo#[/b])[br][Criando Lista]",
-"p4_1": "if (f.neuron > experiment[0])",
+"p4_1": "# list-ref[br]if (f.neuron > experiment[0])",
 "p4_2": "[font_size=16]if (f.origin < experiment[1]):[br]   [b]for (x = 0; x < 4; x++)[/b][br]      [b]experiment[4-x] = experiment[3-x];[/b][br]   [b]experiment[0] = 13.8169 * f.neuron;[/b][br]else:[br]   printf(\"Incompatible Beast\");"
 },
 "cap4": {
-"q1": "[Lambda]",
-"q2": "Não importa a funcionalidade, eu só preciso de mais um bom exemplo de list em lambda para ajudar na codificação",
+"q1": "[ Lambda ]",
+"q2": "Não importa a funcionalidade, eu só preciso de um bom exemplo de list em lambda para ajudar na codificação",
 "q3": "[Recursão]",
 "q4": "Otimizarei o fatorial para uma Recursão em Cauda!"
 },
 "cap5": {
 "q1": "[color=dark_gray][i]De que maneira poderia modelar um Corpo e suas Capacidades?[/i][/color]",
-"q2": "[color=dark_gray][i]Como modelar um bom sorteio aleatório⁉[br]Dificuldade e Capacidade são ambos números, não posso me esquecer disso[/i][/color]",
+"q2": "[color=dark_gray][i]Como modelar um bom sorteio aleatório?[br]Dificuldade e Capacidade são ambos números, não posso me esquecer disso[/i][/color]",
 "q3": "[color=dark_gray][i][font_size=12](define capacidades list)[br](struct corpo (capacidades))[br](define (vida corpo)[br]      (lambda (dificuldade index)[br]            (> [b](random #algo#)[/b] dificuldade)[br]      )[br])",
 "q4": "[color=dark_gray][i][font_size=12](define capacidades list)[br](struct corpo (capacidades))[br](define (vida corpo)[br]       (lambda (dificuldade index)[br]              (> (random (list-ref (corpo-capacidades corpo) index)) dificuldade)[br]       )[br])[br](define (salvacao corpo_fonte vida_destino)[br]       (define caps_extraido (corpo-capacidades corpo_fonte))[br]       (lambda (dificuldade index)[br]              #ALGO#[br]       )[br])[/font_size][/i][/color]"
 }
@@ -104,6 +104,7 @@ glossary/glossary_files=["res://src/extra/codif.tres"]
 
 [display]
 
+window/size/mode=2
 window/stretch/mode="canvas_items"
 
 [dotnet]

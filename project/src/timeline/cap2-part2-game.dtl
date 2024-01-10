@@ -16,24 +16,24 @@ Após entregar um papel para Charllote, Ada começa a ler o seu
 ada: [color=dark_gray][i]… Parece um problema com valores numéricos, pela presença do símbolo de maior '>'[/i][/color]
 ada: [color=dark_gray][i]… Como poderia traduzi-lo?[/i][/color]
 label First Question
-{companion.cap2.q1}
+[speed=0.1]{companion.cap2.q1}
 - 1. (if (> x y) 01100001 01100101)
-	ada (determinated): [color=dark_gray][i]A forma está correta, mas troquei a ordem de verdadeiro e falso[/i][/color]
+	ada (determinated): [speed=1][color=dark_gray][i]A forma está correta, mas troquei a ordem de verdadeiro e falso[/i][/color]
 	set {error_amount} += 1
 - Próxima Ideia
-{companion.cap2.q1}
+[speed=0.1]{companion.cap2.q1}
 - 2. (cond   [(> x y) 01100101]   [else 01100001])
-	ada (lil-disgust): [color=dark_gray][i]De fato funciona… Mas é deselegante[/i][/color]
+	ada (lil-disgust): [speed=1][color=dark_gray][i]De fato funciona… Mas é deselegante[/i][/color]
 	ada: [color=dark_gray][i]Por ser um caso binário, o if é mais adequado[/i][/color]
 - Próxima Ideia
-{companion.cap2.q1}
+[speed=0.1]{companion.cap2.q1}
 - 3. (if (> x y) 01100101 01100001)
-	ada (determinated-smile): [color=dark_gray][i]Assim está bom, o if é o mais adequado mesmo[/i][/color]
+	ada (determinated-smile): [speed=1][color=dark_gray][i]Assim está bom, o if é o mais adequado mesmo[/i][/color]
 	jump Pass First Question
 - Próxima Ideia
-{companion.cap2.q1}
+[speed=0.1]{companion.cap2.q1}
 - 4. (cond (> x y) 01100101 01100001)
-	ada (determinated): [color=dark_gray][i]Não… Essa não é a forma do cond, é a do if[/i][/color]
+	ada (determinated): [speed=1][color=dark_gray][i]Não… Essa não é a forma do cond, é a do if[/i][/color]
 	ada: [color=dark_gray][i]Está faltando o 'else' e os colchetes[/i][/color]
 	set {error_amount} += 1
 - Próxima Ideia

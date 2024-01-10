@@ -51,7 +51,7 @@ alan: …
 alan (despair): [color=dark_gray][i]Ela tá certa. Até mesmo fugir é impossível[/i][/color]
 charllote (true-smile): Meu caro meu caro [i]{{dilema_title}}[/i]
 charllote: Ainda me lembro bem de sua justificativa patética
-charllote (true-joking): '{{reason_to_kill}}'
+charllote (true-joking): 'Porque… {{reason_to_kill}}'
 charllote (true-insane): HAHAHAHA! Chega até mesmo a doer a barriga!
 alan (stressed-2): …
 if {tryied_other_way} == "true":
@@ -79,7 +79,7 @@ alan (stressed): [color=dark_gray][i]…[/i][/color]
 alan: [color=dark_gray][i]Ela apenas tá brincando comigo[/i][/color]
 alan (stressed-5): [color=dark_gray][i]Parece que ainda tem muito desse discursinho maligno[/i][/color]
 alan: [color=dark_gray][i]… Se, eu pudesse usar algo nesse tempo… Qualquer coisa no nível dela…[/i][/color]
-alan (stressed): [color=dark_gray][i]Mas ela sentiria eu preparando meu Codif[/i][/color]
+alan (stressed): [color=dark_gray][i]Mas ela sentiria meu Codif sendo preparado[/i][/color]
 alan (stressed-2): [color=dark_gray][i]... Esse… Esse é o nosso fim mesmo?[aa=1][/i][/color]
 [music fade="1.0" volume="0.0"]
 [sound path="res://assets/sfx/strong-statement.mp3" volume="-10.0"]
@@ -87,7 +87,7 @@ alan (very-surprised): ...
 alan: [color=dark_gray][i]A minha Máquina[/i][/color]
 [music path="res://assets/musics/final-destiny.mp3" fade="3.0" volume="-10.0"]
 charllote (true-default): Hum? Lembrou que esqueceu a roupa no varal?
-alan (stressed-5): [color=dark_gray][i]Talvez possa computar algo que apenas um computador consiga[/i][/color]
+alan (stressed-5): [color=dark_gray][i]Talvez possa computar nela algo que apenas um computador consiga[/i][/color]
 alan: [color=dark_gray][i]Charllote não está mais lendo minha mente, posso surpreende-la![/i][/color]
 alan (stressed-2): [color=dark_gray][i]Mas, o que eu preparo? Que código pode nos dar uma chance de fuga?[/i][/color]
 alan (stressed-5): [color=dark_gray][i]...[/i][/color]

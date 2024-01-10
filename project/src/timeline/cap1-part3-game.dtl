@@ -41,12 +41,6 @@ update alan (happy)
 label Second Question
 [speed=0.1]{companion.cap1.q2}
 - a. (- 5 (/ (* 4 3) 2)
-	update alan (smile-half-closed-eyes)
-	alan: [speed=1][color=dark_gray][i]Só parecia difícil mesmo, vamos ver o próximo código![/i][/color]
-	jump Pass Second Question
-- Próxima Ideia
-[speed=0.1]{companion.cap1.q2}
-- b. (- 5 (/ (* 4 3) 2))
 	join ada (focus-angry) 4
 	ada: [speed=1]Sinto que erraste algo…
 	alan (unbeliever): hehe…
@@ -54,6 +48,12 @@ label Second Question
 	ada (commum): Corrija isso
 	leave ada
 	set {error_amount} += 1
+- Próxima Ideia
+[speed=0.1]{companion.cap1.q2}
+- b. (- 5 (/ (* 4 3) 2))
+	update alan (smile-half-closed-eyes)
+	alan: [speed=1][color=dark_gray][i]Só parecia difícil mesmo, vamos ver o próximo código![/i][/color]
+	jump Pass Second Question
 - Próxima Ideia
 [speed=0.1]{companion.cap1.q2}
 - c. (5 - (/ (* 4 3)) 2)

@@ -109,7 +109,7 @@ charllote (true-front-smile): De todo modo…
 alan (stressed-2): …
 charllote: [speed=2]O Projeto Lua Nova, é nada além…
 [sound path="res://assets/sfx/death-statement.mp3" volume="0.0"]
-charllote (true-insane): [speed=2][color=red]Do domínio mental, de toda corte imperial[/color]
+charllote (true-insane): [speed=1.5][color=red]Do domínio mental, de toda corte imperial[/color]
 alan (despair): [speed=1]… O que⁉
 charllote: Lua... Não
 charllote (true-determined): Eu me tornarei a Imperatriz! Sobre uma Lua Nova!
@@ -119,7 +119,10 @@ alan (stressed-5): [color=dark_gray][i]Mas foco! Preciso terminar a modelagem da
 alan (stressed-3): [color=dark_gray][i]Descobri que deve ser um sorteio ligado a Capacidade versus a Dificuldade[/i][/color]
 alan: [color=dark_gray][i]Podemos ter um template como\:\
 [speed=0.1](> (random #algo#) dificuldade)
-alan: [color=dark_gray][i][speed=1]Dando sucesso caso o sorteio seja maior que a dificuldade. Isto é, caso o caos da vida esteja a nosso favor[/i][/color]
+if {determinist} == "true":
+	alan: [color=dark_gray][i][speed=1]Dando sucesso caso o sorteio seja maior que a dificuldade. Isto é, caso o destino esteja a nosso favor[/i][/color]
+else:
+	alan: [color=dark_gray][i][speed=1]Dando sucesso caso o sorteio seja maior que a dificuldade. Isto é, caso o caos da vida esteja a nosso favor[/i][/color]
 alan (stressed-2): [color=dark_gray][i]Preciso terminar de codificar o sorteio[/i][/color]
 alan: [color=dark_gray][i]Usando Corpo, e o Index para as Capacidades![/i][/color]
 label Third Question
@@ -224,14 +227,14 @@ alan (stressed-2): [color=dark_gray][i]... Acho, que terminei?[/i][/color]
 \[speed=0.1][font_size=12](define capacidades list)[br](struct corpo (capacidades))[br](define (vida corpo)[br]	(lambda (dificuldade index)[br]		(> (random (list-ref (corpo-capacidades corpo) index)) dificuldade)[br]	)[br])[br](define (salvacao corpo_fonte vida_destino)[br]	(define caps_extraido (corpo-capacidades corpo_fonte))[br]	(lambda (dificuldade index)[br]		(vida_destino (- dificuldade (list-ref caps_extraido index)) index)[br]	)[br])
 alan (stressed-5): [speed=1][color=dark_gray][i]É isso, está pronto[/i][/color]
 alan (accept-death): [color=dark_gray][i]Só preciso de um bom momento, para usar meu Computador[/i][/color]
-charllote (true-bored): Mas, tem algo que me incomoda, Alan
+charllote (true-bored): Mas, tem algo que me incomoda
 charllote (true-angry): Como você conseguiu voltar?
 alan (stressed-4): …
 charllote (true-insane): Isso é impossível! A sua descodificação já havia começado!
 alan (stressed-5): …
 alan (accept-death): Você quer mesmo saber?
 alan (vilain-smile): Eu usei Codif, oras
-charllote (true-hate): ... Você acha que eu sou idiota?
+charllote (true-hate): … Você acha que eu sou idiota?
 charllote: Você estava descodificado, não teria forças para isso. Nem eu teria!
 alan (vilain-smile-2): Quem disse, que foi eu que me recodifiquei?
 charllote (true-hate-2): …⁉
