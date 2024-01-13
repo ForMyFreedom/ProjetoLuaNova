@@ -8,7 +8,7 @@ ada (surprise): [i]até que você é bom nisso…[/i]
 alan (confused): Você disse alguma coisa Senhorita Ada?
 ada (flushed): Na– não, eu só gagejei.
 alan (happy): De todo modo, obrigado por confiar em mim hoje!
-ada (sad): ...
+ada (sad): …
 alan (regular): Senhorita Ada, aconteceu alguma coisa?
 ada (sad-2): Eu não sei... Mesmo sendo meu subordinado, eu me sinto mal em te envolver nisso.
 alan (confused): Nisso o que?
@@ -19,7 +19,7 @@ alan (determined-smile): Somos Codificadores. Somos Historicistas!
 update ada (surprise)
 Alan bate no peito.
 alan: Independente de bem e mal. Códigos são nossas vidas!
-ada: ...
+ada: …
 ada (lil-happy): É. Talvez você esteja certo.
 alan (lil-angry): Eu [speed=6][i]estou[/i][speed=1] certo.
 ada (disgust): [speed=1]Essa arrogância ainda será sua ruína.
@@ -27,7 +27,7 @@ alan (happy): De todo modo, gostei muito de hoje. Mesmo.
 alan (tired): Mas dá uma trabalheira fazer testes na mão.
 alan: Ia ser tão bom se máquinas pudessem computar pra gente.
 ada (surprise): ... [portrait=bored]Que ideia infantil.
-alan (annoyed): Ei, não é infantil![aa=0.5]
+alan (annoyed): Ei, não é i-![aa=0.4]
 alan (lil-surprise): ... Nossa, olha o horário!
 alan (happy): Preciso ir agora Senhorita Ada. Estou quase perdendo o metrô.
 update ada (surprise)
@@ -43,7 +43,7 @@ ada: Diferente de você… [portrait=annoyed] Que presenteia com ameaça de mort
 alan (lil-fear): …
 ada (regular): Eu tenho algo pra você.
 Ada estende um embrulho
-alan (sus): ... [speed=3]Isso é uma bom-[aa=0.1]
+alan (sus): [speed=0.5]... [speed=3]Isso é uma bom-[aa=0.1]
 ada (angry): [speed=1]Não! Não é uma bomba, Alan.
 alan (sad): …
 update ada 3 [ move_time="1"]
@@ -51,7 +51,7 @@ ada (disgust): ... Por que eu tenho a impressão que você gostaria que fosse um
 [update_position position="2" vector="Vector2(-80, 0)" time="0.0"]
 alan (happy): Indepentente do que seja, já estou muito feliz!
 update ada (regular)
-Alan abre o embrulho de forma grosseira...
+Alan abre o embrulho de forma grosseira…
 [update_position position="2" time="0.0"]
 join itens (camera) 2
 update alan (confused)
@@ -80,7 +80,7 @@ ada (regular): Seria bom usar esse seu talento pra algo de út-[aa=0.75]
 update alan (happy)
 Alan estende a foto para Ada.
 update ada (surprise)
-... [speed=1.5]E ela, surpresa. Apenas pega em suas mãos.
+… [speed=1.5]E ela, surpresa. Apenas pega em suas mãos.
 alan (flushed): [speed=1]Muito obrigado de novo por hoje, Senhorita Ada!
 alan: Preciso ir urgente!
 leave alan

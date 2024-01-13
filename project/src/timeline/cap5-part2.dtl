@@ -7,10 +7,11 @@ No instante em que uma pressão extrema de codificação surge.
 alan (rage-despair): O que é isso⁉
 ada (despair-teeth): ALAN!
 Seguido
+[speed=0.05][font_size=10][i](define (explosion fn . args)			(define (ignite fn . args)[br]  (if (empty? args)						  (lambda () (apply fn args)))[br]      (let ([ret (fn)])						(define (my-even? n)[br]        (if (procedure? ret)				  (if (zero? n)[br]            (explosion ret)					      (ignite my-odd? (sub1 (abs n)))))[br]            ret))[br]      (explosion (lambda () (apply fn args)))))	(explosion my-even? 99999)[/i][aa=0.1]
 [sound path="res://assets/sfx/power-explosion.mp3" volume="0.0"]
 [background arg="res://assets/backgrounds/black_shape.png" fade="1.0"]
 leave --All--
-De uma enorme explosão.
+[speed=1]De uma enorme explosão.
 Com a charrete… Sendo destruída.
 [wait time="2.0"]
 [background arg="res://assets/backgrounds/street.png" fade="2.0"]
@@ -42,7 +43,7 @@ charllote (smile): Mas... Quem disse que estou falando do seu?
 alan (more-despair): ‼
 Alan olha pra sua amiga caída.
 alan (rage-despair-2): [speed=3]Maldita.
-charllote (default): [speed=1]E segundo... Você bem sabe.
+charllote (default): [speed=1]E segundo… Você bem sabe.
 update charllote (shadow)
 Charllote levanta sua franja.
 update alan (more-despair)
@@ -71,7 +72,7 @@ if {determinist} == "true":
 	alan (stressed-2): [color=dark_gray][i]Coisa que não me anima.[/i][/color]
 else:
 	alan (stressed): Não
-	charllote (true-angry): Tolo... O Destino é um fato tão inconstestável quanto a morte.
+	charllote (true-angry): Tolo… O Destino é um fato tão inconstestável quanto a morte.
 	alan (stressed-2): [color=dark_gray][i]Se a criança aqui diz…[/i][/color]
 charllote (true-determined): O Destino é a teia que conecta passado, presente, e futuro.
 charllote (true-insane): Aquele que me conduz, ao meu local de direito.
@@ -80,7 +81,7 @@ alan: [color=dark_gray][i]Ela apenas tá brincando comigo.[/i][/color]
 alan (stressed-5): [color=dark_gray][i]Parece que ainda tem muito desse discursinho maligno.[/i][/color]
 alan: [color=dark_gray][i]… Se, eu pudesse usar algo nesse tempo… Qualquer coisa no nível dela…[/i][/color]
 alan (stressed): [color=dark_gray][i]Mas ela sentiria meu Codif sendo preparado.[/i][/color]
-alan (stressed-2): [color=dark_gray][i]... Esse… Esse é o nosso fim mesmo?[aa=1][/i][/color]
+alan (stressed-2): [color=dark_gray][i]… Esse, é o nosso fim mesmo?[aa=1][/i][/color]
 [music fade="1.0" volume="0.0"]
 [sound path="res://assets/sfx/strong-statement.mp3" volume="-10.0"]
 alan (very-surprised): ...
@@ -90,6 +91,6 @@ charllote (true-default): Hum? Lembrou que esqueceu a roupa no varal?
 alan (stressed-5): [color=dark_gray][i]Talvez possa computar nela algo que apenas um computador consiga.[/i][/color]
 alan: [color=dark_gray][i]Charllote não está mais lendo minha mente, posso surpreende-la![/i][/color]
 alan (stressed-2): [color=dark_gray][i]Mas, o que eu preparo? Que código pode nos dar uma chance de fuga?[/i][/color]
-alan (stressed-5): [color=dark_gray][i]...[/i][/color]
+alan (stressed-5): [color=dark_gray][i]…[/i][/color]
 alan (accept-death): [color=dark_gray][i]É a minha única escolha, né?[/i][/color]
 jump cap5-part2-game/

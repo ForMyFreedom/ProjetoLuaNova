@@ -13,7 +13,7 @@ ada (irritant): …
 alan (fear-smile): Mas, vamos acalmar os ânimos, por favor.
 Alan retira uma embalagem de sua mochila.
 alan: Por que não tomamos um café da manhã? Deixar de lado as diferenças.
-ada (surprise): Isso... Isso é o que eu to pensando?
+ada (surprise): Isso… Isso é o que eu to pensando?
 alan (close-eyes-smile): Sim!
 E abrindo a embalagem.
 join itens (donuts) 2
@@ -44,13 +44,13 @@ charllote: Para o [i][color=red]Projeto Lua Nova[/color][/i]
 update ada (shadow-eyes)
 alan (surprise): ... Projeto Lua Nova?
 [background arg="res://assets/backgrounds/newart-office.png" fade="2.0"]
-ada: ...
+ada: …
 charllote (default): Bem, vejo-te outro dia, Historicista Alan.
 leave charllote
 Charlotte sai calmamente do escritório.
 update ada 3 [ move_time="1"]
 update alan 1 [ move_time="1"]
-alan (confused): Senhorita Ada... Do que a Regente tava falando?
+alan (confused): Senhorita Ada… Do que a Regente tava falando?
 ada: …
 ada (sad-2): Vamos só começar o trabalho, Alan.
 update alan (concern)
@@ -58,7 +58,7 @@ leave ada
 Ada apenas se senta à mesa, e começa a mecher em papéis.
 update alan 2 [ move_time="1"]
 alan (fear-closed-eyes): Mas… E o café da manhã?
-ada: Eu... Perdi a fome.
+ada: Eu… Perdi a fome.
 alan (fear-angry): ... Senhorita Ada, o que está acontecend-[aa=0.5]
 [music path="res://assets/musics/tcejopr noom wen.mp3" fade="0.0" volume="0.0"]
 update alan (despair)
@@ -73,7 +73,7 @@ update alan (hollow)
 alan: ... Hum?
 alan: Eu...
 ada: Aconteceu alguma coisa?
-alan (regular): Não... Eu acho…
+alan (regular): Não… Eu acho…
 alan (happy): Ei! Deixa eu ver esse Código Legado que você tá mechendo.
 leave --All--
 ...

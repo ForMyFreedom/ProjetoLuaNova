@@ -44,7 +44,7 @@ join charllote 4
 A garota se coloca de pé ao lado deles.
 E no mesmo instante, ambos se levantam assustados.
 alan-and-ada: Re– Regente Charlotte⁉
-charllote: Eu mesma... [portrait=confused] Eu acho.
+charllote: Eu mesma… [portrait=confused] Eu acho.
 charllote (determined): Bom te ver de novo, Ada. Este seria seu novo aprendiz?
 update alan (close-eyes-smile)
 ada (lil-tense): Bem, sim.
@@ -71,7 +71,7 @@ charllote (default): Sim. O que seria?
 alan (close-eyes-smile): Penso em sua situação… É difícil ser governante com 16 anos?
 charllote (confused): Hum… É normal eu acho.
 update ada (bored)
-charllote (default): A corte diz que minhas decisões são mais racionais que as de meu pai... Mas talvez seja só bajulação.
+charllote (default): A corte diz que minhas decisões são mais racionais que as de meu pai… Mas talvez seja só bajulação.
 alan (commum): E por que dizem isso?
 charllote: Dizem isso, por que meu pai era da época em que Espada ainda era território de Lua.
 charllote: Então, ele possuia muito ódio dos Espadianos, e do aceite que o Imperador deu para eles.
@@ -79,7 +79,7 @@ alan (angry-2): Até eu possuo! Malditos traidores da Lua.
 update charllote (surprised)
 Em ódio, Alan bate no peito
 alan: É estúpido que o Imperador permaneça neutro, frente a essa invasão que sofremos!
-charllote (surprised): ...
+charllote (surprised): …
 charllote (default): Você é bastante patriota, meu caro Alan.
 charllote (comic-angry): Espero que não seja só mais uma bajulação.
 alan (lil-fear): Não é! Simplesmente sou fiel a Lua!
@@ -98,11 +98,11 @@ alan (fear-closed-eyes): …
 - Salvo o bebê
 	set {kill_mother} = "true"
 	set {dilema_title} = "Assassino de Mães"
-	alan: Eu... Escolho a vida do bebê acima da mãe porque...
+	alan: Eu… Escolho a vida do bebê acima da mãe porque…
 - Salvo a mãe
 	set {kill_mother} = "false"
 	set {dilema_title} = "Assassino de Bebês"
-	alan: Eu... Escolho a vida da mãe acima do feto porque...
+	alan: Eu… Escolho a vida da mãe acima do feto porque…
 - Não tem outro jeito...?
 	set {tryied_other_way} = "true"
 	alan: Não tem outro jei-[aa=0.05]
@@ -110,8 +110,8 @@ alan (fear-closed-eyes): …
 	charllote: Você escolhe a morte de ambos se não fizer nada.
 	jump mother-question
 [text_input var="reason_to_kill"]
-alan: Porque... {reason_to_kill}
-ada (surprise): ... Então essa é sua justificativa? [portrait=lenny] {dilema_title}?
+alan: Porque… {reason_to_kill}
+ada (surprise): … Então essa é sua justificativa? [portrait=lenny] {dilema_title}?
 alan (unconfortable): Eu não sou um {dilema_title}!
 charllote (flush): Eu gostei da sua escolha. Dilemas horríveis sempre alegram meu dia.
 update ada (bored)
@@ -133,7 +133,6 @@ ada (bored): O que trás a governante dessa província, a um escritório histori
 update charllote (surprised)
 update alan (surprise)
 charllote (surprised): ...
-alan: …
 charllote (default): Bem, o que eu vim fazer aqui?
 charllote: Ora
 jump cap2-part2/

@@ -14,6 +14,11 @@ entries = {
 "text": "Desvio do fluxo de processamento se algo é verdadeiro ou falso.",
 "title": "Condicional"
 },
+"Descodificação": {
+"alternatives": ["descodificação"],
+"text": "Destruir a essência de algo por meio de Codif",
+"title": "Descodificação"
+},
 "Documento 1": {
 "text": "if (x > y)
     printf(\"01100101\");

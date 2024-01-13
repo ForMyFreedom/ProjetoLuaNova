@@ -20,7 +20,7 @@ alan: É– ... [portrait=rage-despair]É o que vocês tolos acharam ser imposs�
 alan: Uma máquina que computa.
 [sound path="res://assets/sfx/flush.mp3" volume="0.0"]
 alan: A minha [i]Máquina Lambda.[/i]
-charllote (true-surprised): ...
+charllote (true-surprised): …
 [sound path="res://assets/sfx/curious-statement.mp3" volume="-5.0"]
 charllote: Máquina, Lambda?
 charllote (true-bored): Que besteira.
@@ -35,20 +35,21 @@ charllote: O que precisamos é de bons códigos, não brinquedinhos.
 alan (very-surprised): …
 update charllote 2 [ move_time="3"]
 Ela se aproxima dele a passos lentos.
-alan (stressed): ...
+alan (stressed): …
 alan: [i]Sacrifico dez anos de vida.[/i]
 [sound path="res://assets/sfx/some-power-2.mp3" volume="0.0"]
 join itens (machine) 1
 update charllote (true-surprised)
 E então. Uma nova máquina surge nas mãos de Alan.
-charllote: ... Poderia usar qualquer Codif, mas gastou tudo de si para fazer um novo.
+charllote: … Poderia usar qualquer Codif, mas gastou tudo de si para fazer um novo.
 charllote (true-smile): O seu apego a esse lixo é louvável.
 alan (determined-stress): [speed=1.5][color=dark_gray][i]É o único que preciso, para te derrotar.[/i][/color]
-charllote (true-front-smile): [speed=1]Está na hora de morrer, Alan.
+alan: [speed=1][color=dark_gray][i]O único que pode, codificar o código que acabei de criar.[/i][/color]
+charllote (true-front-smile): Está na hora de morrer, Alan.
 alan (stressed-2): …
 alan (smile-closed-eyes): [speed=2]Como, como se eu fosse, morrer pra você.
 alan (smile-half-closed-eyes): [speed=2]Códigos, são nossas vidas!
-charllote (true-bored): [speed=1]... Perdeu a sanidade de vez?
+charllote (true-bored): [speed=1]… Perdeu a sanidade de vez?
 charllote (true-smile): De todo modo. Essas são últimas palavras bem fof-[aa=0.5]
 [sound path="res://assets/sfx/curious-statement.mp3" volume="0.0"]
 alan (determined-smile): Nossas vidas!
@@ -98,8 +99,8 @@ NovaAda: !
 charllote (true-insane): [color=dark_gray][i]Isso é problemático.[/i][/color]
 charllote: [color=dark_gray][i]A desgraçada até mesmo destruiu meu Codif de mentes.[/i][/color]
 charllote (true-hate-2): [color=dark_gray][i]Se eu tivesse matado ela antes, isso não teria acontecido.[/i][/color]
-charllote (true-focused): [color=dark_gray][i]... Um ser de duas vidas… Mas uma mente?[/i][/color]
-charllote: [color=dark_gray][i]O dobro de vigor... E talvez até o dobro de pod-[/i][/color][aa=0.6]
+charllote (true-focused): [color=dark_gray][i]… Um ser de duas vidas, mas uma mente?[/i][/color]
+charllote: [color=dark_gray][i]O dobro de vigor… E talvez até o dobro de pod-[/i][/color][aa=0.6]
 [sound path="res://assets/sfx/finger-clap.mp3" volume="7.0"]
 [wait time="0.3"]
 [signal arg="green_single_blink"]

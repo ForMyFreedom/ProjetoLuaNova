@@ -81,14 +81,14 @@ variables={
 "cap4": {
 "q1": "[ Lambda ]",
 "q2": "Não importa a funcionalidade, eu só preciso de um bom exemplo de list em lambda para ajudar na codificação.",
-"q3": "[Recursão]",
+"q3": "[ Fatorial ]",
 "q4": "Otimizarei o fatorial para uma Recursão em Cauda!"
 },
 "cap5": {
 "q1": "[color=dark_gray][i]De que maneira poderia modelar um Corpo e suas Capacidades?[/i][/color]",
 "q2": "[color=dark_gray][i]Como modelar um bom sorteio aleatório?[br]Dificuldade e Capacidade são ambos números, não posso me esquecer disso.[/i][/color]",
 "q3": "[color=dark_gray][i][font_size=12](define capacidades list)[br](struct corpo (capacidades))[br](define (vida corpo)[br]      (lambda (dificuldade index)[br]            (> [b](random #algo#)[/b] dificuldade)[br]      )[br])",
-"q4": "[color=dark_gray][i][font_size=12](define capacidades list)[br](struct corpo (capacidades))[br](define (vida corpo)[br]       (lambda (dificuldade index)[br]              (> (random (list-ref (corpo-capacidades corpo) index)) dificuldade)[br]       )[br])[br](define (salvacao corpo_fonte vida_destino)[br]       (define caps_extraido (corpo-capacidades corpo_fonte))[br]       (lambda (dificuldade index)[br]              #ALGO#[br]       )[br])[/font_size][/i][/color]"
+"q4": "[color=dark_gray][i][font_size=12](define capacidades list)[br](struct corpo (capacidades))[br](define (vida corpo)[br]       (lambda (dificuldade index)[br]              (> (random (list-ref (corpo-capacidades corpo) index)) dificuldade)[br]       )[br])[br](define (salvacao corpo_fonte vida_destino)[br]       (define caps_extraido (corpo-capacidades corpo_fonte))[br]       (lambda (dificuldade index)[br]              #Geração de uma nova vida, mais forte#[br]       )[br])[/font_size][/i][/color]"
 }
 },
 "determinist": "true",
@@ -101,6 +101,7 @@ variables={
 "tryied_other_way": "false"
 }
 glossary/glossary_files=["res://src/extra/codif.tres"]
+history/simple_history_enabled=true
 
 [display]
 

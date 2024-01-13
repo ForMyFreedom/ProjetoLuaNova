@@ -5,9 +5,9 @@ Alan ergue a mão.
 join itens (machine-0/4) 3
 E uma esfera escura se forma sobre sua palma.
 
-alan (lil-fear): Seria mais adequado usar metais e componentes físicos... Mas como não tenho nada disso aqui.
+alan (lil-fear): Seria mais adequado usar metais e componentes físicos… Mas como não tenho nada disso aqui.
 alan (concentrate-1): …
-alan (accept-death): Usarei minha própria essência... Sacrifico 5 anos de vida.
+alan (accept-death): Usarei minha própria essência… Sacrifico 5 anos de vida.
 update itens (machine-0/4) [animation="Tada"]
 A esfera pulsa. Se tornando mais densa.
 alan (concern): … Mas, continuando o raciocínio.
@@ -18,24 +18,24 @@ alan (commum): A sua forma mais básica é:\
 alan (concern): Se eu tiver um bom exemplo, independente da funcionalidade, codificar o protótipo fica mais fácil.
 label First Question
 \[speed=0.1]{companion.cap4.q1}
-- 1. ((lambda x y) (+ (* x x) (* y y)))
+- a. ((lambda x y) (+ (* x x) (* y y)))
 	alan (stressed-2): [speed=1]Não, essa sintaxe está errada.
 	alan: Os argumentos não estão entre parêntesis.
 	set {error_amount} += 1
 - Próxima Ideia
 \[speed=0.1]{companion.cap4.q1}
-- 2. (λ (x y) (+ (* x x) (* y y)))
+- b. (λ (x y) (+ (* x x) (* y y)))
 	alan (happy): [speed=1]Está perfeito!
 	alan: Uma função anônima com dois argumentos, e um corpo de função que os utiliza.
 	jump Pass First Question
 - Próxima Ideia
 \[speed=0.1]{companion.cap4.q1}
-- 3. (λ (x y) (+ (* x x) (* x x)))
+- c. (λ (x y) (+ (* x x) (* x x)))
 	alan (stressed-3): [speed=1]… É um desperdício ter dois argumentos, e só usar um deles na função.
 	set {error_amount} += 1
 - Próxima Ideia
 \[speed=0.1]{companion.cap4.q1}
-- 4. (lambda (x y) (+ (* x x) (* y y)))
+- d. (lambda (x y) (+ (* x x) (* y y)))
 	alan (happy): [speed=1]Está perfeito!
 	alan: Uma função anônima com dois argumentos, e um corpo de função que os utiliza.
 	jump Pass First Question
@@ -45,28 +45,28 @@ label Pass First Question
 [sound path="res://assets/sfx/magic-1.mp3" volume="0.0"]
 update itens (machine-1/4) [animation="Tada"]
 Alan continua moldando a máquina.
-alan (lil-surprise): Certo. Mas é importar aceitar dados mais complexos, como listas.
+alan (lil-surprise): Certo. Mas é importante aceitar dados mais complexos, como listas.
 alan (commum): Não é muito díficil, se eu não usar o parêntesis no argumento do lambda, ele se torna uma lista.
 label Second Question
 alan (concern): [speed=0.1]{companion.cap4.q2}
-- 1. (lambda x (list-ref x 4))
-	alan (concern-2): [speed=1]Não há nada errado na sintaxe... Mas se eu passar uma list com menos de 5 elementos, será um problema.
+- a. (lambda x (list-ref x 4))
+	alan (concern-2): [speed=1]Não há nada errado na sintaxe… Mas se eu passar uma list com menos de 5 elementos, será um problema.
 - Próxima Ideia
 alan: [speed=0.1]{companion.cap4.q2}
-- 2. (lambda x (length x))
+- b. (lambda x (length x))
 	alan (close-eyes-smile): [speed=1]Está ótimo. Uma função simples que pega o tamanho de uma lista.
 	jump Pass Second Question
 - Próxima Ideia
 alan: [speed=0.1]{companion.cap4.q2}
-- 3. ((lambda (x) (length x)))
+- c. ((lambda (x) (length x)))
 	alan (stressed-5): [speed=1]Estaria perfeito se não fosse o parêntesis em (x)
 	alan: Dessa forma, não posso passar uma list como argumento.
 	set {error_amount} += 1
 - Próxima Ideia
 alan: [speed=0.1]{companion.cap4.q2}
-- 4. (append (cons 3 4) ((lambda x x) 1 2 3 4 123))
+- d. (append (cons 3 4) ((lambda x x) 1 2 3 4 123))
 	alan (stressed-2): [speed=1]Está quase certo… O único problema é o retorno do "cons".
-	alan: O retorno não será uma list, quando seu segundo argumento não é uma list... Mas sim, será um [i]par.[/i]
+	alan: O retorno não será uma list, quando seu segundo argumento não é uma list… Mas sim, será um [i]par.[/i]
 	set {error_amount} += 1
 - Próxima Ideia
 jump Second Question
@@ -84,7 +84,7 @@ Alan subitamente engasga. Tossindo sangue.
 alan (hollow): ...
 [music path="res://assets/musics/rain-pt1.mp3" fade="1.0" volume="0.0"]
 [signal arg="reverse_tense_shadow"]
-alan (stressed): [speed=1]... [speed=2]Continuando…
+alan (stressed): [speed=1]… [speed=2]Continuando…
 [speed=1.5]Alan ignora suas dores.
 alan: [speed=1.5]Recursão é simples.
 alan (accept-death): [speed=1.5]Com recursão de funções, deve ser possível computar literalmente qualquer problema!
@@ -93,23 +93,23 @@ alan (stressed-2): [speed=1.5]Um fatorial é um ótimo exemplo para servir no pr
 alan: [speed=1.5]Com a recursão pronta, a máquina deverá estar pronta também!
 label Third Question
 \[speed=0.1]{companion.cap4.q3}
-- 1. (define (fatorial n) (if (= n 0) 1 (* n (fatorial (- n 1)))))
+- a. (define (fatorial n) (if (= n 0) 1 (* n (fatorial (- n 1)))))
 	alan (accept-death): [speed=1.5]Perfeito. É a forma clássica de recursão.
 	jump Pass Third Question
 - Próxima Ideia
 \[speed=0.1]{companion.cap4.q3}
-- 2. (define (fatorial n) (if (= n 2) 1 (* n (fatorial (- n 1)))))
+- b. (define (fatorial n) (if (= n 2) 1 (* n (fatorial (- n 1)))))
 	alan (stressed): [speed=1.5]O fatorial está incorreto. Aquele '2' irá antecipar o caso base.
 	set {error_amount} += 1
 - Próxima Ideia
 \[speed=0.1]{companion.cap4.q3}
-- 3. (define (fatorial n) (if (n = 0) 1 (n * (fatorial (n - 1)))))
+- c. (define (fatorial n) (if (n = 0) 1 (n * (fatorial (n - 1)))))
 	alan (stressed-4): [speed=1.5]Coloquei uma operação no meio dos dados!
 	alan (fear-smile): … Se ela descobrisse esse erro, certeza que morria de vez…
 	set {error_amount} += 1
 - Próxima Ideia
 \[speed=0.1]{companion.cap4.q3}
-- 4. (define (fatorial n) (* n (fatorial (- n 1))))
+- d. (define (fatorial n) (* n (fatorial (- n 1))))
 	alan (stressed-2): [speed=1.5]Uma recursão sem caso base vai executar infinitamente…
 	set {error_amount} += 1
 - Próxima Ideia
@@ -119,18 +119,18 @@ label Pass Third Question
 [sound path="res://assets/sfx/magic-1.mp3" volume="0.0"]
 update itens (machine-3/4) [animation="Tada"]
 \[speed=1]Alan continua moldando a máquina. Fazendo uma luz se ascender.
-alan (very-surprised): [speed=1.5]Ela... [portrait=determined-smile]Já é capaz de computar!
+alan (very-surprised): [speed=1.5]Ela… [portrait=determined-smile]Já é capaz de computar!
 alan: [speed=1.5]Eu. Eu estava certo.
 update alan (lil-surprise)
 \[speed=1]Alan analisa com cuidado a sua máquina.
-alan: [speed=1]... [speed=1.5][portrait=frustrated]Mas, há um problema.
+alan: [speed=1]… [speed=1.5][portrait=frustrated]Mas, há um problema.
 alan: [speed=1.5]A recursão clássica ocupa muita memória.
 alan (stressed-2): [speed=1.5]Qualquer argumento grande demais, estourará suas capacidades.
 alan (stressed-5): [speed=1.5]Não, eu não quero deixar uma máquina inútil para ela[aa=0.5]
 update alan (stressed-4)
 [signal arg="tense_shadow"]
 \[speed=1.5]Novamente… Alan engasga em seu próprio sangue.
-alan (stressed): [speed=1.5]... Não.
+alan (stressed): [speed=1.5]… Não.
 [signal arg="reverse_tense_shadow"]
 alan (fear-smile): [speed=1.5]Não a deixarei incompleta.
 alan: [speed=1.5]Eu, posso aplicar [i]Recursão em Cauda![/i]
@@ -139,24 +139,24 @@ alan (smile-closed-eyes): [speed=1.5]Para aplicá-la, devo inicializar um parâm
 alan (smile-half-closed-eyes): [speed=1.5]E então, usar o parâmetro y como uma [i]fundação[/i] da recursão.
 label Forth Question
 alan: [speed=0.1]{companion.cap4.q4}
-- 1. (define (fatorial n [m]) (if (= n 0) m (fatorial (- n 1) (* n m))))
+- a. (define (fatorial n [m]) (if (= n 0) m (fatorial (- n 1) (* n m))))
 	alan (fear-closed-eyes): [speed=1.5]Está quase certo, só faltou inicializar a variável [m]
 	set {error_amount} += 1
 - Próxima Ideia
 alan: [speed=0.1]{companion.cap4.q4}
-- 2. (define (fatorial n [m 1]) (cond (= n 0) m (fatorial (- n 1) (* n m))))
-	alan (wtf-fear): [speed=1.5]Confundi if e cond... Como posso cometer esse tipo de erro à beira da morte⁉
+- b. (define (fatorial n [m 1]) (cond (= n 0) m (fatorial (- n 1) (* n m))))
+	alan (wtf-fear): [speed=1.5]Confundi if e cond… Como posso cometer esse tipo de erro à beira da morte⁉
 	set {error_amount} += 1
 - Próxima Ideia
 alan: [speed=0.1]{companion.cap4.q4}
-- 3. (define (fatorial n [m 1]) (if (= n 0) m (fatorial (- n 1) (* n m))))
+- c. (define (fatorial n [m 1]) (if (= n 0) m (fatorial (- n 1) (* n m))))
 	[sound path="res://assets/sfx/strong-statement.mp3" volume="0.0"]
 	alan (determined-stress): [speed=1.5]É isso!
 	jump Pass Forth Question
 - Próxima Ideia
 alan: [speed=0.1]{companion.cap4.q4}
-- 4. (define (fatorial n [m 1]) (if (= n 0) 1 (fatorial (- n 1) (* n m))))
-	alan (stressed-2): [speed=1.5]Não... Eu devo usar o 'm' como caso base da recursão, e não o '1'.
+- d. (define (fatorial n [m 1]) (if (= n 0) 1 (fatorial (- n 1) (* n m))))
+	alan (stressed-2): [speed=1.5]Não… Eu devo usar o 'm' como caso base da recursão, e não o '1'.
 	alan: Do contrário, tudo será jogado fora.
 	set {error_amount} += 1
 - Próxima Ideia
@@ -175,7 +175,7 @@ alan (death-sad): [speed=1.5]Implicaria em usar meu Codif, meus neurônios para 
 alan (death-sad-2): [speed=1.5]Uma recursão irreal… Já que sou na última instância, [i]o caso base.[/i]
 [sound path="res://assets/sfx/curious-statement.mp3" volume="0.0"]
 [music path="res://assets/musics/rain-pt2.mp3" fade="1.0" volume="2.0" loop="false"]
-alan (death-surprise): [speed=1]... [i]Sou o Caso Base.[/i]
+alan (death-surprise): [speed=1]… [i]Sou o Caso Base.[/i]
 Alan olha para a máquina em sua mão.
 alan (death-glow-eyes): Ou… [i]Seria[/i], o Caso Base.
 alan: Se eu não pudesse usar uma máquina. Uma parte externa a mim.

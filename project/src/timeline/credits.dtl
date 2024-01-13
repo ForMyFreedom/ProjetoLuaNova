@@ -1,5 +1,5 @@
 [background arg="res://assets/backgrounds/black_shape.png" fade="0.0"]
-if  {error_amount} == 0:
+if {error_amount} == 0:
 	set {result} = "Perfeita [font=assets/fonts/jp.ttf]☆☆☆☆☆[/font]"
 elif {error_amount} < 5:
 	set {result} = "Muito Alta [font=assets/fonts/jp.ttf]☆☆☆☆[/font]"
@@ -19,23 +19,29 @@ Desafios e Revisão por Gabriel Oliveira Gomes.
 Filaments by Scott Buckley	CAP1, CAP3\
 Mister Sneakypants by Eric Matyas 	CAP1, CAP2\
 [font_size=14][font=assets/fonts/jp.ttf]ソナタ ハ短調 第三楽章 by ファニー・メンデルスゾーン [/font][/font_size]	CAP1
+
 \[speed=0.1][font=assets/fonts/jp.ttf]朧月[/font] by MusMus	CAP1, CAP5\
 On the Trail with the Inspector by Eric Matyas	CAP2\
 Fortune plano Vulnera by J.V Mas Quile	CAP2\
 [font=assets/fonts/jp.ttf]いんげんまめ法曹の執務室[/font] by MusMus	CAP2\
 Stronger Monsters by UNDERTALE	CAP2
+
 \[speed=0.1]Friendship by [font_size=16]No Copyright Music and Video Themes[/font_size]	CAP2\
 The Shadow's Bride by Peter Gundry	CAP2\
 Covert Affairs by Christoffer Moe Ditlevsen	CAP3\
 [font_size=16]Investigation Tension Mysterious[/font_size] by Power Music Factory	CAP3\
-Goodbye My Dear by SteffenDaum	CAP3\
-Depression by Jack Winn	CAP4, CAP5
-\[speed=0.1]Rain by James Chou Anime Piano	CAP4\
+Investigating a Mystery by Bardify	CAP3
+
+\[speed=0.1]Goodbye My Dear by SteffenDaum	CAP3\
+Depression by Jack Winn	CAP4, CAP5\
+Rain by James Chou Anime Piano	CAP4\
 Enchanted by Keys Of Moon	CAP4, CAP5\
-Don't Give Up by UNDERTALE	CAP4\
-Fortress of Doom by Eric Matyas	CAP5\
+Don't Give Up by UNDERTALE	CAP4
+
+\[speed=0.1]Fortress of Doom by Eric Matyas	CAP5\
 [font=assets/fonts/jp.ttf]イクスゲイナー[/font] by MusMus	CAP5\
-Battle Against A True Hero Cover by Hodgepodge	CAP5
+Battle Against A True Hero Cover by Hodgepodge	CAP5\
+The Undying by NyxTheShield	CAP5
 \[speed=0.1][b]ARTES[/b]\
 Sprites por BabySaladd\: https\://picrew.me/en/image_maker/718575
 [wait time="1.0"]
@@ -51,7 +57,7 @@ else:
 	\[speed=1]Errar é humano, o importante é sempre evoluir.
 	Você errou um total de {error_amount} vezes.
 	Sendo sua [i]performance[/i], classíficada como [font_size=23][b]{result}[/b][/font_size]
-Mas, independente de sua performance. Agraceço muito mesmo por ter jogado.
+Mas, independente de sua performance. Agradecemos muito mesmo por ter jogado.
 Até a próxima!
 [sound path="res://assets/sfx/flamengo.mp3" volume="-5.0"]
 [wait time="1.0"]

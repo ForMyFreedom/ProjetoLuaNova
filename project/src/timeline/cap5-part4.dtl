@@ -141,7 +141,7 @@ NovaAda (dark-surprised): …
 NovaAda: Você é aquele que se encontrou com Alan.
 tim (default-2): Conhece o Historicista?
 tim: Que bom, onde ele está?
-NovaAda: [i][color=dark_gray]... [portrait=dark-sad]Se ele pergunta isso, significa que o corpo de Alan, também desapareceu.[/color][/i]
+NovaAda: [i][color=dark_gray]… [portrait=dark-sad]Se ele pergunta isso, significa que o corpo de Alan, também desapareceu.[/color][/i]
 Instintivamente, ela busca por algo em seus bolsos.
 join itens (machine) 2
 update NovaAda (dark-pre-cry)

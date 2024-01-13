@@ -32,14 +32,14 @@ update alan (regular)
 Ele levanta a xícara.
 alan (concern): Provavelmente só estou pensando demais.
 alan: Deve ser porque tenho visto muito a Regente nessa semana.
-alan (frustrated): ... Mas é difícil esquecer a reação da Senhorita Ada.
+alan (frustrated): … Mas é difícil esquecer a reação da Senhorita Ada.
 alan: Ela claramente estava escondendo algo importante de mim.
 Perdido em pensamentos, ele toma um gole.
 alan (annoyed): Ah, que gosto horrível.
 alan: É a última vez que eu compro chá de minhapi-[aa=0.5]
 [music fade="0.5" volume="0.0"]
 update alan (very-surprised)
-Porém... Alan congela subitamente.
+Porém… Alan congela subitamente.
 [music path="res://assets/musics/suspense.mp3" fade="1.0" volume="0.0"]
 update alan (despair)
 Ao perceber que alguém o observa pela janela.
@@ -63,7 +63,7 @@ unknow: Nunca disse que era um bom espião.
 alan (wtf-fear): …?
 update tim (default-2)
 unknow: Tá mais pra um bico.
-alan (despair): Espere um momento... Um espião? Isso quer dizer que[aa=0.75]
+alan (despair): Espere um momento… Um espião? Isso quer dizer que[aa=0.75]
 update tim (default)
 unknow: Sim, sou da Província de Espada.
 alan (rage-despair): …!
@@ -86,14 +86,14 @@ alan: Eu deveria ter usado meu Codif mais cedo.
 update tim (fear)
 Os ares ficam tensos. Com Alan preparando um código para codificar a concentração de oxigênio no ar.
 Uma explosão de Codif.
-tim (fear): Segura a brisa aí o esquentatinho.
-tim: E se eu te dissese, que posso provar que Lua é a culpada dessa guerra.
+tim (fear): Segura a brisa aí o esquentadinho.
+tim: E se eu te dissesse, que posso provar que Lua é a culpada dessa guerra.
 alan (confused-codif): ...
 update alan (stressed) [animation="Tada"]
 alan: Por que eu estou dando ouvidos a um lunático?
 Os ares retornam a normalidade.
 tim (impatient): Lua é a causadora dessa guerra. E isso não é sobre vocês se tornarem uma potência em códigos no futuro.
-alan (surprise): ... Ha
+alan (surprise): … Ha
 alan (disbelief): [speed=4]Hahaha!
 alan: [speed=1]Essa foi a melhor piada da semana.
 alan: Seu verme de Espada. Inimigo da Paz.
@@ -101,7 +101,7 @@ tim (angry-cm): Você faria o mesmo, se estivesse em nossos sapatos.
 alan (tense): …
 if {alan_would_attack} == "true":
 	alan (wtf-fear): … Talvez você esteje certo.
-	tim (default-2): ... Isso me surpreendeu, mas não acredito que possuas a compreensão do todo.
+	tim (default-2): … Isso me surpreendeu, mas não acredito que possuas a compreensão do todo.
 else:
 	alan (rage-despair): Não! Vocês são sujos! Eu nunca me rebaixaria.
 	tim: Você é ignorante.
@@ -112,13 +112,13 @@ E Alan se prepara para mandar a janela pros ares.
 tim (default-2): Mas talvez dê ouvidos às palavras velhas de uma língua morta.
 update alan (surprise)
 E então, o homem arremessa a Alan um pedaço de papel.
-alan (stressed-2): ... O que é isso?
+alan (stressed-2): … O que é isso?
 tim (default): Você sabe o que é, é seu trabalho saber.
 alan (stressed): …
 tim (default-2): Eu roubei de um Departamento de Guerra, durante a minha infiltração.
 alan (angry-2): Como assim⁉ Você invadiu prédios públicos⁉
 E então, Tim se vira para a janela.
-tim (closed-mounth): ... A Lua está Minguante.
+tim (closed-mounth): … A Lua está Minguante.
 alan (stressed-2): Hum?
 [background arg="res://assets/backgrounds/moon-in-dark.png" fade="2.0"]
 [wait time="2.5"]

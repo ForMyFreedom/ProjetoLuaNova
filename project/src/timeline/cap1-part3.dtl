@@ -8,12 +8,13 @@ ada (regular): Você vem praticando seu Racket?
 - Não
 	update alan (lil-fear)
 	alan: Não…
-	ada (angry): ... Infelizmente, não tenho como culpá-lo. Já que ficou tanto tempo parado.
+	ada (angry): … Infelizmente, não tenho como culpá-lo. Já que ficou tanto tempo parado.
 	update alan (regular)
 	ada (regular-teeth): O mais importante para saber é que dados e operações podem ser compostos recursivamente.
 	ada: Que a saída de uma operação normalmente será o operando de outra.
 	update alan (confused)
-	ada (regular): Isso é o Modelo de Substituição, não presente nas linguagens antigas... O que significa que deve pensar em camadas, como as bonecas matrioska.
+	ada (regular): Isso é o Modelo de Substituição, não presente nas linguagens antigas.
+	ada: O que significa que deve pensar em camadas, como as bonecas matrioska.
 	update alan (surprise)
 	ada (regular-teeth): Por fim, nunca se esqueça que as operações sempre possuem parêntesis, e se dão da forma pré-fixa\: '(OPERADOR operando operando …)'
 	alan (flushed): Entendi… Obrigado pela revisão Senhorita Ada.
