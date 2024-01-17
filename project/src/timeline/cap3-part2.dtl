@@ -4,7 +4,7 @@ alan: ...
 [music path="res://assets/musics/internal-pain.mp3" fade="0.0" volume="0.0"]
 alan (stressed-2): Impossível, isso deve ser falso.
 Deitado em sua cama, Alan passa a mão pelo rosto.
-alan: [speed=1.5]Uma Struct com os componentes, de [i]uma consciência animalesca.[/i]
+alan: [speed=1.5]Uma Struct com os componentes, de uma consciência animalesca.
 alan (stressed): [speed=1.5]Um Codif… De controle mental em animais.
 alan: [speed=1]A língua é claramente das Novas Ruínas. E se alguém de Espada colocou as mãos nisso, certamente foi mesmo em algum Departamento.
 alan (rage-despair): Mas isso é ilógico! Nós não fazemos testes em animais.

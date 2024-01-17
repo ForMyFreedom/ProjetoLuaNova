@@ -6,8 +6,7 @@ ada (regular-teeth): Bem, antes de começarmos.
 update alan (regular)
 ada (regular): Você vem praticando seu Racket?
 - Não
-	update alan (lil-fear)
-	alan: Não…
+	alan (lil-fear): Não…
 	ada (angry): … Infelizmente, não tenho como culpá-lo. Já que ficou tanto tempo parado.
 	update alan (regular)
 	ada (regular-teeth): O mais importante para saber é que dados e operações podem ser compostos recursivamente.

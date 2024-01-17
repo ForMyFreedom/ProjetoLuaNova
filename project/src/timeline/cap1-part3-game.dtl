@@ -2,7 +2,7 @@ join alan 2 [ z_index="5"]
 alan (ultra-happy): Estou realmente animado!
 update alan (happy)
 Alan olha para o primeiro código antigo a ser traduzido…
-alan: [color=dark_gray][i]Um problema de notação... Parece fácil.[/i][/color]
+alan: [color=dark_gray][i]Um problema simples de notação…[/i][/color]
 label First Question
 {companion.cap1.q1}
 - a. 1 1 +
@@ -44,7 +44,7 @@ label Second Question
 	join ada (focus-angry) 4
 	ada: [speed=1]Sinto que erraste algo…
 	alan (unbeliever): hehe…
-	ada (commum): A combinaçao no geral está certa, mas a quantidade de parêntesis esta incorreta.
+	ada (commum): A combinaçao no geral está certa, mas a quantidade de parêntesis está incorreta.
 	ada (commum): Corrija isso.
 	leave ada
 	set {error_amount} += 1
@@ -79,6 +79,7 @@ label Second Question
 jump Second Question
 
 label Pass Second Question
+Alan revira as páginas.
 alan (confused): [color=dark_gray][i]Hm, um Rascunho?[/i][/color]
 alan: [color=dark_gray][i]Parece que a Senhorita Ada fez uma tradução inicial nesse documento.[/i][/color]
 alan: [color=dark_gray][i]É ligado ao Modelo de Substituição… Só preciso fazer o resto até chegar no resultado.[/i][/color]
@@ -94,7 +95,8 @@ alan: Rascunho 1\
 	set {error_amount} += 1
 	jump Third Question 1
 - ((/ (cubo 10) (quadrado 10)) + 13)
-	alan (extreme-surprise): [color=dark_gray][i]Espera! Como aquele "+ 13" foi parar ali? Deixa eu refazer antes que a senhorita Ada veja isso![/i][/color]
+	alan (extreme-surprise): [color=dark_gray][i]Espera! Como aquele "+ 13" foi parar ali?[/i][/color]
+	alan: [color=dark_gray][i]Deixa eu refazer antes que a Senhorita Ada veja isso![/i][/color]
 	set {error_amount} += 1
 	jump Third Question 1
 update alan (happy)
@@ -130,7 +132,8 @@ label Third Question 4
 Rascunho 1\
 (+ 13 (/ 1000 (quadrado 10)))
 - (+ 13 (/ 1000 (* 10 10))
-	alan (accept-death): [color=dark_gray][i]Tem um maldito parêntesis faltando!… Seria tudo mais fácil se existisse uma máquina para me ajudar nesse tipo de coisa.[/i][/color]
+	alan (accept-death): [color=dark_gray][i]Tem um maldito parêntesis faltando![/i][/color]
+	alan: [color=dark_gray][i]… Seria tudo tão mais fácil se existisse uma máquina para ajudar nesse tipo de coisa.[/i][/color]
 	set {error_amount} += 1
 	jump Third Question 4
 - (+ 13 (/ 1000 (* 10 10 10)))
@@ -147,7 +150,7 @@ label Third Question 5
 	alan (smile-half-closed-eyes): [color=dark_gray][i]Acho que estou chegando no final.[/i][/color]
 	alan: [color=dark_gray][i]O dia é curto, não posso gastar muito tempo só nisso.[/i][/color]
 - (+ 13 (| 1000 100))
-	alan (lil-surprise): [color=dark_gray][i]Essa barra me parece errada.[/i][/color]
+	alan (lil-surprise): [color=dark_gray][i]Essa barra, me parece errada.[/i][/color]
 	set {error_amount} += 1
 	jump Third Question 5
 - (+ 13 (1000 / 100))
@@ -167,6 +170,7 @@ update alan (happy)
 (+ 13 10)
 - 23
 	alan (lil-rage): [color=dark_gray][i]Eu me recuso a errar algo desse nível.[/i][/color]
+Alan olha para sua folha, agora traduzida para Racket
 alan (happy): [color=dark_gray][i]Esses documentos foram um ótimo aquecimento![/i][/color]
 alan: [color=dark_gray][i]Espero ver códigos mais interessantes.[/i][/color]
 [wait time="1.5"]

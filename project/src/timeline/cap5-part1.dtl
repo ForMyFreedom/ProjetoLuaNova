@@ -12,7 +12,7 @@ ada (lil-disgust): … Eu sinto que você tem algo pessoal contra ele.
 alan (angry): Eu⁉ Sim, eu tenho!
 ada (disgust): … [portrait=bored]De todo modo.
 Ada olha pela janela
-Avistando muitos carros passando, e pessoas caminhando.
+Avistando alguns carros passando. Pessoas caminhando.
 ada (commum): Como funciona essa sua máquina que computa?
 alan (happy): O Computador? É muito simples.
 alan: Você passa funções anônimas como se fossem um dado.
@@ -28,17 +28,18 @@ alan (concern): [speed=1]Ada! Eu não sou esnobe!
 ada (very-angry): É claro que é, seu cara de pau!
 alan (commum): …
 alan: …
-- Você tá certa
+- Você está certa
 	set {is_humble} = "false"
 	alan (frustrated): Você tá certa… Acho que, eu sou um pouco falso mesmo.
 	ada (sad-3): ... Ei… Eu não queria te deixar pra baixo.
-- Você tá errada
+- Você está errada
 	set {is_humble} = "true"
 	alan (lil-angry): Você está errada. Eu honestamente acredito que não sou tão bom assim.
-	ada (sad-3): ... Des– desculpa. Eu não deveria te julgar assim.
+	ada (sad-3): ... Des– desculpa. Eu não devia te julgar assim.
 ada (sad-2): Foi mal.
 alan (happy): Tá tudo bem, é importante falar o que acredita.
-alan (commum): Mas… Eu tenho um pedido. Pra quando a gente chegar em Espada.
+alan (commum): Mas… Deixando isso de lado.
+alan: Eu tenho um pedido. Pra quando a gente chegar em Espada.
 ada (commum): O que?
 alan (ultra-happy): [wave amp=50 freq=4] Você me promete um negócinho? [/wave]
 ada (surprise): Hum?
@@ -55,5 +56,5 @@ alan (happy): Obrigado! É importante pra mim.
 [music fade="2.0" volume="0.0"]
 [signal arg="stop_time"]
 Porém…
-Toda felicidade deles é subitamente roubada, nesse momento.
+Toda calmaria, é subitamente roubada, nesse momento.
 jump cap5-part2/

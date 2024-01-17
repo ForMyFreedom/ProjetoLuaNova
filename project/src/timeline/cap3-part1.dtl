@@ -1,14 +1,13 @@
 [background arg="res://assets/backgrounds/room.png" fade="3.0"]
 [music path="res://assets/musics/sad.mp3" fade="0.0" volume="0.0"]
 ...
-Dias após o encontro com Charllote.
 join alan (concern) 2
-Alan repousava em sua casa.
+Dias após o encontro com Charllote… Alan repousava em sua casa.
 join itens (camera) 4
 No ambiente, além da câmera entregue por Ada.
 leave itens
-Havia muitos papéis com desenhos e cálculos sobre máquinas.
-Mas, nesse momento, Alan estudava um de seus livros de [i]astronomia.[/i]
+Muitos papéis com desenhos e cálculos sobre máquinas estavam espalhados pelo cômodo.
+Mas, nesse momento… Alan apenas estudava um de seus livros de [i]astronomia.[/i]
 alan (regular): [color=dark_gray][i]'As descobertas newtonianas permitiram com que eclipses fossem previstos séculos antes de seu acontecimento'[/i][/color]
 alan (concern): [color=dark_gray][i]'E tão logo, o campo do cálculo se mostrou como um dominador da realidade, de onde Laplace teceu seu Demônio…'[/i][/color]
 alan (confused): ... Determinismo. É?
@@ -33,7 +32,7 @@ Ele levanta a xícara.
 alan (concern): Provavelmente só estou pensando demais.
 alan: Deve ser porque tenho visto muito a Regente nessa semana.
 alan (frustrated): … Mas é difícil esquecer a reação da Senhorita Ada.
-alan: Ela claramente estava escondendo algo importante de mim.
+alan: Ela claramente está escondendo algo importante de mim.
 Perdido em pensamentos, ele toma um gole.
 alan (annoyed): Ah, que gosto horrível.
 alan: É a última vez que eu compro chá de minhapi-[aa=0.5]
@@ -84,13 +83,13 @@ alan (insane): … Você é um lunático.
 update alan (despair-codif) [animation="Tada"]
 alan: Eu deveria ter usado meu Codif mais cedo.
 update tim (fear)
-Os ares ficam tensos. Com Alan preparando um código para codificar a concentração de oxigênio no ar.
-Uma explosão de Codif.
+Alan prepara algo para codificar a concentração de oxigênio no ar.
+Sobre a eminente explosão de Codif, os ares ficam tensos.
 tim (fear): Segura a brisa aí o esquentadinho.
-tim: E se eu te dissesse, que posso provar que Lua é a culpada dessa guerra.
+tim: E se eu te dissesse, que posso provar que a Província de Lua é a culpada dessa guerra.
 alan (confused-codif): ...
 update alan (stressed) [animation="Tada"]
-alan: Por que eu estou dando ouvidos a um lunático?
+alan: Por que estou dando ouvidos a um lunático?
 Os ares retornam a normalidade.
 tim (impatient): Lua é a causadora dessa guerra. E isso não é sobre vocês se tornarem uma potência em códigos no futuro.
 alan (surprise): … Ha
@@ -100,16 +99,17 @@ alan: Seu verme de Espada. Inimigo da Paz.
 tim (angry-cm): Você faria o mesmo, se estivesse em nossos sapatos.
 alan (tense): …
 if {alan_would_attack} == "true":
-	alan (wtf-fear): … Talvez você esteje certo.
-	tim (default-2): … Isso me surpreendeu, mas não acredito que possuas a compreensão do todo.
+	alan (stressed): Talvez você esteje certo.
+	tim (default-2): … Isso me surpreendeu.
+	tim: Mas não acredito que possuas a compreensão do todo.
 else:
 	alan (rage-despair): Não! Vocês são sujos! Eu nunca me rebaixaria.
 	tim: Você é ignorante.
-tim (default): Não acredita em palavras que pode ouvir.
+tim (default): Simplesmente, não acredita em palavras que pode ouvir.
 Tim põe a mão em seu bolso.
-update alan (stressed)
-E Alan se prepara para mandar a janela pros ares.
-tim (default-2): Mas talvez dê ouvidos às palavras velhas de uma língua morta.
+update alan (rage-despair-2)
+E Alan se prepara para o pior.
+tim (default-2): Mas, talvez… Dê ouvidos às palavras velhas de uma língua morta.
 update alan (surprise)
 E então, o homem arremessa a Alan um pedaço de papel.
 alan (stressed-2): … O que é isso?
@@ -117,7 +117,7 @@ tim (default): Você sabe o que é, é seu trabalho saber.
 alan (stressed): …
 tim (default-2): Eu roubei de um Departamento de Guerra, durante a minha infiltração.
 alan (angry-2): Como assim⁉ Você invadiu prédios públicos⁉
-E então, Tim se vira para a janela.
+Ignorando Alan, Tim se vira para a janela.
 tim (closed-mounth): … A Lua está Minguante.
 alan (stressed-2): Hum?
 [background arg="res://assets/backgrounds/moon-in-dark.png" fade="2.0"]
@@ -128,12 +128,13 @@ Alan com respeito, orgulho.
 E Tim com temor, assombro.
 tim (angry-cm): A Lua mingua... [portrait=angry-cm2]Mas Espada não permitirá que fique Nova.
 alan (confused): …?
-alan: Que diabos você está falan-[aa=0.2]
+alan: Do que diabos você está falan-[aa=0.2]
 leave tim
 update alan (surprise)
-Mas então. Subitamente. O Espião salta pela janela e sai do campo de visão de Alan.
+Mas então, subitamente.
+O Espião salta pela janela e some do campo de visão de Alan.
 update alan 2 [ move_time="2"]
-alan: …
+alan: ...
 update alan (stressed)
 alan (stressed-2): A Lua está minguante…?
 Alan olha para o trecho de Código Legado em suas mãos.

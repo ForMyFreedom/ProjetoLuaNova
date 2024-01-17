@@ -15,16 +15,22 @@ alan-and-ada: …
 [music path="res://assets/musics/sad.mp3" fade="0.0" volume="0.0"]
 alan (angry-2): Malditos bárbaros de Espada!\
 Esses invejosos merecem a morte.
-ada (sad): … Essa guerra era inevitável…
+ada (sad): … Essa guerra, era inevitável…
 alan (surprise): Como assim, Senhorita Ada?
 ada (sad-2): Você está aqui só há uma semana…
-ada: Mas, já meses antes da guerra, a quantidade de nossos Códigos Legados era imensa.
+ada: Mas, já meses antes da guerra, a quantidade de Códigos Legados era igualmente imensa.
 Ada se vira para a enorme pilha de papéis sobre sua mesa.
-ada: Em talvez um ano, seremos capazes de subjulgar qualquer nação.
+ada: Em talvez um ano, após traduzirmos tudo para Racket…
+ada (sad): Seremos capazes de subjulgar qualquer nação.
+alan (lil-angry): …
+update alan (angry-2)
+Alan cerra os dentes
+alan: Isso é estúpido!
 alan (angry): Só porque encontramos muitos Códigos Legados em uma ruína, isso não lhes dá direito de nos atacar!
 ada (bored): Você não faria o mesmo?
-alan (confused): Como assim?
+alan (lil-angry): … Como assim?
 ada (regular): Se uma força estrangeira, com o passar de um ano, se tornasse capaz de te dizimar em um piscar de olhos.
+update alan (concern)
 ada (regular-teeth): E especialmente nesse caso, em que eles são nossos únicos vizinhos em território.
 ada (regular): Você não atacaria hoje, para talvez impedir uma morte, incerta?
 alan (regular): ...

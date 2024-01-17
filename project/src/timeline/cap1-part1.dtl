@@ -1,21 +1,25 @@
 [background arg="res://assets/backgrounds/newart-office.png" fade="1.0"]
 [wait time="1.0"]
 unknow: …
+Sobre os sons de passos invadindo um departamento silencioso
 [music path="res://assets/musics/allegreto.mp3" fade="0.0" volume="-13.0"]
-unknow: [b]BOM DIA CHEFE![/b]
+[sound path="res://assets/sfx/door_open.mp3"]
 join alan (shadow) 2
 Um garoto entra explodindo a porta.
 update alan (happy)
+unknow: BOM DIA CHEFE!
+update alan (goofy)
 unknow: Lindo dia né⁉
 update alan 0 [ move_time="1"]
 join ada (shadow) 4
-Uma mulher organizando papéis sobre a mesa, se vira para encará-lo.
+Fechando a cara para os gritos do garoto. Uma mulher, organizando papéis sobre a mesa, se vira para encará-lo.
 update ada (regular)
 unknow: Estaria bem melhor sem esse barulho todo.
 update alan (annoyed)
-unknow: Nossa, pra que isso Senhorita Ada?
-unknow: Achei que eramos amigos.
-O garoto fecha a porta.
+unknow: Nossa, é sério isso Senhorita Ada?
+unknow: Achei que tinhamos alguma [wave amp=50 freq=8]amizade[/wave].
+[sound path="res://assets/sfx/door_close.mp3"]
+O garoto fecha a porta, desapontado.
 ada (regular-teeth): É sua primeira semana aqui, Alan…
 alan (happy): Pra mim já parecem meses!
 ada (annoyed): Tá dizendo que o trabalho é chato?
@@ -23,7 +27,7 @@ update ada (regular)
 alan (lil-fear): Não! Hum… Vamos mudar de assunto.
 update alan (regular)
 Alan retira um embrulho do bolso, e arremessa para Ada.
-alan (happy): Aqui, espero que goste!
+alan (happy): Aqui, espero que goste.
 ada (regular-teeth): O que é isso?
 [music fade="0.0" volume="0.0"]
 update ada (despair)
@@ -32,9 +36,9 @@ ada (despair-teeth): QUE⁉
 Ada arremessa o embrulho para longe.
 [music path="res://assets/musics/allegreto.mp3" fade="0.0" volume="-13.0"]
 update ada (angry)
-Revelando ser só um embrulho vazio.
+Revelando, ser apenas um embrulho vazio.
 alan (goofy): Hahaha! Você tinha que ver sua cara, Senhorita Ada.
-ada: Você é doente! O pior estagiário que já pisou nesse escritório.
+ada: Você é doente! O pior estagiário que já pisou nesse departamento.
 alan (flushed): Ah, obrigado, obrigado.
 update alan 1 [ move_time="1"]
 update ada 3 [ move_time="1"]

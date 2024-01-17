@@ -6,10 +6,10 @@ join alan (depressed-1) 2
 alan: Senhorita Ada!
 update alan 0 [ move_time="1"]
 join ada (surprise) 4
-Mas sentindo algo estranho, Ada se vira confusa.
+Mas, sentindo algo estranho, Ada se vira confusa.
 ada (lil-tense): … O que foi, Alan? Você parece horrível.
 alan (depressed-confused): [font_size=16]Se a senhora tivesse um espelho.
-ada (angry-annoyed): O– o que disse⁉
+ada (angry-annoyed): O– o que⁉
 alan (depressed-2): Desculpa. Mas isso é sério.
 update alan 1 [ move_time="1"]
 update ada 3 [ move_time="1"]
@@ -22,7 +22,7 @@ update ada (surprise)
 Ada, confusa…
 update ada (big-surprise)
 Termina de ler o papel.
-ada: ... Aonde você encontrou isso?
+ada: … Aonde você encontrou isso?
 alan (depressed-angry-1): VOCÊ CONSEGUE ME DAR UMA BOA RAZÃO PRA ISSO, NÉ⁉
 ada (sad-2): …
 Ada olha para ambas as folhas.
@@ -56,16 +56,16 @@ ada (sad): Essa guerra não me parece ser sobre invadidos e invasores.
 alan (depressed-confused): … O que você quer dizer, Senhorita Ada?
 ada (concern-2): Meros palpites… Estou aqui há muito tempo. É só o que minha intuição diz.
 alan (depressed-1): … Mas, deve ser algo da Regente Charlotte, não é?
-alan (depressed-2): O Governo de Lua não era bom antes dela?
+alan (depressed-2): O Governo de Lua talvez não era assim antes dela…
 ada (sad): Lamento lhe informar, Alan.
 alan (depressed-3): …?
 ada (sad-2): Mas eu já trabalhava na época do pai de Charllote.
-ada (sad-3): É simplesmente a mesma coisa… As mesmas, mentiras.
+ada (sad-3): Simplesmente… As mesmas, mentiras.
 alan (depressed-1): …
 ada (concern-2): Ei, Alan. Tenta não levar isso tão a sério. Sem tanto idealismo.
 alan (depressed-angry-1): … Não levar tão a sério?
 [music fade="2.0" volume="0.0"]
-alan (depressed-3): Não consegue ver.
+alan (depressed-3): Não consegue ver…
 alan (cry): Que minha vida foi uma grande mentira, Ada⁉
 ada (stressed-surprise): ...
 [music path="res://assets/musics/depression.mp3" fade="0.0" volume="0.0"]
@@ -81,9 +81,9 @@ update alan (sad-death) [animation="Tada"]
 update ada (big-surprise)
 E Alan começa a colapsar.
 ada: … Alan⁉ O que tá acontecendo⁉
-alan: ... Acho, que algo dentro de mim forçou o começo de uma Descodificação
-alan: De todo modo, pouco importa.
-ada (pre-cry): Não vou deixar você se descodificar!
+alan: ... Acho… Acho que algo dentro de mim forçou uma Descodificação
+alan: [speed=1.3]De todo modo, pouco importa.
+ada (pre-cry): [speed=1]Não vou deixar você se descodificar!
 ada: Pare com essa tolic-[aa=0.1]
 leave ada
 [background arg="res://assets/backgrounds/black_shape.png" fade="0.5"]

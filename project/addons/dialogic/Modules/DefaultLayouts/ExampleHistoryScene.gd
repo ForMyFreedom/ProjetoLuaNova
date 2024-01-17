@@ -39,7 +39,7 @@ func _process(delta):
 
 
 func _on_show_history_pressed():
-	Dialogic.paused = true
+	# Dialogic.paused = true
 	show_history()
 
 

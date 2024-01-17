@@ -3,7 +3,7 @@ join ada (despair) 4
 [music path="res://assets/musics/charlotte-revelation.mp3" fade="1.0" volume="0.0"]
 [signal arg="purple_blink"]
 [background arg="res://assets/backgrounds/death.png" fade="2.0"]
-No instante em que uma pressão extrema de codificação surge.
+No instante, em que uma pressão extrema de codificação surge.
 alan (rage-despair): O que é isso⁉
 ada (despair-teeth): ALAN!
 Seguido
@@ -24,11 +24,11 @@ Alan checa seu pulso.
 alan (stressed-4): [color=dark_gray][i]… Está viva. Mas há muito sangue.[/i][/color]
 alan: [color=dark_gray][i]Precisa de cuidados dentro de meia hora.[/i][/color]
 update alan (despair)
-charllote: Muito bom dia!
-Alan trava de terror, enquanto muitas portas e janelas se fecham.
+unknow: Muito bom dia!
+Alan simplesmente… Trava de terror.
 leave ada
 update alan 0 [ move_time="1.5"]
-Sobre a poderosa presença.
+Enquanto muitas portas e janelas se fecham, sobre a poderosa presença…
 join charllote (default-codif) 4
 Da Regente.
 charllote: Meu caro Alan.
@@ -56,12 +56,12 @@ charllote (true-joking): 'Porque… {{reason_to_kill}}'
 charllote (true-insane): HAHAHAHA! Chega até mesmo a doer a barriga!
 alan (stressed-2): …
 if {tryied_other_way} == "true":
-	charllote (true-smile): Também lembro quando ficou titubeante naquele dia.
+	charllote (true-smile): Também lembro o quanto você ficou titubeante naquele dia.
 	charllote (true-joking): 'Não tem outro jeito? Não tem outro jeito?'
 	charllote (true-angry): Eu simplesmente odeio, pessoas frouxas como você.
 alan (stressed): Quando você vai parar de gracinha e falar o que quer. Criança?
 charllote (true-bored): ... Ousado como sempre.
-charllote (true-default): Tão ousado, que já aceitou sua morte? E a morte de sua amiga?
+charllote (true-default): Tão ousado, que já aceitou sua morte? A morte de sua amiga?
 alan (despair): …
 charllote: Falando em aceitação.
 charllote (true-front-smile): Você acredita em destino, Alan?
@@ -80,7 +80,7 @@ alan (stressed): [color=dark_gray][i]…[/i][/color]
 alan: [color=dark_gray][i]Ela apenas tá brincando comigo.[/i][/color]
 alan (stressed-5): [color=dark_gray][i]Parece que ainda tem muito desse discursinho maligno.[/i][/color]
 alan: [color=dark_gray][i]… Se, eu pudesse usar algo nesse tempo… Qualquer coisa no nível dela…[/i][/color]
-alan (stressed): [color=dark_gray][i]Mas ela sentiria meu Codif sendo preparado.[/i][/color]
+alan (stressed): [color=dark_gray][i]Mas, eu não tenho nada assim…[/i][/color]
 alan (stressed-2): [color=dark_gray][i]… Esse, é o nosso fim mesmo?[aa=1][/i][/color]
 [music fade="1.0" volume="0.0"]
 [sound path="res://assets/sfx/strong-statement.mp3" volume="-10.0"]
@@ -88,9 +88,9 @@ alan (very-surprised): ...
 alan: [color=dark_gray][i]A minha Máquina.[/i][/color]
 [music path="res://assets/musics/final-destiny.mp3" fade="3.0" volume="-10.0"]
 charllote (true-default): Hum? Lembrou que esqueceu a roupa no varal?
-alan (stressed-5): [color=dark_gray][i]Talvez possa computar nela algo que apenas um computador consiga.[/i][/color]
+alan (stressed-5): [color=dark_gray][i]Posso computar algo que apenas um computador consiga.[/i][/color]
 alan: [color=dark_gray][i]Charllote não está mais lendo minha mente, posso surpreende-la![/i][/color]
-alan (stressed-2): [color=dark_gray][i]Mas, o que eu preparo? Que código pode nos dar uma chance de fuga?[/i][/color]
+alan (stressed-2): [color=dark_gray][i]… Mas, o que eu preparo? Que código pode nos dar uma chance de fuga?[/i][/color]
 alan (stressed-5): [color=dark_gray][i]…[/i][/color]
 alan (accept-death): [color=dark_gray][i]É a minha única escolha, né?[/i][/color]
 jump cap5-part2-game/

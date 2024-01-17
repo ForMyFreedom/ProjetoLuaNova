@@ -57,7 +57,7 @@ else:
 	\[speed=1]Errar é humano, o importante é sempre evoluir.
 	Você errou um total de {error_amount} vezes.
 	Sendo sua [i]performance[/i], classíficada como [font_size=23][b]{result}[/b][/font_size]
-Mas, independente de sua performance. Agradecemos muito mesmo por ter jogado.
+Mas, independente de seu rendimento. Agradecemos muito mesmo por ter jogado.
 Até a próxima!
 [sound path="res://assets/sfx/flamengo.mp3" volume="-5.0"]
 [wait time="1.0"]

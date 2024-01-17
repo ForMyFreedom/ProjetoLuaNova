@@ -134,7 +134,7 @@ Verdadeiro só se A=B",
 "title": "A and B"
 },
 "bool": {
-"alternatives": ["Bool", "booleano", "Booleano"],
+"alternatives": ["Bool", "booleano", "Booleano", "booleanos"],
 "text": "Valor que representa 'Falso' ou 'Verdadeiro'.",
 "title": "Bool"
 },

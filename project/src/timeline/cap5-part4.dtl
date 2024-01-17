@@ -3,9 +3,9 @@
 join NovaAda (two-lifes) 2
 Após avançar muitos quilômetros em uma velocidade incrível, Ada para perto de um lago.
 update NovaAda (pre-two-lifes)
-E toda sua grande energia.
+Com toda sua grande energia.
 update NovaAda (close-eyes)
-Se desfaz.
+Se desfazendo.
 NovaAda: …
 NovaAda (concern): [speed=3]O, o que aconteceu?
 \[speed=1]Ela olha ao redor, ainda segurando Alan em seus braços.
@@ -38,7 +38,7 @@ update NovaAda (commum)
 Ada consulta sua intuição.
 update NovaAda (big-surprise)
 E se assusta ao ouvir a resposta.
-NovaAda: Que merda tá acontecendo Alan?
+NovaAda: Que droga tá acontecendo Alan?
 alan (sus): Acho… Que eu exagerei um pouquinho.
 alan (close-eyes-smile): Mas tá tudo bem.
 NovaAda (scary-confused): Isso, é Codif?
@@ -88,10 +88,10 @@ NovaAda: A foto que tiramos no departamento.
 NovaAda (cry-3): Eu menti antes… Eu queria muito ter trazido ela!
 alan (descodif-sad): …
 alan (descodif-sad-smile): Não se preocupe, Ada.
-alan: Minha [i]vida[/i], foi pra você.
+alan: A minha [i]vida[/i], foi pra você.
 NovaAda (cry-2): O, que?
-alan: Mesmo que minha mente agora fique para trás.
-alan (descodif-flushed): Eu, [i]sempre[/i] estarei com você!
+alan: Mesmo que agora minha mente fique para trás.
+alan (descodif-flushed): Eu, [i]sempre[/i], estarei com você!
 NovaAda (cry): ... Alan
 update alan (descodif-2-flushed)
 Mais rachaduras aparecem.
@@ -105,7 +105,7 @@ NovaAda (cry-3): …
 alan: ...
 alan (descodif-2-cry-3): Adeus. A-[aa=0.3]
 leave alan
-\[speed=1.5]… A mente de Alan é descodificada, antes de concluir seu último adeus.
+\[speed=1.5]… A mente de Alan é descodificada, antes mesmo de concluir seu último adeus.
 \[speed=1.5]Com seu abraço, se desfazendo.
 NovaAda (cry-4): [speed=1]...
 \[speed=1.5]E, desfeito o choque.
@@ -155,7 +155,7 @@ update NovaAda (dark-sad-2)
 tim (angry-cm): [speed=1]... Entendo.
 tim: Bem… Caminhemos em frente por ele. E por todos os outros inocentes que morreram nesses tempos.
 [update_position position="3" vector="Vector2(50, 0)" time="1.0"]
-Tim se vira de costas e começa a andar.
+Tim se vira de costas, e começa a andar.
 NovaAda (dark-sad): [speed=1.5]Espera!
 tim (confused): [speed=1]Hum?
 NovaAda (dark-pre-cry): [speed=1.5]Mas… Aonde estamos indo?
@@ -163,7 +163,7 @@ tim: [speed=1]…
 tim (default): 'Aonde'? Você me pergunta.
 tim: Ora
 [music fade="2.0" volume="0.0"]
-O Espião se vira com um sorriso no rosto.
+O Espião se vira para ela, com um sorriso no rosto.
 tim: Nós iremos
 [sound path="res://assets/sfx/drum.mp3" volume="-10.0"]
 update NovaAda (dark-hope)

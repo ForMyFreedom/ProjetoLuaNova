@@ -35,7 +35,7 @@ ada (lil-flushed): … Você me pegou nessa, laureado.
 ada (commum): Mas então, como ela se chama?
 alan (lil-surprise): …
 alan (surprise-2): Eu vou chamar de… [i]A Máquina… de Alan.[/i]
-ada (disgust): … Algo me diz que tem algo de errado nesse nome.
+ada (disgust): ... Algo me diz que tem algo de errado nesse nome.
 alan (flushed): Realmente. Bem, a gente pode pensar nisso depois.
 update ada (commum)
 update alan (commum)
@@ -57,11 +57,16 @@ alan: Eu vi um Codif de Charlotte no meu inconsciente… Acredito que ela tenha 
 ada (big-surprise): …!
 alan (stressed-2): Isso estava em minha mente faz tempo.
 alan: Mas… Se desativou após o começo da minha descodificação.
-ada: En– tendo.
+ada (lil-tense): En– tendo… Imagino que ela não contava com sua máquina
+alan (accept-death): Se nem eu mesmo contava com ela haha…
+alan (frustrated): …
+update ada (sad)
+Um breve silêncio se instaura. Com ambos refletindo o peso das implicações.
 alan (close-eyes-smile): Eu ainda… Ainda acredito que há salvação para o Governo de Lua.
 update ada (concern)
-alan (frustrated): Mas de todo modo, temos que fugir logo. Ou será tarde demais.
-ada (concern-2): Fugir para onde?
+alan (frustrated): Mas de todo modo, temos que fugir logo.
+alan: Ou será tarde demais.
+ada (concern-2): Fugir pra onde?
 alan (lil-rage): …
 alan: Só tem um lugar que pode nos receber. Nos proteger.
 ada (sad-3): ... Alan. Nós temos família.

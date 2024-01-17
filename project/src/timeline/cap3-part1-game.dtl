@@ -4,7 +4,7 @@ join alan (concern) 2
 alan: Que tipo de código está sendo guardado em um Departamento de Guerra…?
 Alan começa a ler o documento roubado.
 alan (confused): Parece ser um código baseado em struct… Qual será sua finalidade?
-alan (serious): Só começando a traduzir pra descobrir.
+update alan (serious)
 label First Part
 [speed=0.1]{companion.cap3.p1}
 - a. (struct nova (kind[23] target origin neuron))
@@ -23,13 +23,12 @@ label First Part
 - Próxima Ideia
 jump First Part
 label Pass First Part
-alan: Os structs em Racket são muito mais simples, já que não preciso me preocupar com o tipo de seus componentes.
 alan (hollow): Mas… Esses componentes são estranhos.
 alan: Seu nome também… 'Nova'?
 alan (commum): De todo modo.
 Alan desce seu olhar pela pequena folha.
-alan (lil-surprise): … Uma instanciação.
-alan: A criação de um dado do tipo estabelecido.
+alan (lil-surprise): … Uma instanciação. A criação de um dado do tipo estabelecido.
+alan (commum): Em Racket, definimos funções e objetos da mesma forma. Com "(define #nome# #algo#)"
 label Second Part
 update alan (serious)
 [speed=0.1]{companion.cap3.p2}
@@ -53,7 +52,7 @@ update alan (serious)
 - Próxima Ideia
 [speed=0.1]{companion.cap3.p2}
 - d. (define f (nova 'Land', 19, 4, 5))
-	alan (lil-surprise): [speed=1]Não… Não é preciso vírgulas ao definir um dado.
+	alan (lil-surprise): [speed=1]Não, não é preciso vírgulas ao definir um dado.
 	set {error_amount} += 1
 - Próxima Ideia
 [speed=0.1]{companion.cap3.p2}
@@ -100,12 +99,12 @@ update alan (concern-2)
 - Próxima Ideia
 jump Third Part
 label Pass Third Part
-Alan desce seu olhar pela pequena folha.
+Alan desce seu olhar pela pequena folha, chegando no final dela.
 alan (concern-2): Uma função grandinha…\
 [font_size=16][speed=0.1]if (f.origin < experiment[1])\:[br]   for (x = 0; x < 4; x++)[br]      experiment[4-x] = experiment[3-x];[br]   experiment[0] = 13.8169 * f.neuron;[br]else:[br]   printf("Incompatible Beast");
 alan (confused): [speed=1]Preciso ir em partes… Ela primeiro verifica algo escuso
 alan: [speed=0.1]if (f.neuron > experiment[0])\
-[speed=1]… Um condicional que usa o elemento na posição zero da lista de antes.
+[speed=1]… Um condicional que usa o elemento na posição zero da lista 'experiment'.
 alan: Para isso, posso usar list-ref sem problemas.
 label Fourth-1 Part
 [speed=0.1]{companion.cap3.p4_1}
@@ -132,30 +131,30 @@ label Fourth-1 Part
 - Próxima Ideia
 jump Fourth-1 Part
 label Pass Fourth-1 Part
-alan (concern): Após ela, ele faz uma operação...\
+alan (concern): Após ela, o código faz uma operação...\
 [speed=0.1]{companion.cap3.p4_2}
 alan (concern-2): [speed=1]Mandando todos os elementos da lista para direita.
 alan (lil-surprise): E… Adiciona um novo elemento no começo da lista?
 alan (confused): Ora, isso é ineficiente.
 alan (close-eyes-smile): Nossa linguagem lida muito melhor com isso usando cons.
 label Fourth-2 Part
-[speed=0.1]# cons[br]{companion.cap3.p4_2}
+[speed=0.1]{companion.cap3.p4_2}
 - a. (cons (* 13.8169 (nova-neuron f)) experiment)
 	alan (happy): [speed=1]Fica muito mais simples que no legado!
 	jump Pass Fourth-2 Part
 - Próxima Ideia
-[speed=0.1]# cons[br]{companion.cap3.p4_2}
+[speed=0.1]{companion.cap3.p4_2}
 - b. (cons experiment (* 13.8169 (nova-neuron f)))
 	alan (lil-surprise): [speed=1]Inverti a ordem do cons.
 	alan: É importante que a inserção fique na esquerda da lista.
 	set {error_amount} += 1
 - Próxima Ideia
-[speed=0.1]# cons[br]{companion.cap3.p4_2}
+[speed=0.1]{companion.cap3.p4_2}
 - c. (cons (* 13.8169 (neuron f)) experiment)
 	alan (tired): [speed=1]Droga, esqueci que o acesso precisa usar 'nova-', o nome do struct.
 	set {error_amount} += 1
 - Próxima Ideia
-[speed=0.1]# cons[br]{companion.cap3.p4_2}
+[speed=0.1]{companion.cap3.p4_2}
 - d. (cons (for 0 4 ++ (* 13.8169 f.neuron)))
 	alan (wtf-fear): [speed=1]… Isso não faz nenhum sentido.
 	alan: 'For' não é usado de forma iterativa em Racket.
@@ -163,7 +162,7 @@ label Fourth-2 Part
 - Próxima Ideia
 jump Fourth-2 Part
 label Pass Fourth-2 Part
-Alan olha para os seus rascunhos.
+Alan olha para seus rascunhos.
 [font_size=16][speed=0.1](struct nova (kind target origin neuron))\
 (define f (nova 'Land' 19 4 5))\
 (list  (+ (nova-origin f) (nova-target f) )  (nova-neuron f) (nova-origin f) )\

@@ -76,8 +76,7 @@ join charllote (true-default) 4
 charllote (true-surprised): ... [portrait=true-front-smile]Mas que Codif idiota é esse?
 alan (sacrifice-evil): Você bem sabe, Charlotte
 update charllote (true-surprised)
-alan: Essa é uma Função de Alta Ordem.
-alan (sacrifice-evil-2): Uma Função que recebe outra como parâmetro.
+alan: Essa é uma Função de Alta Ordem,[portrait=sacrifice-evil-2] uma Função que recebe outra como parâmetro.
 alan: E se nossas vidas são como códigos, como funções.
 alan (sacrifice-closed-eyes): Isso quer dizer que minha vida.
 [sound path="res://assets/sfx/strong-statement.mp3" volume="5.0"]
@@ -91,9 +90,9 @@ E então
 join NovaAda (close-eyes) 1
 [wait time="1.5"]
 Ada, se levanta.
-[sound path="res://assets/sfx/magic-1.mp3" volume="7.0"]
+[sound path="res://assets/sfx/magic-1.mp3" volume="9.0"]
 NovaAda (pre-two-lifes): …
-[sound path="res://assets/sfx/magic-2.mp3" volume="7.0"]
+[sound path="res://assets/sfx/magic-2.mp3" volume="9.0"]
 update NovaAda (two-lifes) [animation="Tada"]
 NovaAda: !
 charllote (true-insane): [color=dark_gray][i]Isso é problemático.[/i][/color]
@@ -101,7 +100,7 @@ charllote: [color=dark_gray][i]A desgraçada até mesmo destruiu meu Codif de me
 charllote (true-hate-2): [color=dark_gray][i]Se eu tivesse matado ela antes, isso não teria acontecido.[/i][/color]
 charllote (true-focused): [color=dark_gray][i]… Um ser de duas vidas, mas uma mente?[/i][/color]
 charllote: [color=dark_gray][i]O dobro de vigor… E talvez até o dobro de pod-[/i][/color][aa=0.6]
-[sound path="res://assets/sfx/finger-clap.mp3" volume="7.0"]
+[sound path="res://assets/sfx/finger-clap.mp3" volume="10.0"]
 [wait time="0.3"]
 [signal arg="green_single_blink"]
 [background arg="res://assets/backgrounds/very powerfull calculus.png" fade="0.0"]

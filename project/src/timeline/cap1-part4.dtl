@@ -12,7 +12,7 @@ ada (sad): …
 alan (regular): Senhorita Ada, aconteceu alguma coisa?
 ada (sad-2): Eu não sei... Mesmo sendo meu subordinado, eu me sinto mal em te envolver nisso.
 alan (confused): Nisso o que?
-ada: … Com os Códigos Legados. Acho que eles trazem mais mal do que bem para esse mundo.
+ada: Com os Códigos Legados. Acho que eles trazem mais mal do que bem para esse mundo.
 alan: ... Que bobagem.
 ada (regular-teeth): Hum?
 alan (determined-smile): Somos Codificadores. Somos Historicistas!
@@ -57,8 +57,9 @@ join itens (camera) 2
 update alan (confused)
 Revelando uma câmera.
 leave itens
-alan (confused): … Eu gostei do presente. Mas estou, confuso.
-ada (bored): Todos os Códigos que recebemos devem ser devolvidos de volta para o Governo.
+alan (confused): … Eu gostei do presente
+alan: Mas estou, confuso.
+ada (bored): Todos os Códigos que recebemos devem ser devolvidos para o Governo.
 ada: E como temos muito, fica trabalhoso copiar na mão.
 alan (lil-surprise): Ah! Entendi!
 alan (happy): Muito. Muito obrigado mesmo pelo presente.
@@ -76,12 +77,12 @@ ada (surprise): ... [portrait=forced-smile]XNOR
 Alan tira a foto.
 Aguardando alguns segundos para revelar.
 alan (goofy): Ficou boa! Acho que tenho talento.
-ada (regular): Seria bom usar esse seu talento pra algo de út-[aa=0.75]
+ada (regular): É mesmo? Seria bom usar esse seu talento pra algo de út-[aa=0.75]
 update alan (happy)
 Alan estende a foto para Ada.
 update ada (surprise)
 … [speed=1.5]E ela, surpresa. Apenas pega em suas mãos.
-alan (flushed): [speed=1]Muito obrigado de novo por hoje, Senhorita Ada!
+alan (flushed): [speed=1]Muito obrigado de novo por hoje Senhorita Ada!
 alan: Preciso ir urgente!
 leave alan
 Alan sai do escritório correndo.

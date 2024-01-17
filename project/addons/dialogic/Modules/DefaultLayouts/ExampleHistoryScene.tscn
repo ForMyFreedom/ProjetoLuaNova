@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=3]
+[gd_scene load_steps=3 format=3 uid="uid://c6aoqu7uo1vxp"]
 
 [ext_resource type="Script" path="res://addons/dialogic/Modules/DefaultLayouts/ExampleHistoryScene.gd" id="1_o5tfq"]
 
@@ -63,7 +63,7 @@ offset_bottom = 38.0
 grow_horizontal = 0
 size_flags_horizontal = 4
 size_flags_vertical = 4
-text = "History"
+text = "Histórico"
 
 [node name="HideHistory" type="Button" parent="."]
 visible = false
@@ -78,7 +78,7 @@ offset_bottom = 89.0
 grow_horizontal = 0
 size_flags_horizontal = 4
 size_flags_vertical = 4
-text = "Return"
+text = "Retornar"
 
 [connection signal="pressed" from="ShowHistory" to="." method="_on_show_history_pressed"]
 [connection signal="pressed" from="HideHistory" to="." method="_on_hide_history_pressed"]

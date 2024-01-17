@@ -4,7 +4,6 @@ alan (lil-angry): Uma máquina seria capaz de computar se ela pudesse tratar fun
 Alan ergue a mão.
 join itens (machine-0/4) 3
 E uma esfera escura se forma sobre sua palma.
-
 alan (lil-fear): Seria mais adequado usar metais e componentes físicos… Mas como não tenho nada disso aqui.
 alan (concentrate-1): …
 alan (accept-death): Usarei minha própria essência… Sacrifico 5 anos de vida.
@@ -46,7 +45,7 @@ label Pass First Question
 update itens (machine-1/4) [animation="Tada"]
 Alan continua moldando a máquina.
 alan (lil-surprise): Certo. Mas é importante aceitar dados mais complexos, como listas.
-alan (commum): Não é muito díficil, se eu não usar o parêntesis no argumento do lambda, ele se torna uma lista.
+alan (commum): Não é muito díficil, [i]se eu não usar o parêntesis no argumento do lambda[/i], ele se torna uma lista.
 label Second Question
 alan (concern): [speed=0.1]{companion.cap4.q2}
 - a. (lambda x (list-ref x 4))
@@ -60,13 +59,7 @@ alan: [speed=0.1]{companion.cap4.q2}
 alan: [speed=0.1]{companion.cap4.q2}
 - c. ((lambda (x) (length x)))
 	alan (stressed-5): [speed=1]Estaria perfeito se não fosse o parêntesis em (x)
-	alan: Dessa forma, não posso passar uma list como argumento.
-	set {error_amount} += 1
-- Próxima Ideia
-alan: [speed=0.1]{companion.cap4.q2}
-- d. (append (cons 3 4) ((lambda x x) 1 2 3 4 123))
-	alan (stressed-2): [speed=1]Está quase certo… O único problema é o retorno do "cons".
-	alan: O retorno não será uma list, quando seu segundo argumento não é uma list… Mas sim, será um [i]par.[/i]
+	alan: Dessa forma, não posso passar uma list como argumento!
 	set {error_amount} += 1
 - Próxima Ideia
 jump Second Question
@@ -85,7 +78,7 @@ alan (hollow): ...
 [music path="res://assets/musics/rain-pt1.mp3" fade="1.0" volume="0.0"]
 [signal arg="reverse_tense_shadow"]
 alan (stressed): [speed=1]… [speed=2]Continuando…
-[speed=1.5]Alan ignora suas dores.
+[speed=1]O garoto ignora suas dores.
 alan: [speed=1.5]Recursão é simples.
 alan (accept-death): [speed=1.5]Com recursão de funções, deve ser possível computar literalmente qualquer problema!
 alan (stressed-5): [speed=1.5]… Entretanto, é necessário um caso base. Se não ela nunca terá fim.
@@ -135,12 +128,12 @@ alan (stressed): [speed=1.5]… Não.
 alan (fear-smile): [speed=1.5]Não a deixarei incompleta.
 alan: [speed=1.5]Eu, posso aplicar [i]Recursão em Cauda![/i]
 alan (determined-stress): [speed=1.5]Com ela, o consumo de memória diminui exponencialmente. Já que as chamadas não se acumulam, mas sim, são substituídas!
-alan (smile-closed-eyes): [speed=1.5]Para aplicá-la, devo inicializar um parâmetro entre colchetes. Como (funcao x [y 2])
+alan (smile-closed-eyes): [speed=1.5]Para aplicá-la, devo inicializar um parâmetro entre colchetes. Como [i](funcao x [y 2])[/i]
 alan (smile-half-closed-eyes): [speed=1.5]E então, usar o parâmetro y como uma [i]fundação[/i] da recursão.
 label Forth Question
 alan: [speed=0.1]{companion.cap4.q4}
 - a. (define (fatorial n [m]) (if (= n 0) m (fatorial (- n 1) (* n m))))
-	alan (fear-closed-eyes): [speed=1.5]Está quase certo, só faltou inicializar a variável [m]
+	alan (fear-closed-eyes): [speed=1.5]Esqueci de inicializar a variável '[m]'
 	set {error_amount} += 1
 - Próxima Ideia
 alan: [speed=0.1]{companion.cap4.q4}
@@ -168,7 +161,7 @@ update itens (machine) [animation="Tada" repeat="2"]
 A máquina vibra com grande energia na mão de Alan.
 alan (accept-death): [speed=2]Agora, a recursão ocupa, muito menos espaço!
 \[speed=1.5]Alan cai, se sentindo exausto.
-alan (smile-closed-eyes): [speed=2]Eu… Consegui.
+alan (smile-closed-eyes): [speed=1.5]Eu… Consegui.
 update alan (sad-death) [animation="Tada"]
 alan: [speed=1]... [speed=1.5]Será impossível, me recodificar de todo modo.
 alan (death-sad): [speed=1.5]Implicaria em usar meu Codif, meus neurônios para influênciar meus neurônios.
@@ -180,7 +173,7 @@ Alan olha para a máquina em sua mão.
 alan (death-glow-eyes): Ou… [i]Seria[/i], o Caso Base.
 alan: Se eu não pudesse usar uma máquina. Uma parte externa a mim.
 alan (death-surprise): [i]Para recodificar-me![/i]
-Alan, com um pensamento rápido. Prepara uma função de recodificação.
+Alan, com um pensamento rápido. Começa a preparar uma função de recodificação.
 alan: [speed=1]... [portrait=death-determined][speed=1.5]Que grande ironia…
 alan: Diziam que máquinas nunca codificariam?
 alan: [speed=1.5]Aqui está um código, apenas possível de ser processado.
@@ -194,7 +187,7 @@ E todo seu Eu. A se solidificar, novamente.
 alan: Espere só, Ada!
 alan: Eu…
 update alan (cry-lil-surprise)
-Alan olha para sua máquina, criada de sua própria essência.
+Alan olha para o dispositivo criado de sua própria essência.
 alan (determined-cry): [speed=1.5]Nós, fizemos o impossível!
 [wait time="2.0"]
 [signal arg="upper_fade"]
