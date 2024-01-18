@@ -19,7 +19,7 @@ var action := Actions.PAUSE
 func _execute() -> void:
 	match action:
 		Actions.CLEAR:
-			dialogic.History.clear_simple_history()
+			dialogic.History
 		Actions.PAUSE:
 			dialogic.History.full_history_enabled = false
 		Actions.RESUME:

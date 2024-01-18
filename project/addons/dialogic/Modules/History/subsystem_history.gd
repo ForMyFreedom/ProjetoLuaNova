@@ -53,10 +53,6 @@ func store_simple_history_entry(text:String, event_type:String, extra_info := {}
 	simple_history_content.append(extra_info)
 	simple_history_changed.emit()
 
-func clear_simple_history() -> void:
-	simple_history_content = []
-	simple_history_changed.emit()
-
 
 func get_simple_history() -> Array:
 	return simple_history_content
