@@ -175,5 +175,5 @@ tim (default-2): Acabar com essa guerra.
 leave --All--
 [background fade="2.0"]
 [signal arg="reverse_fade"]
-
+[history action="0"]
 jump credits/

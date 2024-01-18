@@ -3,7 +3,7 @@
 Sobre os sons de passos invadindo um departamento silencioso
 unknow: …
 [music path="res://assets/musics/allegreto.mp3" fade="0.0" volume="-13.0"]
-[sound path="res://assets/sfx/door_open.mp3"]
+[sound path="res://assets/sfx/door_open.mp3" volume="0.0"]
 join alan (shadow) 2
 Um garoto entra explodindo a porta.
 update alan (happy)
@@ -18,7 +18,7 @@ unknow: Estaria bem melhor sem esse barulho todo.
 update alan (annoyed)
 unknow: Nossa, é sério isso Senhorita Ada?
 unknow: Achei que tinhamos alguma [wave amp=30 freq=8]amizade[/wave].
-[sound path="res://assets/sfx/door_close.mp3"]
+[sound path="res://assets/sfx/door_close.mp3" volume="0.0"]
 O garoto fecha a porta, desapontado.
 ada (regular-teeth): É sua primeira semana aqui, Alan…
 alan (happy): Pra mim já parecem meses!
@@ -44,4 +44,5 @@ update alan 1 [ move_time="1"]
 update ada 3 [ move_time="1"]
 Alan se aproxima e se senta ao seu lado.
 ada (very-angry): Isso não foi um elogio!
+[history action="0"]
 jump cap1-part2/

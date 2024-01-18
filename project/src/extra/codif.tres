@@ -74,7 +74,7 @@ else
 "title": "Parte 2 do Documento"
 },
 "Parte 3 do Documento": {
-"text": "int experiment[3] = \\[
+"text": "int experiment[3] = [
 	f.origin+f.target,
 	f.neuron,
 	f.origin

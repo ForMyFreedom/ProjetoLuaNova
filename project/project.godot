@@ -101,7 +101,9 @@ variables={
 "tryied_other_way": "false"
 }
 glossary/glossary_files=["res://src/extra/codif.tres"]
-history/simple_history_enabled=true
+history/simple_history_enabled=false
+history/full_history_enabled=false
+history/already_read_history_enabled=false
 
 [display]
 

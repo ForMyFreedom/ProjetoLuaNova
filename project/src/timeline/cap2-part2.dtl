@@ -81,4 +81,5 @@ charllote (very-angry): Jogarei seus joguinhos.
 update ada 0
 leave alan
 [signal arg="reverse_fade"]
+[history action="0"]
 jump cap2-part2-game/

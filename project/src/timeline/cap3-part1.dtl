@@ -147,4 +147,5 @@ alan (stressed): Acho que não vou conseguir dormir até conseguir decodificar i
 leave --All--
 [background fade="2.0"]
 [signal arg="reverse_fade"]
+[history action="0"]
 jump cap3-part1-game/
