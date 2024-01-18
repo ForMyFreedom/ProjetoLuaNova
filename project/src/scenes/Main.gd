@@ -5,7 +5,7 @@ func _init():
 	Dialogic.signal_event.connect(_on_dialogic_signal)
 
 func _ready():
-	Dialogic.start('cap1-part1')
+	Dialogic.start('start')
 	get_viewport().set_input_as_handled()
 
 func _on_dialogic_signal(argument:String):

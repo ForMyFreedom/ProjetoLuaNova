@@ -87,7 +87,6 @@ Alan sai do escritório correndo.
 Deixando Ada sozinha, com a foto dos dois em mãos.
 ada (bored): ...
 ada (lil-happy): Idiota
-[history action="0"]
 [wait time="1.5"]
 [signal arg="upper_fade"]
 [music fade="1.5" volume="0.0"]
@@ -95,4 +94,5 @@ ada (lil-happy): Idiota
 leave --All--
 [background fade="2.0"]
 [signal arg="reverse_fade"]
+[history action="0"]
 jump cap2-entry/

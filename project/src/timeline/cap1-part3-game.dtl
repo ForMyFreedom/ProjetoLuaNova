@@ -172,7 +172,7 @@ update alan (happy)
 	alan (lil-rage): [color=dark_gray][i]Eu me recuso a errar algo desse nível.[/i][/color]
 Alan olha para sua folha, agora traduzida para Racket
 alan (happy): [color=dark_gray][i]Esses documentos foram um ótimo aquecimento![/i][/color]
-alan: [color=dark_gray][i]Espesro ver códigos mais interessantes.[/i][/color]
+alan: [color=dark_gray][i]Espero ver códigos mais interessantes.[/i][/color]
 [wait time="1.5"]
 [signal arg="upper_fade"]
 [music fade="1.5" volume="0.0"]
@@ -181,4 +181,5 @@ leave --All--
 [background fade="2.0"]
 [background arg="res://assets/backgrounds/newart-office-evening.png" fade="0.0"]
 [signal arg="reverse_fade"]
+[history action="0"]
 jump cap1-part4/
