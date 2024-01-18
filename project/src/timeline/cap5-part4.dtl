@@ -169,6 +169,7 @@ tim: Nós iremos
 update NovaAda (dark-hope)
 tim (default-2): Acabar com essa guerra.
 [wait time="1.5"]
+[history action="0"]
 [signal arg="upper_fade"]
 [wait time="2.0"]
 leave --All--

@@ -13,7 +13,7 @@ label First Part
 - Próxima Ideia
 [speed=0.1]{companion.cap3.p1}
 - b. (struct nova (kind target origin neuron))
-	alan (happy): [speed=1]Tudo certo, ficou até mais enchuto.
+	alan (happy): [speed=1]Tudo certo, ficou até mais enxuto.
 	jump Pass First Part
 - Próxima Ideia
 [speed=0.1]{companion.cap3.p1}
@@ -57,7 +57,7 @@ update alan (serious)
 - Próxima Ideia
 [speed=0.1]{companion.cap3.p2}
 - e. (define Land (nova f 19 4 5))
-	alan (surprise): [speed=1]Não… 'Land' é uma string que faz parte na instânciação.
+	alan (surprise): [speed=1]Não… 'Land' é uma string que faz parte na instanciação.
 	alan: Enquanto 'f', é o nome da variável.
 	set {error_amount} += 1
 - Próxima Ideia
@@ -67,7 +67,7 @@ Alan desce seu olhar pela pequena folha.
 alan (concern): … Essa parte é um pouco mais complexa…\
 Parte 3 do Documento
 alan (concern): Parece querer construir uma lista de três elementos com os dados de 'f'.
-alan: Como é finito, posso usar List. Só preciso me procupar com os acessos de struct.
+alan: Como é finito, posso usar List. Só preciso me preocupar com os acessos de struct.
 alan: Para acessar os componentes, preciso concatenar seu nome e o parâmetro que desejo acessar com um '-'.
 alan: Algo como, [i]nova-param.[/i]
 label Third Part
@@ -169,7 +169,7 @@ Alan olha para seus rascunhos.
 (if (> (nova-neuron f) (list-ref experiment 0))[br]    (cons (* 13.8169 (nova-neuron f)) experiment)\
 )
 alan (serious): [speed=0.7]...
-alan: [speed=1]Traduzi e traduzi... Mas, talvez eu esteje com medo de olhar de fato o que esse código significa.
+alan: [speed=1]Traduzi e traduzi... Mas, talvez eu esteja com medo de olhar de fato o que esse código significa.
 Alan junta as partes que traduziu, e começar a revisar o documento.
 alan (concern): "[i]'Terrestre'[/i] como parte de um struct"… "Neurônios testados entre si"…
 [music fade="1.0" volume="0.0"]

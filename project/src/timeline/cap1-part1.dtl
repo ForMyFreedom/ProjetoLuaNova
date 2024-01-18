@@ -1,7 +1,7 @@
 [background arg="res://assets/backgrounds/newart-office.png" fade="1.0"]
 [wait time="1.0"]
-unknow: …
 Sobre os sons de passos invadindo um departamento silencioso
+unknow: …
 [music path="res://assets/musics/allegreto.mp3" fade="0.0" volume="-13.0"]
 [sound path="res://assets/sfx/door_open.mp3"]
 join alan (shadow) 2
@@ -12,12 +12,12 @@ update alan (goofy)
 unknow: Lindo dia né⁉
 update alan 0 [ move_time="1"]
 join ada (shadow) 4
-Fechando a cara para os gritos do garoto. Uma mulher, organizando papéis sobre a mesa, se vira para encará-lo.
+Organizando papéis sobre a mesa, uma mulher irritada se vira para encará-lo.
 update ada (regular)
 unknow: Estaria bem melhor sem esse barulho todo.
 update alan (annoyed)
 unknow: Nossa, é sério isso Senhorita Ada?
-unknow: Achei que tinhamos alguma [wave amp=50 freq=8]amizade[/wave].
+unknow: Achei que tinhamos alguma [wave amp=30 freq=8]amizade[/wave].
 [sound path="res://assets/sfx/door_close.mp3"]
 O garoto fecha a porta, desapontado.
 ada (regular-teeth): É sua primeira semana aqui, Alan…

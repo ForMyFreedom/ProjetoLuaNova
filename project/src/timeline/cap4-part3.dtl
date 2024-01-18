@@ -82,6 +82,7 @@ ada (sad-smile): Nada particulamente.
 alan (serious): Então, vamos.
 ada (sad-2): Sim…
 [wait time="1.5"]
+[history action="0"]
 [signal arg="upper_fade"]
 [music fade="1.5" volume="0.0"]
 [wait time="2.0"]

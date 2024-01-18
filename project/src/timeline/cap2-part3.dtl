@@ -4,11 +4,11 @@ join charllote (very-angry) 4
 ...
 O Duelo de Tradução se encerra.
 [music path="res://assets/musics/cute-friendship.mp3" fade="6.0" volume="-15.0"]
-charllote (angry): … Como bem disseste, Ada, isso foi apenas uma brincadeira fútil.
-charllote: Deixando de lado os gracejos. Falemos de assuntos sérios agor-[aa=1]
+charllote (angry): … Como bem disseste, Ada. Isso foi apenas uma brincadeira fútil.
+charllote: Deixando de lado os gracejos. Falemos de assuntos sérios agor-[aa=0.3]
 alan (close-eyes-smile): Me perdoe. Regente.
 charllote (very-angry): …?
-alan (happy): Eu acho, que prefiro ficar nesse Departamento por enquanto.
+alan (happy): Eu acho, que prefiro ficar nesse departamento por enquanto.
 ada (irritant): …
 alan (fear-smile): Mas, vamos acalmar os ânimos, por favor.
 Alan retira uma embalagem de sua mochila.
@@ -29,7 +29,7 @@ update charllote (surprised)
 charllote (surprised): ...
 [music fade="0.0" volume="0.0"]
 [sound path="res://assets/sfx/danger.mp3" volume="-10.0"]
-charllote (terror): [color=red][font_size=15]Bem, pouco importa.[/font_size][/color][aa=0.3]
+charllote (terror): [color=red][font_size=15]Bem, pouco importa[/font_size][/color][aa=0.3]
 update alan (tense)
 update ada (scary-confused)
 charllote (sad): Digo…
@@ -80,6 +80,7 @@ leave --All--
 E então… O dia de trabalho, segue normalmente.
 
 [wait time="1.5"]
+[history action="0"]
 [signal arg="upper_fade"]
 [music fade="1.5" volume="0.0"]
 [wait time="2.0"]

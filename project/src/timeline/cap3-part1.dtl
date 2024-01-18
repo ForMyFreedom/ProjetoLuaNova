@@ -22,10 +22,10 @@ alan (confused): ... Determinismo. É?
 	alan (close-eyes-smile): E tão logo, acredito que minha escolha por continuar com a Senhorita Ada, não seja tão a 'minha' escolha.
 alan (regular): …
 alan (lil-angry): De todo modo, nada de útil sobre Luas Novas.
-alan (regular): Nada sobre, Projeto, [i]Lua Nova.[/i]
+alan (commum): Nada sobre, Projeto, [i]Lua Nova.[/i]
 Alan fecha seu livro, e pega sua xicará de chá.
-alan (confused): Por que eu sinto… Que mesmo que eu não tenha aceito o convite da Regente.
-alan: Eu sinto como se tivesse, aceito?
+alan (confused): Por que eu sinto… Mesmo que eu não tenha aceitado o convite da Regente…
+alan: Sinto como se tivesse, aceito?
 [background arg="res://assets/backgrounds/room-with-eyes.png" fade="2.0"]
 update alan (regular)
 Ele levanta a xícara.
@@ -58,7 +58,7 @@ update tim (default-2) [ mirrored="false"]
 unknow: Quase. Um espião.
 alan (tense): E que tipo de espião se apresenta como um espião?
 update tim (default)
-unknow: Nunca disse que era um bom espião.
+unknow: Nunca disse ser um bom espião.
 alan (wtf-fear): …?
 update tim (default-2)
 unknow: Tá mais pra um bico.
@@ -84,17 +84,17 @@ update alan (despair-codif) [animation="Tada"]
 alan: Eu deveria ter usado meu Codif mais cedo.
 update tim (fear)
 Alan prepara algo para codificar a concentração de oxigênio no ar.
-Sobre a eminente explosão de Codif, os ares ficam tensos.
+E sobre a eminente explosão de Codif, os ares ficam tensos.
 tim (fear): Segura a brisa aí o esquentadinho.
-tim: E se eu te dissesse, que posso provar que a Província de Lua é a culpada dessa guerra.
+tim: E se eu te dissesse, que posso provar que Lua é a culpada dessa guerra?
 alan (confused-codif): ...
 update alan (stressed) [animation="Tada"]
 alan: Por que estou dando ouvidos a um lunático?
 Os ares retornam a normalidade.
 tim (impatient): Lua é a causadora dessa guerra. E isso não é sobre vocês se tornarem uma potência em códigos no futuro.
-alan (surprise): … Ha
+alan (surprise): ... Ha
 alan (disbelief): [speed=4]Hahaha!
-alan: [speed=1]Essa foi a melhor piada da semana.
+alan: [speed=1]Essa foi a piada do mês.
 alan: Seu verme de Espada. Inimigo da Paz.
 tim (angry-cm): Você faria o mesmo, se estivesse em nossos sapatos.
 alan (tense): …
@@ -131,8 +131,8 @@ alan (confused): …?
 alan: Do que diabos você está falan-[aa=0.2]
 leave tim
 update alan (surprise)
-Mas então, subitamente.
-O Espião salta pela janela e some do campo de visão de Alan.
+Mas então, subitamente. O Espião salta pela janela.
+Desaparecendo do campo de visão de Alan.
 update alan 2 [ move_time="2"]
 alan: ...
 update alan (stressed)

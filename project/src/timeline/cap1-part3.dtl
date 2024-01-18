@@ -13,7 +13,7 @@ ada (regular): Você vem praticando seu Racket?
 	ada: Que a saída de uma operação normalmente será o operando de outra.
 	update alan (confused)
 	ada (regular): Isso é o Modelo de Substituição, não presente nas linguagens antigas.
-	ada: O que significa que deve pensar em camadas, como as bonecas matrioska.
+	ada: O que significa que deve pensar em camadas, como as bonecas matrioskas.
 	update alan (surprise)
 	ada (regular-teeth): Por fim, nunca se esqueça que as operações sempre possuem parêntesis, e se dão da forma pré-fixa\: '(OPERADOR operando operando …)'
 	alan (flushed): Entendi… Obrigado pela revisão Senhorita Ada.
@@ -26,7 +26,7 @@ ada (regular-teeth): Sim. Mas a lógica dos povos que aqui habitavam é estranha
 ada: Suas variáveis são mutáveis como o vento.
 alan (confused): Nossa, que bizarro.
 ada (regular): Nem me diga.
-ada (regular-teeth): Enfim, chega de conversa. É hora de trabalhar.
+ada (regular-teeth): Enfim, chega de conversa fiada. É hora de trabalhar.
 alan (determined-smile): Sim!
 leave ada
 jump cap1-part3-game/

@@ -30,7 +30,7 @@ ada: Já está cometendo esse tipo de erro logo no início?
 alan (unbeliever): Apenas, um pequeno erro…
 ada (commum): Não se esqueça. Na linguagem Racket, uma operação é escrita na forma de (Operador Operandos)
 ada: Nesse caso, o Operador seria o "+" e os Operandos "1 1"
-ada (focus-angry): Tente novamente!
+ada (focus-angry): Nunca se esqueça disso!
 leave ada
 set {error_amount} += 1
 jump First Question

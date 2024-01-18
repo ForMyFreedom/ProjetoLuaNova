@@ -5,14 +5,14 @@ ada (determinated-smile): Tenho aqui alguns documentos sobre Condicionais para t
 [sound path="res://assets/sfx/curious-statement.mp3" volume="-5.0"]
 charllote (surprised): Condicional?
 ada: Sim, seja com cond ou if.
-ada: Quando cada uma terminar, entregamos a tradução para a outra corrigir.
+ada: Quando uma de nós terminar, entregamos a tradução para a outra corrigir.
 ada (devil): E perde aquela, que primeiro falhar na tradução!
 charllote (default): Se você fizer o seu melhor, talvez consiga empatar.
 ada (determinated-smile): Tirou as palavras da minha boca.
 ada (devil): Aqui está o primeiro documento, vamos começar!
 update charllote (determined)
 update ada (commum)
-Após entregar uma copia do papel para Charllote, Ada começa a ler o seu.
+Após entregar uma cópia do papel para Charllote, Ada começa a ler o seu.
 ada: [color=dark_gray][i]… Pela presença do símbolo de maior '>', parece um problema com valores numéricos.[/i][/color]
 ada: [color=dark_gray][i]Como poderia traduzi-lo?[/i][/color]
 label First Question
@@ -39,7 +39,7 @@ label First Question
 - Próxima Ideia
 jump First Question
 label Pass First Question
-Ambas terminam a tradução ao mesmo tempo. E então, trocam seus papéis.
+Ambas terminam a tradução em simultâneo. E então, trocam seus papéis.
 ada (lil-disgust): … Como esperado da codificadora mais talentosa de Lua.
 ada: Seria uma piada se não conseguisse fazer uma tradução tão fácil.
 charllote (angry): Você também não é nada mal para uma reclusa de escritório.
@@ -78,7 +78,7 @@ charllote (angry): Não posso começar o próximo documento sem antes você ter 
 charllote: Então, por que eu teria pressa?
 ada (disgust): Uma desculpa inteligente. Próximo documento.
 join alan (fear-smile) 2
-alan: … Ei, vocês não acham que está muito tóxico essa competiç-[aa=0.5]
+alan: … Ei, vocês não acham que está muito tóxica essa competiç-[aa=0.5]
 update charllote (angry-cm)
 update ada (angry-annoyed)
 ada-and-charlotte: Silêncio! Estou traduzindo!
@@ -119,7 +119,7 @@ ada (devil): [color=dark_gray][i]E com isso… Não apenas traduzi.[/i][/color]
 ada (red-devil): [color=dark_gray][i]Como fui um passo além![/i][/color]
 Após cada uma terminar sua tradução, ambas trocam seus papéis.
 ada (determinated-smile): Notei que acabou rápido dessa vez.
-charllote (smile): Apenas o esperado de mim.[aa=1]
+charllote (smile): Apenas o esperado de mim.[aa=0.4]
 charllote (absolute-hate): ... Espera…
 A mão de Charllote aperta a folha traduzida por Ada.
 ada (devil): Apesar de seu talento, sou [i]eu[/i], quem passa horas do dia com traduções.
