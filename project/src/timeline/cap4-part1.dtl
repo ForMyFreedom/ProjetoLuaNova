@@ -51,7 +51,7 @@ if {alan_would_attack} == "true":
 else:
 	ada (sad-2): Lembro que me disse que não atacaria Espada, caso tivéssemos nos sapatos trocados.
 	alan (depressed-confused): ... [portrait=depressed-angry-2]Sim, eu me lembro disso.
-ada (sad-2): Pois então… Eu sinto algo estranho.
+ada (sad-2): Então… Eu sinto algo estranho.
 ada (sad): Essa guerra não me parece ser sobre invadidos e invasores.
 alan (depressed-confused): … O que você quer dizer, Senhorita Ada?
 ada (concern-2): Meros palpites… Estou aqui há muito tempo. É só o que minha intuição diz.
@@ -81,13 +81,13 @@ update alan (sad-death) [animation="Tada"]
 update ada (big-surprise)
 E Alan começa a colapsar.
 ada: … Alan⁉ O que tá acontecendo⁉
-alan: ... Acho… Acho que algo dentro de mim forçou uma Descodificação
+alan: ... Acho… Acho que algo dentro de mim, forçou uma Descodificação
 alan: [speed=1.3]De todo modo, pouco importa.
 ada (pre-cry): [speed=1]Não vou deixar você se descodificar!
 ada: Pare com essa tolic-[aa=0.1]
 leave ada
 [background arg="res://assets/backgrounds/black_shape.png" fade="0.5"]
-... Mas então, Alan não ouvia mais a voz de Ada.
+... Mas, Alan não ouvia mais a voz de Ada.
 update alan 2 [ move_time="2"]
 Não via. Não sentia. Mais nada.
 jump cap4-part2/

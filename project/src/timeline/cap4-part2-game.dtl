@@ -10,8 +10,8 @@ alan (accept-death): Usarei minha própria essência… Sacrifico 5 anos de vida
 update itens (machine-0/4) [animation="Tada"]
 A esfera pulsa. Se tornando mais densa.
 alan (concern): … Mas, continuando o raciocínio.
-alan: Antes de me preocupar com recursão, é necessário uma forte base funcional.
-alan (concern-2): Lambda (λ) é essencial. Pois preciso fazer funções que retornam funções.
+alan: Antes de me preocupar com recursão, é necessária uma forte base funcional.
+alan (concern-2): Lambda (λ) é essencial. Pois, preciso fazer funções que retornam funções.
 alan (commum): A sua forma mais básica é:\
 (lambda (argumentos) (processamento))
 alan (concern): Se eu tiver um bom exemplo, independente da funcionalidade, codificar o protótipo fica mais fácil.
@@ -111,7 +111,7 @@ label Pass Third Question
 
 [sound path="res://assets/sfx/magic-1.mp3" volume="0.0"]
 update itens (machine-3/4) [animation="Tada"]
-\[speed=1]Alan continua moldando a máquina. Fazendo uma luz se ascender.
+\[speed=1]Alan continua moldando a máquina. Fazendo uma luz se acender.
 alan (very-surprised): [speed=1.5]Ela… [portrait=determined-smile]Já é capaz de computar!
 alan: [speed=1.5]Eu. Eu estava certo.
 update alan (lil-surprise)
@@ -164,7 +164,7 @@ alan (accept-death): [speed=2]Agora, a recursão ocupa, muito menos espaço!
 alan (smile-closed-eyes): [speed=1.5]Eu… Consegui.
 update alan (sad-death) [animation="Tada"]
 alan: [speed=1]... [speed=1.5]Será impossível, me recodificar de todo modo.
-alan (death-sad): [speed=1.5]Implicaria em usar meu Codif, meus neurônios para influênciar meus neurônios.
+alan (death-sad): [speed=1.5]Implicaria em usar meu Codif, meus neurônios para influenciar meus neurônios.
 alan (death-sad-2): [speed=1.5]Uma recursão irreal… Já que sou na última instância, [i]o caso base.[/i]
 [sound path="res://assets/sfx/curious-statement.mp3" volume="0.0"]
 [music path="res://assets/musics/rain-pt2.mp3" fade="1.0" volume="2.0" loop="false"]

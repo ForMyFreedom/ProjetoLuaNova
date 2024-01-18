@@ -72,7 +72,7 @@ if {determinist} == "true":
 	alan (stressed-2): [color=dark_gray][i]Coisa que não me anima.[/i][/color]
 else:
 	alan (stressed): Não
-	charllote (true-angry): Tolo… O Destino é um fato tão inconstestável quanto a morte.
+	charllote (true-angry): Tolo… O Destino é um fato tão incontestável quanto a morte.
 	alan (stressed-2): [color=dark_gray][i]Se a criança aqui diz…[/i][/color]
 charllote (true-determined): O Destino é a teia que conecta passado, presente, e futuro.
 charllote (true-insane): Aquele que me conduz, ao meu local de direito.
@@ -89,7 +89,7 @@ alan: [color=dark_gray][i]A minha Máquina.[/i][/color]
 [music path="res://assets/musics/final-destiny.mp3" fade="3.0" volume="-10.0"]
 charllote (true-default): Hum? Lembrou que esqueceu a roupa no varal?
 alan (stressed-5): [color=dark_gray][i]Posso computar algo que apenas um computador consiga.[/i][/color]
-alan: [color=dark_gray][i]Charllote não está mais lendo minha mente, posso surpreende-la![/i][/color]
+alan: [color=dark_gray][i]Charllote não está mais lendo minha mente, posso a surpreender![/i][/color]
 alan (stressed-2): [color=dark_gray][i]… Mas, o que eu preparo? Que código pode nos dar uma chance de fuga?[/i][/color]
 alan (stressed-5): [color=dark_gray][i]…[/i][/color]
 alan (accept-death): [color=dark_gray][i]É a minha única escolha, né?[/i][/color]

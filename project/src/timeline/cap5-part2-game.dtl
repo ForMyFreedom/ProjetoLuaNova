@@ -59,7 +59,7 @@ alan (surprise-2): [color=dark_gray][i]Os desafios que superamos... [portrait=st
 alan (concern-2): [color=dark_gray][i]Podemos pensar em Vida como uma Função que… Com um Corpo…[/i][/color]
 [sound path="res://assets/sfx/flush.mp3" volume="0.0"]
 alan (concern): [color=dark_gray][i]Gera uma Interface de Interação com as Dificuldades do Mundo.[/i][/color]
-alan (lil-surprise): [color=dark_gray][i]Mas existem coisas mais fáceis e mais difícies… Deve haver um Grau de Dificuldade![/i][/color]
+alan (lil-surprise): [color=dark_gray][i]Mas existem coisas mais fáceis e mais difíceis… Deve haver um Grau de Dificuldade![/i][/color]
 alan (surprise): [color=dark_gray][i]E além disso, não posso esquecer que há muitas capacidades. O Index da Capacidade deve ser passado para a função.[/i][/color]
 alan (commum): [color=dark_gray][i]Então, temos algo como\: Template-Vida-2[/i][/color]
 alan (stressed-2): [color=dark_gray][i]Mas… A Vida também é incerta.[/i][/color]
@@ -82,7 +82,7 @@ alan (surprise): [speed=0.1]{companion.cap5.q2}
 alan: [speed=0.1]{companion.cap5.q2}
 - b. Valor Aleatório entre Capacidade-e-Dificuldade, comparando com ambas
 	alan (wtf-fear): [speed=1][color=dark_gray][i]Acho… Que viajei um pouco.[/i][/color]
-	alan: [color=dark_gray][i]Talvez também esteje com falta de sangue.[/i][/color]
+	alan: [color=dark_gray][i]Talvez também esteja com falta de sangue.[/i][/color]
 	set {error_amount} += 1
 - Próxima Ideia
 alan: [speed=0.1]{companion.cap5.q2}
