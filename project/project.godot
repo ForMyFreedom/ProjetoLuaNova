@@ -76,7 +76,7 @@ variables={
 "p2": "Parte 2 do Documento[br][Instanciando]",
 "p3": "Parte 3 do Documento[br](define experiment [b]#algo#[/b])[br][Criando Lista]",
 "p4_1": "# list-ref[br]if (f.neuron > experiment[0])",
-"p4_2": "# cons[br][font_size=16]if (f.origin < experiment[1]):[br]   [b]for (x = 0; x < 4; x++)[/b][br]      [b]experiment[4-x] = experiment[3-x];[/b][br]   [b]experiment[0] = 13.8169 * f.neuron;[/b][br]else:[br]   printf(\"Incompatible Beast\");"
+"p4_2": "[font_size=16]if (f.origin < experiment[1]):[br]   [b]for (x = 0; x < 4; x++)[/b][br]      [b]experiment[4-x] = experiment[3-x];[/b][br]   [b]experiment[0] = 13.8169 * f.neuron;[/b][br]else:[br]   printf(\"Incompatible Beast\");"
 },
 "cap4": {
 "q1": "[ Lambda ]",

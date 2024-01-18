@@ -76,7 +76,7 @@ join charllote (true-default) 4
 charllote (true-surprised): ... [portrait=true-front-smile]Mas que Codif idiota é esse?
 alan (sacrifice-evil): Você bem sabe, Charlotte
 update charllote (true-surprised)
-alan: Essa é uma Função de Alta Ordem,[portrait=sacrifice-evil-2] uma Função que recebe outra como parâmetro.
+alan: Essa é uma Função de Alta Ordem.[portrait=sacrifice-evil-2] Uma Função que recebe outra como parâmetro.
 alan: E se nossas vidas são como códigos, como funções.
 alan (sacrifice-closed-eyes): Isso quer dizer que minha vida.
 [sound path="res://assets/sfx/strong-statement.mp3" volume="5.0"]

@@ -20,9 +20,9 @@ alan (death-surprise): ...!
 alan: Recursão.
 [music path="res://assets/musics/rain-pt1.mp3" fade="0.0" volume="0.0"]
 alan: Enumerável Recursivamente.
-alan (death-glow-eyes): Imutável. Recursivo. Onde apenas funções importam.
+alan (death-glow-eyes): UM sistema imutável. Recursivo. Onde apenas funções importam.
 Em meio ao seu ego fragmentado, Alan sente seu coração voltar a bater.
-alan: Um Sistema Formal, como uma Máquina.
+alan: Algo formal, como uma Máquina!
 alan (death-rage): ... Ao tolo ensino de Lua… Não, de todo o Império!
 update alan (angry-2) [animation="Tada"]
 alan: Eu! Alan Church. Provarei que estão errados!

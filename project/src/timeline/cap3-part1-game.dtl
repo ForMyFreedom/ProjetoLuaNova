@@ -134,7 +134,7 @@ label Pass Fourth-1 Part
 alan (concern): Após ela, o código faz uma operação...\
 [speed=0.1]{companion.cap3.p4_2}
 alan (concern-2): [speed=1]Mandando todos os elementos da lista para direita.
-alan (lil-surprise): E… Adiciona um novo elemento no começo da lista?
+alan (lil-surprise): E… Adicionando um novo elemento no começo da lista?
 alan (confused): Ora, isso é ineficiente.
 alan (close-eyes-smile): Nossa linguagem lida muito melhor com isso usando cons.
 label Fourth-2 Part
@@ -143,18 +143,18 @@ label Fourth-2 Part
 	alan (happy): [speed=1]Fica muito mais simples que no legado!
 	jump Pass Fourth-2 Part
 - Próxima Ideia
-[speed=0.1]{companion.cap3.p4_2}
+[speed=0.1]# cons[br]{companion.cap3.p4_2}
 - b. (cons experiment (* 13.8169 (nova-neuron f)))
 	alan (lil-surprise): [speed=1]Inverti a ordem do cons.
 	alan: É importante que a inserção fique na esquerda da lista.
 	set {error_amount} += 1
 - Próxima Ideia
-[speed=0.1]{companion.cap3.p4_2}
+[speed=0.1]# cons[br]{companion.cap3.p4_2}
 - c. (cons (* 13.8169 (neuron f)) experiment)
 	alan (tired): [speed=1]Droga, esqueci que o acesso precisa usar 'nova-', o nome do struct.
 	set {error_amount} += 1
 - Próxima Ideia
-[speed=0.1]{companion.cap3.p4_2}
+[speed=0.1]# cons[br]{companion.cap3.p4_2}
 - d. (cons (for 0 4 ++ (* 13.8169 f.neuron)))
 	alan (wtf-fear): [speed=1]… Isso não faz nenhum sentido.
 	alan: 'For' não é usado de forma iterativa em Racket.
@@ -168,7 +168,7 @@ Alan olha para seus rascunhos.
 (list  (+ (nova-origin f) (nova-target f) )  (nova-neuron f) (nova-origin f) )\
 (if (> (nova-neuron f) (list-ref experiment 0))[br]    (cons (* 13.8169 (nova-neuron f)) experiment)\
 )
-alan (serious): [speed=0.7]...
+alan (serious): [speed=1]…
 alan: [speed=1]Traduzi e traduzi... Mas, talvez eu esteja com medo de olhar de fato o que esse código significa.
 Alan junta as partes que traduziu, e começar a revisar o documento.
 alan (concern): "[i]'Terrestre'[/i] como parte de um struct"… "Neurônios testados entre si"…

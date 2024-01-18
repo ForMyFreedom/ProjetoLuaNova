@@ -3,7 +3,7 @@
 join NovaAda (two-lifes) 2
 Após avançar muitos quilômetros em uma velocidade incrível, Ada para perto de um lago.
 update NovaAda (pre-two-lifes)
-Com toda sua grande energia.
+Com sua grande energia.
 update NovaAda (close-eyes)
 Se desfazendo.
 NovaAda: …
@@ -161,10 +161,10 @@ tim (confused): [speed=1]Hum?
 NovaAda (dark-pre-cry): [speed=1.5]Mas… Aonde estamos indo?
 tim: [speed=1]…
 tim (default): 'Aonde'? Você me pergunta.
-tim: Ora
+tim: Ora.
 [music fade="2.0" volume="0.0"]
 O Espião se vira para ela, com um sorriso no rosto.
-tim: Nós iremos
+tim: Nós iremos…
 [sound path="res://assets/sfx/drum.mp3" volume="-10.0"]
 update NovaAda (dark-hope)
 tim (default-2): Acabar com essa guerra.

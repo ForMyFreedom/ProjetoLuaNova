@@ -3,8 +3,8 @@ join ada (despair) 4
 [music path="res://assets/musics/charlotte-revelation.mp3" fade="1.0" volume="0.0"]
 [signal arg="purple_blink"]
 [background arg="res://assets/backgrounds/death.png" fade="2.0"]
-No instante, em que uma pressão extrema de codificação surge.
-alan (rage-despair): O que é isso⁉
+[speed=1.3]No instante, em que uma pressão extrema de codificação surge.
+alan (rage-despair): [speed=1]O que é isso⁉
 ada (despair-teeth): ALAN!
 Seguido
 [speed=0.05][font_size=10][i](define (explosion fn . args)			(define (ignite fn . args)[br]  (if (empty? args)						  (lambda () (apply fn args)))[br]      (let ([ret (fn)])						(define (my-even? n)[br]        (if (procedure? ret)				  (if (zero? n)[br]            (explosion ret)					      (ignite my-odd? (sub1 (abs n)))))[br]            ret))[br]      (explosion (lambda () (apply fn args)))))	(explosion my-even? 99999)[/i][aa=0.1]
@@ -79,8 +79,8 @@ charllote (true-insane): Aquele que me conduz, ao meu local de direito.
 alan (stressed): [color=dark_gray][i]…[/i][/color]
 alan: [color=dark_gray][i]Ela apenas tá brincando comigo.[/i][/color]
 alan (stressed-5): [color=dark_gray][i]Parece que ainda tem muito desse discursinho maligno.[/i][/color]
-alan: [color=dark_gray][i]… Se, eu pudesse usar algo nesse tempo… Qualquer coisa no nível dela…[/i][/color]
-alan (stressed): [color=dark_gray][i]Mas, eu não tenho nada assim…[/i][/color]
+alan: [color=dark_gray][i]… Se, eu pudesse preparar algo nesse tempo… Qualquer coisa no nível dela…[/i][/color]
+alan (stressed): [color=dark_gray][i]Mas, a Regente é simplesmente mais forte… Não há nada que eu possa fazer quanto a isso.[/i][/color]
 alan (stressed-2): [color=dark_gray][i]… Esse, é o nosso fim mesmo?[aa=1][/i][/color]
 [music fade="1.0" volume="0.0"]
 [sound path="res://assets/sfx/strong-statement.mp3" volume="-10.0"]

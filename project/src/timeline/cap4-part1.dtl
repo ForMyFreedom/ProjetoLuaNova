@@ -2,6 +2,7 @@
 ...
 [music path="res://assets/musics/cry.mp3" fade="0.0" volume="-10.0"]
 Como em um dia qualquer, Alan adentra o Departamento em gritos.
+[sound path="res://assets/sfx/door_open.mp3" volume="8.0"]
 join alan (depressed-1) 2
 alan: Senhorita Ada!
 update alan 0 [ move_time="1"]

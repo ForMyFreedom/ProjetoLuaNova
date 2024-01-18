@@ -10,7 +10,7 @@ alan (despair): O que⁉
 charllote (true-angry): Você deixou de acreditar em mim, Alan.
 charllote: Tudo culpa, daquele maldito espião.
 
-alan (rage-despair-2): [color=dark_gray][i]Certo… Devo me concentrar[/i][/color]
+alan (rage-despair-2): [color=dark_gray][i]Certo… Devo me concentrar.[/i][/color]
 alan (stressed-2): [color=dark_gray][i]Preciso criar uma Função de Alta Ordem, um Codif para manipulação de Vida.[/i][/color]
 alan (very-surprised): [color=dark_gray][i]Uma Modelagem inicial é essencial… Só com a representação fiel dos conceitos da realidade, a codificação irá funcionar.[/i][/color]
 alan (fear-angry): [color=dark_gray][i]Mas antes de me preocupar com Vida, preciso codificar Corpos e Capacidades.[/i][/color]
@@ -52,7 +52,7 @@ alan (stressed): … Não posso negar isso.
 alan (stressed-2): [color=dark_gray][i]Mas preciso continuar a modelagem![/i][/color]
 alan: [color=dark_gray][i]Até agora, tenho\:\
 [speed=0.1](define capacidades list)[br](struct corpo (capacidades))[/i][/color]
-alan (stressed-3): [color=dark_gray][i][speed=1]Mas, preciso modelar o que é Vida... Vai demorar para conseguir pensar em tudo que preciso modelar[/i][/color]
+alan (stressed-3): [color=dark_gray][i][speed=1]Mas, preciso modelar o que é Vida... Vai demorar para conseguir pensar em tudo que preciso considerar[/i][/color]
 alan: [color=dark_gray][i]Bem, uma Vida precisa de um Corpo… Então, podemos ter o seguinte template de função, retornando uma função com lambda\: Vida Template [/i][/color]
 alan (surprise): [color=dark_gray][i][speed=1]Porém… Vida também é as dificuldades que encontramos.[/i][/color]
 alan (surprise-2): [color=dark_gray][i]Os desafios que superamos... [portrait=stressed-3]E as vezes, fracassamos.[/i][/color]
