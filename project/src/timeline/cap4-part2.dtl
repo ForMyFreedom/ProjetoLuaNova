@@ -31,4 +31,5 @@ alan: Eu! Alan Church. Provarei que estão errados!
 [wait time="2.0"]
 leave --All--
 [signal arg="reverse_fade"]
+[history action="0"]
 jump cap4-part2-game/

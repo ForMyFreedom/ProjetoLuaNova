@@ -87,4 +87,5 @@ E então… O dia de trabalho, segue normalmente.
 leave --All--
 [background fade="2.0"]
 [signal arg="reverse_fade"]
+[history action="0"]
 jump cap3-entry/

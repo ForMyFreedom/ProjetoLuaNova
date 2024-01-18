@@ -1,5 +1,3 @@
-leave --All--
-[background arg="res://assets/backgrounds/newart-office-evening.png" fade="0.0"]
 [music path="res://assets/musics/happy.mp3" fade="0.0" volume="-3.0"]
 Mais algumas horas de trabalho se passam até o fim do expediente... Com mais e mais Códigos traduzidos de línguas antigas, para Racket.
 join alan 1
@@ -89,7 +87,6 @@ Alan sai do escritório correndo.
 Deixando Ada sozinha, com a foto dos dois em mãos.
 ada (bored): ...
 ada (lil-happy): Idiota
-[history action="0"]
 [wait time="1.5"]
 [signal arg="upper_fade"]
 [music fade="1.5" volume="0.0"]

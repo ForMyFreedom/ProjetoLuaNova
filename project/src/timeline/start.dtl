@@ -20,4 +20,5 @@ Não lhes prometemos uma história feliz.
 Pois a Lua... Não seguirá intocada no horizonte…
 [background arg="res://assets/backgrounds/black_shape.png" fade="2.0"]
 [wait time="2.0"]
+[history action="0"]
 jump cap1-entry/

@@ -196,4 +196,5 @@ alan (determined-cry): [speed=1.5]Nós, fizemos o impossível!
 leave --All--
 [background fade="2.0"]
 [signal arg="reverse_fade"]
+[history action="0"]
 jump cap4-part3/

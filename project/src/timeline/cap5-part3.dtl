@@ -128,4 +128,5 @@ charllote (true-hate-2): Mil. Mil e um demônios!
 leave --All--
 [background fade="2.0"]
 [signal arg="reverse_fade"]
+[history action="0"]
 jump cap5-part4/
