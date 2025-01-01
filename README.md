@@ -1,45 +1,57 @@
-![Logo](https://i.imgur.com/54d0LKQ.png)
-# Projeto Lua Nova
-## O que é isso?
-Essa visual novel surgiu de um trabalho de faculdade sobre 'desenvolver um jogo simples para o aprendizado de [Racket](https://racket-lang.org/)'
+![Logo](https://i.imgur.com/bWodnIZ.png)
 
-Mas... Acabamos por nos empolgar um pouco...
-![Alan dizendo 'Uma Bomba'](https://i.imgur.com/6V5P2ym.png)
+# New Moon Project
 
-## Público Alvo
-Esse jogo é recomendado para aqueles que se encaixam em uma das categorias:
- - Desenvolvedor
- - Fã de Puzzles
+## What is this?
+This is a Portuguese visual novel created as part of a course project about "developing a simple game for teaching [Racket](https://racket-lang.org/)."
 
-Mesmo que o jogo não possua 'game over', e você possa passar pelos desafios sem se importar em falhar, a parte de programação é totalmente interligada na narrativa.
+But... I got a little carried away.
+![Alan saying 'It's a bomb'](https://i.imgur.com/6V5P2ym.png)
+*Alan saying 'It's a bomb'*
 
+---
 
-## Trama
-A história (Ambientada em um 1900s alternativo) acompanha Alan Church, um Codificador Historicista da *Província de Lua*.
+## Target Audience
+This game is recommended for anyone who falls into at least one of the following categories:
+- Developer
+- Puzzle Fan
 
-Em um mundo onde a realidade pode ser codificada de forma quase mágica, Linguagens se tornam armas poderosas em tempos de guerra
+Even though the game doesn't have a "Game Over" screen and you can progress through challenges without worrying about failure, the coding tasks are seamlessly integrated into the narrative.
 
-Mas, como o desenvolvimento pode ser algo complicado, traduzir Códigos Legados de linguagens perdidas para os tempos presentes se mostra uma alternativa de grande utilidade, poder, e desgraça...?
+---
 
-Sobre uma explosão de muitos Códigos recém-descobertos em uma Ruína na Província de Lua, uma guerra é declarada... *A Guerra Provincial*, causada pelo medo de Lua se tornar uma grande potência militar em Códigos no futuro
+## Plot
+The story, set in an alternate 1900s, follows Alan Church, a Historicist Codifier in the *Moon Province*.
 
-Ou... Pelo menos é isso que todos acreditam
+In a world where reality can be codified in an almost magical way, code languages have become powerful weapons during wartime.
 
-## Características de Jogo
-### Tempo Esperado: 25-35min
-### Tecnologias: Godot com Dialogic²
-### Observações:
-É importante saber que o aspecto da gameplay não é tão relevante quanto os elementos de história... Mas, ainda sim se fazem presente na forma de:
- - Escolhas lúdicas sobre o fluxo da ficção
-  ![Alan com dúvida entre atacar ou não](https://i.imgur.com/fXGAwDN.png)
- - E desafios de Tradução/Codificação na linguagem Racket
-  ![Alan tentando traduzir 1+1 para Racket](https://i.imgur.com/poOJFQJ.png)
+However, as development can be challenging, translating Legacy Code from forgotten languages into the present day has proven to be an alternative of great utility, power, and... disgrace?
 
-Além disso, é importante saber que o jogo não possui sistema de save. Sendo feito para jogar tudo de uma vez!
+After a surge of newly discovered codes from a ruin in the Moon Province, a war is declarated... *The Provincial War*, fueled by fears that the Moon could become a major military power through these codes.
 
+Or... at least, that's what everyone believes.
 
-## Créditos
-### Músicas
+---
+
+## Game Characteristics
+### Expected Playtime: 25–35 minutes
+### Technologies: Godot with Dialogic²
+
+### Observations:  
+The gameplay aspect is less significant than the story, but it still exists in the form of:
+- Interactive choices influencing the flow of the narrative
+  ![Alan in doubt about attacking or not](https://i.imgur.com/fXGAwDN.png)
+  *Alan facing a moral problem*
+- Translation/coding challenges in the Racket language
+  ![Alan trying to translate 1+1 into Racket](https://i.imgur.com/poOJFQJ.png)
+  *Alan trying to translate 1+1 into Racket*
+
+Additionally, it's important to note that the game does not have a save system. It’s designed to be completed in one sitting!
+
+---
+
+## Credits
+### Musics
 - Going Different Ways by Eric Matyas	[INTRO, CAP5]
 - ひとやすみ by MusMus	[CAP1]
 - Filaments by Scott Buckley	[CAP1, CAP3]
@@ -64,8 +76,8 @@ Além disso, é importante saber que o jogo não possui sistema de save. Sendo f
 - イクスゲイナー by MusMus	[CAP5]
 - Battle Against A True Hero Cover by Hodgepodge	[CAP5]
 - The Undying by NyxTheShield	[CAP5]
-### Arte
-Sprites por [BabySaladd](https\://picrew.me/en/image_maker/718575)
+### Art
+Sprites by [BabySaladd](https\://picrew.me/en/image_maker/718575)
 
-## Aonde jogar?
+## Where to play?
  - [Itch.io](https://semperfabula-studio.itch.io/projeto-lua-nova)
